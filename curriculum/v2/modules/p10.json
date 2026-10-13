@@ -1,0 +1,294 @@
+{
+ "col-color-theory-basics": {
+  "practice_meta": {
+   "@col-color-theory-basics.p0": {"minutes": 45, "kind": "exercise", "reference": {"kind": "none"}},
+   "@col-color-theory-basics.p1": {"minutes": 20, "kind": "drill", "reference": {"kind": "none"}},
+   "@col-color-theory-basics.p2": {"minutes": 20, "kind": "exercise", "reference": {"kind": "life"}},
+   "@col-color-theory-basics.p3": {"minutes": 15, "kind": "exercise", "reference": {"kind": "none"}},
+   "@col-color-theory-basics.p4": {"description": "Five times, any spacing, pick three everyday colours (a door, a jumper, a sky) and write them down as hue, value and saturation words only.", "dose": "5 min, five times", "minutes": 5, "kind": "exercise", "reference": {"kind": "life"}}
+  },
+  "done_when": [
+   {"ref": "@col-color-theory-basics.d0", "kind": "judgement"},
+   {"ref": "@col-color-theory-basics.d1", "kind": "judgement"},
+   {"ref": "@col-color-theory-basics.d2", "kind": "judgement"},
+   {"ref": "@col-color-theory-basics.d3", "kind": "judgement"},
+   {"text": "Sorted by eye from lightest to darkest, ten saturated swatches keep their order when checked in greyscale, with at most two swaps", "kind": "measured"}
+  ],
+  "revisit": {
+   "title": "Three dials, cold",
+   "description": "Pick five colours around you that you have not described before. Write each as hue, value and saturation, sort them by value by eye, then check the order with a greyscale photo.",
+   "minutes": 6,
+   "checks": [0, 4]
+  }
+ },
+ "col-color-mixing-limited-palettes": {
+  "practice_meta": {
+   "@col-color-mixing-limited-palettes.p0": {"minutes": 60, "kind": "exercise", "reference": {"kind": "none"}},
+   "@col-color-mixing-limited-palettes.p1": {"minutes": 30, "kind": "drill", "reference": {"kind": "none"}},
+   "@col-color-mixing-limited-palettes.p2": {"minutes": 20, "kind": "exercise", "reference": {"kind": "none"}},
+   "@col-color-mixing-limited-palettes.p3": {"minutes": 40, "kind": "study", "reference": {"kind": "life"}},
+   "@col-color-mixing-limited-palettes.p4": {"minutes": 30, "kind": "study", "reference": {"kind": "life"}},
+   "@col-color-mixing-limited-palettes.p5": {"title": "Optional, digital: mix check", "minutes": 20, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "done_when": [
+   {"ref": "@col-color-mixing-limited-palettes.d0", "kind": "judgement"},
+   {"ref": "@col-color-mixing-limited-palettes.d1", "kind": "process"},
+   {"ref": "@col-color-mixing-limited-palettes.d2", "kind": "judgement"},
+   {"ref": "@col-color-mixing-limited-palettes.d3", "kind": "process"}
+  ],
+  "revisit": {
+   "title": "Dark and grey without black",
+   "description": "With two opposing colours you have not paired before, mix a rich dark and a neutral grey without black, then predict which of two blues makes the cleaner green with your yellow and test it.",
+   "minutes": 8,
+   "checks": [0, 2]
+  }
+ },
+ "col-color-light-shadow": {
+  "practice_meta": {
+   "@col-color-light-shadow.p0": {"minutes": 40, "kind": "study", "reference": {"kind": "life"}},
+   "@col-color-light-shadow.p1": {"minutes": 45, "kind": "exercise", "reference": {"kind": "life"}},
+   "@col-color-light-shadow.p2": {"minutes": 45, "kind": "study", "timer": {"mode": "ladder", "steps": [{"count": 3, "seconds": 900}]}, "reference": {"kind": "museum", "query": "painting sunlight interior", "site": "met"}},
+   "@col-color-light-shadow.p3": {"minutes": 30, "kind": "exercise", "timer": {"mode": "ladder", "steps": [{"count": 3, "seconds": 600}]}, "reference": {"kind": "prompt"}},
+   "@col-color-light-shadow.p4": {"minutes": 30, "kind": "study", "reference": {"kind": "life"}}
+  },
+  "done_when": [
+   {"ref": "@col-color-light-shadow.d0", "kind": "judgement"},
+   {"ref": "@col-color-light-shadow.d1", "kind": "judgement"},
+   {"ref": "@col-color-light-shadow.d2", "kind": "judgement"},
+   {"ref": "@col-color-light-shadow.d3", "kind": "process"}
+  ],
+  "revisit": {
+   "title": "White object, new light",
+   "description": "Put a white object under a light you have not painted it in. Predict the shadow's temperature, then paint three swatches (lit side, shadow side, bounce light) and compare with the prediction.",
+   "minutes": 8,
+   "checks": [0, 2]
+  }
+ },
+ "col-color-script-mood": {
+  "practice_meta": {
+   "@col-color-script-mood.p0": {"minutes": 60, "kind": "exercise", "reference": {"kind": "none", "site": "r132"}},
+   "@col-color-script-mood.p1": {"minutes": 45, "kind": "play", "reference": {"kind": "prompt"}},
+   "@col-color-script-mood.p2": {"minutes": 40, "kind": "exercise", "reference": {"kind": "none", "site": "r156"}},
+   "@col-color-script-mood.p3": {"minutes": 60, "kind": "play", "reference": {"kind": "prompt"}},
+   "@col-color-script-mood.p4": {"minutes": 40, "kind": "exercise", "reference": {"kind": "prompt"}}
+  },
+  "done_when": [
+   {"text": "You can draw a gamut mask on a colour wheel and paint a scene that uses only colours inside it", "kind": "judgement"},
+   {"ref": "@col-color-script-mood.d1", "kind": "process"},
+   {"ref": "@col-color-script-mood.d2", "kind": "judgement"},
+   {"ref": "@col-color-script-mood.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Mood in two frames",
+   "description": "Pick a mood word you have not used. Paint two tiny frames of the same scene in two different gamuts, one with a single saturated accent at the focal point.",
+   "minutes": 10,
+   "checks": [2, 3]
+  }
+ },
+ "digital-setup-basics": {
+  "summary": "Krita is a free, open-source painting program for Windows, macOS, Linux and Android; its download page says iPad and iPhone are not supported. This optional module gets you a working digital setup: pen pressure, navigation, flip and undo, layers for sketch, ink and colour, a canvas and file habits, and smoothing and flipping used to train the hand rather than replace it. Paper stays the main medium.",
+  "learning_outcomes": [
+   "@found-digital-setup.o0",
+   "@col-digital-primer.o0",
+   "@col-digital-brushes-layers.o0",
+   "@col-digital-primer.o3",
+   "@found-digital-setup.o1",
+   "@found-digital-setup.o3"
+  ],
+  "resources": [
+   {"rid": "r126", "role": "core"},
+   {"rid": "r130", "role": "core", "notes": "Read the four getting-started pages in order (installation, starting Krita, basic concepts, navigation). Use navigation to find rotate, zoom and mirror."},
+   {"rid": "r129", "role": "alternative"},
+   {"rid": "r128", "role": "alternative"},
+   {"rid": "r137", "role": "supplementary"},
+   {"rid": "r134", "role": "supplementary"},
+   {"rid": "r050", "role": "supplementary"}
+  ],
+  "practice": [
+   {"ref": "@col-digital-primer.p0", "minutes": 15, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@found-digital-setup.p0", "minutes": 30, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@found-digital-setup.p1", "minutes": 20, "kind": "drill", "reference": {"kind": "none"}},
+   {"ref": "@col-digital-brushes-layers.p2", "minutes": 30, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@col-digital-primer.p1", "minutes": 15, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@col-digital-primer.p4", "minutes": 10, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@col-digital-brushes-layers.p0", "minutes": 15, "kind": "drill", "reference": {"kind": "none"}},
+   {"ref": "@found-digital-setup.p3", "minutes": 3, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@found-digital-setup.p4", "minutes": 15, "kind": "exercise", "reference": {"kind": "life"}}
+  ],
+  "done_when": [
+   {"ref": "@found-digital-setup.d0", "kind": "judgement"},
+   {"ref": "@col-digital-primer.d0", "kind": "judgement"},
+   {"ref": "@col-digital-brushes-layers.d0", "kind": "judgement"},
+   {"ref": "@col-digital-primer.d2", "kind": "process"},
+   {"ref": "@found-digital-setup.d1", "kind": "judgement"},
+   {"ref": "@found-digital-setup.d3", "kind": "judgement"}
+  ],
+  "common_mistakes": [
+   "@found-digital-setup.m0",
+   "@found-digital-setup.m1",
+   "@found-digital-setup.m2",
+   "@found-digital-setup.m3",
+   "@col-digital-primer.m1",
+   "@col-digital-brushes-layers.m0"
+  ],
+  "free_coverage": "strong",
+  "revisit": {
+   "title": "Setup from memory",
+   "description": "Without looking up controls, open a new canvas, make sketch, ink and colour layers, draw a quick sketch with a smoothing setting you choose, flip the canvas once, and export a PNG.",
+   "minutes": 8,
+   "checks": [0, 2, 5]
+  }
+ },
+ "col-digital-painting-fundamentals": {
+  "practice_meta": {
+   "@col-digital-painting-fundamentals.p0": {"minutes": 30, "kind": "exercise", "reference": {"kind": "life"}},
+   "@col-digital-painting-fundamentals.p1": {"minutes": 45, "kind": "exercise", "reference": {"kind": "none"}},
+   "@col-digital-painting-fundamentals.p2": {"minutes": 75, "kind": "exercise", "reference": {"kind": "tool", "tool": "light"}},
+   "@col-digital-painting-fundamentals.p3": {"minutes": 30, "kind": "exercise", "reference": {"kind": "none"}},
+   "@col-digital-painting-fundamentals.p4": {"minutes": 60, "kind": "study", "reference": {"kind": "museum", "query": "landscape painting", "site": "nga"}},
+   "@col-digital-painting-fundamentals.p5": {"minutes": 60, "kind": "play", "reference": {"kind": "prompt"}}
+  },
+  "done_when": [
+   {"ref": "@col-digital-painting-fundamentals.d0", "kind": "measured"},
+   {"ref": "@col-digital-painting-fundamentals.d1", "kind": "judgement"},
+   {"ref": "@col-digital-painting-fundamentals.d2", "kind": "judgement"},
+   {"ref": "@col-digital-painting-fundamentals.d3", "kind": "process"}
+  ],
+  "revisit": {
+   "title": "Value block-in, cold",
+   "description": "Block in an object you have not painted with three to five flat greyscale values, shrink it to thumbnail size to check it reads, then add one colour layer and name your hard, soft and lost edges.",
+   "minutes": 10,
+   "checks": [0, 2]
+  }
+ },
+ "inking-line-art": {
+  "summary": "A line can show weight, depth and light if its thickness changes on purpose: heavier in shadow and where forms overlap, lighter on lit edges and in the distance. You practise pen pressure, three-weight inking over pencil without losing the structure, and a few hatching marks in the core shadow, on paper first. Clean digital line art, stabiliser settings and flat colour are optional items for when you work on screen.",
+  "learning_outcomes": [
+   "@light-line-weight-inking.o0",
+   "@light-line-weight-inking.o1",
+   "@light-line-weight-inking.o2",
+   "@light-line-weight-inking.o3",
+   "@col-inking-line-art.o0"
+  ],
+  "resources": [
+   {"rid": "r154", "role": "core"},
+   {"rid": "r320", "role": "alternative"},
+   {"rid": "r308", "role": "alternative"},
+   {"rid": "r136", "role": "alternative", "notes": "Optional, for digital inking: Krita's inking tutorial covers posture and stroke length, stabiliser settings and pressure curves."},
+   {"rid": "r135", "role": "supplementary"},
+   {"rid": "r003", "role": "supplementary"}
+  ],
+  "practice": [
+   {"ref": "@light-line-weight-inking.p0", "minutes": 10, "kind": "drill", "reference": {"kind": "none"}},
+   {"ref": "@light-line-weight-inking.p1", "minutes": 40, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@light-line-weight-inking.p2", "minutes": 30, "kind": "exercise", "reference": {"kind": "life"}},
+   {"ref": "@light-line-weight-inking.p3", "minutes": 45, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@light-line-weight-inking.p4", "minutes": 40, "kind": "exercise", "reference": {"kind": "life"}},
+   {"ref": "@col-inking-line-art.p0", "title": "Optional, digital: stabiliser comparison", "minutes": 15, "kind": "drill", "reference": {"kind": "none"}},
+   {"ref": "@col-inking-line-art.p1", "title": "Optional, digital: sketch to ink", "minutes": 45, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@col-inking-line-art.p4", "title": "Optional, digital: flat colour pass", "minutes": 45, "kind": "exercise", "reference": {"kind": "none"}}
+  ],
+  "done_when": [
+   {"ref": "@light-line-weight-inking.d0", "kind": "judgement"},
+   {"ref": "@light-line-weight-inking.d1", "kind": "judgement"},
+   {"ref": "@light-line-weight-inking.d2", "kind": "judgement"},
+   {"ref": "@light-line-weight-inking.d3", "kind": "judgement"},
+   {"ref": "@col-inking-line-art.d0", "kind": "judgement"}
+  ],
+  "common_mistakes": [
+   "@light-line-weight-inking.m0",
+   "@light-line-weight-inking.m1",
+   "@light-line-weight-inking.m2",
+   "@light-line-weight-inking.m3",
+   "@col-inking-line-art.m0",
+   "@col-inking-line-art.m3"
+  ],
+  "free_coverage": "strong",
+  "revisit": {
+   "title": "Three weights, cold",
+   "description": "Draw a row of three overlapping cups you have not inked before in pencil, then ink them with three weights: heaviest on the shadow side and at overlaps, thinnest on lit edges and the farthest cup.",
+   "minutes": 10,
+   "checks": [1, 2]
+  }
+ },
+ "media-sampler": {
+  "summary": "An optional sampler of traditional media, taken one at a time: graphite grades, charcoal, ink and ink wash, coloured pencil, alcohol markers, watercolour, gouache and soft pastel. For each you make a value scale, learn its handling (layering, lifting, washes, blending) and finish one small study. Pick a medium when you want it; nothing else in the curriculum depends on this module.",
+  "learning_outcomes": [
+   "@light-media.o0",
+   "@light-media.o1",
+   "@light-media.o2",
+   "@light-media.o3",
+   "Choose a medium for a job and say what it makes easy and what it makes hard"
+  ],
+  "resources": [
+   {"rid": "r278", "role": "core", "notes": "Matt Fussell's free charcoal lesson: vine versus compressed charcoal, erasers, stumps, grip, fixative, paper, and a step-by-step skull drawing. Other parts of the site need membership."},
+   {"rid": "r072", "role": "core"},
+   {"url": "https://openoregon.pressbooks.pub/drawing/part/chapter-4-shading/", "role": "alternative", "notes": "The open textbook's shading chapter: hatching, cross-hatching, scribbling, blending and stippling, and how lighting sets tone. It covers the graphite side (search-result evidence; not opened)."},
+   {"rid": "r276", "role": "alternative"},
+   {"rid": "r004", "role": "alternative"},
+   {"rid": "r032", "role": "alternative"},
+   {"rid": "r313", "role": "alternative"},
+   {"rid": "r310", "role": "alternative"},
+   {"rid": "r282", "role": "alternative"},
+   {"url": "https://openoregon.pressbooks.pub/drawing/chapter/exercise-6-2-shading-a-glass-object-with-smudging/", "role": "supplementary", "notes": "An open-textbook exercise on blending and lifting in graphite with a glass object; only the title and chapter context were seen."},
+   {"url": "https://openoregon.pressbooks.pub/drawing/chapter/exersise-5-2-shading-of-figure/", "role": "supplementary", "notes": "An open-textbook hatching and cross-hatching exercise; repeat it in pen for the ink side. Only the title was seen."}
+  ],
+  "practice": [
+   {"ref": "@light-media.p0", "title": "Graphite: grade ladder", "minutes": 30, "kind": "drill", "reference": {"kind": "none"}},
+   {"ref": "@light-media.p1", "title": "Charcoal: gradient and lift", "minutes": 40, "kind": "drill", "reference": {"kind": "none"}},
+   {"ref": "@col-trad-charcoal.p1", "title": "Charcoal: lift-out drawing", "minutes": 45, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@light-media.p2", "title": "Ink wash: five-cup scale", "minutes": 30, "kind": "drill", "reference": {"kind": "none"}},
+   {"ref": "@col-trad-ink-brush-pen.p1", "title": "Pen: hatching value scale", "minutes": 20, "kind": "drill", "reference": {"kind": "none"}},
+   {"ref": "@col-trad-coloured-pencil.p3", "title": "Coloured pencil: fruit from light to dark", "minutes": 60, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@col-trad-markers.p1", "title": "Markers: gradient fade", "minutes": 15, "kind": "drill", "reference": {"kind": "none"}},
+   {"ref": "@col-trad-watercolour.p0", "title": "Watercolour: wash trio", "minutes": 30, "kind": "drill", "reference": {"kind": "none"}},
+   {"ref": "@col-trad-gouache.p0", "title": "Gouache: value scale with white", "minutes": 30, "kind": "drill", "reference": {"kind": "none"}},
+   {"ref": "@col-trad-pastel.p0", "title": "Soft pastel: technique swatches", "minutes": 20, "kind": "drill", "reference": {"kind": "none"}},
+   {"ref": "@light-media.p3", "minutes": 90, "kind": "study", "reference": {"kind": "life"}}
+  ],
+  "done_when": [
+   {"text": "For each medium you try, photographed in greyscale, your value scale shows even steps", "kind": "measured"},
+   {"ref": "@light-media.d1", "kind": "judgement"},
+   {"ref": "@light-media.d2", "kind": "judgement"},
+   {"ref": "@light-media.d3", "kind": "process"},
+   {"text": "For each medium you try, you have finished one small study and written three lines on what it made easy and what it made hard", "kind": "process"}
+  ],
+  "common_mistakes": [
+   "@light-media.m0",
+   "@light-media.m1",
+   "@light-media.m2",
+   "@light-media.m3",
+   "@col-trad-coloured-pencil.m0",
+   "@col-trad-watercolour.m2",
+   "@col-trad-charcoal.m3"
+  ],
+  "free_coverage": "partial",
+  "revisit": {
+   "title": "Scale and lift in your medium",
+   "description": "In the medium you are working with, make a five-step value scale on fresh paper and lift or reserve one clean highlight on a small egg drawn next to it. Check the scale in greyscale.",
+   "minutes": 10,
+   "checks": [0, 2]
+  }
+ },
+ "col-finishing-portfolio": {
+  "practice_meta": {
+   "@col-finishing-portfolio.p0": {"minutes": 30, "kind": "exercise", "reference": {"kind": "none"}},
+   "@col-finishing-portfolio.p1": {"minutes": 20, "kind": "exercise", "reference": {"kind": "none"}},
+   "@col-finishing-portfolio.p2": {"minutes": 45, "kind": "exercise", "reference": {"kind": "none"}},
+   "@col-finishing-portfolio.p3": {"description": "Share one piece with a short process note and one specific question (for example, does the focal point read?) and reply to feedback within a day. If you prefer not to post, write the question down and answer it yourself a week later with an overlay and a flip.", "minutes": 30, "kind": "exercise", "reference": {"kind": "none"}},
+   "@col-finishing-portfolio.p4": {"minutes": 20, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "done_when": [
+   {"text": "Your photographed work has even light, and after correction the page edges are straight and parallel to the frame", "kind": "judgement"},
+   {"ref": "@col-finishing-portfolio.d1", "kind": "process"},
+   {"ref": "@col-finishing-portfolio.d2", "kind": "process"},
+   {"text": "You have acted on one piece of feedback, from a community post or from your own review a week later", "kind": "process"}
+  ],
+  "revisit": {
+   "title": "Photograph one drawing",
+   "description": "Photograph a recent drawing by a window with the camera parallel to the page, fix the perspective and levels, and compare the result with the paper side by side.",
+   "minutes": 8,
+   "checks": [0]
+  }
+ }
+}

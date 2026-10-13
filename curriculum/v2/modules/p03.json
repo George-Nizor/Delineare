@@ -1,0 +1,543 @@
+{
+ "persp-box-basics": {
+  "practice_meta": {
+   "@persp-box-basics.p0": {"minutes": 15, "kind": "drill", "reference": {"kind": "none"}},
+   "@persp-box-basics.p1": {"minutes": 25, "kind": "drill", "reference": {"kind": "none"}},
+   "@persp-box-basics.p2": {"minutes": 35, "kind": "study", "reference": {"kind": "life"}},
+   "@persp-box-basics.p3": {"minutes": 25, "kind": "exercise", "reference": {"kind": "none"}},
+   "@persp-box-basics.p4": {"minutes": 10, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "add_practice": [
+   {"title": "Orbit a box in the form viewer", "description": "Open the form viewer with a single box and the horizon and vanishing points hidden. Draw the box as you see it, then switch on the horizon and vanishing points and compare where your edges were heading. Repeat from three new views.", "dose": "4 boxes, 15 min", "minutes": 15, "kind": "exercise", "reference": {"kind": "tool", "tool": "form"}}
+  ],
+  "done_when": [
+   {"text": "Extended with a ruler, each set of four parallel edges meets within about 1 cm of a common point on at least seven of ten boxes (A4 page)", "kind": "measured"},
+   {"ref": "@persp-box-basics.d1", "kind": "judgement"},
+   {"ref": "@persp-box-basics.d2", "kind": "judgement"},
+   {"ref": "@persp-box-basics.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Five boxes, extended",
+   "description": "Draw five freehand boxes at rotations you have not drawn recently, two above and three below an imagined horizon, with hidden edges. Extend every edge with a ruler and count how many sets meet within about 1 cm.",
+   "minutes": 8,
+   "checks": [0, 2]
+  }
+ },
+ "persp-intuitive": {
+  "summary": "Ruled construction teaches the rules; freehand perspective is the skill of drawing a rotated box with no guides and having it land close to right. It is built by volume: small sets of boxes at varied angles, each checked by extending its edges, spread over months as warm-ups. This is the 250 box challenge done as a spaced habit, with a few short checks to pass the gate.",
+  "resources": [
+   {"rid": "r081", "role": "core", "notes": "Drawabox's long challenge, which it places straight after Lesson 1. Do it as a spaced habit: a small set of boxes most sessions, each checked by extending the edges, over one to four months (the time learners report). Open the page yourself; no research pass could read drawabox.com."},
+   {"rid": "r227", "role": "alternative"},
+   {"rid": "r205", "role": "supplementary"}
+  ],
+  "practice": [
+   {"ref": "@persp-intuitive.p0", "dose": "10 to 25 boxes per session, 15 to 30 min, spread over months", "minutes": 20, "kind": "drill", "reference": {"kind": "none", "site": "r081", "url": "https://drawabox.com/lesson/250boxes/1"}},
+   {"ref": "@persp-intuitive.p1", "minutes": 25, "kind": "drill", "reference": {"kind": "memory"}},
+   {"ref": "@persp-intuitive.p2", "description": "Pick a camera angle in the form viewer without looking at the box (for example, high and to the left). Sketch the cube as you predict it will look, then show it in the viewer with the horizon and vanishing points on and compare. Count how many of ten predictions were close.", "minutes": 30, "kind": "exercise", "reference": {"kind": "tool", "tool": "form", "url": null, "site": null}},
+   {"ref": "@persp-intuitive.p3", "minutes": 40, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@persp-intuitive.p5", "minutes": 15, "kind": "exercise", "reference": {"kind": "none"}}
+  ],
+  "done_when": [
+   {"text": "In a set of 20 freehand boxes, at least 15 have every extended edge set converging to one point within 1 cm on A4", "kind": "measured"},
+   {"ref": "@persp-intuitive.d1", "kind": "judgement"},
+   {"text": "In ten predictions checked in the form viewer, at least six cubes match the viewer's view in which faces show and which way their edges converge", "kind": "measured"},
+   {"ref": "@persp-intuitive.d3", "kind": "judgement"}
+  ],
+  "common_mistakes": [
+   "@persp-intuitive.m0",
+   "@persp-intuitive.m1",
+   "@persp-intuitive.m2",
+   "@persp-intuitive.m3",
+   "Treating the 250 boxes as a race to finish before moving on; it runs alongside the next modules as warm-ups"
+  ],
+  "revisit": {
+   "title": "Ten boxes, cold",
+   "description": "Draw ten freehand boxes at rotations you have not drawn this week, including two seen from below. Extend every edge with a ruler and note whether you converge too much or too little.",
+   "minutes": 10,
+   "checks": [0, 3]
+  }
+ },
+ "obs-measuring": {
+  "summary": "Measuring by eye means checking proportions against the subject instead of trusting your idea of it. You start with negative shapes, the gaps around and between things, as the first check, then sight with a pencil at arm's length: plumb and level lines, angles against vertical and horizontal, and ratios against one unit. The habit to build is measuring a few key edges and judging the rest by eye.",
+  "learning_outcomes": [
+   "@obs-negative-space.o0",
+   "@obs-negative-space.o1",
+   "@obs-comparative-measuring.o0",
+   "@obs-comparative-measuring.o1",
+   "@obs-comparative-measuring.o2",
+   "@obs-comparative-measuring.o3"
+  ],
+  "resources": [
+   {"rid": "r195", "role": "core", "notes": "Proko's lesson on accurate proportions. Watch the negative-shapes and big-to-small parts first, then the measuring tools (pencil sighting, plumb lines, angles, units). Pause and try each idea on an object within reach."},
+   {"rid": "r150", "role": "alternative"},
+   {"rid": "r293", "role": "alternative"},
+   {"rid": "r151", "role": "alternative"},
+   {"rid": "r189", "role": "supplementary"}
+  ],
+  "practice": [
+   {"ref": "@obs-negative-space.p0", "minutes": 20, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-comparative-measuring.p0", "minutes": 20, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-comparative-measuring.p1", "minutes": 15, "kind": "drill", "reference": {"kind": "life"}},
+   {"ref": "@obs-comparative-measuring.p2", "minutes": 30, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-comparative-measuring.p3", "minutes": 15, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@obs-negative-space.p2", "minutes": 15, "kind": "exercise", "reference": {"kind": "life"}},
+   {"ref": "@obs-comparative-measuring.p4", "minutes": 20, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-negative-space.p1", "minutes": 20, "kind": "study", "reference": {"kind": "life"}}
+  ],
+  "done_when": [
+   {"ref": "@obs-negative-space.d0", "kind": "judgement"},
+   {"ref": "@obs-negative-space.d1", "kind": "judgement"},
+   {"ref": "@obs-comparative-measuring.d0", "kind": "measured"},
+   {"ref": "@obs-comparative-measuring.d1", "kind": "judgement"},
+   {"ref": "@obs-comparative-measuring.d3", "kind": "judgement"}
+  ],
+  "common_mistakes": [
+   "@obs-negative-space.m0",
+   "@obs-negative-space.m1",
+   "@obs-comparative-measuring.m0",
+   "@obs-comparative-measuring.m1",
+   "@obs-comparative-measuring.m2",
+   "@obs-comparative-measuring.m3",
+   "Trusting your sense of an angle; angles near horizontal or vertical are easy to misjudge, so sight them against the pencil"
+  ],
+  "free_coverage": "partial",
+  "revisit": {
+   "title": "Three ratios and one gap",
+   "description": "Choose an object you have not measured before. Sight and write three ratios (height to width and two parts), draw it from them, then check one negative shape against the real gap and measure your drawing with the same unit.",
+   "minutes": 8,
+   "checks": [1, 2]
+  }
+ },
+ "obs-block-in": {
+  "practice_meta": {
+   "@obs-block-in.p0": {"minutes": 30, "kind": "drill", "timer": {"mode": "ladder", "steps": [{"count": 10, "seconds": 180}]}, "reference": {"kind": "life"}},
+   "@obs-block-in.p1": {"minutes": 25, "kind": "study", "reference": {"kind": "life"}},
+   "@obs-block-in.p2": {"minutes": 17, "kind": "drill", "timer": {"mode": "ladder", "steps": [{"count": 1, "seconds": 120}, {"count": 1, "seconds": 300}, {"count": 1, "seconds": 600}]}, "reference": {"kind": "life"}},
+   "@obs-block-in.p3": {"minutes": 10, "kind": "study", "reference": {"kind": "life"}},
+   "@obs-block-in.p4": {"minutes": 5, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "done_when": [
+   {"ref": "@obs-block-in.d0", "kind": "measured"},
+   {"ref": "@obs-block-in.d1", "kind": "judgement"},
+   {"ref": "@obs-block-in.d2", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Envelope and divisions, cold",
+   "description": "Pick an object you have not blocked in before. Draw its envelope in ten or fewer straight lines, divide it into its main masses, and check one division with a ratio before turning any straight into a curve.",
+   "minutes": 7,
+   "checks": [0, 2]
+  }
+ },
+ "obs-still-life-from-life": {
+  "summary": "Still life gives you objects that stay put, one controllable light and as much time as you want, so it is where measuring and block-in come together. You move from single objects, fruit and vegetables included, to small overlapping groups, and you compare drawing from life with drawing from a photo of the same set-up so you know what each one teaches. The routine is set up, block in, measure, correct, then finish.",
+  "learning_outcomes": [
+   "@obs-still-life-from-life.o0",
+   "@obs-still-life-from-life.o1",
+   "@obs-still-life-from-life.o2",
+   "@obs-photo-vs-life.o0",
+   "@obs-photo-vs-life.o2",
+   "@obs-photo-vs-life.o1"
+  ],
+  "resources": [
+   {"url": "https://openoregon.pressbooks.pub/drawing/chapter/exercise-5-1/", "role": "core", "notes": "An open-textbook still-life assignment of about 30 minutes, shading optional: a good first set-up before larger groups (search-result evidence; not opened)."},
+   {"rid": "r183", "role": "alternative"},
+   {"rid": "r148", "role": "alternative"},
+   {"url": "https://openoregon.pressbooks.pub/drawing/chapter/exercise-6-2-elaborate-still-life/", "role": "alternative", "notes": "A larger still-life project: many overlapping objects under strong side light, thumbnails first, then a long drawing. It also asks you to photograph the set-up from your drawing position with the lens at eye height, which is the life-versus-photo comparison in this module. Scale it down to three to five objects (search-result evidence)."},
+   {"rid": "r189", "role": "supplementary", "notes": "A worked example of measuring from a photo and checking the drawing against it in an app. Notice how the photo makes overlay checks easy, which is one of its real advantages over life."},
+   {"rid": "r117", "role": "supplementary", "notes": "John Muir Laws's pumpkin and gourd lessons on the plants page are good practice for round, lumpy objects in a food still life."}
+  ],
+  "skip_attach": ["https://openoregon.pressbooks.pub/drawing/part/chapter-5-basic-still-life/"],
+  "practice": [
+   {"ref": "@obs-still-life-from-life.p0", "minutes": 30, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-still-life-from-life.p3", "dose": "4 objects, 20 min each", "minutes": 20, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@nat-food-organic-still-life.p0", "description": "Draw five fruits or vegetables from life as line drawings. Mark the edge of the shadow side and the outline of the cast shadow with a light line; full tone comes later, in the light modules.", "minutes": 40, "kind": "study", "reference": {"kind": "life", "url": null, "site": null}},
+   {"ref": "@obs-still-life-from-life.p2", "minutes": 45, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-photo-vs-life.p0", "minutes": 40, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-photo-vs-life.p1", "minutes": 20, "kind": "exercise", "reference": {"kind": "life"}},
+   {"ref": "@obs-photo-vs-life.p4", "description": "Set up your own still life. Photograph it from your drawing position with the lens at eye height, draw it from the photo, then draw the real set-up. Overlay the two drawings and note where they differ.", "minutes": 40, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-photo-vs-life.p3", "minutes": 15, "kind": "exercise", "reference": {"kind": "none"}}
+  ],
+  "done_when": [
+   {"text": "Photographed from your drawing position and overlaid at 50 percent, a three-object drawing from life has each object's height-to-width ratio within about 10 percent and the relative sizes right", "kind": "measured"},
+   {"ref": "@obs-still-life-from-life.d1", "kind": "judgement"},
+   {"text": "Each fruit or vegetable you draw reads as a solid form, with the shadow edge and cast shadow placed consistently with one light", "kind": "judgement"},
+   {"text": "From your own pair of drawings of one set-up, you have written three differences between drawing from life and drawing from a photo", "kind": "process"},
+   {"ref": "@obs-photo-vs-life.d1", "kind": "process"},
+   {"ref": "@obs-photo-vs-life.d2", "kind": "judgement"}
+  ],
+  "common_mistakes": [
+   "@obs-still-life-from-life.m0",
+   "@obs-still-life-from-life.m1",
+   "@obs-still-life-from-life.m2",
+   "@obs-still-life-from-life.m3",
+   "@obs-photo-vs-life.m0",
+   "@obs-photo-vs-life.m3",
+   "@nat-food-organic-still-life.m1"
+  ],
+  "free_coverage": "partial",
+  "revisit": {
+   "title": "Two objects from life, checked",
+   "description": "Set up two objects you have not drawn, one overlapping the other, with one lamp. Block in and draw them in seven minutes, then photograph from the same spot and compare each object's height-to-width ratio with your drawing.",
+   "minutes": 10,
+   "checks": [0, 1]
+  }
+ },
+ "check-your-drawing": {
+  "summary": "Your eye adapts to your own drawing as you work, so errors fade from view. This module gives one short routine for seeing a drawing fresh and measuring where it drifted: predict where it is off, then flip it, squint, step back, check values in greyscale, and overlay a photo of the drawing on the reference at 50 percent. The numeric error log is optional; the goal is to name the direction of your most common error.",
+  "learning_outcomes": [
+   "@found-self-assessment.o0",
+   "Predict where a drawing is off before checking, and compare the prediction with the overlay",
+   "@found-self-assessment.o1",
+   "@obs-self-critique-error-log.o1",
+   "@found-self-assessment.o2",
+   "@found-self-assessment.o3"
+  ],
+  "resources": [
+   {"rid": "r303", "role": "core"},
+   {"rid": "r029", "role": "alternative"},
+   {"rid": "r292", "role": "alternative"},
+   {"rid": "r002", "role": "supplementary"},
+   {"rid": "r125", "role": "supplementary"}
+  ],
+  "practice": [
+   {"title": "Predict, then check", "description": "Before any check, mark on the drawing or a photo of it up to three places you think are most off, and which way: too wide or narrow, too tall or short, angle too steep or too flat. Then run the checks below and count how many predictions were right.", "dose": "Every checked drawing, 3 min", "minutes": 3, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@found-self-assessment.p0", "minutes": 5, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@found-self-assessment.p1", "minutes": 5, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@obs-sight-size-and-checks.p1", "description": "Photograph your drawing square-on, overlay it at about 50 percent opacity on the reference at the same scale (in Krita, a photo editor, or by tracing the reference's landmarks on tracing paper and sliding it over the drawing), and write down the three largest deviations and their direction.", "minutes": 15, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@found-self-assessment.p3", "minutes": 20, "kind": "exercise", "reference": {"kind": "photo", "query": "still life objects on a table"}},
+   {"ref": "@found-self-assessment.p4", "minutes": 10, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@obs-self-critique-error-log.p3", "title": "Error direction from three overlays", "description": "After three overlay checks, write two sentences on the direction your errors run (for example verticals long, angles too flat, everything drifting right) and one habit to try in the next three drawings.", "dose": "15 min, once", "minutes": 15, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@obs-self-critique-error-log.p0", "title": "Optional: numeric error log", "minutes": 5, "kind": "exercise", "reference": {"kind": "none"}}
+  ],
+  "done_when": [
+   {"ref": "@found-self-assessment.d0", "kind": "measured"},
+   {"text": "From three overlays you can name the direction of your most common error in one sentence, for example 'my verticals run long'", "kind": "measured"},
+   {"text": "On three drawings you predicted where they were off before checking, and at least one prediction per drawing matched the overlay", "kind": "measured"},
+   {"ref": "@found-self-assessment.d3", "kind": "judgement"},
+   {"ref": "@found-self-assessment.d4", "kind": "judgement"},
+   {"text": "You have run an overlay check at the same scale on at least three drawings", "kind": "process"}
+  ],
+  "common_mistakes": [
+   "@found-self-assessment.m0",
+   "@found-self-assessment.m1",
+   "@found-self-assessment.m2",
+   "@found-self-assessment.m3",
+   "@obs-sight-size-and-checks.m1",
+   "@obs-sight-size-and-checks.m2"
+  ],
+  "free_coverage": "strong",
+  "revisit": {
+   "title": "Predict and overlay, cold",
+   "description": "Take a drawing from the last two weeks that has a reference. With the module closed, mark three predicted errors, then flip, squint and overlay at 50 percent, and write the main error direction in one sentence.",
+   "minutes": 8,
+   "checks": [1, 2]
+  }
+ },
+ "found-critique-feedback": {
+  "summary": "Feedback catches things self-checks miss, but only if you ask well and filter what you get. This module covers where free critique exists, how to prepare a request that gets useful answers, how to give critique yourself, and how to sort conflicting advice. Every check can be met on your own; posting is optional.",
+  "resources": [
+   {"rid": "r240", "role": "core"},
+   {"rid": "r238", "role": "alternative"},
+   {"rid": "r218", "role": "alternative"},
+   {"rid": "r239", "role": "supplementary"}
+  ],
+  "practice_meta": {
+   "@found-critique-feedback.p0": {"minutes": 20, "kind": "exercise", "reference": {"kind": "none"}},
+   "@found-critique-feedback.p1": {"description": "Write three critiques with one specific, example-based point and one thing that works: on other people's posts if you like, or on three master drawings from an open-access collection. Giving critique trains the same eye you use on your own work.", "minutes": 20, "kind": "exercise", "reference": {"kind": "none"}},
+   "@found-critique-feedback.p2": {"minutes": 10, "kind": "exercise", "reference": {"kind": "none"}},
+   "@found-critique-feedback.p3": {"minutes": 30, "kind": "exercise", "reference": {"kind": "none"}},
+   "@found-critique-feedback.p4": {"minutes": 5, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "done_when": [
+   {"text": "You have prepared a critique request (a clear straight-on photo and two specific questions) that follows a community's rules; posting it is optional, and you can answer the same questions yourself with an overlay and a fresh look a week later", "kind": "process"},
+   {"text": "You have applied one piece of feedback, from someone else or from your own check, and redrawn the subject", "kind": "process"},
+   {"text": "You have written three critiques, of other people's posts or of master drawings, each with one specific point and one thing that works", "kind": "process"},
+   {"ref": "@found-critique-feedback.d3", "kind": "judgement"},
+   {"text": "Given a drawing you made a week ago, you can write two specific questions about it that could be answered yes or no", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Two questions and one sort",
+   "description": "Take a drawing from last week. Write two specific yes-or-no questions about it, answer them yourself with a flip and an overlay, and sort what you find into fix now, fix later and taste.",
+   "minutes": 6,
+   "checks": [3, 4]
+  }
+ },
+ "light-values-squint": {
+  "practice_meta": {
+   "@light-values-squint.p0": {"minutes": 20, "kind": "drill", "reference": {"kind": "none"}},
+   "@light-values-squint.p1": {"minutes": 25, "kind": "study", "timer": {"mode": "ladder", "steps": [{"count": 5, "seconds": 300}]}, "reference": {"kind": "life"}},
+   "@light-values-squint.p2": {"minutes": 60, "kind": "study", "reference": {"kind": "life"}},
+   "@light-values-squint.p3": {"minutes": 25, "kind": "study", "timer": {"mode": "ladder", "steps": [{"count": 6, "seconds": 180}]}, "reference": {"kind": "museum", "query": "still life interior", "site": "met"}},
+   "@light-values-squint.p4": {"minutes": 10, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "add_practice": [
+   {"title": "Squint at the light tool", "description": "In the app's light tool, put a sphere, a box and a cylinder under one lamp and switch on the three-value posterise. Draw the three value shapes you see, then switch it off and check what your squint merged.", "dose": "3 set-ups, 10 min", "minutes": 10, "kind": "exercise", "reference": {"kind": "tool", "tool": "light"}}
+  ],
+  "done_when": [
+   {"text": "Photographed and converted to greyscale, your nine-step scale shows even steps with no two neighbours looking identical", "kind": "measured"},
+   {"ref": "@light-values-squint.d1", "kind": "measured"},
+   {"ref": "@light-values-squint.d2", "kind": "judgement"},
+   {"ref": "@light-values-squint.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Three tones of a new subject",
+   "description": "Pick a corner of a room or an object you have not used. Squint, name its darkest, middle and lightest shapes within a minute, then draw a three-tone thumbnail with no outlines and check it against a greyscale photo.",
+   "minutes": 6,
+   "checks": [1, 2]
+  }
+ },
+ "composition-and-thumbnails": {
+  "summary": "Composition is how you arrange shapes, values and edges so the eye lands where you intend. You learn the standard devices (focal point, balance, rhythm, thirds, framing, negative space) and how to spot tangents, through the main tool for all of it: small thumbnails in two or three values, a dozen per brief, compared before you commit. Reducing film stills and museum paintings to a few shapes stays available as an ongoing exercise.",
+  "learning_outcomes": [
+   "@des-composition-fundamentals.o0",
+   "@des-composition-fundamentals.o1",
+   "@des-composition-fundamentals.o2",
+   "@des-composition-fundamentals.o3",
+   "@obs-thumbnails-essentials.o0",
+   "@des-thumbnailing.o0",
+   "@des-thumbnailing.o4"
+  ],
+  "resources": [
+   {"rid": "r038", "role": "core"},
+   {"rid": "r042", "role": "core"},
+   {"rid": "r217", "role": "alternative"},
+   {"rid": "r191", "role": "alternative"},
+   {"rid": "r146", "role": "supplementary"},
+   {"rid": "r039", "role": "supplementary", "notes": "Ctrl+Paint's film study: reduce a movie still to three flat shapes for foreground, middle ground and background. Use it for the ongoing film-still reductions."},
+   {"rid": "r099", "role": "supplementary"}
+  ],
+  "practice": [
+   {"ref": "@des-composition-fundamentals.p0", "dose": "5 to 10 images, 5 min each", "minutes": 25, "kind": "study", "timer": {"mode": "ladder", "steps": [{"count": 5, "seconds": 300}]}, "reference": {"kind": "museum", "query": "landscape painting", "site": "met"}},
+   {"ref": "@des-composition-fundamentals.p1", "minutes": 25, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@des-composition-fundamentals.p2", "minutes": 30, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@obs-thumbnails-essentials.p0", "minutes": 30, "kind": "study", "timer": {"mode": "ladder", "steps": [{"count": 10, "seconds": 150}]}, "reference": {"kind": "photo", "query": "street corner"}},
+   {"ref": "@des-thumbnailing.p1", "minutes": 30, "kind": "exercise", "timer": {"mode": "ladder", "steps": [{"count": 12, "seconds": 150}]}, "reference": {"kind": "prompt"}},
+   {"ref": "@des-thumbnailing.p0", "minutes": 25, "kind": "study", "timer": {"mode": "ladder", "steps": [{"count": 10, "seconds": 120}]}, "reference": {"kind": "museum", "query": "landscape painting", "site": "met"}},
+   {"ref": "@des-composition-fundamentals.p3", "minutes": 20, "kind": "exercise", "reference": {"kind": "prompt"}},
+   {"ref": "@des-thumbnailing.p4", "minutes": 20, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@des-thumbnailing.p3", "minutes": 30, "kind": "play", "reference": {"kind": "none"}}
+  ],
+  "done_when": [
+   {"ref": "@des-composition-fundamentals.d0", "kind": "judgement"},
+   {"ref": "@des-composition-fundamentals.d1", "kind": "judgement"},
+   {"ref": "@des-thumbnailing.d0", "kind": "measured"},
+   {"text": "Photographed in greyscale, each of your thumbnails uses no more than three values", "kind": "measured"},
+   {"ref": "@des-thumbnailing.d1", "kind": "judgement"},
+   {"ref": "@des-thumbnailing.d3", "kind": "judgement"},
+   {"text": "A week later, with your notes hidden, you can point at a glance to the focal point you intended in five of your thumbnails; showing someone else is optional", "kind": "judgement"}
+  ],
+  "common_mistakes": [
+   "@des-composition-fundamentals.m0",
+   "@des-composition-fundamentals.m1",
+   "@des-composition-fundamentals.m2",
+   "@des-thumbnailing.m0",
+   "@des-thumbnailing.m1",
+   "@des-thumbnailing.m2"
+  ],
+  "free_coverage": "strong",
+  "revisit": {
+   "title": "Six thumbnails, cold",
+   "description": "Write a one-line brief you have not used. Draw six thumbnails in three values, at least two with a different viewpoint or crop, then circle one and write one sentence on why it is the strongest.",
+   "minutes": 10,
+   "checks": [3, 4, 5]
+  }
+ },
+ "invent-objects-1": {
+  "summary": "Invent simple objects by building them from boxes and cylinders in perspective, with the hidden edges drawn. You start with primitive-only inventions, then study a real object, hide the reference, redraw it from memory from a new viewpoint and check it. This is the first structured drawing from imagination, and it uses only what the box and ellipse modules taught.",
+  "learning_outcomes": [
+   "Invent an object from three to five boxes and cylinders, with hidden edges drawn and convergence that holds",
+   "@persp-imagination.o1",
+   "Study a real object for structure, then redraw it from memory from a new viewpoint and check it",
+   "Keep one horizon line and consistent convergence across a page of invented objects"
+  ],
+  "resources": [
+   {"rid": "r227", "role": "core", "notes": "Proko's perspective course has free lessons; start with the free assignment on perspective for drawing anything, which treats invented objects as boxes in space."},
+   {"rid": "r229", "role": "alternative", "notes": "Peter Han builds an invented subject from stored structure and talks through his decisions. Directly on topic (no price shown when the first pass looked, but not labelled free)."},
+   {"rid": "r175", "role": "supplementary"},
+   {"rid": "r071", "role": "supplementary"}
+  ],
+  "practice": [
+   {"ref": "@persp-imagination.p3", "description": "Draw ten invented objects from three boxes or cylinders each, in perspective, with the hidden edges drawn lightly. Keep one horizon line for the whole page.", "minutes": 40, "kind": "exercise", "reference": {"kind": "prompt"}},
+   {"title": "Object cards", "description": "Write ten object types on scraps of paper (lamp, kettle, radio, toaster, chair, camera, torch, birdhouse, speaker, letterbox). Draw one at a time: choose its main box or cylinder, add two or three secondary forms, then draw it again turned about 45 degrees.", "dose": "3 objects, 15 min each", "minutes": 15, "kind": "play", "reference": {"kind": "prompt"}},
+   {"title": "Study, hide, redraw", "description": "Spend ten minutes drawing one real object with a simple build (a stapler, a torch, a kettle) from two views as boxes and cylinders. Put it away. The next day draw it from memory from a third viewpoint, then check against the object and mark the misses in a second colour.", "dose": "3 objects, 10 min study plus 10 min recall", "minutes": 20, "kind": "exercise", "reference": {"kind": "memory"}},
+   {"title": "Check with the form viewer", "description": "Build a rough version of one invented object in the form viewer from boxes and cylinders. Pick a view you did not draw, draw it from imagination first, then switch on the viewer's horizon and vanishing points and compare.", "dose": "2 objects, 15 min each", "minutes": 15, "kind": "exercise", "reference": {"kind": "tool", "tool": "form"}}
+  ],
+  "done_when": [
+   {"text": "On a page of ten invented objects, every object is built from visible boxes or cylinders with its hidden edges drawn", "kind": "judgement"},
+   {"text": "Extended with a ruler, the box edges of at least seven of ten invented objects converge consistently, within about 1 cm on A4", "kind": "measured"},
+   {"text": "One invented object reads as the same object when drawn from two viewpoints about 45 degrees apart", "kind": "judgement"},
+   {"text": "A from-memory drawing of a studied object, checked against the object, keeps its main proportions and the way its parts attach", "kind": "judgement"}
+  ],
+  "common_mistakes": [
+   "Waiting until construction feels steady before drawing from imagination; draw from imagination every week, then check against reference",
+   "@persp-imagination.m0",
+   "Drawing the invented object only from the front, where it is a flat shape, instead of in perspective",
+   "Leaving out the hidden edges, so you cannot see whether the forms sit together",
+   "@persp-imagination.m2"
+  ],
+  "free_coverage": "thin",
+  "revisit": {
+   "title": "Invent one object, cold",
+   "description": "Pick an object type you have not invented before. In seven minutes build it from three to five boxes and cylinders with hidden edges, then extend two edge sets with a ruler.",
+   "minutes": 8,
+   "checks": [0, 1]
+  }
+ },
+ "master-copies": {
+  "summary": "Copying and analysing work by earlier artists teaches simplification, rhythm and economy faster than most lessons. This module uses one method for every target: choose a work from an open-access collection, copy it for structure, compare or overlay to check, then write three sentences on what the artist simplified. Line and value copies start now; figure and colour variants open with their modules.",
+  "learning_outcomes": [
+   "@fig-master-studies.o0",
+   "@fig-master-studies.o1",
+   "Check a copy against its source by overlay or side by side and name the largest difference",
+   "@fig-master-studies.o3",
+   "@col-color-studies-master-copies.o1"
+  ],
+  "resources": [
+   {"rid": "r274", "role": "core", "notes": "Use the Open Access filter and search for drawings, prints and studies (figures, hands, drapery, heads, landscapes). Download a high-resolution file and copy it at a comfortable size."},
+   {"rid": "r242", "role": "alternative"},
+   {"rid": "r164", "role": "alternative"},
+   {"rid": "r027", "role": "alternative"},
+   {"rid": "r040", "role": "supplementary", "notes": "For the colour variant later: from section 11 take Guess That Color, Color Pickers and Unify Your Palette, which train the guess-then-check habit."},
+   {"rid": "r166", "role": "supplementary"},
+   {"rid": "r163", "role": "supplementary"}
+  ],
+  "practice": [
+   {"ref": "@fig-master-studies.p1", "dose": "1 copy, 45 min, about weekly while the module is active", "minutes": 45, "kind": "study", "reference": {"kind": "museum", "query": "drawing study chalk", "site": "met"}},
+   {"ref": "@fig-master-studies.p0", "title": "Rhythm copies", "description": "Copy drawings for movement only: the main rhythm and masses, no detail.", "dose": "5 copies, 5 min each", "minutes": 25, "kind": "drill", "timer": {"mode": "ladder", "steps": [{"count": 5, "seconds": 300}]}, "reference": {"kind": "museum", "query": "figure study drawing", "site": "met"}},
+   {"title": "Overlay a copy", "description": "Photograph one copy, scale it to the source and overlay it at 50 percent. Write the three largest differences and their direction.", "dose": "15 min per long copy", "minutes": 15, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@fig-master-studies.p3", "minutes": 10, "kind": "study", "reference": {"kind": "photo", "query": "person seated pose"}},
+   {"ref": "@fig-master-studies.p4", "title": "Figure variant: anatomy plate copy", "minutes": 30, "kind": "study", "reference": {"kind": "museum", "query": "anatomy plate", "site": "wellcome"}},
+   {"ref": "@col-color-studies-master-copies.p0", "title": "Colour variant: ten five-minute colour sketches", "minutes": 50, "kind": "study", "timer": {"mode": "ladder", "steps": [{"count": 10, "seconds": 300}]}, "reference": {"kind": "museum", "query": "landscape painting", "site": "met"}},
+   {"ref": "@col-color-studies-master-copies.p2", "title": "Colour variant: guess then check", "minutes": 15, "kind": "drill", "reference": {"kind": "museum", "query": "still life painting", "site": "nga"}},
+   {"ref": "@col-color-studies-master-copies.p5", "title": "Optional: visit a gallery", "minutes": 60, "kind": "study", "reference": {"kind": "life"}}
+  ],
+  "done_when": [
+   {"text": "You have made at least twelve master copies from open-access collections, each with its source and licence noted", "kind": "process"},
+   {"ref": "@fig-master-studies.d1", "kind": "judgement"},
+   {"text": "Overlaid on its source at the same scale, a 45-minute line copy has no major shape off by more than about 1 cm on A4", "kind": "measured"},
+   {"ref": "@fig-master-studies.d3", "kind": "judgement"}
+  ],
+  "common_mistakes": [
+   "@fig-master-studies.m0",
+   "@fig-master-studies.m1",
+   "@fig-master-studies.m2",
+   "@fig-master-studies.m3",
+   "@col-color-studies-master-copies.m0",
+   "@col-color-studies-master-copies.m1"
+  ],
+  "free_coverage": "strong",
+  "revisit": {
+   "title": "Five-minute structure copy",
+   "description": "Pick a drawing from an open-access collection that you have not copied. Copy its main rhythm and masses in five minutes, then write one sentence on what the artist left out.",
+   "minutes": 7,
+   "checks": [1]
+  }
+ },
+ "nature-journaling": {
+  "summary": "Nature journaling pairs drawing with slow looking and short written notes: look first, draw, then write three observations a photo would not give you. You draw leaves, shells, feathers, garden birds or whatever is outside a window, in short sessions with a pen and a cheap sketchbook. It builds accurate observation and a stock of real shapes for later invention, without the pressure of a finished picture.",
+  "learning_outcomes": [
+   "@obs-nature-study-journaling.o0",
+   "@nat-field-sketching-habit.o2",
+   "@obs-nature-study-journaling.o1",
+   "@nat-field-sketching-habit.o1",
+   "@obs-nature-study-journaling.o3"
+  ],
+  "resources": [
+   {"rid": "r118", "role": "core"},
+   {"rid": "r111", "role": "alternative"},
+   {"rid": "r119", "role": "alternative"},
+   {"rid": "r288", "role": "supplementary"},
+   {"rid": "r035", "role": "supplementary"}
+  ],
+  "practice": [
+   {"ref": "@obs-nature-study-journaling.p0", "minutes": 25, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@nat-field-sketching-habit.p0", "minutes": 10, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-nature-study-journaling.p1", "minutes": 25, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-nature-study-journaling.p2", "minutes": 30, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@nat-field-sketching-habit.p3", "minutes": 10, "kind": "drill", "timer": {"mode": "ladder", "steps": [{"count": 10, "seconds": 60}]}, "reference": {"kind": "life"}},
+   {"ref": "@obs-nature-study-journaling.p3", "minutes": 20, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@nat-field-sketching-habit.p4", "minutes": 45, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-nature-study-journaling.p4", "minutes": 30, "kind": "study", "reference": {"kind": "museum", "query": "leaf specimen", "site": "smithsonian"}}
+  ],
+  "done_when": [
+   {"text": "You have at least eight dated journal pages, any spacing, each with a drawing plus three written observations, measurements or questions", "kind": "process"},
+   {"ref": "@obs-nature-study-journaling.d1", "kind": "judgement"},
+   {"ref": "@obs-nature-study-journaling.d2", "kind": "judgement"},
+   {"ref": "@nat-field-sketching-habit.d1", "kind": "judgement"},
+   {"text": "Timed, you can stay on one subject for 20 minutes without drifting to something easier", "kind": "measured"}
+  ],
+  "common_mistakes": [
+   "@nat-field-sketching-habit.m0",
+   "@nat-field-sketching-habit.m1",
+   "@nat-field-sketching-habit.m2",
+   "@obs-nature-study-journaling.m0",
+   "@obs-nature-study-journaling.m1"
+  ],
+  "free_coverage": "strong",
+  "revisit": {
+   "title": "Look, draw, note",
+   "description": "Pick a natural object you have not drawn (a leaf, a stone, a feather). Look at it for two minutes, draw it for five without guidelines, then write three observations a photo would not show.",
+   "minutes": 9,
+   "checks": [1, 3]
+  }
+ },
+ "atelier-bargue-cast-sight-size": {
+  "summary": "Classical ateliers train measuring, edges and value by copying Charles Bargue's nineteenth-century plates, first in pencil and then in charcoal, and then by drawing a white object or plaster cast from life, often in sight-size. It is slow and optional for your goals, but it is a strong way to learn value discipline. Sight-size needs the subject 2 to 3 metres away beside an upright board, so do that part only if you have the space.",
+  "learning_outcomes": [
+   "@obs-master-copies-bargue.o0",
+   "@light-bargue-cast.o1",
+   "@light-bargue-cast.o2",
+   "@obs-sight-size-and-checks.o0",
+   "@obs-master-copies-bargue.o2",
+   "@obs-sight-size-and-checks.o3"
+  ],
+  "resources": [
+   {"rid": "r241", "role": "core"},
+   {"url": "https://www.youtube.com/channel/UCmTohh84UI7AxxU3-yT0Bvg/videos", "role": "core", "notes": "The Da Vinci Initiative released a 28-lesson Bargue drawing course free on this channel in 2016 and 2017, per Art Renewal Center posts. The channel now operates as The School of Atelier Arts. Open it to confirm the lessons are still public (search-result evidence)."},
+   {"rid": "r295", "role": "alternative"},
+   {"url": "https://rijksmuseum.nl/en/collection/RP-P-2018-1162", "role": "alternative", "notes": "A second Rijksmuseum Bargue plate (Theseus, from Part I of the Cours de dessin). Its licence was not shown in search results; the sibling plate r241 carries a Public Domain Mark."},
+   {"rid": "r247", "role": "alternative", "notes": "Read the Three Elements of Sight-Size section before trying the set-up. The example has the viewer about eight feet back from the subject and drawing, which is why this needs space."},
+   {"rid": "r094", "role": "supplementary"},
+   {"url": "https://commons.wikimedia.org/wiki/File:Bargue_I_-_0006.png", "role": "supplementary", "notes": "An early Part I plate as a single file, suitable as a first copy. Check the licence tag on the file page."},
+   {"url": "https://www.rijksmuseum.nl/en/collection/object/Portret-van-een-man-met-een-hoed-door-Hans-Holbein-de-Jonge--fc3ffa74f5935a9d1c6344445592c66f", "role": "supplementary", "notes": "A Bargue lithograph after Holbein, in the style of Part II (master drawings), for a second copy from a different source."},
+   {"url": "https://www.artrenewal.org/Blog/Index/9203", "role": "supplementary", "notes": "The Art Renewal Center's post recording the last free lesson of the Da Vinci Initiative Bargue course (lesson 28, July 2017). Context and credit for the video course."},
+   {"url": "https://www.youtube.com/watch?v=0rcZtJaXl64", "role": "supplementary", "notes": "Stephen Bauman blocks in the Belvedere Torso, described as the hardest Bargue assignment. For much later, not a first copy."},
+   {"url": "https://velaturapress.gumroad.com/l/castdrawing-course", "role": "supplementary", "notes": "Paid (49.50 USD per search results): Darren Rousar's sight-size cast drawing video course. Listed because no free sight-size cast demo was found."},
+   {"rid": "r298", "role": "supplementary"}
+  ],
+  "skip_attach": ["https://commons.wikimedia.org/wiki/Category:Charles_Bargue", "https://commons.wikimedia.org/wiki/File:Charles_Bargue_-_Drawing_Course_Plate_III-24_Man_seated_upon_the_ground,_his_head_on_his_knees.jpg"],
+  "practice": [
+   {"ref": "@obs-master-copies-bargue.p0", "minutes": 90, "kind": "study", "reference": {"kind": "museum", "query": "Bargue plate", "site": "rijksmuseum"}},
+   {"ref": "@light-bargue-cast.p1", "minutes": 90, "kind": "study", "reference": {"kind": "museum", "query": "Bargue plate", "site": "commons"}},
+   {"ref": "@light-bargue-cast.p0", "minutes": 90, "kind": "study", "reference": {"kind": "museum", "query": "Bargue Drawing Course I plate", "site": "commons"}},
+   {"title": "Draw along with one video lesson", "description": "Pick one early lesson from the Da Vinci Initiative's Bargue series and work along with it on the same plate, pausing at each stage. Note what the teacher checks before moving on.", "dose": "1 lesson, about 60 min", "minutes": 60, "kind": "study", "reference": {"kind": "museum", "site": "https://www.youtube.com/channel/UCmTohh84UI7AxxU3-yT0Bvg/videos", "url": "https://www.youtube.com/channel/UCmTohh84UI7AxxU3-yT0Bvg/videos", "query": "Bargue plate"}},
+   {"ref": "@light-bargue-cast.p2", "minutes": 90, "kind": "study", "reference": {"kind": "museum", "query": "Bargue plate", "site": "commons", "url": null}},
+   {"ref": "@light-bargue-cast.p3", "minutes": 120, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-sight-size-and-checks.p0", "minutes": 45, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@obs-sight-size-and-checks.p4", "minutes": 30, "kind": "exercise", "reference": {"kind": "life"}},
+   {"ref": "@light-bargue-cast.p4", "minutes": 20, "kind": "exercise", "reference": {"kind": "none"}}
+  ],
+  "done_when": [
+   {"text": "Overlaid on the plate at the same scale, your copy's main shapes and shadow shapes are within about 3 mm", "kind": "measured"},
+   {"ref": "@light-bargue-cast.d1", "kind": "judgement"},
+   {"ref": "@light-bargue-cast.d3", "kind": "judgement"},
+   {"ref": "@obs-master-copies-bargue.d3", "kind": "process"},
+   {"ref": "@obs-sight-size-and-checks.d2", "kind": "judgement"}
+  ],
+  "common_mistakes": [
+   "@obs-master-copies-bargue.m0",
+   "@obs-master-copies-bargue.m3",
+   "@light-bargue-cast.m0",
+   "@light-bargue-cast.m2",
+   "@light-bargue-cast.m3",
+   "@obs-sight-size-and-checks.m0"
+  ],
+  "free_coverage": "partial",
+  "revisit": {
+   "title": "Shadow shape map",
+   "description": "Pick a Bargue plate or a cast photo you have not copied. In eight minutes block the envelope and fill only the shadow shape with one flat tone, then overlay it on the source.",
+   "minutes": 10,
+   "checks": [0, 1]
+  }
+ }
+}

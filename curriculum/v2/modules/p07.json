@@ -1,0 +1,201 @@
+{
+ "nat-plants-flowers-trees": {
+  "practice_meta": {
+   "@nat-plants-flowers-trees.p0": {"minutes": 30, "kind": "study", "reference": {"kind": "life"}},
+   "@nat-plants-flowers-trees.p1": {"minutes": 40, "kind": "exercise", "reference": {"kind": "life"}},
+   "@nat-plants-flowers-trees.p2": {"minutes": 45, "kind": "study", "reference": {"kind": "life"}},
+   "@nat-plants-flowers-trees.p3": {"minutes": 30, "kind": "study", "reference": {"kind": "life"}},
+   "@nat-plants-flowers-trees.p4": {"minutes": 45, "kind": "study", "reference": {"kind": "museum", "query": "botanical plate", "site": "bhl"}},
+   "@nat-plants-flowers-trees.p5": {"minutes": 30, "kind": "play", "reference": {"kind": "prompt"}}
+  },
+  "done_when": [
+   {"ref": "@nat-plants-flowers-trees.d0", "kind": "judgement"},
+   {"ref": "@nat-plants-flowers-trees.d1", "kind": "judgement"},
+   {"ref": "@nat-plants-flowers-trees.d2", "kind": "judgement"},
+   {"ref": "@nat-plants-flowers-trees.d3", "kind": "judgement"},
+   {"text": "For one invented plant you can write in one sentence how it grows (where its leaves attach, how its stems fork), and the drawing shows exactly that", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Leaf and fork, cold",
+   "description": "From a plant you have not drawn, draw a curling leaf from two angles as a bent plane, then three branch forks with the thickness dropping after each split.",
+   "minutes": 7,
+   "checks": [0, 1]
+  }
+ },
+ "nat-insects-arachnids": {
+  "practice_meta": {
+   "@nat-insects-arachnids.p0": {"minutes": 40, "kind": "study", "reference": {"kind": "museum", "query": "beetle specimen", "site": "smithsonian"}},
+   "@nat-insects-arachnids.p1": {"minutes": 30, "kind": "study", "reference": {"kind": "photo", "query": "beetle macro"}},
+   "@nat-insects-arachnids.p2": {"minutes": 30, "kind": "study", "reference": {"kind": "museum", "query": "spider specimen", "site": "r162"}},
+   "@nat-insects-arachnids.p3": {"minutes": 40, "kind": "study", "reference": {"kind": "photo", "query": "dragonfly wing"}},
+   "@nat-insects-arachnids.p4": {"minutes": 45, "kind": "exercise", "reference": {"kind": "photo", "query": "iridescent beetle"}},
+   "@nat-insects-arachnids.p5": {"minutes": 45, "kind": "study", "reference": {"kind": "museum", "query": "insect specimen", "site": "smithsonian"}}
+  },
+  "done_when": [
+   {"ref": "@nat-insects-arachnids.d0", "kind": "judgement"},
+   {"ref": "@nat-insects-arachnids.d1", "kind": "judgement"},
+   {"ref": "@nat-insects-arachnids.d2", "kind": "judgement"},
+   {"ref": "@nat-insects-arachnids.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Bug from three sides",
+   "description": "From a specimen photo you have not used, build an insect from its three body sections with segmented legs starting at the thorax, then draw it again from the front.",
+   "minutes": 9,
+   "checks": [0, 2]
+  }
+ },
+ "nat-birds": {
+  "practice_meta": {
+   "@nat-birds.p0": {"minutes": 15, "kind": "drill", "timer": {"mode": "ladder", "steps": [{"count": 10, "seconds": 60}]}, "reference": {"kind": "life"}},
+   "@nat-birds.p1": {"minutes": 30, "kind": "exercise", "reference": {"kind": "none"}},
+   "@nat-birds.p2": {"minutes": 30, "kind": "study", "reference": {"kind": "photo", "query": "bird folded wing"}},
+   "@nat-birds.p3": {"minutes": 30, "kind": "exercise", "reference": {"kind": "photo", "query": "duck hawk owl"}},
+   "@nat-birds.p4": {"minutes": 40, "kind": "study", "reference": {"kind": "photo", "query": "bird in flight from below", "site": "r010"}},
+   "@nat-birds.p5": {"minutes": 30, "kind": "study", "reference": {"kind": "life"}}
+  },
+  "done_when": [
+   {"ref": "@nat-birds.d0", "kind": "measured", "text": "Timed, you can draw a recognisable perched bird in under 90 seconds"},
+   {"ref": "@nat-birds.d1", "kind": "judgement"},
+   {"ref": "@nat-birds.d2", "kind": "judgement"},
+   {"ref": "@nat-birds.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Perched bird, 90 seconds",
+   "description": "From a bird photo or a window you have not used, draw two perched birds in 90 seconds each from the egg body, head and tail line, then add the folded wing as stacked groups.",
+   "minutes": 5,
+   "checks": [0, 1]
+  }
+ },
+ "nat-reptiles-amphibians-fish": {
+  "resources": [
+   {"rid": "r078", "role": "core", "notes": "Drawabox Lesson 5 applies construction to animals; its homework covers birds and quadrupeds (search-result evidence). Treat it as a method for any creature and apply it to a lizard, a frog and a fish yourself."},
+   {"rid": "r116", "role": "alternative"},
+   {"rid": "r012", "role": "alternative", "notes": "Historical natural-history plates of reptiles, amphibians and fish. Use them to see how illustrators showed fins, scale rows and head structure."},
+   {"rid": "r013", "role": "supplementary"},
+   {"rid": "r162", "role": "supplementary"},
+   {"rid": "r154", "role": "supplementary", "notes": "A scientific illustrator's pen-and-ink techniques; useful for scale patterns built from marks that follow the form."}
+  ],
+  "practice_meta": {
+   "@nat-reptiles-amphibians-fish.p0": {"minutes": 40, "kind": "exercise", "reference": {"kind": "photo", "query": "lizard top view"}},
+   "@nat-reptiles-amphibians-fish.p1": {"minutes": 40, "kind": "study", "reference": {"kind": "photo", "query": "fish side view"}},
+   "@nat-reptiles-amphibians-fish.p2": {"minutes": 20, "kind": "drill", "reference": {"kind": "none"}},
+   "@nat-reptiles-amphibians-fish.p3": {"minutes": 30, "kind": "study", "reference": {"kind": "photo", "query": "frog sitting"}},
+   "@nat-reptiles-amphibians-fish.p4": {"minutes": 45, "kind": "study", "reference": {"kind": "museum", "query": "fish plate", "site": "bhl"}},
+   "@nat-reptiles-amphibians-fish.p5": {"minutes": 30, "kind": "study", "reference": {"kind": "photo", "query": "reptile eye close up"}}
+  },
+  "done_when": [
+   {"ref": "@nat-reptiles-amphibians-fish.d0", "kind": "judgement"},
+   {"ref": "@nat-reptiles-amphibians-fish.d1", "kind": "judgement"},
+   {"ref": "@nat-reptiles-amphibians-fish.d2", "kind": "judgement"},
+   {"ref": "@nat-reptiles-amphibians-fish.d3", "kind": "process"}
+  ],
+  "free_coverage": "thin",
+  "revisit": {
+   "title": "Lizard from the spine",
+   "description": "From a photo you have not used, draw a lizard from one S-curved spine with sprawling limbs, then a fish head-on as a cross-section with its fins as planes.",
+   "minutes": 8,
+   "checks": [0, 1]
+  }
+ },
+ "nat-mammal-anatomy-construction": {
+  "practice_meta": {
+   "@nat-mammal-anatomy-construction.p0": {"minutes": 60, "kind": "study", "reference": {"kind": "photo", "query": "deer side view"}},
+   "@nat-mammal-anatomy-construction.p1": {"minutes": 40, "kind": "exercise", "reference": {"kind": "none"}},
+   "@nat-mammal-anatomy-construction.p2": {"minutes": 30, "kind": "study", "reference": {"kind": "museum", "query": "mammal skull 3D", "site": "r249"}},
+   "@nat-mammal-anatomy-construction.p3": {"minutes": 60, "kind": "drill", "timer": {"mode": "ladder", "steps": [{"count": 6, "seconds": 600}]}, "reference": {"kind": "photo", "query": "dog standing side view"}},
+   "@nat-mammal-anatomy-construction.p4": {"minutes": 30, "kind": "study", "reference": {"kind": "photo", "query": "animal ears nose close up"}},
+   "@nat-mammal-anatomy-construction.p5": {"minutes": 40, "kind": "study", "reference": {"kind": "photo", "query": "zoo animal"}}
+  },
+  "done_when": [
+   {"text": "From memory you can block in a standing dog, cat or horse whose leg length, body depth and head size are within about a fifth of a side-view photo when checked", "kind": "measured"},
+   {"ref": "@nat-mammal-anatomy-construction.d1", "kind": "judgement"},
+   {"ref": "@nat-mammal-anatomy-construction.d2", "kind": "judgement"},
+   {"ref": "@nat-mammal-anatomy-construction.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Quadruped from memory",
+   "description": "From memory, block in a standing horse or dog from ribcage, pelvis and head masses and mark the shoulder, elbow, wrist, hip, knee and ankle. Then check against one side-view photo.",
+   "minutes": 8,
+   "checks": [0, 1]
+  }
+ },
+ "nat-animal-gesture-locomotion-expression": {
+  "practice_meta": {
+   "@nat-animal-gesture-locomotion-expression.p0": {"minutes": 10, "kind": "drill", "timer": {"mode": "ladder", "steps": [{"count": 20, "seconds": 30}]}, "reference": {"kind": "life", "site": "r092"}},
+   "@nat-animal-gesture-locomotion-expression.p1": {"minutes": 30, "kind": "study", "reference": {"kind": "museum", "query": "Muybridge horse gallop", "site": "commons"}},
+   "@nat-animal-gesture-locomotion-expression.p2": {"minutes": 20, "kind": "exercise", "reference": {"kind": "photo", "query": "cat about to jump"}},
+   "@nat-animal-gesture-locomotion-expression.p3": {"minutes": 40, "kind": "study", "reference": {"kind": "life"}},
+   "@nat-animal-gesture-locomotion-expression.p4": {"minutes": 24, "kind": "drill", "timer": {"mode": "ladder", "steps": [{"count": 12, "seconds": 120}]}, "reference": {"kind": "pose-site", "site": "loa", "query": "animals, 2 minutes"}},
+   "@nat-animal-gesture-locomotion-expression.p5": {"minutes": 20, "kind": "study", "reference": {"kind": "photo", "query": "bird wing beat sequence"}}
+  },
+  "done_when": [
+   {"ref": "@nat-animal-gesture-locomotion-expression.d0", "kind": "judgement"},
+   {"ref": "@nat-animal-gesture-locomotion-expression.d1", "kind": "judgement"},
+   {"ref": "@nat-animal-gesture-locomotion-expression.d2", "kind": "judgement"},
+   {"ref": "@nat-animal-gesture-locomotion-expression.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Animal action, cold",
+   "description": "Draw three one-minute animal gestures from a set you have not used, spine first, then one of the animals again in a different mood shown only through ears, eyes and tail.",
+   "minutes": 6,
+   "checks": [0, 2]
+  }
+ },
+ "nat-hard-surface-vehicles-machines": {
+  "resources": [
+   {"rid": "r178", "role": "core"},
+   {"rid": "r079", "role": "alternative", "notes": "Drawabox Lesson 7 applies construction to vehicles; it expects the earlier lessons and the cylinder and wheel challenges first (search-result evidence; not opened)."},
+   {"rid": "r093", "role": "alternative"},
+   {"rid": "r267", "role": "supplementary"},
+   {"url": "https://www.thedesignsketchbook.com/how-to-draw-cylinder-forms-for-many-products-tip-284", "role": "supplementary", "notes": "An industrial-design approach to cylinder-based product forms, useful for machines and robots (search-result evidence; not opened)."},
+   {"url": "https://openoregon.pressbooks.pub/drawing/chapter/exercise-5-3/", "role": "supplementary", "notes": "An open-textbook line drawing exercise on a sailboat; only the title was seen in search results, so check its content first."}
+  ],
+  "practice_meta": {
+   "@nat-hard-surface-vehicles-machines.p0": {"minutes": 30, "kind": "drill", "reference": {"kind": "tool", "tool": "form"}},
+   "@nat-hard-surface-vehicles-machines.p1": {"minutes": 60, "kind": "study", "reference": {"kind": "photo", "query": "car three quarter view"}},
+   "@nat-hard-surface-vehicles-machines.p2": {"minutes": 30, "kind": "play", "timer": {"mode": "ladder", "steps": [{"count": 10, "seconds": 180}]}, "reference": {"kind": "prompt"}},
+   "@nat-hard-surface-vehicles-machines.p3": {"minutes": 45, "kind": "study", "reference": {"kind": "photo", "query": "aircraft side view", "url": null, "site": null}},
+   "@nat-hard-surface-vehicles-machines.p4": {"minutes": 60, "kind": "play", "reference": {"kind": "prompt"}},
+   "@nat-hard-surface-vehicles-machines.p5": {"minutes": 30, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "add_practice": [
+   {"title": "Boat hulls from boxes", "description": "Draw a rowing boat and a cargo ship as long boxes in two-point perspective, then cut the hull shape with three cross-sections from bow to stern and lay the deck as a plane on top.", "dose": "2 boats, 30 min", "minutes": 30, "kind": "exercise", "reference": {"kind": "photo", "query": "boat hull side view"}}
+  ],
+  "done_when": [
+   {"ref": "@nat-hard-surface-vehicles-machines.d0", "kind": "judgement"},
+   {"ref": "@nat-hard-surface-vehicles-machines.d1", "kind": "judgement"},
+   {"ref": "@nat-hard-surface-vehicles-machines.d2", "kind": "process"},
+   {"ref": "@nat-hard-surface-vehicles-machines.d3", "kind": "judgement"},
+   {"ref": "@nat-hard-surface-vehicles-machines.d4", "kind": "judgement"}
+  ],
+  "free_coverage": "thin",
+  "revisit": {
+   "title": "Car and robot as volumes",
+   "description": "From imagination, draw a car as a main box, a cabin and wheel arches with both wheels as matching ellipses, then a small robot from primitives with joints that could bend.",
+   "minutes": 9,
+   "checks": [0, 1, 3]
+  }
+ },
+ "nat-patterns-ornament-surface-detail": {
+  "practice_meta": {
+   "@nat-patterns-ornament-surface-detail.p0": {"minutes": 40, "kind": "drill", "reference": {"kind": "none"}},
+   "@nat-patterns-ornament-surface-detail.p1": {"minutes": 40, "kind": "study", "reference": {"kind": "museum", "query": "Grammar of Ornament plate", "site": "r107"}},
+   "@nat-patterns-ornament-surface-detail.p2": {"minutes": 30, "kind": "exercise", "reference": {"kind": "none"}},
+   "@nat-patterns-ornament-surface-detail.p3": {"minutes": 30, "kind": "study", "reference": {"kind": "life"}},
+   "@nat-patterns-ornament-surface-detail.p4": {"minutes": 30, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "done_when": [
+   {"ref": "@nat-patterns-ornament-surface-detail.d0", "kind": "judgement"},
+   {"ref": "@nat-patterns-ornament-surface-detail.d1", "kind": "judgement"},
+   {"ref": "@nat-patterns-ornament-surface-detail.d2", "kind": "judgement"},
+   {"ref": "@nat-patterns-ornament-surface-detail.d3", "kind": "judgement"}
+  ],
+  "free_coverage": "thin",
+  "revisit": {
+   "title": "Wrap a pattern",
+   "description": "Invent a small repeat from a leaf or shell shape, draw it flat with even spacing, then wrap it around a cylinder using contour lines.",
+   "minutes": 8,
+   "checks": [0, 1]
+  }
+ }
+}

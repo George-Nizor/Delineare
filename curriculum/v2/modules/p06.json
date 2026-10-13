@@ -1,0 +1,299 @@
+{
+ "light-form-on-basic-forms": {
+  "summary": "Name and place each part of light on a rounded form (lit side, halftone, terminator, core shadow, reflected light, occlusion and cast shadow) on an egg, then apply the same vocabulary to five simple forms under one light. Flat planes take flat tones and curved surfaces take gradients, and that difference is most of what makes a drawing look solid. Most everyday and invented objects break down into these forms.",
+  "learning_outcomes": [
+   "@light-form-anatomy.o0",
+   "@light-form-anatomy.o1",
+   "@light-form-anatomy.o3",
+   "@light-basic-forms.o0",
+   "@light-basic-forms.o1",
+   "@light-basic-forms.o2",
+   "@light-basic-forms.o3"
+  ],
+  "resources": [
+   {"rid": "r221", "role": "core"},
+   {"rid": "r214", "role": "core"},
+   {"rid": "r265", "role": "alternative"},
+   {"rid": "r318", "role": "alternative"},
+   {"rid": "r059", "role": "supplementary"},
+   {"rid": "r054", "role": "supplementary"}
+  ],
+  "practice": [
+   {"ref": "@light-form-anatomy.p0", "minutes": 15, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@light-form-anatomy.p3", "minutes": 20, "kind": "exercise", "reference": {"kind": "life"}},
+   {"ref": "@light-form-anatomy.p2", "minutes": 45, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@light-basic-forms.p0", "minutes": 60, "kind": "exercise", "reference": {"kind": "tool", "tool": "light"}},
+   {"ref": "@light-basic-forms.p2", "minutes": 30, "kind": "exercise", "reference": {"kind": "life"}},
+   {"ref": "@light-basic-forms.p3", "dose": "5 objects, 20 min each", "minutes": 20, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@light-basic-forms.p4", "title": "Light tool check", "description": "In the light tool, set up the five forms with one light at the same angle as your drawing. Switch on the four-value posterise, name each zone you can see on the screen, and compare them with your shading. Then move the light and predict the new terminator before looking.", "minutes": 30, "kind": "exercise", "reference": {"kind": "tool", "tool": "light", "url": null, "site": null}},
+   {"ref": "@light-form-anatomy.p4", "minutes": 5, "kind": "exercise", "reference": {"kind": "memory"}}
+  ],
+  "done_when": [
+   {"text": "On a new photo of a lit egg you can point to each zone, and the softness of the terminator in your drawing matches the size of the light: narrow under a small lamp, wide under a large soft light", "kind": "judgement"},
+   {"ref": "@light-form-anatomy.d1", "kind": "judgement"},
+   {"text": "Photographed in greyscale, your reflected light is darker than every lit-side tone and lighter than the core shadow", "kind": "measured"},
+   {"ref": "@light-basic-forms.d0", "kind": "judgement"},
+   {"ref": "@light-basic-forms.d1", "kind": "judgement"},
+   {"ref": "@light-basic-forms.d2", "kind": "judgement"}
+  ],
+  "common_mistakes": [
+   "@light-form-anatomy.m0",
+   "@light-form-anatomy.m1",
+   "@light-form-anatomy.m2",
+   "@light-basic-forms.m0",
+   "@light-basic-forms.m2",
+   "@light-basic-forms.m3"
+  ],
+  "free_coverage": "partial",
+  "revisit": {
+   "title": "Egg and box, one light",
+   "description": "Under one lamp or in the light tool, shade an egg and a box set at an angle you have not drawn, in four tones. Check in greyscale that reflected light stays below the lit side and the box faces stay flat.",
+   "minutes": 9,
+   "checks": [2, 3]
+  }
+ },
+ "light-techniques": {
+  "practice_meta": {
+   "@light-techniques.p0": {"minutes": 45, "kind": "drill", "reference": {"kind": "none"}},
+   "@light-techniques.p1": {"minutes": 60, "kind": "exercise", "reference": {"kind": "tool", "tool": "light"}},
+   "@light-techniques.p2": {"minutes": 30, "kind": "drill", "reference": {"kind": "none"}},
+   "@light-techniques.p3": {"minutes": 40, "kind": "exercise", "reference": {"kind": "none"}},
+   "@light-techniques.p4": {"minutes": 20, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "done_when": [
+   {"text": "Photographed in greyscale, each technique swatch shows five evenly spaced steps", "kind": "measured"},
+   {"ref": "@light-techniques.d1", "kind": "judgement"},
+   {"ref": "@light-techniques.d2", "kind": "judgement"},
+   {"ref": "@light-techniques.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Two techniques on new forms",
+   "description": "Shade a cylinder with hatching that curves around it and an egg with stippling, both under one light, each with five steps from light to dark.",
+   "minutes": 10,
+   "checks": [0, 1]
+  }
+ },
+ "light-invented-light": {
+  "summary": "Shading an invented object needs more than looking: you decide on a light and apply it to every plane. You check each surface's tone against a reference sphere in the same light, then against the same form rebuilt in the light tool, and redraw the object under a new light. This is how drawings from imagination get solid shading.",
+  "resources": [
+   {"rid": "r037", "role": "core"},
+   {"rid": "r014", "role": "supplementary", "notes": "Optional, if you have done the 3D blockout module: block out an invented form with primitives, add one light and use screenshots as shading reference. The light tool covers the same need."},
+   {"rid": "r208", "role": "supplementary"},
+   {"rid": "r228", "role": "supplementary"}
+  ],
+  "practice_meta": {
+   "@light-invented-light.p0": {"minutes": 60, "kind": "exercise", "reference": {"kind": "prompt"}},
+   "@light-invented-light.p1": {"minutes": 90, "kind": "study", "reference": {"kind": "life"}},
+   "@light-invented-light.p2": {"title": "Primitive blockout in the light tool", "description": "In the light tool, take the stack (a box, a cylinder and a ball) as a stand-in for an invented object, set one light, view it from two angles and use those views as reference for shading by hand.", "minutes": 60, "kind": "exercise", "reference": {"kind": "tool", "tool": "light", "url": null, "site": null}},
+   "@light-invented-light.p3": {"minutes": 60, "kind": "exercise", "reference": {"kind": "memory"}},
+   "@light-invented-light.p4": {"description": "Invent a form made of three primitives and shade it without reference. Then set the light tool's stack under the same light, posterise to five values, and count how many of the planes your form shares with it matched within one tone step.", "minutes": 30, "kind": "exercise", "reference": {"kind": "tool", "tool": "light", "url": null, "site": null}}
+  },
+  "done_when": [
+   {"ref": "@light-invented-light.d0", "kind": "judgement"},
+   {"text": "Compared with matching planes of the light tool's stack under the same light, posterised to five values, at least three quarters of your major planes are within one tone step", "kind": "measured"},
+   {"ref": "@light-invented-light.d2", "kind": "judgement"},
+   {"ref": "@light-invented-light.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Invent and light",
+   "description": "State a light direction, then invent an object from three primitives and shade it in four tones. Check two of its planes against matching planes in the light tool under the same light.",
+   "minutes": 10,
+   "checks": [0, 1]
+  }
+ },
+ "light-edges": {
+  "practice_meta": {
+   "@light-edges.p0": {"minutes": 20, "kind": "study", "reference": {"kind": "photo", "query": "sphere ball side light"}},
+   "@light-edges.p1": {"minutes": 30, "kind": "study", "reference": {"kind": "life"}},
+   "@light-edges.p2": {"minutes": 45, "kind": "study", "reference": {"kind": "photo", "query": "still life side light shadows"}},
+   "@light-edges.p3": {"minutes": 60, "kind": "study", "reference": {"kind": "life"}},
+   "@light-edges.p4": {"minutes": 15, "kind": "drill", "reference": {"kind": "none"}}
+  },
+  "done_when": [
+   {"ref": "@light-edges.d0", "kind": "judgement"},
+   {"ref": "@light-edges.d1", "kind": "judgement"},
+   {"ref": "@light-edges.d2", "kind": "judgement"},
+   {"ref": "@light-edges.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Lost and found, cold",
+   "description": "Under one lamp, make a six-minute tonal sketch of two objects you have not drawn. Keep one edge near the focal point crisp and lose at least one edge into the shadow.",
+   "minutes": 8,
+   "checks": [1, 2]
+  }
+ },
+ "light-value-composition": {
+  "practice_meta": {
+   "@light-value-composition.p0": {"minutes": 40, "kind": "drill", "timer": {"mode": "ladder", "steps": [{"count": 10, "seconds": 240}]}, "reference": {"kind": "photo", "query": "high contrast street light"}},
+   "@light-value-composition.p1": {"minutes": 30, "kind": "exercise", "reference": {"kind": "photo", "query": "landscape with buildings"}},
+   "@light-value-composition.p2": {"minutes": 25, "kind": "study", "timer": {"mode": "ladder", "steps": [{"count": 6, "seconds": 180}]}, "reference": {"kind": "museum", "query": "still life lamplight", "site": "met"}},
+   "@light-value-composition.p3": {"minutes": 20, "kind": "exercise", "reference": {"kind": "photo", "query": "harbour boats"}},
+   "@light-value-composition.p4": {"minutes": 30, "kind": "exercise", "reference": {"kind": "life"}}
+  },
+  "done_when": [
+   {"ref": "@light-value-composition.d0", "kind": "judgement"},
+   {"ref": "@light-value-composition.d1", "kind": "judgement"},
+   {"ref": "@light-value-composition.d2", "kind": "judgement"},
+   {"ref": "@light-value-composition.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Notan from a new photo",
+   "description": "Pick a photo you have not used and make a two-value notan in four minutes, starting with the darkest shapes, then a three-value version. Check that the shapes stay grouped.",
+   "minutes": 8,
+   "checks": [0, 1]
+  }
+ },
+ "light-direction-types": {
+  "practice_meta": {
+   "@light-direction-types.p0": {"minutes": 45, "kind": "study", "reference": {"kind": "life"}},
+   "@light-direction-types.p1": {"minutes": 20, "kind": "study", "reference": {"kind": "life"}},
+   "@light-direction-types.p2": {"title": "Light types in the light tool", "description": "In the light tool, put a sphere on a floor and try the sun and the lamp from several directions, with the room light slider low and then high. Draw four of the set-ups in three tones.", "minutes": 60, "kind": "exercise", "reference": {"kind": "tool", "tool": "light", "url": null, "site": null}},
+   "@light-direction-types.p3": {"minutes": 30, "kind": "study", "reference": {"kind": "life"}},
+   "@light-direction-types.p4": {"minutes": 30, "kind": "exercise", "reference": {"kind": "prompt"}}
+  },
+  "done_when": [
+   {"ref": "@light-direction-types.d0", "kind": "judgement"},
+   {"text": "Your front-lit and rim-lit egg drawings are clearly different with labels hidden a week later: the front-lit one has almost no shadow side, the rim-lit one a thin light edge round a dark mass", "kind": "judgement"},
+   {"ref": "@light-direction-types.d2", "kind": "judgement"},
+   {"ref": "@light-direction-types.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Name the light",
+   "description": "Pick a photo you have not used and name its light direction and hardness within ten seconds. Then draw a three-tone thumbnail of one object from it under a different light.",
+   "minutes": 7,
+   "checks": [0, 3]
+  }
+ },
+ "cast-shadows": {
+  "summary": "A cast shadow has its own construction: lines from the light through an object's corners meet lines from a point on the ground below a lamp, or run parallel from the sun's direction. You learn the method for point lights and sunlight, then how shadows bend over steps and cloth, soften with distance and gather as occlusion where surfaces nearly touch. Shadows are what make an object sit in a scene instead of floating.",
+  "learning_outcomes": [
+   "@persp-shadows.o0",
+   "@persp-shadows.o1",
+   "@persp-shadows.o2",
+   "@light-cast-shadows-ao.o0",
+   "@light-cast-shadows-ao.o1",
+   "@light-cast-shadows-ao.o2"
+  ],
+  "resources": [
+   {"rid": "r285", "role": "core"},
+   {"rid": "r055", "role": "core"},
+   {"rid": "r279", "role": "alternative"},
+   {"rid": "r214", "role": "alternative"},
+   {"rid": "r060", "role": "alternative"},
+   {"rid": "r182", "role": "supplementary"},
+   {"rid": "r121", "role": "supplementary"}
+  ],
+  "practice": [
+   {"ref": "@persp-shadows.p0", "minutes": 35, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@persp-shadows.p1", "minutes": 35, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@persp-shadows.p2", "minutes": 30, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@persp-shadows.p3", "minutes": 25, "kind": "exercise", "reference": {"kind": "life"}},
+   {"ref": "@light-cast-shadows-ao.p0", "minutes": 30, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@light-cast-shadows-ao.p1", "minutes": 40, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@light-cast-shadows-ao.p2", "minutes": 45, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@light-cast-shadows-ao.p3", "minutes": 30, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@persp-shadows.p4", "title": "Shadow check in the light tool", "description": "Choose the light tool set closest to one of your drawn set-ups (the egg and box, or the stack) and give it the same light type and position. Compare its cast shadow outline with yours.", "minutes": 30, "kind": "exercise", "reference": {"kind": "tool", "tool": "light", "url": null, "site": null}}
+  ],
+  "done_when": [
+   {"ref": "@persp-shadows.d0", "kind": "judgement"},
+   {"ref": "@persp-shadows.d1", "kind": "judgement"},
+   {"ref": "@light-cast-shadows-ao.d0", "kind": "judgement"},
+   {"ref": "@light-cast-shadows-ao.d1", "kind": "judgement"},
+   {"ref": "@light-cast-shadows-ao.d2", "kind": "judgement"},
+   {"text": "With the light tool's egg and box set to the same light, your box shadow, constructed before you look, matches the tool's shadow outline within about 1 cm on A4", "kind": "measured"}
+  ],
+  "common_mistakes": [
+   "@persp-shadows.m0",
+   "@persp-shadows.m1",
+   "@persp-shadows.m2",
+   "@persp-shadows.m3",
+   "@light-cast-shadows-ao.m0",
+   "@light-cast-shadows-ao.m3"
+  ],
+  "free_coverage": "strong",
+  "revisit": {
+   "title": "Box shadow, new light",
+   "description": "Draw a two-point box and put a lamp somewhere you have not used. Construct the cast shadow on the floor, then let it climb a step or a wall.",
+   "minutes": 10,
+   "checks": [0, 2]
+  }
+ },
+ "light-materials-textures": {
+  "summary": "Different materials answer the same light differently: matte surfaces scatter it, shiny ones mirror their surroundings, glass lets it through, and fur, feathers and scales break it into clumps, layers and overlaps. You practise one sphere or object per material, then learn to suggest texture with a few marks that follow the form and fade in shadow. The direction map comes first and the texture last.",
+  "learning_outcomes": [
+   "@light-materials-textures.o0",
+   "@light-materials-textures.o1",
+   "@light-materials-textures.o2",
+   "@light-materials-textures.o3",
+   "@nat-texture-fur-feather-scale.o1",
+   "@nat-texture-fur-feather-scale.o2"
+  ],
+  "resources": [
+   {"rid": "r064", "role": "core"},
+   {"rid": "r321", "role": "alternative"},
+   {"rid": "r202", "role": "alternative"},
+   {"rid": "r113", "role": "alternative", "notes": "John Muir Laws's bird pages: use 'Learn to See Feather Groups' and 'Drawing Iridescent Birds' for feather layering and sheen."},
+   {"rid": "r116", "role": "supplementary", "notes": "John Muir Laws's mammal lessons include fur texture for the bear, deer and mountain lion; do them after the structure of each animal (not opened by the first pass)."},
+   {"rid": "r082", "role": "supplementary"}
+  ],
+  "practice": [
+   {"ref": "@light-materials-textures.p0", "minutes": 90, "kind": "study", "reference": {"kind": "photo", "query": "metal glass fabric texture"}},
+   {"ref": "@light-materials-textures.p1", "minutes": 40, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@light-materials-textures.p2", "minutes": 60, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@light-materials-textures.p3", "minutes": 45, "kind": "study", "reference": {"kind": "life"}},
+   {"ref": "@nat-texture-fur-feather-scale.p0", "minutes": 30, "kind": "exercise", "reference": {"kind": "photo", "query": "dog fur close up"}},
+   {"ref": "@nat-texture-fur-feather-scale.p1", "minutes": 25, "kind": "study", "reference": {"kind": "photo", "query": "bird wing feathers"}},
+   {"ref": "@nat-texture-fur-feather-scale.p2", "minutes": 20, "kind": "exercise", "reference": {"kind": "photo", "query": "lizard scales"}},
+   {"ref": "@light-materials-textures.p5", "minutes": 60, "kind": "study", "reference": {"kind": "life"}}
+  ],
+  "done_when": [
+   {"text": "With labels hidden, a week later you can name the material of each of your nine spheres, and in greyscale the shiny ones show small sharp highlights while the matte ones show broad soft ones", "kind": "judgement"},
+   {"ref": "@light-materials-textures.d1", "kind": "judgement"},
+   {"ref": "@light-materials-textures.d2", "kind": "judgement"},
+   {"ref": "@light-materials-textures.d3", "kind": "judgement"},
+   {"text": "Every fur mark on an animal drawing follows the direction map you drew first", "kind": "judgement"},
+   {"ref": "@nat-texture-fur-feather-scale.d1", "kind": "judgement"}
+  ],
+  "common_mistakes": [
+   "@light-materials-textures.m0",
+   "@light-materials-textures.m1",
+   "@light-materials-textures.m2",
+   "@light-materials-textures.m3",
+   "@nat-texture-fur-feather-scale.m0",
+   "@nat-texture-fur-feather-scale.m2"
+  ],
+  "free_coverage": "strong",
+  "revisit": {
+   "title": "Two materials, one form",
+   "description": "Draw the same egg shape twice under one light, once as matte chalk and once as polished metal reflecting a window, then a small fur patch with its direction map first.",
+   "minutes": 10,
+   "checks": [1, 4]
+  }
+ },
+ "light-still-life-render": {
+  "practice_meta": {
+   "@light-still-life-render.p0": {"minutes": 45, "kind": "study", "reference": {"kind": "life"}},
+   "@light-still-life-render.p1": {"dose": "1 drawing, 4 to 6 hours over two or three sessions", "minutes": 90, "kind": "study", "reference": {"kind": "life"}},
+   "@light-still-life-render.p2": {"minutes": 60, "kind": "study", "reference": {"kind": "life"}},
+   "@light-still-life-render.p3": {"dose": "1 drawing, 3 to 5 hours over several sessions", "minutes": 90, "kind": "study", "reference": {"kind": "photo", "query": "kettle single lamp"}},
+   "@light-still-life-render.p4": {"minutes": 90, "kind": "study", "reference": {"kind": "museum", "query": "still life lamplight", "site": "met"}},
+   "@light-still-life-render.p5": {"minutes": 15, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "add_practice": [
+   {"ref": "@nat-food-organic-still-life.p1", "minutes": 30, "kind": "study", "reference": {"kind": "life"}}
+  ],
+  "done_when": [
+   {"ref": "@light-still-life-render.d0", "kind": "measured", "text": "Photographed and converted to greyscale, the drawing holds its form"},
+   {"ref": "@light-still-life-render.d1", "kind": "judgement"},
+   {"ref": "@light-still-life-render.d2", "kind": "judgement"},
+   {"text": "Labels hidden, a week later the materials in the drawing are still distinct to you: each has its own highlight size and edge quality", "kind": "judgement"},
+   {"ref": "@light-still-life-render.d4", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Value plan of a new set-up",
+   "description": "Set up three objects you have not rendered under one lamp. Make a three-value thumbnail and map the shadow shapes on the paper, then compare with a greyscale photo of the set-up.",
+   "minutes": 10,
+   "checks": [0, 1]
+  }
+ }
+}

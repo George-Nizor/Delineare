@@ -1,0 +1,47 @@
+{
+ "_note": "One template shape scaled by hours: about two thirds on the current modules and review (module, review, gesture and long sessions), about one third on invention tied to the current module. Tuesday and Thursday are jiu-jitsu evenings, so they hold short optional sessions only. The app fills each session from the learner's current modules, not fixed weekday topics.",
+ "weekly_templates": [
+  {
+   "id": "week-3h",
+   "name": "3 hours a week: keep the thread",
+   "hours_per_week": 3,
+   "description": "Four sessions on Monday, Wednesday and the weekend; Tuesday and Thursday stay free for jiu-jitsu, with the 10-minute short session as an option. About two thirds goes to the current module and its review, one third to drawing it from imagination. A missed session is dropped, not stacked onto the next day. This is the default plan.",
+   "sessions": [
+    {"day": "Monday", "minutes": 30, "kind": "module", "focus": "Current module: a 5-minute warm-up from its ongoing drill (lines, ellipses, boxes or 30-second gestures), one lesson section or resource, then its exercise. Stop on time."},
+    {"day": "Wednesday", "minutes": 30, "kind": "review", "focus": "Warm-up, then one or two due revisits drawn cold and checked against their chapters' checks, then 15 minutes of the current module's drill."},
+    {"day": "Saturday", "minutes": 60, "kind": "long", "focus": "Apply the current module in one longer drawing from life or reference, then check it with a flip, an overlay or a greyscale photo and note the main error."},
+    {"day": "Sunday", "minutes": 60, "kind": "invention", "focus": "Draw this week's subject from imagination in new views and combinations, then check it against reference (40 minutes). Finish with 20 minutes of free invention from a prompt."}
+   ]
+  },
+  {
+   "id": "week-6h",
+   "name": "6 hours a week: steady progress",
+   "hours_per_week": 6,
+   "description": "Five sessions plus an optional short one after Thursday training. The current module gets two weeknight sessions, a gesture session and a long Saturday block; invention gets Friday and most of Sunday. A missed session is dropped, not stacked.",
+   "sessions": [
+    {"day": "Monday", "minutes": 50, "kind": "module", "focus": "Current module: warm-up from its ongoing drill, one lesson section, then the exercise with one named technique on screen."},
+    {"day": "Wednesday", "minutes": 45, "kind": "gesture", "focus": "The gesture ladder for 15 minutes, then 30 minutes on the current module's exercise from reference."},
+    {"day": "Thursday", "minutes": 20, "kind": "review", "focus": "Optional, after training: the 10-minute short session or two due revisits. Skip if tired."},
+    {"day": "Friday", "minutes": 40, "kind": "invention", "focus": "Invent with this week's module: draw its subject from imagination from two new viewpoints, then check against reference and mark what you guessed."},
+    {"day": "Saturday", "minutes": 120, "kind": "long", "focus": "One long application of the current module from life or reference, with a check at each stage (block-in, values, finish) and an overlay or greyscale check at the end."},
+    {"day": "Sunday", "minutes": 85, "kind": "invention", "focus": "60 minutes of invention tied to the module (combine, redesign or stage this week's subject in a small scene, then check it), then 25 minutes of free drawing from a prompt."}
+   ]
+  },
+  {
+   "id": "week-10h",
+   "name": "10 hours a week: push hard",
+   "hours_per_week": 10,
+   "description": "Daily sessions with long weekend blocks. Monday, Wednesday and Friday get an hour or more; Tuesday and Thursday after jiu-jitsu hold short optional sessions only. Saturday is structured long work; Sunday is mostly invention with a short review. Drop to the 6-hour plan in any week work gets heavy.",
+   "sessions": [
+    {"day": "Monday", "minutes": 70, "kind": "module", "focus": "Current module: warm-up, one lesson section, then the exercise; a second exercise if the first is done."},
+    {"day": "Tuesday", "minutes": 20, "kind": "review", "focus": "Optional, after jiu-jitsu (about 20:15): the 10-minute short session, or box and ellipse warm-ups plus one revisit."},
+    {"day": "Wednesday", "minutes": 80, "kind": "gesture", "focus": "The gesture ladder or a figure session for 30 minutes, then 50 minutes of the current module from reference."},
+    {"day": "Thursday", "minutes": 20, "kind": "review", "focus": "Optional, after jiu-jitsu: draw something you saw today from memory, then check it against a photo, or two due revisits."},
+    {"day": "Friday", "minutes": 70, "kind": "invention", "focus": "Invent with this week's module: new views, combinations and redesigns of its subject from imagination, each checked against reference."},
+    {"day": "Saturday", "minutes": 180, "kind": "long", "focus": "Three one-hour blocks on the current modules: a long application from life or reference, a construction or perspective project, and an observational study with an overlay check."},
+    {"day": "Sunday", "minutes": 130, "kind": "invention", "focus": "90 minutes of invention tied to the module (a small scene or design built from this week's subjects, checked against reference), then 40 minutes of free drawing from prompts."},
+    {"day": "Sunday", "minutes": 30, "kind": "review", "focus": "Review: due revisits drawn cold, then pick the week's best and worst drawing and write one line on what to change next week."}
+   ]
+  }
+ ]
+}

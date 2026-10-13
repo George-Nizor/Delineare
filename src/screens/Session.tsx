@@ -336,6 +336,15 @@ function ViewerMessage({ step, module, loading, prompt, newPrompt, site, useFigu
     );
   }
   if (kind === 'life') return <div className="viewer-message"><p className="big">Draw from life.</p><p>{step.description}</p></div>;
+  if (kind === 'tool') {
+    const name = step.reference.tool === 'mannequin' ? 'the posable mannequin' : step.reference.tool === 'grid' ? 'printable perspective grids' : 'this tool';
+    return (
+      <div className="viewer-message">
+        <p className="big">Delineare does not have {name} yet.</p>
+        <p>Use paper and a ruler, or the alternative the exercise names, and keep the time here.</p>
+      </div>
+    );
+  }
   return <div className="viewer-message"><p className="big">Just the page and the clock.</p></div>;
 }
 

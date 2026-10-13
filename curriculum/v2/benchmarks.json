@@ -1,0 +1,138 @@
+{
+ "_note": "Version 1 benchmarks remapped to the version 2 phases, with their checks kept. Changes: tolerances in page units, streak and process signs removed, checks that needed another person made solo, a new benchmark after phase 8, and the baseline imagination set added to every benchmark.",
+ "benchmarks": [
+  {
+   "id": "bench-2-line-gesture-memory",
+   "after_phase": 2,
+   "title": "Line, gesture, contour and memory",
+   "check": "One 60-minute sitting: ten 1-minute gestures from a timed pose source; a 10-minute continuous-line drawing of one household object, looking mostly at the object; a 15-minute drawing of the same object from the other side using at least three line weights. Next day, draw it again from memory in 3 minutes and compare. Then redraw the baseline imagination set: the same ten subjects from imagination, 5 to 10 minutes each, photographed beside the earlier set.",
+   "pass_signs": [
+    "Lines are drawn from the shoulder or elbow and committed, not scratchy repeated strokes",
+    "At least three distinct line weights are visible and used on purpose",
+    "Gestures show the pose's main direction before any detail",
+    "The memory sketch gets the overall shape and placement roughly right",
+    "Beside the previous imagination set, you can point to at least two subjects where you guessed less than before"
+   ],
+   "includes_imagination_set": true
+  },
+  {
+   "id": "bench-3-overlay-and-first-invention",
+   "after_phase": 3,
+   "title": "Overlay still life and a first invented object",
+   "check": "Draw a three-object still life from a reference photo in 25 minutes using sighting and negative space only (no grid, no tracing). Scale the photo to the drawing's size and overlay it at 50 percent opacity in Krita or on tracing paper. Repeat with a second subject a week later and compare the two overlays. Then invent one object from boxes and cylinders and draw it from three viewpoints, and redraw the baseline imagination set.",
+   "pass_signs": [
+    "Key landmark points land within about 5 percent of the image height from the photo's positions",
+    "Each object's height-to-width ratio is within about 10 percent",
+    "The shapes between and around objects match the photo",
+    "The second overlay is closer than the first",
+    "When the drawing is flipped horizontally, you can spot your own errors before overlaying",
+    "The invented object reads as the same object from all three viewpoints",
+    "Beside the previous imagination set, at least three of the ten subjects show clearer construction (boxes, cylinders) than before"
+   ],
+   "includes_imagination_set": true
+  },
+  {
+   "id": "bench-4-perspective",
+   "after_phase": 4,
+   "title": "Perspective and construction from imagination",
+   "check": "From imagination, draw a cube, a cylinder and a sphere standing on a tiled floor in two-point perspective, then a street corner with three buildings, then one invented object (a kettle, a lamp) built from boxes and cylinders from three different viewpoints. About 90 minutes total. Then redraw the baseline imagination set.",
+   "pass_signs": [
+    "Extend the receding lines with a ruler: they meet within 1 cm of one vanishing point per set on an A4 page",
+    "One horizon line serves the whole page",
+    "Ellipse minor axes sit square to the cylinder's axis, and ellipses get rounder the further they sit from the horizon line",
+    "Objects get smaller and overlap correctly with distance",
+    "The invented object reads as the same thing from all three viewpoints",
+    "Beside the previous imagination set, the chair, car, room and street corner use one horizon and converging edges"
+   ],
+   "includes_imagination_set": true
+  },
+  {
+   "id": "bench-5-figure-and-head",
+   "after_phase": 5,
+   "title": "Figure and head",
+   "check": "From timed reference: three 30-second gestures, one 5-minute and one 20-minute figure, then a 30-minute three-quarter head built from a simple skull block. Finish with a mannequin figure in a pose of your choice drawn from three viewpoints, and redraw the baseline imagination set.",
+   "pass_signs": [
+    "The gesture line shows weight and action; the shoulders and hips tilt against each other",
+    "Limb lengths and head count agree with the reference to within about half a head",
+    "On the head, the eye line sits near the middle of the skull, and nose, mouth and ear line up with the right guide lines",
+    "Planes of the face read under a simple light direction",
+    "The mannequin keeps the same proportions in all three views",
+    "Beside the previous imagination set, the running person, the hand with a cup and the face looking up are built as mannequin, hand and head constructions"
+   ],
+   "includes_imagination_set": true
+  },
+  {
+   "id": "bench-6-light-and-form",
+   "after_phase": 6,
+   "title": "Light, value and form",
+   "check": "Under one lamp, draw a sphere or egg, a cube and a cup with a 5-step value scale beside them (45 minutes). Then render one glossy object (a steel spoon) and one matte object (a lemon or an eraser) in 60 minutes. Then redraw the baseline imagination set and shade two of its drawings under one stated light.",
+   "pass_signs": [
+    "Light direction is the same on every object and the cast shadows agree with it",
+    "Light, halftone, core shadow, reflected light and cast shadow are each separate and readable",
+    "Photographed and posterised to four grey levels, the drawing breaks into the same big shapes as the real set-up",
+    "In greyscale, the glossy object shows small, sharp highlights and hard-edged reflections, and the matte object a broad, soft highlight",
+    "The two shaded imagination drawings keep one light direction across every plane"
+   ],
+   "includes_imagination_set": true
+  },
+  {
+   "id": "bench-7-nature-and-objects",
+   "after_phase": 7,
+   "title": "Animals, nature and objects",
+   "check": "Three 45-minute studies from photos or life: a branch with leaves (growth pattern and overlap), an animal built from simple volumes, and a building facade or street scene. Add one page of four material swatches (wood, metal, glass, fabric). Then redraw the baseline imagination set.",
+   "pass_signs": [
+    "A week later, with the labels covered, each subject is recognisable at a glance; showing someone is optional",
+    "The plant shows how leaves attach and overlap, not a row of symbols",
+    "The animal's landmarks (joints, ribcage, head) sit in believable positions",
+    "The building keeps consistent perspective and a believable rhythm of windows and doors against human scale",
+    "The four materials are distinct from mark and value alone",
+    "Beside the previous imagination set, the dog and the tree are built from volumes and growth rules rather than outlines"
+   ],
+   "includes_imagination_set": true
+  },
+  {
+   "id": "bench-8-invented-place",
+   "after_phase": 8,
+   "title": "An invented place with figures",
+   "check": "From a one-line brief (for example, a night market on a bridge), make six thumbnails, choose one, then invent the place in two-point perspective with three figures at consistent scale, about 90 minutes in all. Then redraw the baseline imagination set.",
+   "pass_signs": [
+    "Extended with a ruler, the receding lines meet their vanishing points within 1 cm on an A4 page",
+    "Where the figures stand on the same level, the horizon cuts all three at the same body height",
+    "The thumbnails differ in viewpoint or crop, and the chosen one has a clear focal point",
+    "Cast shadows, if any, agree with one light",
+    "Beside the previous imagination set, the room and the street corner have depth layers and scale cues"
+   ],
+   "includes_imagination_set": true
+  },
+  {
+   "id": "bench-9-character-from-brief",
+   "after_phase": 9,
+   "title": "A character from a brief",
+   "check": "From a one-line brief (for example, a tired lighthouse keeper in a storm), make nine 5 cm value thumbnails for composition, choose one, then draw a front, side and back view of the character and a six-expression sheet. Then redraw the baseline imagination set.",
+   "pass_signs": [
+    "The thumbnails use different layouts and each has a clear focal point",
+    "The chosen silhouette still reads at thumbnail size",
+    "Guide lines across the three views line up on head, shoulder, hip and knee landmarks",
+    "With captions covered, a week later you can name all six expressions",
+    "You can state in one sentence what the picture is about",
+    "Beside the previous imagination set, the invented creature has a believable skeleton and a reason for its main features"
+   ],
+   "includes_imagination_set": true
+  },
+  {
+   "id": "bench-10-colour",
+   "after_phase": 10,
+   "title": "Colour over value",
+   "check": "Make a 2-hour colour study from a photo or a CC0 museum painting using 4 to 6 colours: first a grey value underpainting, then colour on top. If you work digitally, repeat it in Krita with named layers and export a PNG at a size you set in advance. Then redraw the baseline imagination set and colour two of its drawings with a limited palette.",
+   "pass_signs": [
+    "Converted to greyscale, the colour version keeps the value structure of the underpainting",
+    "The palette is limited and holds together; shadows and lights follow one temperature logic",
+    "Edges vary between hard and soft on purpose",
+    "If done digitally, the file has clean, named layers and exports without surprises",
+    "The result is close enough to the source that a side-by-side check shows the same light and mood",
+    "The two coloured imagination drawings keep their value structure in greyscale"
+   ],
+   "includes_imagination_set": true
+  }
+ ]
+}

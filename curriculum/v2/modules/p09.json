@@ -1,0 +1,241 @@
+{
+ "des-character-design-process": {
+  "practice_meta": {
+   "@des-character-design-process.p0": {"minutes": 40, "kind": "exercise", "reference": {"kind": "museum", "query": "costume tools armour", "site": "met"}},
+   "@des-character-design-process.p1": {"minutes": 90, "kind": "play", "reference": {"kind": "prompt"}},
+   "@des-character-design-process.p2": {"minutes": 60, "kind": "exercise", "reference": {"kind": "none"}},
+   "@des-character-design-process.p3": {"minutes": 90, "kind": "exercise", "reference": {"kind": "none", "site": "r018"}},
+   "@des-character-design-process.p4": {"description": "Hide your brief for a week, then write three guesses about the character's life from the drawing alone and compare them with the brief. Change one visual element and check whether your guesses would change. Showing a friend is optional.", "minutes": 15, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "done_when": [
+   {"ref": "@des-character-design-process.d0", "kind": "judgement"},
+   {"ref": "@des-character-design-process.d1", "kind": "measured"},
+   {"ref": "@des-character-design-process.d2", "kind": "process"},
+   {"text": "A week later, without your brief, you can write three facts about the character's life from the drawing alone, and at least two match the brief; showing someone is optional", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Mini turnaround",
+   "description": "Take a character you designed earlier. In eight minutes draw its front and side views from memory on shared guide lines for head, shoulders, waist, knees and feet, then compare with the original sheet.",
+   "minutes": 10,
+   "checks": [1]
+  }
+ },
+ "creature-design": {
+  "summary": "Believable creatures are built on real animal structure, habitat and behaviour, then pushed toward the fantastic with deliberate changes. You make real-animal studies, swap structures between animals so the joints and weight still work, design from habitat first, build from skeleton to skin, and finish with a turnaround. Natural-history plates and random generators feed the ideas; anatomy keeps them standing.",
+  "learning_outcomes": [
+   "@des-creature-monster-design.o0",
+   "@des-creature-monster-design.o1",
+   "@des-creature-monster-design.o2",
+   "@nat-creature-design-invented-animals.o1",
+   "@nat-creature-design-invented-animals.o2",
+   "@des-creature-monster-design.o4"
+  ],
+  "resources": [
+   {"rid": "r007", "role": "core"},
+   {"rid": "r116", "role": "alternative", "notes": "Use the comparative anatomy of legs, noses and ears in John Muir Laws's mammal lessons as a toolkit of real forms to mix (not opened by the first pass)."},
+   {"rid": "r250", "role": "alternative"},
+   {"rid": "r012", "role": "supplementary"},
+   {"rid": "r013", "role": "supplementary"},
+   {"rid": "r300", "role": "supplementary"},
+   {"rid": "r263", "role": "supplementary"}
+  ],
+  "practice": [
+   {"ref": "@des-creature-monster-design.p0", "minutes": 60, "kind": "study", "timer": {"mode": "ladder", "steps": [{"count": 6, "seconds": 600}]}, "reference": {"kind": "museum", "query": "animal skeleton specimen", "site": "smithsonian"}},
+   {"ref": "@des-creature-monster-design.p1", "minutes": 40, "kind": "play", "reference": {"kind": "prompt"}},
+   {"ref": "@des-creature-monster-design.p2", "minutes": 30, "kind": "play", "reference": {"kind": "prompt"}},
+   {"ref": "@nat-creature-design-invented-animals.p2", "minutes": 30, "kind": "play", "timer": {"mode": "ladder", "steps": [{"count": 20, "seconds": 90}]}, "reference": {"kind": "prompt"}},
+   {"ref": "@des-creature-monster-design.p4", "minutes": 60, "kind": "exercise", "reference": {"kind": "museum", "query": "animal skeleton plate", "site": "bhl"}},
+   {"ref": "@nat-creature-design-invented-animals.p1", "minutes": 40, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@nat-creature-design-invented-animals.p3", "minutes": 45, "kind": "play", "reference": {"kind": "museum", "query": "Haeckel plate", "site": "bhl"}},
+   {"ref": "@nat-creature-design-invented-animals.p5", "minutes": 50, "kind": "exercise", "reference": {"kind": "none"}},
+   {"ref": "@des-creature-monster-design.p3", "minutes": 30, "kind": "play", "reference": {"kind": "prompt", "site": "r023"}}
+  ],
+  "done_when": [
+   {"ref": "@des-creature-monster-design.d0", "kind": "judgement"},
+   {"ref": "@des-creature-monster-design.d1", "kind": "judgement"},
+   {"ref": "@des-creature-monster-design.d2", "kind": "judgement"},
+   {"ref": "@nat-creature-design-invented-animals.d1", "kind": "judgement"},
+   {"text": "Your creature turnaround's front, side and back views line up on shared guide lines for the head, shoulders, hips and feet", "kind": "measured"},
+   {"ref": "@des-creature-monster-design.d3", "kind": "process"}
+  ],
+  "common_mistakes": [
+   "@des-creature-monster-design.m0",
+   "@des-creature-monster-design.m1",
+   "@des-creature-monster-design.m2",
+   "@des-creature-monster-design.m3",
+   "@nat-creature-design-invented-animals.m1",
+   "@nat-creature-design-invented-animals.m3"
+  ],
+  "free_coverage": "strong",
+  "revisit": {
+   "title": "Habitat creature, cold",
+   "description": "Write one habitat pressure you have not used (deep mud, thin air, a frozen lake). In eight minutes design a creature for it from a real animal's skeleton outward, and note which feature answers the pressure.",
+   "minutes": 10,
+   "checks": [0, 2]
+  }
+ },
+ "des-costume-props-accessories": {
+  "resources": [
+   {"rid": "r043", "role": "core"},
+   {"rid": "r190", "role": "alternative", "notes": "Steven Michael Hampton's free drapery lessons on Proko: how cloth hangs from support points and wraps the body, which is the base of every costume."},
+   {"rid": "r027", "role": "alternative"},
+   {"rid": "r269", "role": "supplementary", "notes": "A drapery study by Anselm Feuerbach in the Met's open-access collection. Copy it for 20 minutes and note how the folds were simplified."},
+   {"rid": "r274", "role": "supplementary"}
+  ],
+  "practice_meta": {
+   "@des-costume-props-accessories.p0": {"minutes": 45, "kind": "exercise", "reference": {"kind": "none"}},
+   "@des-costume-props-accessories.p1": {"minutes": 25, "kind": "study", "reference": {"kind": "museum", "query": "portrait costume", "site": "cleveland"}},
+   "@des-costume-props-accessories.p2": {"minutes": 30, "kind": "play", "reference": {"kind": "prompt"}},
+   "@des-costume-props-accessories.p3": {"minutes": 20, "kind": "play", "timer": {"mode": "ladder", "steps": [{"count": 10, "seconds": 120}]}, "reference": {"kind": "prompt"}},
+   "@des-costume-props-accessories.p4": {"minutes": 25, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "done_when": [
+   {"ref": "@des-costume-props-accessories.d0", "kind": "judgement"},
+   {"ref": "@des-costume-props-accessories.d1", "kind": "judgement"},
+   {"ref": "@des-costume-props-accessories.d2", "kind": "process"},
+   {"ref": "@des-costume-props-accessories.d3", "kind": "judgement"}
+  ],
+  "free_coverage": "thin",
+  "revisit": {
+   "title": "Dress for a job",
+   "description": "Pick a job you have not dressed a figure for (beekeeper, lighthouse keeper, mechanic). Draw a mannequin, dress it with folds that follow the body, and add three specific details, each with a reason.",
+   "minutes": 10,
+   "checks": [0, 1]
+  }
+ },
+ "des-expression-acting": {
+  "practice_meta": {
+   "@des-expression-acting.p0": {"minutes": 30, "kind": "exercise", "reference": {"kind": "none", "site": "r009"}},
+   "@des-expression-acting.p1": {"minutes": 30, "kind": "study", "reference": {"kind": "life"}},
+   "@des-expression-acting.p2": {"minutes": 20, "kind": "play", "timer": {"mode": "ladder", "steps": [{"count": 8, "seconds": 150}]}, "reference": {"kind": "prompt"}},
+   "@des-expression-acting.p3": {"minutes": 30, "kind": "exercise", "reference": {"kind": "none"}},
+   "@des-expression-acting.p4": {"minutes": 20, "kind": "exercise", "reference": {"kind": "prompt"}}
+  },
+  "done_when": [
+   {"text": "With labels covered, a week later you can name at least ten of the twelve emotions on your simplified head at a glance", "kind": "measured"},
+   {"ref": "@des-expression-acting.d1", "kind": "judgement"},
+   {"ref": "@des-expression-acting.d2", "kind": "judgement"},
+   {"ref": "@des-expression-acting.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "One emotion, three ways",
+   "description": "Pick an emotion you have not drawn recently. Draw it on a simple head at a subtle and an extreme intensity using brows and eyelids, then as a full-body silhouette with no face.",
+   "minutes": 8,
+   "checks": [1, 2]
+  }
+ },
+ "des-cartooning-stylisation-caricature": {
+  "resources": [
+   {"rid": "r045", "role": "core"},
+   {"rid": "r005", "role": "alternative"},
+   {"rid": "r233", "role": "alternative", "notes": "A free expression lesson by a working comics artist: exaggerated, readable expressions built on facial structure, useful for stylised characters."},
+   {"rid": "r262", "role": "supplementary"},
+   {"rid": "r165", "role": "supplementary"}
+  ],
+  "practice_meta": {
+   "@des-cartooning-stylisation-caricature.p0": {"minutes": 15, "kind": "exercise", "reference": {"kind": "none"}},
+   "@des-cartooning-stylisation-caricature.p1": {"minutes": 50, "kind": "study", "timer": {"mode": "ladder", "steps": [{"count": 5, "seconds": 600}]}, "reference": {"kind": "museum", "query": "portrait painting", "site": "met"}},
+   "@des-cartooning-stylisation-caricature.p2": {"minutes": 30, "kind": "exercise", "reference": {"kind": "none"}},
+   "@des-cartooning-stylisation-caricature.p3": {"minutes": 40, "kind": "drill", "reference": {"kind": "none"}},
+   "@des-cartooning-stylisation-caricature.p4": {"minutes": 30, "kind": "exercise", "reference": {"kind": "photo", "query": "portrait person", "site": "unsplash"}}
+  },
+  "done_when": [
+   {"ref": "@des-cartooning-stylisation-caricature.d0", "kind": "judgement"},
+   {"ref": "@des-cartooning-stylisation-caricature.d1", "kind": "judgement"},
+   {"ref": "@des-cartooning-stylisation-caricature.d2", "kind": "judgement"},
+   {"ref": "@des-cartooning-stylisation-caricature.d3", "kind": "judgement"}
+  ],
+  "free_coverage": "thin",
+  "revisit": {
+   "title": "Push one feature",
+   "description": "From a public-domain portrait you have not used, find the one feature that defines the face and draw it at three strengths of exaggeration, then a minimal version of the same head.",
+   "minutes": 8,
+   "checks": [0, 1]
+  }
+ },
+ "figures-from-imagination-2": {
+  "summary": "Harder figures from imagination once anatomy and foreshortening are in place: twisting and foreshortened poses, hands, feet and heads from memory at several angles, and stylisation chosen on purpose. The method is the same study, hide, draw, check cycle as in the first module, now with a library of anatomy studies to draw on and surreal combinations to stretch it.",
+  "learning_outcomes": [
+   "@fig-imagination-visual-library.o0",
+   "@fig-imagination-visual-library.o1",
+   "@fig-imagination-visual-library.o2",
+   "@fig-imagination-visual-library.o3"
+  ],
+  "resources": [
+   {"rid": "r108", "role": "core"},
+   {"rid": "r210", "role": "alternative"},
+   {"rid": "r226", "role": "alternative"},
+   {"rid": "r179", "role": "supplementary"}
+  ],
+  "practice": [
+   {"title": "Study, hide, draw: anatomy edition", "description": "Study a twisting or foreshortened pose for 60 seconds, hide it, and draw it from memory in four minutes with ribcage, pelvis and the main muscle masses. Then check and correct in a second colour.", "dose": "8 poses, 5 min each", "minutes": 40, "kind": "drill", "timer": {"mode": "ladder", "steps": [{"count": 8, "seconds": 300}]}, "reference": {"kind": "pose-site", "site": "loa", "query": "figure, action and foreshortened poses"}},
+   {"title": "Hard pose on the mannequin", "description": "Draw from imagination a figure in a hard pose (climbing, falling, throwing toward the viewer). Then set the pose on the app's mannequin, view it from your drawing's camera and mark where your foreshortening or balance went wrong.", "dose": "3 poses, 15 min each", "minutes": 45, "kind": "exercise", "reference": {"kind": "tool", "tool": "mannequin"}},
+   {"title": "Hands, feet and heads from memory", "description": "From memory, draw a hand, a foot and a head, each at three angles. Then check against reference and redraw the weakest one.", "dose": "9 drawings, 30 min", "minutes": 30, "kind": "exercise", "reference": {"kind": "memory"}},
+   {"ref": "@fig-imagination-visual-library.p3", "minutes": 30, "kind": "play", "reference": {"kind": "prompt"}},
+   {"ref": "@fig-imagination-visual-library.p4", "minutes": 60, "kind": "play", "reference": {"kind": "prompt"}},
+   {"ref": "@fig-imagination-visual-library.p2", "minutes": 30, "kind": "exercise", "reference": {"kind": "memory"}}
+  ],
+  "done_when": [
+   {"ref": "@fig-imagination-visual-library.d0", "kind": "judgement"},
+   {"ref": "@fig-imagination-visual-library.d1", "kind": "judgement"},
+   {"ref": "@fig-imagination-visual-library.d2", "kind": "process"},
+   {"ref": "@fig-imagination-visual-library.d3", "kind": "judgement"}
+  ],
+  "common_mistakes": [
+   "@fig-imagination-visual-library.m0",
+   "@fig-imagination-visual-library.m1",
+   "@fig-imagination-visual-library.m2",
+   "@fig-imagination-visual-library.m3"
+  ],
+  "free_coverage": "strong",
+  "revisit": {
+   "title": "Twisting figure, cold",
+   "description": "From imagination, draw a figure twisting to look behind while stepping forward, with ribcage, pelvis and the main muscle masses, in eight minutes. Then check one photo of a similar pose.",
+   "minutes": 10,
+   "checks": [0]
+  }
+ },
+ "des-visual-development-workflow": {
+  "summary": "This capstone puts the design modules together: a brief, reference, many thumbnails, a chosen layout, a value rough, a colour pass and a finished image, with checkpoints between stages. You learn to budget time per stage and to compare your process with a real artist's or studio's.",
+  "practice_meta": {
+   "@des-visual-development-workflow.p0": {"dose": "1 piece, 6 to 10 hours over several sessions", "minutes": 90, "kind": "benchmark", "reference": {"kind": "prompt"}},
+   "@des-visual-development-workflow.p1": {"minutes": 40, "kind": "study", "reference": {"kind": "museum", "query": "costume architecture", "site": "met"}},
+   "@des-visual-development-workflow.p2": {"minutes": 5, "kind": "exercise", "reference": {"kind": "none"}},
+   "@des-visual-development-workflow.p3": {"minutes": 30, "kind": "study", "reference": {"kind": "none", "site": "r018"}},
+   "@des-visual-development-workflow.p4": {"minutes": 10, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "done_when": [
+   {"ref": "@des-visual-development-workflow.d0", "kind": "process"},
+   {"ref": "@des-visual-development-workflow.d1", "kind": "process"},
+   {"ref": "@des-visual-development-workflow.d2", "kind": "judgement"},
+   {"ref": "@des-visual-development-workflow.d3", "kind": "judgement"}
+  ],
+  "revisit": {
+   "title": "Stage gate on a thumbnail",
+   "description": "Write a three-line brief you have not used, draw four thumbnails and one value rough, and run the stage-gate checklist on the rough: reads at stamp size, one focal point, no tangents.",
+   "minutes": 10,
+   "checks": [2]
+  }
+ },
+ "col-style-development": {
+  "practice_meta": {
+   "@col-style-development.p0": {"minutes": 30, "kind": "study", "reference": {"kind": "none"}},
+   "@col-style-development.p1": {"minutes": 20, "kind": "exercise", "reference": {"kind": "prompt"}},
+   "@col-style-development.p2": {"minutes": 30, "kind": "exercise", "reference": {"kind": "memory"}},
+   "@col-style-development.p3": {"dose": "15 min, five sessions, any spacing", "minutes": 15, "kind": "play", "reference": {"kind": "prompt"}},
+   "@col-style-development.p4": {"minutes": 30, "kind": "exercise", "reference": {"kind": "none"}}
+  },
+  "done_when": [
+   {"ref": "@col-style-development.d0", "kind": "judgement"},
+   {"ref": "@col-style-development.d1", "kind": "process"},
+   {"text": "Side by side with the source you borrowed from, at least three of five listed choices in your piece differ", "kind": "measured"},
+   {"ref": "@col-style-development.d3", "kind": "process"}
+  ],
+  "revisit": {
+   "title": "Name your choices",
+   "description": "Pick a recent piece and, without looking at your notes, list five choices you made (shape, line, value, proportion, edges). Lay it beside one influence and mark which choices differ.",
+   "minutes": 8,
+   "checks": [0, 2]
+  }
+ }
+}

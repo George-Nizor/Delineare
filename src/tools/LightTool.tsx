@@ -10,6 +10,7 @@ interface Controls {
   elevation: number;
   source: Source;
   set: FormSet;
+  room: number; // 0 to 100: light from the rest of the room, which is what fills the shadow side
 }
 
 // A lamp moving around simple forms on a table, rendered in greys, so a drawing of light on form can
@@ -18,7 +19,7 @@ interface Controls {
 export default function LightTool({ compact = false }: { compact?: boolean }) {
   const host = useRef<HTMLDivElement>(null);
   const handle = useRef<ToolHandle<Controls> | null>(null);
-  const [controls, setControls] = useState<Controls>({ azimuth: 315, elevation: 42, source: 'lamp', set: 'egg-box' });
+  const [controls, setControls] = useState<Controls>({ azimuth: 315, elevation: 42, source: 'lamp', set: 'egg-box', room: 45 });
   const [values, setValues] = useState(0);
   const [failed, setFailed] = useState('');
 
@@ -57,6 +58,9 @@ export default function LightTool({ compact = false }: { compact?: boolean }) {
         <label>Height
           <input type="range" min={5} max={85} value={controls.elevation} onChange={(event) => set('elevation', Number(event.target.value))} />
           <span className="mono">{controls.elevation}°</span>
+        </label>
+        <label>Room light
+          <input type="range" min={0} max={100} value={controls.room} onChange={(event) => set('room', Number(event.target.value))} />
         </label>
         <label>Light
           <select value={controls.source} onChange={(event) => set('source', event.target.value as Source)}>
@@ -185,6 +189,7 @@ function buildScene(THREE: typeof Three, OrbitControls: OrbitConstructor, host: 
     const azimuth = (controls.azimuth * Math.PI) / 180;
     const elevation = (controls.elevation * Math.PI) / 180;
     const direction = new THREE.Vector3(Math.cos(elevation) * Math.sin(azimuth), Math.sin(elevation), Math.cos(elevation) * Math.cos(azimuth));
+    room.intensity = (controls.room / 100) * 2;
     sun.visible = controls.source === 'sun';
     lamp.visible = controls.source === 'lamp';
     sun.position.copy(direction.clone().multiplyScalar(12));

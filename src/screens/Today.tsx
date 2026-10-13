@@ -94,6 +94,9 @@ function Plate({ step, chapter }: { step: Step | null; chapter: number }) {
     prompt: 'A prompt appears when you start. Draw it without reference.',
     'pose-site': 'Timed poses. The session opens the pose site in your browser and keeps the time here.',
     none: 'No reference. Just the page and the clock.',
+    tool: step?.reference.tool === 'light' ? 'The light tool opens when you start. Set the lamp, then draw what it shows.'
+      : step?.reference.tool === 'form' ? 'The form tool opens when you start. Turn the form, draw it, then check the vanishing lines.'
+        : 'No reference image for this one. Paper, a ruler and the clock.',
   };
   return (
     <section className="page plate-page" aria-label="Today's plate">
