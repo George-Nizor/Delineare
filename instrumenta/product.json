@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "delineare",
+  "displayName": "Delineare",
+  "description": "Learn to draw anything: a sequenced curriculum, practice sessions with a reference viewer, a drawing log, and links to free lessons with credit.",
+  "kind": "web",
+  "adapter": "web-vite",
+  "build": { "output": "dist", "command": "npm run build" },
+  "launch": { "type": "web", "port": 49325, "health": "delineare" }
+}

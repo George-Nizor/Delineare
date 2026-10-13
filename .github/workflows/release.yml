@@ -1,0 +1,16 @@
+name: release
+
+# Tag v<version> to publish a release the Instrumenta launcher installs and updates by itself.
+# Run by hand, it builds and audits everything but does not publish.
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+jobs:
+  release:
+    uses: George-Nizor/Instrumenta/.github/workflows/web-product-release.yml@main
+    with:
+      product: delineare
+    permissions:
+      contents: write

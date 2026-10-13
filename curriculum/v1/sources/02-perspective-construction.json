@@ -1,0 +1,2173 @@
+[
+  {
+    "id": "persp-depth-cues",
+    "title": "Depth cues: overlap, size, placement, atmosphere, flat versus form",
+    "group": "perspective-construction",
+    "level": "beginner",
+    "summary": "Long before any vanishing point appears, a drawing already suggests depth through overlap, relative size, where things sit on the page, fading of distant values and whether a shape reads as flat or round. This module trains you to spot those cues in other people's work and to use them on purpose, so that later perspective construction has something to serve.",
+    "prerequisites": [],
+    "est_hours": [
+      3,
+      6
+    ],
+    "learning_outcomes": [
+      "Name the main depth cues in any image and say which ones are doing the work",
+      "Turn a flat silhouette into something that reads as a solid form using overlap and contour",
+      "Push objects back in space with size, placement and reduced contrast and detail",
+      "Plan a simple image in foreground, middle ground and background planes"
+    ],
+    "resources": [
+      {
+        "title": "Drawing Perspectives II, Chapter 3: Creating the Illusion of Space",
+        "provider": "Humanities LibreTexts",
+        "credit": "Kristen Kennedy, Lemoore College",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)/03%3A_Creating_the_Illusion_of_Space",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open textbook, CC BY-SA 4.0 (licence shown on the LibreTexts page). Free to read and share with credit.",
+        "verified": true,
+        "role": "core",
+        "notes": "Read 3.2 to 3.6 first (space, positive and negative shapes, then the cues). Section 3.6 covers overlap, varied size, placement and atmospheric effects, plus diminishing detail. Do the 3.8 practical assessments as your exercises.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawing Perspectives II, Chapter 5: Atmospheric Perspective",
+        "provider": "Humanities LibreTexts",
+        "credit": "Kristen Kennedy, Lemoore College",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)/05%3A_Atmospheric_Perspective",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open textbook, CC BY-SA 4.0 (licence shown on the LibreTexts page). Free to read and share with credit.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Read 5.3 (colour, value and detail changes with distance) and 5.4, then attempt the layered-landscape assignment in 5.7. The chapter's own example is a Bierstadt landscape.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Perspective Course (Understanding Perspective, then Mastering the Skills)",
+        "provider": "Proko",
+        "credit": "Marshall Vandruff (Proko, run by Stan Prokopenko)",
+        "url": "https://www.proko.com/course/the-perspective-course",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course page states 32 free lessons: 28 of 114 in 'Understanding Perspective' and 4 of 32 in 'Mastering the Skills' (the second part is still being published). Only seven free lessons are named on the page: Perspective for Drawing Anything (assignment, 8:55), Perspective: A 600-Year Journey (6:42), Analyzing Hiroshi Yoshida's Rapids (2:29), Simplifying Jack Frost's Palace (2:59), Simplifying Complex Perspective (7:24), Critique: Collecting Masters (57:46), How to Choose Artworks for Learning Perspective (11:55). I could not see which other lessons are free. Full course listed at $261.32 (list $278), or $130.66 per part, in October 2026.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Watch the free analysis clips Analyzing Hiroshi Yoshida's Rapids (2:29) and Simplifying Jack Frost's Palace (2:59) to see how a master breaks a busy image into depth layers, then Perspective: A 600-Year Journey (6:42) for context. The page also lists a section called Depth Tricks and Old Masters; I could not see whether its lessons are free.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Met Open Access collection (492,000+ CC0 works)",
+        "provider": "The Metropolitan Museum of Art",
+        "credit": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Met page states public-domain works are released under CC0 with 492,000+ Open Access works; look for the OA icon in the online collection. Search terms such as 'perspective', 'interior', 'street view', 'architecture' find study material.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Search the OA collection for landscapes, harbour scenes and interiors and pick prints with clear foreground, middle ground and distance. Use them as the source images for the master-study practice below.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "One cue at a time thumbnails",
+        "description": "Draw three simple shapes (for example a hill, a tree and a building) six times at postage-stamp size. In each thumbnail use only one cue to separate them: overlap, size, vertical placement, value fade, detail fade, or a combination of two. Label which cue each uses.",
+        "dose": "6 thumbnails, 30 min",
+        "reference_url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)/03%3A_Creating_the_Illusion_of_Space"
+      },
+      {
+        "title": "Layer map of a master",
+        "description": "Pick three Met Open Access prints. For each, make a 5-minute thumbnail that marks foreground, middle and background as separate value patches, then write one line naming the cues responsible for the depth.",
+        "dose": "3 studies, 45 min",
+        "reference_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+      },
+      {
+        "title": "Flat to form",
+        "description": "Draw ten flat shapes (circles, squares, blobs). Turn each into a form by adding overlap, a visible back edge or contour lines wrapping around it, then draw a flat version beside it for comparison.",
+        "dose": "10 shapes, 20 min"
+      },
+      {
+        "title": "Atmospheric ladder",
+        "description": "Draw a landscape with five receding hill or tree layers using at most four values. Lighten and simplify each layer as it recedes, and keep the nearest layer the darkest and most detailed.",
+        "dose": "3 drawings, 15 min each",
+        "reference_url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)/05%3A_Atmospheric_Perspective"
+      },
+      {
+        "title": "Photo overlap audit",
+        "description": "Choose five street or landscape photos. Trace only the places where one object overlaps another, in ink, and ignore everything else. Notice how much depth survives with just those junctions.",
+        "dose": "5 photos, 20 min",
+        "reference_url": "https://unsplash.com/license"
+      }
+    ],
+    "done_when": [
+      "I can look at a picture and name which depth cues are carrying the space",
+      "A three-plane thumbnail reads as deep with no perspective lines at all",
+      "I can draw the same object so that it looks flat, then so that it looks round, on request",
+      "I can reduce contrast and detail in distant areas deliberately, rather than greying everything"
+    ],
+    "common_mistakes": [
+      "Relying on size alone and avoiding overlap, so objects float side by side",
+      "Letting edges of shapes just touch (tangents), which flattens the space",
+      "Fading the whole image evenly instead of lightening and simplifying only the distance",
+      "Treating higher on the page as always farther away, even when the object is above the horizon"
+    ],
+    "school_reference": [
+      {
+        "institution": "Lemoore College (Drawing Perspectives II, open textbook)",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)",
+        "note": "Chapter order: drawing fundamentals, a unified body of work, illusion of space, linear perspective (one, two, three point), atmospheric perspective, critique."
+      },
+      {
+        "institution": "University of Evansville, Art Department (Studio Chalkboard)",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "note": "Order used: one-point exteriors and interiors, a perfect square, circles, tile floors and diminishing size, then two-point, inclines, shadows, three-point, and atmospheric perspective last."
+      }
+    ]
+  },
+  {
+    "id": "persp-box-basics",
+    "title": "The box: drawing a convincing rectangular form",
+    "group": "perspective-construction",
+    "level": "beginner",
+    "summary": "The box is the unit that nearly every later construction is built from. You learn to draw one so that its parallel edges converge consistently, its faces stay flat and it feels like a solid object rather than a wireframe. Volume of deliberate practice matters more than theory here.",
+    "prerequisites": [
+      "persp-depth-cues"
+    ],
+    "est_hours": [
+      8,
+      25
+    ],
+    "learning_outcomes": [
+      "Draw a box with confident, straight, single-stroke edges",
+      "Make the edges of each direction converge toward one shared point",
+      "Show hidden edges and overlap so the box reads as solid",
+      "Check your own box by extending its edges and seeing where they meet"
+    ],
+    "resources": [
+      {
+        "title": "Drawabox, Lesson 1: Lines, Ellipses and Boxes",
+        "provider": "Drawabox",
+        "credit": "Drawabox (written by the creator who posts as 'Uncomfortable')",
+        "url": "https://drawabox.com/lesson/1",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Concept Art Empire's review says Drawabox is completely free, including personal critiques from the creator. drawabox.com returned a bot-check page to my fetch, so I could not confirm cost or lesson contents on the provider's own site. Check the page yourself before relying on it.",
+        "verified": false,
+        "role": "core",
+        "notes": "Work through the line, ellipse and box sections in the order the lesson gives them. I could not read the page, so follow the lesson's own instructions and exercise names rather than anything listed here.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawabox, 250 Box Challenge",
+        "provider": "Drawabox",
+        "credit": "Drawabox (written by the creator who posts as 'Uncomfortable')",
+        "url": "https://drawabox.com/lesson/250boxes/2/about",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Concept Art Empire's review says Drawabox is completely free, including personal critiques from the creator. drawabox.com returned a bot-check page to my fetch, so I could not confirm cost or lesson contents on the provider's own site. Check the page yourself before relying on it. The URL is the one that appeared in search results (an 'about' page of the challenge).",
+        "verified": false,
+        "role": "supplementary",
+        "notes": "Come back to this after finishing the box exercises in Lesson 1. It is a long volume challenge, so do it in short daily sets rather than in one push (see the intuitive perspective module for how to use it).",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Perspective Course (Understanding Perspective, then Mastering the Skills)",
+        "provider": "Proko",
+        "credit": "Marshall Vandruff (Proko, run by Stan Prokopenko)",
+        "url": "https://www.proko.com/course/the-perspective-course",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course page states 32 free lessons: 28 of 114 in 'Understanding Perspective' and 4 of 32 in 'Mastering the Skills' (the second part is still being published). Only seven free lessons are named on the page: Perspective for Drawing Anything (assignment, 8:55), Perspective: A 600-Year Journey (6:42), Analyzing Hiroshi Yoshida's Rapids (2:29), Simplifying Jack Frost's Palace (2:59), Simplifying Complex Perspective (7:24), Critique: Collecting Masters (57:46), How to Choose Artworks for Learning Perspective (11:55). I could not see which other lessons are free. Full course listed at $261.32 (list $278), or $130.66 per part, in October 2026.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Use the free-tier lessons for a second voice: Perspective for Drawing Anything (assignment, 8:55) and Simplifying Complex Perspective (7:24). The lessons page also has assignments called Perfect Cubes From Your Mind's Eye (9:11) and XYZ: The Framework for Drawing in 3D (10:11) whose free status I could not confirm.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Theory and Practice of Perspective (1910)",
+        "provider": "Project Gutenberg",
+        "credit": "G. A. Storey, teacher of perspective at the Royal Academy; Clarendon Press, Oxford",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Gutenberg lists it as public domain in the USA (EPUB, Kindle, text, HTML). Storey died in 1919, so it should also be out of copyright in life-plus-70 countries such as Australia (my inference, not stated by Gutenberg).",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Book II, 'Squares and cubes in parallel perspective' and 'The diagonal', is an old but clear explanation of why a cube's receding edges behave as they do. Read it after you have drawn a few dozen boxes, not before.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Line control warmup",
+        "description": "Fill a page with straight lines drawn from the shoulder in one stroke, using a ghosting motion (practise the stroke in the air before touching the paper). Aim for confident lines, not perfect ones.",
+        "dose": "2 pages, 15 min",
+        "reference_url": "https://drawabox.com/lesson/1"
+      },
+      {
+        "title": "Extend-the-edges check",
+        "description": "Draw ten loose boxes, then extend every edge in a different colour and mark where each set of four lines meets. Circle the boxes where a set of edges fails to meet cleanly.",
+        "dose": "10 boxes, 25 min"
+      },
+      {
+        "title": "Desk-object boxes",
+        "description": "Draw five real box-shaped objects (cereal packet, tissue box, book) from three viewpoints each. Look first, then draw: do not copy outlines, construct the edges.",
+        "dose": "15 drawings, 35 min"
+      },
+      {
+        "title": "Overlap and stacking",
+        "description": "Draw clusters of three boxes of different sizes that overlap or touch, showing every hidden edge as a lighter line. Check that each box still has consistent convergence.",
+        "dose": "4 clusters, 25 min"
+      },
+      {
+        "title": "Line weight pass",
+        "description": "Re-draw three of your best boxes and strengthen only the near corner and its three edges, leaving the far edges light. Compare to the unweighted versions.",
+        "dose": "3 boxes, 10 min"
+      }
+    ],
+    "done_when": [
+      "Extended edges of a box meet close to a common point for each direction, with only small misses",
+      "My boxes stop flipping between two readings (the box-seen-from-above versus from-below flip)",
+      "I can draw a box from any of three clearly different views without a reference",
+      "My lines are single confident strokes, not scratchy repeats"
+    ],
+    "common_mistakes": [
+      "Drawing the far end of a box with edges that diverge, or with nearly parallel edges when they should converge visibly",
+      "Making boxes very deep and thin because the depth edges are drawn too long",
+      "Scratchy, repeated lines instead of a planned stroke from the shoulder",
+      "Moving on without extending edges to check, so the same error is repeated for months"
+    ],
+    "school_reference": [
+      {
+        "institution": "Proko online atelier (The Perspective Course outline)",
+        "url": "https://www.proko.com/course/the-perspective-course/lessons",
+        "note": "Section order on the lessons page: intro, depth tricks and old masters, intro to forms, orthos and one point, orthos and no point, XYZ, grids, eye level, picture plane, wide angles, proximity tricks, forms."
+      },
+      {
+        "institution": "Royal Academy (via G. A. Storey, teacher of perspective, 1910)",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "note": "Historic atelier-style order: theory, parallel perspective (squares, cubes, pavements, vanishing scale), angular perspective (ellipses, columns, roofs, stairs), then shadow and reflection."
+      }
+    ]
+  },
+  {
+    "id": "persp-parallel-projection",
+    "title": "Orthographic and isometric views: the bridge to 3D thinking",
+    "group": "perspective-construction",
+    "level": "intermediate",
+    "summary": "Plans, elevations and isometric views show a form without perspective distortion and train you to hold a three-dimensional shape in mind. Architecture schools often teach this before perspective; it is also the language of 3D software viewports and spatial reasoning tests.",
+    "prerequisites": [
+      "persp-box-basics"
+    ],
+    "est_hours": [
+      4,
+      10
+    ],
+    "learning_outcomes": [
+      "Draw front, top and side views of a simple object that agree with each other",
+      "Build an isometric drawing from those three views",
+      "Explain how parallel projection differs from perspective",
+      "Switch between orthographic and perspective views in a 3D tool"
+    ],
+    "resources": [
+      {
+        "title": "Wikipedia: Axonometric projection (isometric, dimetric, trimetric)",
+        "provider": "Wikipedia",
+        "credit": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Axonometric_projection",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Free encyclopedia article on parallel-projection drawing, where size does not change with distance.",
+        "verified": true,
+        "role": "core",
+        "notes": "Read for definitions: isometric, dimetric, trimetric, and why size does not change with distance. Use it as a reference while doing the practice.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "SketchUp Free (browser-based modelling)",
+        "provider": "Trimble / SketchUp",
+        "credit": "Trimble",
+        "url": "https://help.sketchup.com/en/admin/sketchup-free",
+        "format": "tool",
+        "cost": "free-tier",
+        "free_notes": "Help page (updated 21 Aug 2026) says SketchUp Free includes SketchUp for Web, 10GB Trimble Connect storage and the 3D Warehouse. It is not for commercial use and has no support. Styles creation, some 3D Warehouse features and AI credits need a paid plan.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Free browser modeller: build a simple object and view it from the standard views, then compare with your drawings. Non-commercial use only; the free plan has no support.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Blender 5.2 LTS (free 3D software for checking your construction)",
+        "provider": "Blender Foundation",
+        "credit": "Blender Foundation and community",
+        "url": "https://www.blender.org/releases/5-2/",
+        "format": "tool",
+        "cost": "free",
+        "free_notes": "blender.org states Blender is free and open source under the GPL and may be used for any purpose. 5.2 LTS shows an initial release of 14 July 2026 and support to July 2028.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Use its front, top and side views and the perspective/orthographic toggle (the manual page 'Perspective/Orthographic' exists) to check your three-view drawings.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "ARCH 1101 Architectural Representation I, syllabus (Texas Tech University)",
+        "provider": "Texas Tech University, College of Architecture",
+        "credit": "Galo Canizares (instructor)",
+        "url": "https://www.depts.ttu.edu/architecture/documents/course-syllabi/2021-fall/ARCH1101_ArchitecturalRepresentationI_GaloCanizares_F21.pdf",
+        "format": "syllabus",
+        "cost": "free",
+        "free_notes": "Openly posted PDF syllabus (Fall 2021). Use it for sequencing only; the course itself is not free to take.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Weeks 7 to 11 show the order: plan, section and elevation of an everyday object, 3D model, parallel projection drawing, then perspective drawing of the same object.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Three views of everyday objects",
+        "description": "Draw front, top and side views of three small objects (stapler, mug, remote). Check that heights, widths and depths agree across the views.",
+        "dose": "3 objects, 45 min"
+      },
+      {
+        "title": "Isometric from three views",
+        "description": "Using one of your three-view sets, build an isometric drawing with 30-degree axes, then compare to the real object.",
+        "dose": "3 drawings, 40 min"
+      },
+      {
+        "title": "Model and compare",
+        "description": "Build the same object in a free 3D tool from boxes and cylinders, view it in orthographic mode from front, top and side, and compare with your drawings.",
+        "dose": "1 object, 40 min",
+        "reference_url": "https://help.sketchup.com/en/admin/sketchup-free"
+      },
+      {
+        "title": "Convert to perspective",
+        "description": "Take your isometric drawing and redraw the same object in two-point perspective from a chosen horizon height.",
+        "dose": "2 drawings, 40 min"
+      },
+      {
+        "title": "Snap-cube recall",
+        "description": "Build a small shape from toy cubes or blocks, hide it, and draw it in isometric from memory, then compare.",
+        "dose": "5 shapes, 30 min"
+      }
+    ],
+    "done_when": [
+      "My three views of an object agree with each other",
+      "I can draw an isometric cube and a few stacked blocks with consistent axes",
+      "I can say what changes when you switch from orthographic to perspective in a 3D tool",
+      "I can turn a small block stack into either an isometric or a two-point perspective drawing"
+    ],
+    "common_mistakes": [
+      "Converging lines in an isometric drawing that should be parallel",
+      "Mixing scales between front, top and side views",
+      "Treating isometric as a cheap perspective and then being confused when scale does not shrink",
+      "Skipping the real or 3D object and trying to imagine everything"
+    ],
+    "school_reference": [
+      {
+        "institution": "Texas Tech University, ARCH 1101 Architectural Representation I (Fall 2021)",
+        "url": "https://www.depts.ttu.edu/architecture/documents/course-syllabi/2021-fall/ARCH1101_ArchitecturalRepresentationI_GaloCanizares_F21.pdf",
+        "note": "Architecture-school sequence: points, lines, planes, projection and sections, 3D models, parallel projection in week 10, then perspective in week 11 of 13."
+      },
+      {
+        "institution": "MIT Architecture, 4.105 Geometric Disciplines + Architecture Skills I (Fall 2024)",
+        "url": "https://architecture.mit.edu/sites/default/files/course-documents/24fa-4.105-syll-jih.pdf",
+        "note": "Does not list hand perspective. Teaches drawing as projection and construction through orthographic drawings and digital modelling in Rhino and Grasshopper. Useful contrast: 3D thinking first, perspective not the entry point."
+      },
+      {
+        "institution": "Michigan Technological University (Sorby and Baartmans, 2000 spatial visualisation course)",
+        "url": "https://www.vanderbilt.edu/gised/wp-content/uploads/Sorby_DevelopmentAssessmentCourse-Enhancing3DSpatialVisualizationSkillsEngineering.pdf",
+        "note": "Journal article on a ten-week course (isometric and orthographic sketching, rotation, cross-sections, intersections of solids) that raised mental-rotation test scores from about 50 to 80 percent. The paper is hosted on a Vanderbilt site; I could not confirm the host has publisher permission."
+      }
+    ]
+  },
+  {
+    "id": "persp-horizon-vps",
+    "title": "Horizon line, eye level, vanishing points and convergence",
+    "group": "perspective-construction",
+    "level": "beginner",
+    "summary": "The horizon is your eye level, and every set of parallel lines that runs away from you aims at a vanishing point. This module makes those facts physical: you find them in photographs, move them on purpose, and see what changes. It is the vocabulary the later one-, two- and three-point modules assume.",
+    "prerequisites": [
+      "persp-box-basics"
+    ],
+    "est_hours": [
+      6,
+      12
+    ],
+    "learning_outcomes": [
+      "Explain why the horizon line equals eye level and where vanishing points sit",
+      "Find the horizon and vanishing points in a photograph",
+      "Predict whether a box's top face shows from above or below the horizon",
+      "Describe the picture plane and the viewer's position in plain words"
+    ],
+    "resources": [
+      {
+        "title": "Drawing Perspectives II, Chapter 4: Linear Perspective (4.2 and 4.3)",
+        "provider": "Humanities LibreTexts",
+        "credit": "Kristen Kennedy, Lemoore College",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)/04%3A_Linear_Perspective",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open textbook, CC BY-SA 4.0 (licence shown on the LibreTexts page). Free to read and share with credit.",
+        "verified": true,
+        "role": "core",
+        "notes": "Read 4.2 (how linear perspective developed) and 4.3 (key aspects: horizon, vanishing points, picture plane) before the one-point section 4.4. The chapter ends with practical assessments in 4.10.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Studio Chalkboard: Linear Perspective lesson series (13 lessons)",
+        "provider": "University of Evansville, Art Department",
+        "credit": "Ralph Larmann",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open web pages with no login or paywall. No licence statement found, so read and link rather than copy. Lesson order confirmed from the index page: 1 intro, 2 and 3 one-point exteriors and interiors, 4 perfect square, 5 circles, 6 grids and tile floors, 7 diminishing size, 8 and 9 two-point exteriors and interiors, 10 inclines, 11 shadow vanishing points, 12 three-point, 13 atmospheric perspective.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Open lessons 1 and 2 of the series (introduction and hints, then one-point exteriors with horizon lines and vanishing points). The index page lists lessons in order; I could not capture the individual lesson URLs, so navigate from this page.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Perspective Course (Understanding Perspective, then Mastering the Skills)",
+        "provider": "Proko",
+        "credit": "Marshall Vandruff (Proko, run by Stan Prokopenko)",
+        "url": "https://www.proko.com/course/the-perspective-course",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course page states 32 free lessons: 28 of 114 in 'Understanding Perspective' and 4 of 32 in 'Mastering the Skills' (the second part is still being published). Only seven free lessons are named on the page: Perspective for Drawing Anything (assignment, 8:55), Perspective: A 600-Year Journey (6:42), Analyzing Hiroshi Yoshida's Rapids (2:29), Simplifying Jack Frost's Palace (2:59), Simplifying Complex Perspective (7:24), Critique: Collecting Masters (57:46), How to Choose Artworks for Learning Perspective (11:55). I could not see which other lessons are free. Full course listed at $261.32 (list $278), or $130.66 per part, in October 2026.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Free-tier: Simplifying Complex Perspective (7:24) shows how a master reduces a complicated view to a few directions. The lessons page names sections called Eye Level and The Picture Plane, but I could not confirm that any of those lessons are free.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Theory and Practice of Perspective (1910)",
+        "provider": "Project Gutenberg",
+        "credit": "G. A. Storey, teacher of perspective at the Royal Academy; Clarendon Press, Oxford",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Gutenberg lists it as public domain in the USA (EPUB, Kindle, text, HTML). Storey died in 1919, so it should also be out of copyright in life-plus-70 countries such as Australia (my inference, not stated by Gutenberg).",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Book I, 'Theory', defines point of sight, horizon, point of distance, visual rays, trace and projection. It is dense and old-fashioned. Read only the opening definitions once you want to know the reasoning.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Horizon hunt",
+        "description": "Take ten photos (yours or from Unsplash) of streets, rooms and landscapes. On a printout or tracing layer, draw the horizon line and mark where it cuts through any standing people. Note when the horizon is above or below the middle of the frame.",
+        "dose": "10 photos, 25 min",
+        "reference_url": "https://unsplash.com/license"
+      },
+      {
+        "title": "Same boxes, three horizons",
+        "description": "Draw the same group of three boxes with the horizon near the top of the page, in the middle, and near the bottom. Watch which faces appear and disappear.",
+        "dose": "3 drawings, 25 min"
+      },
+      {
+        "title": "Find the vanishing points",
+        "description": "Take three photos of corridors, streets or buildings. Extend the converging lines to find each vanishing point, using a ruler on a printout or a vanishing-point guide in Krita.",
+        "dose": "3 photos, 30 min",
+        "reference_url": "https://docs.krita.org/Painting_With_Assistants"
+      },
+      {
+        "title": "Receding posts",
+        "description": "Draw a ground plane with a row of identical posts running to a vanishing point on the horizon. Repeat with the horizon lowered and then raised and see how the tops of the posts behave.",
+        "dose": "4 drawings, 20 min"
+      },
+      {
+        "title": "One-page explainer in your own words",
+        "description": "Write and sketch a one-page explanation of horizon, eye level, vanishing point and picture plane for someone who has never studied perspective. Re-read it a week later and fix what is vague.",
+        "dose": "1 page, 30 min"
+      }
+    ],
+    "done_when": [
+      "Given any photo I can place the horizon and at least one vanishing point within a reasonable margin",
+      "I can state whether a horizontal surface will show its top or underside before drawing it",
+      "I never give two objects on the same ground plane different horizon lines",
+      "I can say what the picture plane is and why it sits between me and the subject"
+    ],
+    "common_mistakes": [
+      "Placing vanishing points off the horizon, or putting each object on its own horizon",
+      "Treating the top of distant hills or trees as the true horizon line",
+      "Putting vanishing points so close together that the result looks distorted when that was not the intent",
+      "Memorising the rules without testing them on photographs"
+    ],
+    "school_reference": [
+      {
+        "institution": "Lemoore College (Drawing Perspectives II, open textbook)",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)",
+        "note": "Chapter order: drawing fundamentals, a unified body of work, illusion of space, linear perspective (one, two, three point), atmospheric perspective, critique."
+      },
+      {
+        "institution": "University of Evansville, Art Department (Studio Chalkboard)",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "note": "Order used: one-point exteriors and interiors, a perfect square, circles, tile floors and diminishing size, then two-point, inclines, shadows, three-point, and atmospheric perspective last."
+      }
+    ]
+  },
+  {
+    "id": "persp-one-point",
+    "title": "One-point perspective: rooms, streets, squares and grids",
+    "group": "perspective-construction",
+    "level": "beginner",
+    "summary": "One-point perspective is the simplest system: one face of every box is parallel to you and every depth line runs to one vanishing point. You use it to build interiors, corridors, street scenes, floor grids and the rules for how equal steps shrink with distance.",
+    "prerequisites": [
+      "persp-horizon-vps"
+    ],
+    "est_hours": [
+      6,
+      12
+    ],
+    "learning_outcomes": [
+      "Construct a one-point room or street with correct depth spacing",
+      "Draw a true square and a tile floor in one-point perspective",
+      "Place boxes and simple furniture on a grid of tiles",
+      "Recognise when a scene can and cannot be treated as one-point"
+    ],
+    "resources": [
+      {
+        "title": "Studio Chalkboard: Linear Perspective lesson series (13 lessons)",
+        "provider": "University of Evansville, Art Department",
+        "credit": "Ralph Larmann",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open web pages with no login or paywall. No licence statement found, so read and link rather than copy. Lesson order confirmed from the index page: 1 intro, 2 and 3 one-point exteriors and interiors, 4 perfect square, 5 circles, 6 grids and tile floors, 7 diminishing size, 8 and 9 two-point exteriors and interiors, 10 inclines, 11 shadow vanishing points, 12 three-point, 13 atmospheric perspective.",
+        "verified": true,
+        "role": "core",
+        "notes": "Work lessons 2 to 7 in order: one-point exteriors, interiors, a perfect square, circles, grids and tile floors, and calculating diminishing size. These are written teaching pages with diagrams, so draw alongside each one.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawing Perspectives II, Chapter 4 (4.4 One-Point and 4.5 Interior Spaces and Simple Structures)",
+        "provider": "Humanities LibreTexts",
+        "credit": "Kristen Kennedy, Lemoore College",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)/04%3A_Linear_Perspective",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open textbook, CC BY-SA 4.0 (licence shown on the LibreTexts page). Free to read and share with credit.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Read 4.4 and 4.5, then attempt the matching practical assessments at the end of the chapter (4.10).",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawing in Perspective with Dan Beardshaw (7 sessions, 100+ minutes)",
+        "provider": "STAEDTLER Design Journey Art Class",
+        "credit": "Dan Beardshaw, with STAEDTLER",
+        "url": "https://www.staedtler.com/au/en/articles/highlights/design-journey-art-class/drawing-in-perspective-with-dan-beardshaw",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Page describes seven sessions and over 100 minutes of video on one-, two- and three-point perspective, volumes, textures and details. It shows no price and no paywall, but it also does not say 'free', so treat the cost as likely free and unconfirmed. I could not read the individual session titles or links.",
+        "verified": false,
+        "role": "alternative",
+        "notes": "Dan Beardshaw's seven-session class opens with the one-point session (100+ minutes in total across all sessions). I could not see session titles, so start at the first video on the page.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Practical Perspective (35 lessons plus handbook)",
+        "provider": "Proko",
+        "credit": "Rembert Montald, with some lessons by Kristian Nee (Proko)",
+        "url": "https://www.proko.com/course/practical-perspective",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Page says the course includes 10 free lessons but does not mark which ones; a search snippet showed '8 free lessons', so the count may have changed. Total 36 lessons including the handbook, about 18h 6m. Listed prices in October 2026: $107.15 full course (list $113.99), $93.06 'Course in Parts', handbook $14.09. Assume anything not clearly marked free is paid.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Lesson 'One and Two Point Perspective' (18:30) and 'Composing a Scene' (18:11) are listed, but the page does not say whether they are among the free lessons. The Proko Perspective Course also lists an assignment 'How to Draw in One-Point Perspective' (5:50) whose free status I could not confirm.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Corridor and room interiors",
+        "description": "Draw a one-point room three times: with the vanishing point left of centre, central and right of centre. Add a doorway, a window and a floor line each time.",
+        "dose": "3 rooms, 25 min each",
+        "reference_url": "https://studiochalkboard.evansville.edu/draw.html"
+      },
+      {
+        "title": "Tile floor and diagonals",
+        "description": "Build a receding tile floor using the diagonal method from the Studio Chalkboard lessons. Place four boxes of different sizes on it so that each sits on whole tiles.",
+        "dose": "2 grids, 30 min",
+        "reference_url": "https://studiochalkboard.evansville.edu/draw.html"
+      },
+      {
+        "title": "Street canyon",
+        "description": "Draw a street between two rows of buildings with a pavement edge, receding windows and a row of lamp posts. Make the spacing of windows shrink with distance.",
+        "dose": "1 page, 40 min"
+      },
+      {
+        "title": "Grid-assisted interior",
+        "description": "Generate a room grid with the free browser grid maker, print it, and draw a bed, table and shelf on it, then redraw one of them freehand without the grid.",
+        "dose": "2 drawings, 40 min",
+        "reference_url": "https://imageonline.io/perspective-grid-maker/"
+      },
+      {
+        "title": "Photo recreations",
+        "description": "Pick two photos of corridors or railway lines. Draw the construction over a printout, then draw the scene freehand beside it from the same lines.",
+        "dose": "2 photos, 30 min",
+        "reference_url": "https://unsplash.com/license"
+      }
+    ],
+    "done_when": [
+      "I can set up a one-point room with a horizon, vanishing point and back wall in about two minutes",
+      "My tile floor rows get closer together toward the horizon rather than being evenly spaced",
+      "Front faces of my boxes stay square-on to me and their depth edges meet at the vanishing point",
+      "I can say when a scene needs two points because nothing is facing me squarely"
+    ],
+    "common_mistakes": [
+      "Spacing receding tiles or windows evenly instead of letting them compress",
+      "Tilting vertical lines while the depth lines converge",
+      "Leaving every scene at a centred vanishing point so the composition looks static",
+      "Using one-point for a box that is actually turned, which makes its front face lopsided"
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Evansville, Art Department (Studio Chalkboard)",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "note": "Order used: one-point exteriors and interiors, a perfect square, circles, tile floors and diminishing size, then two-point, inclines, shadows, three-point, and atmospheric perspective last."
+      },
+      {
+        "institution": "Lemoore College (Drawing Perspectives II, open textbook)",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)",
+        "note": "Chapter order: drawing fundamentals, a unified body of work, illusion of space, linear perspective (one, two, three point), atmospheric perspective, critique."
+      }
+    ]
+  },
+  {
+    "id": "persp-two-point",
+    "title": "Two-point perspective: corners, buildings and rotated boxes",
+    "group": "perspective-construction",
+    "level": "beginner",
+    "summary": "Turn the box so you see a corner and two vanishing points appear on the horizon. You learn how the pair of points moves as the box rotates, why they usually sit far apart, and how to draw buildings, streets and interior corners with them.",
+    "prerequisites": [
+      "persp-one-point"
+    ],
+    "est_hours": [
+      8,
+      16
+    ],
+    "learning_outcomes": [
+      "Construct a box in two-point perspective from the nearest vertical edge",
+      "Explain how the two vanishing points move when a box is rotated",
+      "Draw an exterior corner and an interior corner",
+      "Keep vanishing points far enough apart to avoid unintended distortion"
+    ],
+    "resources": [
+      {
+        "title": "Studio Chalkboard: Linear Perspective lesson series (13 lessons)",
+        "provider": "University of Evansville, Art Department",
+        "credit": "Ralph Larmann",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open web pages with no login or paywall. No licence statement found, so read and link rather than copy. Lesson order confirmed from the index page: 1 intro, 2 and 3 one-point exteriors and interiors, 4 perfect square, 5 circles, 6 grids and tile floors, 7 diminishing size, 8 and 9 two-point exteriors and interiors, 10 inclines, 11 shadow vanishing points, 12 three-point, 13 atmospheric perspective.",
+        "verified": true,
+        "role": "core",
+        "notes": "Work lessons 8 and 9: two-point exteriors (looking at an object's corner) and interiors (looking into a corner). Redraw each construction yourself before moving on.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawing Perspectives II, Chapter 4 (4.6 Two-Point Perspective)",
+        "provider": "Humanities LibreTexts",
+        "credit": "Kristen Kennedy, Lemoore College",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)/04%3A_Linear_Perspective",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open textbook, CC BY-SA 4.0 (licence shown on the LibreTexts page). Free to read and share with credit.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Read 4.6, then attempt the two-point practical assessments in 4.10.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawing in Perspective with Dan Beardshaw (7 sessions, 100+ minutes)",
+        "provider": "STAEDTLER Design Journey Art Class",
+        "credit": "Dan Beardshaw, with STAEDTLER",
+        "url": "https://www.staedtler.com/au/en/articles/highlights/design-journey-art-class/drawing-in-perspective-with-dan-beardshaw",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Page describes seven sessions and over 100 minutes of video on one-, two- and three-point perspective, volumes, textures and details. It shows no price and no paywall, but it also does not say 'free', so treat the cost as likely free and unconfirmed. I could not read the individual session titles or links.",
+        "verified": false,
+        "role": "alternative",
+        "notes": "Dan Beardshaw's seven-session class covers two-point after one-point (100+ minutes in total). Session titles were not visible to me.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Theory and Practice of Perspective (1910)",
+        "provider": "Project Gutenberg",
+        "credit": "G. A. Storey, teacher of perspective at the Royal Academy; Clarendon Press, Oxford",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Gutenberg lists it as public domain in the USA (EPUB, Kindle, text, HTML). Storey died in 1919, so it should also be out of copyright in life-plus-70 countries such as Australia (my inference, not stated by Gutenberg).",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Book III, 'Angular Perspective', covers points and lines, measuring points and squares at an angle. It is the classic rigorous method for placing points off the page. Treat it as a challenge read, not a first teacher.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Box turning sequence",
+        "description": "Draw one box five times, rotating it in steps from nearly square-on to nearly edge-on, keeping the same horizon. Mark both vanishing points each time and note how they shift.",
+        "dose": "5 boxes, 30 min"
+      },
+      {
+        "title": "Off-page vanishing points",
+        "description": "Tape extra paper to your sheet and place the vanishing points far outside the drawing. Draw three buildings using a ruler for all converging lines.",
+        "dose": "3 buildings, 40 min"
+      },
+      {
+        "title": "Street corner with repeats",
+        "description": "Draw a street corner building with doors, windows and a roof line. Each row of windows must converge to the correct vanishing point.",
+        "dose": "1 page, 45 min"
+      },
+      {
+        "title": "Interior corner",
+        "description": "Draw the inside corner of a room with a window and a shelf, using two points. Compare with the outside-corner construction and note what is reversed.",
+        "dose": "2 drawings, 30 min"
+      },
+      {
+        "title": "Photo match",
+        "description": "Choose three photos of building corners. Find the horizon and both points, then redraw each building freehand with its own construction.",
+        "dose": "3 photos, 40 min",
+        "reference_url": "https://unsplash.com/license"
+      }
+    ],
+    "done_when": [
+      "I can set up a two-point box without looking at a diagram",
+      "My vanishing points are far enough apart that the box corner looks about square rather than pinched",
+      "Every parallel set of edges in my drawing aims at the same point",
+      "I can describe in a sentence what happens to the two points as the box turns"
+    ],
+    "common_mistakes": [
+      "Vanishing points placed too close together, producing a stretched, wide-angle look by accident",
+      "Mixing a one-point front face into a two-point drawing",
+      "Letting vertical edges lean when they should stay vertical",
+      "Estimating edges by eye each time instead of using a ruler while learning the construction"
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Evansville, Art Department (Studio Chalkboard)",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "note": "Order used: one-point exteriors and interiors, a perfect square, circles, tile floors and diminishing size, then two-point, inclines, shadows, three-point, and atmospheric perspective last."
+      },
+      {
+        "institution": "Lemoore College (Drawing Perspectives II, open textbook)",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)",
+        "note": "Chapter order: drawing fundamentals, a unified body of work, illusion of space, linear perspective (one, two, three point), atmospheric perspective, critique."
+      },
+      {
+        "institution": "Royal Academy (via G. A. Storey, teacher of perspective, 1910)",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "note": "Historic atelier-style order: theory, parallel perspective (squares, cubes, pavements, vanishing scale), angular perspective (ellipses, columns, roofs, stairs), then shadow and reflection."
+      }
+    ]
+  },
+  {
+    "id": "persp-three-point",
+    "title": "Three-point perspective: looking up and looking down",
+    "group": "perspective-construction",
+    "level": "intermediate",
+    "summary": "Tilt the viewer's head up or down and vertical edges start to converge too. You learn where the third vanishing point goes, how strongly to converge verticals, and how to draw towers from a street or a city from above.",
+    "prerequisites": [
+      "persp-two-point"
+    ],
+    "est_hours": [
+      6,
+      12
+    ],
+    "learning_outcomes": [
+      "Place a third vanishing point above or below the horizon for a given camera tilt",
+      "Draw bird's-eye and worm's-eye views of a box and a tower",
+      "Match the strength of vertical convergence to the amount of tilt",
+      "Recognise three-point as the general case that the simpler systems approximate"
+    ],
+    "resources": [
+      {
+        "title": "Studio Chalkboard: Linear Perspective lesson series (13 lessons)",
+        "provider": "University of Evansville, Art Department",
+        "credit": "Ralph Larmann",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open web pages with no login or paywall. No licence statement found, so read and link rather than copy. Lesson order confirmed from the index page: 1 intro, 2 and 3 one-point exteriors and interiors, 4 perfect square, 5 circles, 6 grids and tile floors, 7 diminishing size, 8 and 9 two-point exteriors and interiors, 10 inclines, 11 shadow vanishing points, 12 three-point, 13 atmospheric perspective.",
+        "verified": true,
+        "role": "core",
+        "notes": "Work lesson 12, 'Three-Point Perspective: worm's eye and bird's eye views', after the two-point lessons.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawing Perspectives II, Chapter 4 (4.7 Three-Point Perspective, 4.8 Challenges and Solutions)",
+        "provider": "Humanities LibreTexts",
+        "credit": "Kristen Kennedy, Lemoore College",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)/04%3A_Linear_Perspective",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open textbook, CC BY-SA 4.0 (licence shown on the LibreTexts page). Free to read and share with credit.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Read 4.7 and 4.8, then do the matching practical assessments.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Practical Perspective (35 lessons plus handbook)",
+        "provider": "Proko",
+        "credit": "Rembert Montald, with some lessons by Kristian Nee (Proko)",
+        "url": "https://www.proko.com/course/practical-perspective",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Page says the course includes 10 free lessons but does not mark which ones; a search snippet showed '8 free lessons', so the count may have changed. Total 36 lessons including the handbook, about 18h 6m. Listed prices in October 2026: $107.15 full course (list $113.99), $93.06 'Course in Parts', handbook $14.09. Assume anything not clearly marked free is paid.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Lesson 'Three Point and Understanding Fisheye' (37:16) is listed. I could not confirm that it is free. Look for it among the course's free lessons before paying.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Dan Beardshaw, YouTube channel (technical drawing and perspective videos)",
+        "provider": "YouTube",
+        "credit": "Dan Beardshaw",
+        "url": "https://www.youtube.com/@DanBeardshaw",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Public YouTube channel described as 'In-depth Technical Drawing Videos (Perspective & More)'. I could not list the videos (the fetched page held only channel metadata and the RSS feed is blocked to automated fetches), so check which playlists suit the module.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Dan Beardshaw's channel is built around technical perspective drawing. Browse its playlists for three-point and tilted-view videos. I could not list the videos, so I cannot name a specific one.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Tilting box sequence",
+        "description": "Draw one box six times, tilting the view gradually from level to steeply upward. Mark the third vanishing point each time and note where the verticals begin to lean.",
+        "dose": "6 boxes, 30 min"
+      },
+      {
+        "title": "Skyscraper from below",
+        "description": "Draw a tall tower in worm's-eye three-point with a ruler. Add two neighbouring towers sharing the same three vanishing points.",
+        "dose": "2 drawings, 40 min"
+      },
+      {
+        "title": "City block from above",
+        "description": "Draw a bird's-eye block with four buildings of different heights, a street and two vehicle blocks. Keep every vertical aimed at one point below the scene.",
+        "dose": "1 page, 45 min"
+      },
+      {
+        "title": "Ceiling view interior",
+        "description": "Draw the inside of a room looking upward at a ceiling beam structure using the third point above the horizon.",
+        "dose": "1 drawing, 35 min"
+      },
+      {
+        "title": "Grid helper",
+        "description": "Use the desktop grid maker's 3D mode to see a three-point grid, then draw two simple buildings on a printout of it and one without.",
+        "dose": "3 drawings, 40 min",
+        "reference_url": "https://haztro.itch.io/perspective-grid-maker"
+      }
+    ],
+    "done_when": [
+      "I know whether verticals should converge up or down for a given view",
+      "Verticals of all buildings in a scene share one third point rather than being parallel in some and converging in others",
+      "I can choose a moderate third point that gives a natural look rather than a dramatic one when I need it",
+      "I can sketch a plausible bird's-eye block without construction after practising with it"
+    ],
+    "common_mistakes": [
+      "Keeping verticals parallel while the other edges converge, producing an odd hybrid",
+      "Placing the third point too close to the horizon so the form collapses",
+      "Converging verticals toward the wrong side (bird's eye converges downward)",
+      "Forgetting that a horizon far above or below the subject is implied by a steep tilt"
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Evansville, Art Department (Studio Chalkboard)",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "note": "Order used: one-point exteriors and interiors, a perfect square, circles, tile floors and diminishing size, then two-point, inclines, shadows, three-point, and atmospheric perspective last."
+      },
+      {
+        "institution": "Lemoore College (Drawing Perspectives II, open textbook)",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)",
+        "note": "Chapter order: drawing fundamentals, a unified body of work, illusion of space, linear perspective (one, two, three point), atmospheric perspective, critique."
+      },
+      {
+        "institution": "UNAM Facultad de Artes y Diseno (workshop outline, Spanish)",
+        "url": "https://suayed.fad.unam.mx/wp-content/uploads/2024/12/Desde-otro-punto-de-vista.pdf",
+        "note": "Outline runs: definitions and light and shadow, one-point, two-point, three-point, then fisheye and mixing perspective with organic forms."
+      }
+    ]
+  },
+  {
+    "id": "persp-ellipses-cylinders",
+    "title": "Ellipses in perspective: cylinders, cones, spheres and how they sit in boxes",
+    "group": "perspective-construction",
+    "level": "intermediate",
+    "summary": "A circle seen at an angle is an ellipse, and how open it looks depends on where it sits relative to your eye level. You learn to draw smooth ellipses, set them on a cylinder's axis, and fit cylinders, cones and spheres inside boxes so they match the surrounding perspective.",
+    "prerequisites": [
+      "persp-box-basics",
+      "persp-horizon-vps"
+    ],
+    "est_hours": [
+      8,
+      20
+    ],
+    "learning_outcomes": [
+      "Draw smooth ellipses of any openness with a confident arm motion",
+      "Align an ellipse's minor axis with the axis of its cylinder",
+      "Judge how open each end of a cylinder should be from its distance to eye level",
+      "Fit a cylinder, cone or sphere inside a box and draw it consistent with the box"
+    ],
+    "resources": [
+      {
+        "title": "How to Draw Cylinders and Ellipses (14:36)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://proko.com/course-lesson/how-to-draw-cylinders-and-ellipses",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Lesson page is marked free (lesson 94 of 185 in the Drawing Basics course); a premium version with extra content also exists.",
+        "verified": true,
+        "role": "core",
+        "notes": "Watch the whole 14:36 lesson, pausing to draw along. The key idea to take away is how the ellipse degree follows the viewing angle and how the cylinder's axis runs through the ellipse centres.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawabox, Lesson 1: Lines, Ellipses and Boxes",
+        "provider": "Drawabox",
+        "credit": "Drawabox (written by the creator who posts as 'Uncomfortable')",
+        "url": "https://drawabox.com/lesson/1",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Concept Art Empire's review says Drawabox is completely free, including personal critiques from the creator. drawabox.com returned a bot-check page to my fetch, so I could not confirm cost or lesson contents on the provider's own site. Check the page yourself before relying on it.",
+        "verified": false,
+        "role": "alternative",
+        "notes": "Do the ellipse exercises in Lesson 1 for a lot of repetition at ellipse drawing and fitting ellipses into planes. I could not read the page; follow its own exercise list.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Theory and Practice of Perspective (1910)",
+        "provider": "Project Gutenberg",
+        "credit": "G. A. Storey, teacher of perspective at the Royal Academy; Clarendon Press, Oxford",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Gutenberg lists it as public domain in the USA (EPUB, Kindle, text, HTML). Storey died in 1919, so it should also be out of copyright in life-plus-70 countries such as Australia (my inference, not stated by Gutenberg).",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Book III covers circles and ellipses, columns, domes and concentric circles, plus octagons and arches. Use it when you want the geometry behind why the ellipse is where it is.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Krita manual: Painting with Assistants (vanishing point, perspective, 2-point, fish-eye, curvilinear, ellipse)",
+        "provider": "Krita Foundation",
+        "credit": "Krita contributors",
+        "url": "https://docs.krita.org/Painting_With_Assistants",
+        "format": "tool",
+        "cost": "free",
+        "free_notes": "Krita describes itself as a free and open source painting program on krita.org. The manual lists Vanishing Point, Perspective, 2 Point Perspective, Ruler and Parallel Ruler, Fish Eye Point, Perspective Ellipse and a Curvilinear Perspective assistant added in Krita 5.3.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Use the Perspective Ellipse assistant to check a hand-drawn ellipse against one defined by a four-point tetragon (the manual describes it as the perspective transformation of a circle).",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Ellipse tables",
+        "description": "Fill pages with ellipses of progressively changing openness, from nearly flat to nearly round, in rows. Draw each in two or three confident revolutions of the pen above the page before landing.",
+        "dose": "2 pages, 20 min",
+        "reference_url": "https://drawabox.com/lesson/1"
+      },
+      {
+        "title": "Ellipse in a square plane",
+        "description": "Draw ten squares seen in perspective. Inscribe an ellipse that touches each edge midpoint. Check that the major axis lies across the square, and mark any bulges that tilt off.",
+        "dose": "10 planes, 25 min"
+      },
+      {
+        "title": "Cylinder stack",
+        "description": "Draw a tall cylinder with its axis marked, then add rings at five heights. Show how rings above eye level open downward and rings below open upward, and the ring at eye level collapses to a line.",
+        "dose": "4 drawings, 25 min"
+      },
+      {
+        "title": "Cone and sphere in a box",
+        "description": "Draw a cube and fit a cone with its base on the floor face, then a separate cube with a sphere touching all six faces. Mark contact points.",
+        "dose": "6 pairs, 30 min"
+      },
+      {
+        "title": "Real cylinders",
+        "description": "Draw five real cylinders (tin, mug, roll of tape, bottle, pencil pot) with the minor axis line drawn first. Compare ellipse openness at top and base.",
+        "dose": "5 objects, 30 min"
+      },
+      {
+        "title": "Wheel on a wall",
+        "description": "Draw a wheel mounted on a side of a two-point box, then draw the same wheel on the opposite side. Notice that the ellipse's axis points to the same vanishing point as the box's depth edges.",
+        "dose": "4 drawings, 25 min"
+      }
+    ],
+    "done_when": [
+      "My ellipses have rounded ends and no pointed tips or flat sides",
+      "The minor axis of an ellipse lines up with the object's axis",
+      "Ends of a cylinder differ in openness in the right direction relative to the horizon",
+      "I can place a sphere or cone in a box without checking each time"
+    ],
+    "common_mistakes": [
+      "Pointed or egg-shaped ellipses from short, hesitant strokes",
+      "Tilting the ellipse axis off the cylinder axis",
+      "Making the near and far ends of a cylinder equally open",
+      "Using the same ellipse shape for every circle in a scene regardless of its angle to the viewer"
+    ],
+    "school_reference": [
+      {
+        "institution": "Royal Academy (via G. A. Storey, teacher of perspective, 1910)",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "note": "Historic atelier-style order: theory, parallel perspective (squares, cubes, pavements, vanishing scale), angular perspective (ellipses, columns, roofs, stairs), then shadow and reflection."
+      },
+      {
+        "institution": "University of Evansville, Art Department (Studio Chalkboard)",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "note": "Order used: one-point exteriors and interiors, a perfect square, circles, tile floors and diminishing size, then two-point, inclines, shadows, three-point, and atmospheric perspective last."
+      }
+    ]
+  },
+  {
+    "id": "persp-construct-primitives",
+    "title": "Building complex objects from primitives: form intersections, additive and subtractive construction",
+    "group": "perspective-construction",
+    "level": "intermediate",
+    "summary": "Real objects are boxes, cylinders, spheres and cones joined, cut and blended. You learn to break an object into primitives, see where two forms meet along an intersection line, and build either by adding forms together or by carving them away, always drawing the hidden edges so the structure stays honest.",
+    "prerequisites": [
+      "persp-box-basics",
+      "persp-ellipses-cylinders",
+      "persp-two-point"
+    ],
+    "est_hours": [
+      15,
+      40
+    ],
+    "learning_outcomes": [
+      "Decompose an everyday object into a short list of primitives before drawing",
+      "Draw the curve where two forms intersect",
+      "Build an object additively (stacking and joining) and subtractively (cutting, notching, hollowing)",
+      "Keep the construction transparent so you can redraw the object from another angle"
+    ],
+    "resources": [
+      {
+        "title": "Drawabox, Lesson 2: Contour Lines, Texture and Construction",
+        "provider": "Drawabox",
+        "credit": "Drawabox (written by the creator who posts as 'Uncomfortable')",
+        "url": "https://drawabox.com/lesson/2",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Concept Art Empire's review says Drawabox is completely free, including personal critiques from the creator. drawabox.com returned a bot-check page to my fetch, so I could not confirm cost or lesson contents on the provider's own site. Check the page yourself before relying on it. The lesson title is confirmed by community submissions in search results; the /lesson/2 address follows the pattern of the lesson/1 and lesson/7 addresses that also appeared in search results.",
+        "verified": false,
+        "role": "core",
+        "notes": "Lesson 2 (Contour Lines, Texture and Construction). Concept Art Empire's review describes form intersections as part of this lesson. I could not read the page, so follow the lesson's own exercise order.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawabox, Lessons 6 and 7: Applying Construction to Everyday Objects, then to Vehicles",
+        "provider": "Drawabox",
+        "credit": "Drawabox (written by the creator who posts as 'Uncomfortable')",
+        "url": "https://drawabox.com/lesson/6",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Concept Art Empire's review says Drawabox is completely free, including personal critiques from the creator. drawabox.com returned a bot-check page to my fetch, so I could not confirm cost or lesson contents on the provider's own site. Check the page yourself before relying on it. Lesson 6 and Lesson 7 titles are confirmed from community submission titles in search results; lesson/7 and lesson/6/js/FAQ addresses also appeared there.",
+        "verified": false,
+        "role": "alternative",
+        "notes": "Lessons 6 and 7 apply construction to everyday objects and then to vehicles. Do them after the plant and animal lessons if you follow the full course order, or jump straight here when you only want hard-surface objects; the lessons assume the earlier construction habits.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Perspective Course (Understanding Perspective, then Mastering the Skills)",
+        "provider": "Proko",
+        "credit": "Marshall Vandruff (Proko, run by Stan Prokopenko)",
+        "url": "https://www.proko.com/course/the-perspective-course",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course page states 32 free lessons: 28 of 114 in 'Understanding Perspective' and 4 of 32 in 'Mastering the Skills' (the second part is still being published). Only seven free lessons are named on the page: Perspective for Drawing Anything (assignment, 8:55), Perspective: A 600-Year Journey (6:42), Analyzing Hiroshi Yoshida's Rapids (2:29), Simplifying Jack Frost's Palace (2:59), Simplifying Complex Perspective (7:24), Critique: Collecting Masters (57:46), How to Choose Artworks for Learning Perspective (11:55). I could not see which other lessons are free. Full course listed at $261.32 (list $278), or $130.66 per part, in October 2026.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Free-tier: Simplifying Complex Perspective (7:24) shows reducing a busy structure to a few directions. The lessons page also names a section 'Intro to Forms' and one called 'Forms - The Great Secret'; I could not confirm whether those lessons are free.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Blender manual: Boolean Modifier (additive and subtractive solids)",
+        "provider": "Blender Foundation",
+        "credit": "Blender documentation team",
+        "url": "https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/booleans.html",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Manual page for Blender 5.2 LTS exists (title confirmed). The page body did not come through my fetch, so what it contains is from my own knowledge of Blender (Union, Difference, Intersect). Free under the Blender documentation licence.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "As a checker, model your sketched object from a cube and a cylinder in Blender, using the Boolean modifier to union or subtract one solid from another, then orbit it to compare with your drawing.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Intersection pairs",
+        "description": "Draw fifteen pairs of simple forms that overlap (box with cylinder, sphere with box, cone with cylinder, two cylinders crossing). In each, draw the intersection curve as a line wrapping across both forms.",
+        "dose": "15 pairs, 40 min"
+      },
+      {
+        "title": "Additive builds",
+        "description": "Choose five small household objects (kettle, toaster, desk lamp, mug, stapler). Draw each as stacked and joined primitives, transparent, with a short list of the primitives written beside it.",
+        "dose": "5 objects, 60 min"
+      },
+      {
+        "title": "Subtractive builds",
+        "description": "Start from a box or cylinder and carve it: a notch, a hole, a bevel, a slot. Draw six variations, then model two of them in Blender with a difference Boolean and compare.",
+        "dose": "6 sketches, 40 min",
+        "reference_url": "https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/booleans.html"
+      },
+      {
+        "title": "Product teardown",
+        "description": "Find three product photos on a free photo site. For each, write the list of primitives, draw the object transparent, then redraw it from a second viewpoint using only your construction.",
+        "dose": "3 objects, 75 min",
+        "reference_url": "https://unsplash.com/license"
+      },
+      {
+        "title": "Hard-surface blockout",
+        "description": "Block out two simple vehicles (a van and a tank) from boxes and cylinders in two-point perspective, with wheels placed as ellipses on the box sides.",
+        "dose": "2 drawings, 60 min"
+      },
+      {
+        "title": "Rotate the same object",
+        "description": "Draw one of your additive builds from the front, three-quarter and back views, keeping the proportions consistent between them.",
+        "dose": "3 views, 40 min"
+      }
+    ],
+    "done_when": [
+      "I can break an everyday object into six or fewer primitives within five minutes",
+      "Intersection lines wrap convincingly around both forms rather than sitting on the surface like a sticker",
+      "I can show a cut-away or notch and still have the remaining solid read as one form",
+      "I can redraw an object from a second angle using only my transparent construction"
+    ],
+    "common_mistakes": [
+      "Drawing the outline first and 'finding' primitives afterwards",
+      "Opaque construction where hidden edges are skipped, so errors cannot be seen",
+      "Putting an intersection line in only one of the two forms",
+      "Using a wrong primitive (a sphere for something that is actually a flattened ellipsoid), so everything bulges"
+    ],
+    "school_reference": [
+      {
+        "institution": "Proko online atelier (The Perspective Course outline)",
+        "url": "https://www.proko.com/course/the-perspective-course/lessons",
+        "note": "Section order on the lessons page: intro, depth tricks and old masters, intro to forms, orthos and one point, orthos and no point, XYZ, grids, eye level, picture plane, wide angles, proximity tricks, forms."
+      },
+      {
+        "institution": "Texas Tech University, ARCH 1101 Architectural Representation I (Fall 2021)",
+        "url": "https://www.depts.ttu.edu/architecture/documents/course-syllabi/2021-fall/ARCH1101_ArchitecturalRepresentationI_GaloCanizares_F21.pdf",
+        "note": "Architecture-school sequence: points, lines, planes, projection and sections, 3D models, parallel projection in week 10, then perspective in week 11 of 13."
+      }
+    ]
+  },
+  {
+    "id": "persp-measure-scale",
+    "title": "Measuring and scale: subdividing, repeating elements, grids and consistent figure scale",
+    "group": "perspective-construction",
+    "level": "intermediate",
+    "summary": "Once you can draw a box, you need to divide it and repeat it correctly: fence posts, windows, stairs, tile rows, people at different distances. This module covers finding the true middle of a receding plane, spacing repeating elements so that they shrink correctly, using a grid, and keeping people and objects at believable scale.",
+    "prerequisites": [
+      "persp-one-point",
+      "persp-two-point"
+    ],
+    "est_hours": [
+      10,
+      25
+    ],
+    "learning_outcomes": [
+      "Find the true midpoint of a receding rectangle with diagonals",
+      "Space repeating elements (posts, windows, columns) correctly into the distance",
+      "Divide a receding surface into an odd number of equal parts",
+      "Place same-height figures on the same ground using the horizon as a height guide"
+    ],
+    "resources": [
+      {
+        "title": "Studio Chalkboard: Linear Perspective lesson series (13 lessons)",
+        "provider": "University of Evansville, Art Department",
+        "credit": "Ralph Larmann",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open web pages with no login or paywall. No licence statement found, so read and link rather than copy. Lesson order confirmed from the index page: 1 intro, 2 and 3 one-point exteriors and interiors, 4 perfect square, 5 circles, 6 grids and tile floors, 7 diminishing size, 8 and 9 two-point exteriors and interiors, 10 inclines, 11 shadow vanishing points, 12 three-point, 13 atmospheric perspective.",
+        "verified": true,
+        "role": "core",
+        "notes": "Lessons 6 and 7: drawing grids and tile floors in one point, and calculating diminishing size. Use the grid technique later in two-point as well.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Theory and Practice of Perspective (1910)",
+        "provider": "Project Gutenberg",
+        "credit": "G. A. Storey, teacher of perspective at the Royal Academy; Clarendon Press, Oxford",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Gutenberg lists it as public domain in the USA (EPUB, Kindle, text, HTML). Storey died in 1919, so it should also be out of copyright in life-plus-70 countries such as Australia (my inference, not stated by Gutenberg).",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Book II covers pavements, the perspective vanishing scale, figures at different heights and landscape perspective. Clear but old; treat the diagrams as the main content.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Perspective Course (Understanding Perspective, then Mastering the Skills)",
+        "provider": "Proko",
+        "credit": "Marshall Vandruff (Proko, run by Stan Prokopenko)",
+        "url": "https://www.proko.com/course/the-perspective-course",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course page states 32 free lessons: 28 of 114 in 'Understanding Perspective' and 4 of 32 in 'Mastering the Skills' (the second part is still being published). Only seven free lessons are named on the page: Perspective for Drawing Anything (assignment, 8:55), Perspective: A 600-Year Journey (6:42), Analyzing Hiroshi Yoshida's Rapids (2:29), Simplifying Jack Frost's Palace (2:59), Simplifying Complex Perspective (7:24), Critique: Collecting Masters (57:46), How to Choose Artworks for Learning Perspective (11:55). I could not see which other lessons are free. Full course listed at $261.32 (list $278), or $130.66 per part, in October 2026.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "The lessons page lists assignments 'Measure Depth! Keep Track of Imaginary Space' (11:01), 'Odd Divisions' (7:01), 'Triangles Make All Angles' (5:07) and 'Why You Need to be Drawing with Grids' (9:07). I could not confirm that any of these are free, so check the lesson page before paying. The free lesson 'Simplifying Complex Perspective' (7:24) is related.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Perspective Grid Maker (browser tool: 1, 2, 3-point and room grids)",
+        "provider": "imageonline.io",
+        "credit": "imageonline.io",
+        "url": "https://imageonline.io/perspective-grid-maker/",
+        "format": "tool",
+        "cost": "free",
+        "free_notes": "Page says free with no account and no watermark; grids are made in the browser; custom sizes up to 8000 px; exports PNG.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Generate a one-point, two-point or room grid as a printable PNG and draw repeating elements on top of it.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Diagonal midpoint",
+        "description": "Draw ten receding rectangles (doors, walls, floor patches) and find the true middle of each using crossing diagonals. Compare with where your eye said the middle was.",
+        "dose": "10 rectangles, 25 min"
+      },
+      {
+        "title": "Receding fence",
+        "description": "Draw a fence of ten posts in one-point and again in two-point, using diagonal bisection to place the posts, not eyeballing the gaps.",
+        "dose": "2 drawings, 30 min"
+      },
+      {
+        "title": "Odd divisions",
+        "description": "Divide a receding plane into five and then seven equal parts using a method from your chosen lesson.",
+        "dose": "4 drawings, 30 min"
+      },
+      {
+        "title": "Figures on a tile floor",
+        "description": "Draw a tile floor with a horizon and place five standing people at different distances so that the horizon cuts each at the same body height. Repeat with the horizon at a lower height.",
+        "dose": "2 drawings, 40 min"
+      },
+      {
+        "title": "Photo scale audit",
+        "description": "Take a street or crowd photo, draw the horizon, and check that heads of people standing on the same ground line up with it. Mark anyone who looks off and work out whether they are shorter, taller or on a slope.",
+        "dose": "3 photos, 25 min",
+        "reference_url": "https://unsplash.com/license"
+      }
+    ],
+    "done_when": [
+      "I can mark the middle of a receding rectangle without guessing",
+      "My row of fence posts or windows compresses correctly into the distance",
+      "I can divide a receding face into the number of parts I choose",
+      "Same-height people on level ground have eye or head heights that follow the horizon"
+    ],
+    "common_mistakes": [
+      "Spacing repeating elements equally on the page",
+      "Treating the middle of a receding face as the middle of its drawn outline",
+      "Drawing repeated elements all at the same size regardless of distance",
+      "Placing figures so their heads cross the horizon at random heights on a flat floor"
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Evansville, Art Department (Studio Chalkboard)",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "note": "Order used: one-point exteriors and interiors, a perfect square, circles, tile floors and diminishing size, then two-point, inclines, shadows, three-point, and atmospheric perspective last."
+      },
+      {
+        "institution": "Royal Academy (via G. A. Storey, teacher of perspective, 1910)",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "note": "Historic atelier-style order: theory, parallel perspective (squares, cubes, pavements, vanishing scale), angular perspective (ellipses, columns, roofs, stairs), then shadow and reflection."
+      }
+    ]
+  },
+  {
+    "id": "persp-intuitive",
+    "title": "Intuitive (freehand, gridless) perspective: rotating forms in your head",
+    "group": "perspective-construction",
+    "level": "intermediate",
+    "summary": "Construction with rulers teaches the rules; intuitive perspective is the skill of drawing a rotated form freehand and having it land close to right. It is built by volume: many boxes and simple forms drawn at varied angles, each checked by extending its lines, and cross-checked against a 3D model that you can orbit.",
+    "prerequisites": [
+      "persp-box-basics",
+      "persp-one-point",
+      "persp-two-point",
+      "persp-ellipses-cylinders"
+    ],
+    "est_hours": [
+      20,
+      60
+    ],
+    "learning_outcomes": [
+      "Draw a box at an arbitrary rotation with no guidelines and have it hold together",
+      "Predict how a form will look after it is rotated, then check the prediction",
+      "Use edge-extension checks to find and fix your recurring errors",
+      "Switch between above-eye-level and below-eye-level views freely"
+    ],
+    "resources": [
+      {
+        "title": "Drawabox, 250 Box Challenge",
+        "provider": "Drawabox",
+        "credit": "Drawabox (written by the creator who posts as 'Uncomfortable')",
+        "url": "https://drawabox.com/lesson/250boxes/2/about",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Concept Art Empire's review says Drawabox is completely free, including personal critiques from the creator. drawabox.com returned a bot-check page to my fetch, so I could not confirm cost or lesson contents on the provider's own site. Check the page yourself before relying on it. The URL is the one that appeared in search results (an 'about' page of the challenge).",
+        "verified": false,
+        "role": "core",
+        "notes": "The long challenge in the Drawabox course. Treat it as a spaced habit rather than a sprint: a small number of boxes per day, with a review of errors after each set. I could not read the page for exact rules.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Perspective Course (Understanding Perspective, then Mastering the Skills)",
+        "provider": "Proko",
+        "credit": "Marshall Vandruff (Proko, run by Stan Prokopenko)",
+        "url": "https://www.proko.com/course/the-perspective-course",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course page states 32 free lessons: 28 of 114 in 'Understanding Perspective' and 4 of 32 in 'Mastering the Skills' (the second part is still being published). Only seven free lessons are named on the page: Perspective for Drawing Anything (assignment, 8:55), Perspective: A 600-Year Journey (6:42), Analyzing Hiroshi Yoshida's Rapids (2:29), Simplifying Jack Frost's Palace (2:59), Simplifying Complex Perspective (7:24), Critique: Collecting Masters (57:46), How to Choose Artworks for Learning Perspective (11:55). I could not see which other lessons are free. Full course listed at $261.32 (list $278), or $130.66 per part, in October 2026.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Free-tier: Perspective for Drawing Anything (assignment, 8:55) and Critique: Collecting Masters (57:46). The lessons page also lists assignments 'Perfect Cubes From Your Mind's Eye' (9:11) and 'Why You Need to be Drawing with Grids' (9:07) whose free status I could not confirm.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "How to Learn Perspective, Draftsmen S1E26 (53:47)",
+        "provider": "Proko",
+        "credit": "Marshall Vandruff and Stan Prokopenko",
+        "url": "https://proko.com/369",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Episode page lists it as free; a premium cut with extra content is also offered.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Marshall Vandruff on what elements of perspective to learn and in what order, plus a box test run on Proko's Box AI beta app. The episode names several books worth knowing about (see the notes file).",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Blender 5.2 LTS (free 3D software for checking your construction)",
+        "provider": "Blender Foundation",
+        "credit": "Blender Foundation and community",
+        "url": "https://www.blender.org/releases/5-2/",
+        "format": "tool",
+        "cost": "free",
+        "free_notes": "blender.org states Blender is free and open source under the GPL and may be used for any purpose. 5.2 LTS shows an initial release of 14 July 2026 and support to July 2028.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Use it only as a checker: add a cube, orbit the view, and compare it with the sketch you made from memory before you looked.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Spaced box sets",
+        "description": "Draw a small set of freehand boxes at varied rotations, extend the edges to see where each set meets, and note your most common error before the next day's set. Repeat across many days.",
+        "dose": "20 to 25 boxes a day, 30 min",
+        "reference_url": "https://drawabox.com/lesson/250boxes/2/about"
+      },
+      {
+        "title": "Rotation sheet",
+        "description": "On one page draw the same box twelve times at steadily changing rotations, from memory of how it should change, not by copying the previous one.",
+        "dose": "2 sheets, 25 min"
+      },
+      {
+        "title": "Predict and orbit",
+        "description": "Sketch what a cube will look like from a chosen camera angle, then rotate the view in Blender and compare. Log how many of ten predictions were close.",
+        "dose": "10 predictions, 30 min",
+        "reference_url": "https://www.blender.org/releases/5-2/"
+      },
+      {
+        "title": "Nested and clustered boxes",
+        "description": "Draw boxes inside larger boxes and clusters of three boxes at different rotations, ensuring they still share the same horizon and vanishing points.",
+        "dose": "6 drawings, 40 min"
+      },
+      {
+        "title": "Round forms in the same space",
+        "description": "Add a cylinder, a sphere and a cone to your box clusters from memory, placing ellipses by feel.",
+        "dose": "4 drawings, 30 min"
+      },
+      {
+        "title": "No-ruler diagnosis",
+        "description": "Take your most recent freehand boxes and extend all edges with a ruler. Write down whether you consistently converge too much or too little, and what you will try to change.",
+        "dose": "1 sheet, 15 min"
+      }
+    ],
+    "done_when": [
+      "Most freehand boxes need only small corrections when I extend the edges",
+      "I can draw a box from above and from below the horizon without changing method",
+      "I can predict a cube's appearance from a stated camera angle and be close more often than not",
+      "I notice and name my recurring error instead of repeating it"
+    ],
+    "common_mistakes": [
+      "Rushing through the volume with no checking, so errors get rehearsed",
+      "Drawing the same one or two orientations again and again",
+      "Reaching for a ruler or grid every time and never testing yourself freehand",
+      "Treating a big drawing session as a substitute for spaced, shorter sessions"
+    ],
+    "school_reference": [
+      {
+        "institution": "Michigan Technological University (Sorby and Baartmans, 2000 spatial visualisation course)",
+        "url": "https://www.vanderbilt.edu/gised/wp-content/uploads/Sorby_DevelopmentAssessmentCourse-Enhancing3DSpatialVisualizationSkillsEngineering.pdf",
+        "note": "Journal article on a ten-week course (isometric and orthographic sketching, rotation, cross-sections, intersections of solids) that raised mental-rotation test scores from about 50 to 80 percent. The paper is hosted on a Vanderbilt site; I could not confirm the host has publisher permission."
+      },
+      {
+        "institution": "Proko online atelier (The Perspective Course outline)",
+        "url": "https://www.proko.com/course/the-perspective-course/lessons",
+        "note": "Section order on the lessons page: intro, depth tricks and old masters, intro to forms, orthos and one point, orthos and no point, XYZ, grids, eye level, picture plane, wide angles, proximity tricks, forms."
+      }
+    ]
+  },
+  {
+    "id": "persp-foreshortening",
+    "title": "Foreshortening: depth compression in forms and figures",
+    "group": "perspective-construction",
+    "level": "intermediate",
+    "summary": "When a form points toward you its length shrinks, its near end looms and its cross-sections open up. This module treats foreshortening as the same perspective rules applied to cylinders and boxes, then carries the skill to limbs and poses. Free sources are strongest for figures, so object practice leans on your own studies.",
+    "prerequisites": [
+      "persp-ellipses-cylinders",
+      "persp-two-point"
+    ],
+    "est_hours": [
+      8,
+      20
+    ],
+    "learning_outcomes": [
+      "Predict how a cylinder or box changes when turned toward the viewer",
+      "Use overlap and open cross-sections to show a form pointing at you",
+      "Exaggerate the size of the nearest parts enough to read as depth",
+      "Apply the same thinking to arms, legs and torsos"
+    ],
+    "resources": [
+      {
+        "title": "How to Draw Foreshortened Poses (23:47)",
+        "provider": "Proko",
+        "credit": "Steven Michael Hampton",
+        "url": "https://proko.com/course-lesson/how-to-draw-foreshortened-poses",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Marked free (lesson 12 of 27 in The Gesture Course); a premium version with extra content also exists.",
+        "verified": true,
+        "role": "core",
+        "notes": "Watch the full 23:47 lesson (lesson 12 of the Gesture Course) and draw along. It is a figure lesson, so treat limbs as cylinders and the torso as a box while you watch.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Foreshortening: Figures (13:36), Introduction to Figure Construction",
+        "provider": "Proko",
+        "credit": "Steven Michael Hampton",
+        "url": "https://www.proko.com/course-lesson/foreshortening-figures",
+        "format": "video",
+        "cost": "paid",
+        "free_notes": "Lesson page is marked premium only (lesson 19 of 48 in Introduction to Figure Construction).",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Short premium lesson on foreshortened figures (13:36) for when you want a second view. Marked premium-only, so optional.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Perspective Course (Understanding Perspective, then Mastering the Skills)",
+        "provider": "Proko",
+        "credit": "Marshall Vandruff (Proko, run by Stan Prokopenko)",
+        "url": "https://www.proko.com/course/the-perspective-course",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course page states 32 free lessons: 28 of 114 in 'Understanding Perspective' and 4 of 32 in 'Mastering the Skills' (the second part is still being published). Only seven free lessons are named on the page: Perspective for Drawing Anything (assignment, 8:55), Perspective: A 600-Year Journey (6:42), Analyzing Hiroshi Yoshida's Rapids (2:29), Simplifying Jack Frost's Palace (2:59), Simplifying Complex Perspective (7:24), Critique: Collecting Masters (57:46), How to Choose Artworks for Learning Perspective (11:55). I could not see which other lessons are free. Full course listed at $261.32 (list $278), or $130.66 per part, in October 2026.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "The lessons page names sections 'Wide Angles' and 'Proximity Tricks' that relate to nearby forms looking large. I could not confirm their free status.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Cylinder turning toward you",
+        "description": "Draw one cylinder ten times, turning it in steps from lying sideways to pointing straight at you. Note how the length shrinks and the near ellipse opens.",
+        "dose": "10 drawings, 25 min"
+      },
+      {
+        "title": "Overlapping block chain",
+        "description": "Draw a row of five boxes receding toward you with each overlapping the next, scaled so the nearest is much larger. Use three different horizon heights.",
+        "dose": "3 drawings, 25 min"
+      },
+      {
+        "title": "Own arm and hand",
+        "description": "Photograph your own arm and fist pointing at the camera. Draw each as a cylinder and box with overlap before adding any detail.",
+        "dose": "5 studies, 30 min"
+      },
+      {
+        "title": "Follow-along poses",
+        "description": "Do the foreshortened poses lesson's exercises, then draw ten short foreshortened poses of your own using photos you took.",
+        "dose": "10 poses, 2 min each"
+      },
+      {
+        "title": "Tilt the same pose",
+        "description": "Draw a simple stick-and-cylinder figure from the side, then turn it so the arm points at you, keeping the same lengths in 3D.",
+        "dose": "4 drawings, 20 min"
+      }
+    ],
+    "done_when": [
+      "A cylinder pointing at me looks short and its near end looks large rather than the same as the far end",
+      "Overlapping forms show which is in front without needing outlines",
+      "I can foreshorten an arm or leg without losing its volume",
+      "I exaggerate near forms enough that they read"
+    ],
+    "common_mistakes": [
+      "Drawing the long axis of a form at its full length when it points toward the viewer",
+      "Using flat cross-section lines instead of open ellipses on foreshortened limbs",
+      "Under-scaling the nearest part so the pose reads flat",
+      "Drawing the outline first and then trying to fix proportions, instead of constructing"
+    ],
+    "school_reference": [
+      {
+        "institution": "Proko online atelier (The Perspective Course outline)",
+        "url": "https://www.proko.com/course/the-perspective-course/lessons",
+        "note": "Section order on the lessons page: intro, depth tricks and old masters, intro to forms, orthos and one point, orthos and no point, XYZ, grids, eye level, picture plane, wide angles, proximity tricks, forms."
+      }
+    ]
+  },
+  {
+    "id": "persp-shadows",
+    "title": "Shadows in perspective: cast shadows from the sun and from point lights",
+    "group": "perspective-construction",
+    "level": "intermediate",
+    "summary": "A cast shadow has its own construction: lines from the light through an object's corners meet lines from a shadow vanishing point on the ground. You learn the method for a point light and for the sun, how shadows land on different surfaces, and how to check your result against a lit 3D scene.",
+    "prerequisites": [
+      "persp-two-point",
+      "persp-ellipses-cylinders"
+    ],
+    "est_hours": [
+      6,
+      14
+    ],
+    "learning_outcomes": [
+      "Construct the cast shadow of a box from a point light",
+      "Adapt the method to sunlight and to different sun directions",
+      "Cast the shadow of a sphere or cylinder",
+      "Describe why shadow lengths change with the light's height"
+    ],
+    "resources": [
+      {
+        "title": "Studio Chalkboard: Shadow Perspective (lesson 11)",
+        "provider": "University of Evansville, Art Department",
+        "credit": "Ralph Larmann",
+        "url": "https://studiochalkboard.evansville.edu/lp-shadow.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open web page, no login. No licence statement found. Page text does not name the author; authorship is taken from the site index.",
+        "verified": true,
+        "role": "core",
+        "notes": "Read the whole page and redraw the diagrams. Key ideas on the page: a vertical drop from the light finds the shadow vanishing point on the receiving surface, and for the sun the shadow point sits on the horizon below it.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawing and Painting Cast Shadows Using Perspective",
+        "provider": "The Virtual Instructor",
+        "credit": "Matt Fussell",
+        "url": "https://thevirtualinstructor.com/how-to-draw-paint-cast-shadows.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Article and embedded YouTube video are freely readable. The site also sells paid courses; this page is not one of them.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Matt Fussell's article and video: a box in two-point with a point light, a method for a sphere's elliptical shadow, and the note that a light close to the horizon casts longer shadows. Watch the video, then read the steps.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Theory and Practice of Perspective (1910)",
+        "provider": "Project Gutenberg",
+        "credit": "G. A. Storey, teacher of perspective at the Royal Academy; Clarendon Press, Oxford",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Gutenberg lists it as public domain in the USA (EPUB, Kindle, text, HTML). Storey died in 1919, so it should also be out of copyright in life-plus-70 countries such as Australia (my inference, not stated by Gutenberg).",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Book IV, 'Shadow and Reflection', covers cast shadows from the sun and from artificial light, with a short section on reflections. Use for rigorous diagrams.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Blender manual: Light Objects (point and sun lights)",
+        "provider": "Blender Foundation",
+        "credit": "Blender documentation team",
+        "url": "https://docs.blender.org/manual/en/latest/render/lights/light_object.html",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Page title confirmed; body text did not come through my fetch, so I am relying on general knowledge that Blender offers point and sun lights.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Use the manual page for how Blender defines its light types, then place a box on a plane under a sun lamp and a point lamp and orbit the camera to check your drawn shadows.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Point-light shadows",
+        "description": "Draw a box and mark a lamp above it. Construct the cast shadow from the light and a point beneath it. Repeat with the lamp moved higher, lower and to the other side.",
+        "dose": "4 drawings, 35 min",
+        "reference_url": "https://studiochalkboard.evansville.edu/lp-shadow.html"
+      },
+      {
+        "title": "Three sun directions",
+        "description": "Draw the same box lit by the sun from the side, from behind you and from in front, using the sun method from the shadow page. Notice how the shadow lines behave in each case.",
+        "dose": "3 drawings, 35 min"
+      },
+      {
+        "title": "Sphere and cylinder shadows",
+        "description": "Cast the shadow of a sphere and a cylinder using the box-around-the-form approach from the Virtual Instructor page.",
+        "dose": "4 drawings, 30 min",
+        "reference_url": "https://thevirtualinstructor.com/how-to-draw-paint-cast-shadows.html"
+      },
+      {
+        "title": "Shadow on two surfaces",
+        "description": "Draw an object on a tabletop near a wall, so the shadow falls on the table and then climbs the wall.",
+        "dose": "2 drawings, 25 min"
+      },
+      {
+        "title": "Orbit check",
+        "description": "Reproduce one of your drawn setups in Blender with the same light type, then compare the shadow shape with what you drew.",
+        "dose": "2 setups, 30 min",
+        "reference_url": "https://docs.blender.org/manual/en/latest/render/lights/light_object.html"
+      }
+    ],
+    "done_when": [
+      "I can construct a box shadow from a point light in a few minutes",
+      "I know which setups give a shadow vanishing point on the horizon and which give one on the ground",
+      "I can explain why a low light or low sun gives longer shadows",
+      "My shadows connect to the base of the object rather than floating"
+    ],
+    "common_mistakes": [
+      "Drawing shadow edges parallel on the page when they should converge",
+      "Starting the construction at the wrong corners of the box",
+      "Using the same shadow point for shadows on different surfaces",
+      "Forgetting to sketch the hidden back corners, so the shadow outline is wrong"
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Evansville, Art Department (Studio Chalkboard)",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "note": "Order used: one-point exteriors and interiors, a perfect square, circles, tile floors and diminishing size, then two-point, inclines, shadows, three-point, and atmospheric perspective last."
+      },
+      {
+        "institution": "Royal Academy (via G. A. Storey, teacher of perspective, 1910)",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "note": "Historic atelier-style order: theory, parallel perspective (squares, cubes, pavements, vanishing scale), angular perspective (ellipses, columns, roofs, stairs), then shadow and reflection."
+      }
+    ]
+  },
+  {
+    "id": "persp-slopes",
+    "title": "Slopes, ramps, roofs, stairs and hills",
+    "group": "perspective-construction",
+    "level": "intermediate",
+    "summary": "Inclined planes do not use the horizon for their vanishing points: roof pitches, ramps and downhill streets get points above or below it, on a vertical line through the flat-ground point. You learn the construction, then apply it to roofs, stairs and hillside streets.",
+    "prerequisites": [
+      "persp-two-point",
+      "persp-measure-scale"
+    ],
+    "est_hours": [
+      6,
+      12
+    ],
+    "learning_outcomes": [
+      "Place an inclined vanishing point above or below the horizon for a rising or falling line",
+      "Draw a gabled roof and a ramp in two-point perspective",
+      "Space steps in a staircase correctly as they recede",
+      "Draw a street running up or down a hill without breaking the horizon"
+    ],
+    "resources": [
+      {
+        "title": "Studio Chalkboard: Linear Perspective lesson series (13 lessons)",
+        "provider": "University of Evansville, Art Department",
+        "credit": "Ralph Larmann",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open web pages with no login or paywall. No licence statement found, so read and link rather than copy. Lesson order confirmed from the index page: 1 intro, 2 and 3 one-point exteriors and interiors, 4 perfect square, 5 circles, 6 grids and tile floors, 7 diminishing size, 8 and 9 two-point exteriors and interiors, 10 inclines, 11 shadow vanishing points, 12 three-point, 13 atmospheric perspective.",
+        "verified": true,
+        "role": "core",
+        "notes": "Lesson 10, 'Inclines: finding roof pitches and declines'. Read after the two-point lessons.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Theory and Practice of Perspective (1910)",
+        "provider": "Project Gutenberg",
+        "credit": "G. A. Storey, teacher of perspective at the Royal Academy; Clarendon Press, Oxford",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Gutenberg lists it as public domain in the USA (EPUB, Kindle, text, HTML). Storey died in 1919, so it should also be out of copyright in life-plus-70 countries such as Australia (my inference, not stated by Gutenberg).",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Book II covers uneven ground and descending planes; Book III covers roofs, arches, stairs and winding stairs. Good for accurate geometry; read selected chapters.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Blender 5.2 LTS (free 3D software for checking your construction)",
+        "provider": "Blender Foundation",
+        "credit": "Blender Foundation and community",
+        "url": "https://www.blender.org/releases/5-2/",
+        "format": "tool",
+        "cost": "free",
+        "free_notes": "blender.org states Blender is free and open source under the GPL and may be used for any purpose. 5.2 LTS shows an initial release of 14 July 2026 and support to July 2028.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Build a ramp and a flight of stairs from boxes, orbit the camera, and see how the incline lines aim at points off the horizon.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Gabled roof",
+        "description": "Draw a house in two-point with a gabled roof. Find the vanishing point for the roof edges and check that the ridge line is parallel to the walls' top edge in 3D.",
+        "dose": "3 houses, 40 min",
+        "reference_url": "https://studiochalkboard.evansville.edu/draw.html"
+      },
+      {
+        "title": "Ramp up and ramp down",
+        "description": "Draw a ramp rising away from you and another falling away from you, in the same ground plane. Mark where each set of slope lines meets.",
+        "dose": "2 drawings, 30 min"
+      },
+      {
+        "title": "Staircase",
+        "description": "Draw a flight of eight steps going up and away. Make the step heights and depths shrink with distance, then draw the same stairs going down.",
+        "dose": "2 drawings, 40 min"
+      },
+      {
+        "title": "Hillside street",
+        "description": "Draw a street running up a hill with houses on both sides. Keep the true horizon in view and mark it before you place the street's vanishing point.",
+        "dose": "1 page, 45 min"
+      },
+      {
+        "title": "Blender comparison",
+        "description": "Model your stair or ramp in Blender from boxes, orbit to match your viewpoint, and compare incline lines.",
+        "dose": "1 model, 30 min",
+        "reference_url": "https://www.blender.org/releases/5-2/"
+      }
+    ],
+    "done_when": [
+      "I put sloped lines on a vanishing point above or below the horizon, on the right vertical",
+      "Steps and roof pitches look consistent in 3D from more than one viewpoint",
+      "I do not confuse the top of a hill with the true horizon",
+      "I can explain in a sentence why a ramp's vanishing point is not on the horizon"
+    ],
+    "common_mistakes": [
+      "Using the flat-ground vanishing point for sloped lines",
+      "Putting the sloped vanishing point off the vertical line through the flat-ground point",
+      "Spacing steps evenly down a staircase on the page",
+      "Raising the horizon to the top of a hill"
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Evansville, Art Department (Studio Chalkboard)",
+        "url": "https://studiochalkboard.evansville.edu/draw.html",
+        "note": "Order used: one-point exteriors and interiors, a perfect square, circles, tile floors and diminishing size, then two-point, inclines, shadows, three-point, and atmospheric perspective last."
+      },
+      {
+        "institution": "Royal Academy (via G. A. Storey, teacher of perspective, 1910)",
+        "url": "https://gutenberg.org/ebooks/20165",
+        "note": "Historic atelier-style order: theory, parallel perspective (squares, cubes, pavements, vanishing scale), angular perspective (ellipses, columns, roofs, stairs), then shadow and reflection."
+      }
+    ]
+  },
+  {
+    "id": "persp-curvilinear",
+    "title": "Curvilinear, fisheye and extreme wide-angle perspective",
+    "group": "perspective-construction",
+    "level": "advanced",
+    "summary": "Straight-line perspective breaks down toward the edges of a very wide view; curvilinear systems bend straight lines into arcs to keep the whole view in one drawing. You learn the five-point layout, how fisheye differs from an ordinary wide angle, and how to use drawing-software helpers to keep your curves honest.",
+    "prerequisites": [
+      "persp-three-point",
+      "persp-ellipses-cylinders"
+    ],
+    "est_hours": [
+      6,
+      14
+    ],
+    "learning_outcomes": [
+      "Describe five-point perspective: four points on a circle plus one at the centre",
+      "Know which lines stay straight in a fisheye drawing and which curve",
+      "Construct a simple fisheye room or street using a guide",
+      "Choose between ordinary wide angle and fisheye for a given picture"
+    ],
+    "resources": [
+      {
+        "title": "Wikipedia: Curvilinear perspective (five-point, fisheye)",
+        "provider": "Wikipedia",
+        "credit": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Curvilinear_perspective",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Free encyclopedia article. It describes five-point perspective as four vanishing points on a circle plus one at its centre, codified by Barre and Flocon in 1968.",
+        "verified": true,
+        "role": "core",
+        "notes": "Read for the definition, the five-point layout, and the history from van Eyck's Arnolfini Portrait through Escher to Barre and Flocon's 1968 book. It is a concept article, not a drawing lesson.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Krita manual: Painting with Assistants (vanishing point, perspective, 2-point, fish-eye, curvilinear, ellipse)",
+        "provider": "Krita Foundation",
+        "credit": "Krita contributors",
+        "url": "https://docs.krita.org/Painting_With_Assistants",
+        "format": "tool",
+        "cost": "free",
+        "free_notes": "Krita describes itself as a free and open source painting program on krita.org. The manual lists Vanishing Point, Perspective, 2 Point Perspective, Ruler and Parallel Ruler, Fish Eye Point, Perspective Ellipse and a Curvilinear Perspective assistant added in Krita 5.3.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Use the Fish Eye Point assistant and the Curvilinear Perspective assistant (added in Krita 5.3) to try curved guides on a digital canvas, and compare them against hand-drawn arcs.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Practical Perspective (35 lessons plus handbook)",
+        "provider": "Proko",
+        "credit": "Rembert Montald, with some lessons by Kristian Nee (Proko)",
+        "url": "https://www.proko.com/course/practical-perspective",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Page says the course includes 10 free lessons but does not mark which ones; a search snippet showed '8 free lessons', so the count may have changed. Total 36 lessons including the handbook, about 18h 6m. Listed prices in October 2026: $107.15 full course (list $113.99), $93.06 'Course in Parts', handbook $14.09. Assume anything not clearly marked free is paid.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Lesson 'Three Point and Understanding Fisheye' (37:16) is the only dedicated fisheye video I found. I could not confirm whether it is among the 10 free lessons.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Desde otro punto de vista: produccion de perspectivas a puntos de fuga (workshop outline, Spanish)",
+        "provider": "UNAM, Facultad de Artes y Diseno (SUAyED)",
+        "credit": "Luis Leonel Gomez Flores (speaker named in the document)",
+        "url": "https://suayed.fad.unam.mx/wp-content/uploads/2024/12/Desde-otro-punto-de-vista.pdf",
+        "format": "syllabus",
+        "cost": "free",
+        "free_notes": "Openly downloadable PDF. The text does not name the institution; I read it as UNAM from the suayed.fad.unam.mx address, which is an inference. It looks like a course outline rather than full lesson text.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Spanish workshop outline that lists conical and fisheye perspective, and mixing perspective with organic forms, as advanced exits from the three standard systems.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Five-point grid by hand",
+        "description": "Draw a circle and mark four points on its rim at the compass points plus one at its centre. Then draw curved lines from each rim point through the circle to build a grid. Compare your grid against the desktop grid maker's 5-point setting.",
+        "dose": "3 grids, 30 min",
+        "reference_url": "https://haztro.itch.io/perspective-grid-maker"
+      },
+      {
+        "title": "Fisheye room",
+        "description": "Draw a simple room as seen with a fisheye lens, with the centre lines straight and the others curved. Add a table and a window.",
+        "dose": "2 drawings, 45 min",
+        "reference_url": "https://en.wikipedia.org/wiki/Curvilinear_perspective"
+      },
+      {
+        "title": "Cube at the centre and at the edge",
+        "description": "Draw a cube in the middle of a fisheye grid and another near the border. Note how the straight edges bend near the border.",
+        "dose": "4 drawings, 25 min"
+      },
+      {
+        "title": "Digital guide comparison",
+        "description": "Draw a street scene using a curvilinear guide in Krita, then redraw it by hand without the guide.",
+        "dose": "2 drawings, 40 min",
+        "reference_url": "https://docs.krita.org/Painting_With_Assistants"
+      },
+      {
+        "title": "Lens decision sheet",
+        "description": "Draw the same simple room three ways: normal view, wide angle and fisheye. Write two lines on what each one makes the viewer feel.",
+        "dose": "3 drawings, 40 min"
+      }
+    ],
+    "done_when": [
+      "I can lay out a five-point grid without a template",
+      "I know which lines stay straight in fisheye and why",
+      "My curves meet their vanishing points instead of floating as arbitrary arcs",
+      "I can say when ordinary perspective is the better choice"
+    ],
+    "common_mistakes": [
+      "Curving every line by the same amount instead of in proportion to its distance from the centre",
+      "Curving lines that pass through the view centre, which should stay straight",
+      "Confusing a fisheye image with a plain wide-angle one",
+      "Using fisheye for a scene that does not need it, so the drawing looks gimmicky"
+    ],
+    "school_reference": [
+      {
+        "institution": "UNAM Facultad de Artes y Diseno (workshop outline, Spanish)",
+        "url": "https://suayed.fad.unam.mx/wp-content/uploads/2024/12/Desde-otro-punto-de-vista.pdf",
+        "note": "Outline runs: definitions and light and shadow, one-point, two-point, three-point, then fisheye and mixing perspective with organic forms."
+      }
+    ]
+  },
+  {
+    "id": "persp-scene-capstone",
+    "title": "Putting perspective together: a full scene with figures, repeats and shadows",
+    "group": "perspective-construction",
+    "level": "advanced",
+    "summary": "Combine everything: choose a horizon and viewpoint, build a grid, place buildings, objects and people at consistent scale, add repeating elements and cast shadows, and make composition decisions about which perspective to use. The goal is three finished scenes, each critiqued against its own construction.",
+    "prerequisites": [
+      "persp-one-point",
+      "persp-two-point",
+      "persp-three-point",
+      "persp-measure-scale",
+      "persp-shadows",
+      "persp-construct-primitives"
+    ],
+    "est_hours": [
+      15,
+      40
+    ],
+    "learning_outcomes": [
+      "Plan a scene on a thumbnail with horizon, vanishing points and focal area",
+      "Build the scene's space with a grid and place objects and people at believable scale",
+      "Add cast shadows and atmosphere that agree with the construction",
+      "Critique your own work by overlaying the construction and finding errors"
+    ],
+    "resources": [
+      {
+        "title": "Drawing Perspectives II, Chapter 4 (4.5 Interior Spaces and Simple Structures, 4.10 Practical Assessments)",
+        "provider": "Humanities LibreTexts",
+        "credit": "Kristen Kennedy, Lemoore College",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)/04%3A_Linear_Perspective",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Open textbook, CC BY-SA 4.0 (licence shown on the LibreTexts page). Free to read and share with credit.",
+        "verified": true,
+        "role": "core",
+        "notes": "Use the interior-space section and the chapter's practical assessments as a project brief for your first scene, then pick harder ones yourself.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Practical Perspective (35 lessons plus handbook)",
+        "provider": "Proko",
+        "credit": "Rembert Montald, with some lessons by Kristian Nee (Proko)",
+        "url": "https://www.proko.com/course/practical-perspective",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Page says the course includes 10 free lessons but does not mark which ones; a search snippet showed '8 free lessons', so the count may have changed. Total 36 lessons including the handbook, about 18h 6m. Listed prices in October 2026: $107.15 full course (list $113.99), $93.06 'Course in Parts', handbook $14.09. Assume anything not clearly marked free is paid.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Sections called Placing Objects in a Scene and Advanced Perspective are listed, and a lesson called 'Composing a Scene' (18:11). Free status of each is unknown; check before relying on them.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "How To Draw: Drawing and Sketching Objects and Environments from Your Imagination (book)",
+        "provider": "Design Studio Press",
+        "credit": "Scott Robertson and Thomas Bertling",
+        "url": "https://designstudiopress.com/product/how-to-draw",
+        "format": "book",
+        "cost": "paid",
+        "free_notes": "Paid book: $39.95 softcover or $54.95 hardcover, 208 pages (Nov 2013). Publisher page says early chapters teach accurate perspective grids and ellipses, and 25+ pages link to video tutorials via the Design Studio Press app. I did not link any free scan; copies found in search results looked unofficial.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "A paid book about drawing objects and environments from imagination with accurate grids, ellipses and construction. Optional, later.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Pixar in a Box (Khan Academy partner content)",
+        "provider": "Khan Academy with Pixar Animation Studios",
+        "credit": "Pixar Animation Studios and Khan Academy",
+        "url": "https://www.khanacademy.org/partner-content/pixar",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "80.lv reports the courses are free and cover character modelling, animation and virtual cameras. The Khan Academy page rendered no unit list to my fetch, so unit titles are unverified.",
+        "verified": false,
+        "role": "supplementary",
+        "notes": "Free film-making content including virtual cameras. Use it to see how a camera and lens are chosen for a shot after you can control the drawing yourself.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Scene planning thumbnails",
+        "description": "Before each project, draw six tiny thumbnails with different horizons, vanishing points and camera heights, and choose the one that best supports what the picture is about.",
+        "dose": "6 thumbnails, 15 min"
+      },
+      {
+        "title": "One-point interior with figures",
+        "description": "Draw a one-point room with furniture and three same-height figures at different distances, with cast shadows from a window.",
+        "dose": "1 drawing, 3 hours"
+      },
+      {
+        "title": "Two-point street corner",
+        "description": "Draw a street corner with repeating windows, a staircase, a lamp post and its shadow, and several figures at consistent scale.",
+        "dose": "1 drawing, 4 hours"
+      },
+      {
+        "title": "Three-point bird's-eye plaza",
+        "description": "Draw a plaza from above with buildings of varied height, steps, and people as small marks that follow the horizon rule.",
+        "dose": "1 drawing, 4 hours"
+      },
+      {
+        "title": "Self-critique overlay",
+        "description": "After each drawing, extend its main lines on a copy and write 150 words naming three construction errors and what you would change. Redraw one corner of the picture to fix an error.",
+        "dose": "3 critiques, 45 min each"
+      }
+    ],
+    "done_when": [
+      "Three finished scenes (one-, two- and three-point) with construction visible beneath or beside them",
+      "People and repeated elements are consistent in scale across each scene",
+      "Cast shadows agree with the stated light",
+      "I can find at least three construction errors in my own finished work and say how to correct them"
+    ],
+    "common_mistakes": [
+      "Skipping the thumbnail stage and discovering the wrong viewpoint after hours of work",
+      "Rendering details before the construction is finished",
+      "Using the same horizon height for every scene",
+      "Never overlaying lines on finished work, so errors are never found"
+    ],
+    "school_reference": [
+      {
+        "institution": "Lemoore College (Drawing Perspectives II, open textbook)",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Studio_Arts/Drawing_Perspectives_II_(Kennedy)",
+        "note": "Chapter order: drawing fundamentals, a unified body of work, illusion of space, linear perspective (one, two, three point), atmospheric perspective, critique."
+      },
+      {
+        "institution": "Texas Tech University, ARCH 1101 Architectural Representation I (Fall 2021)",
+        "url": "https://www.depts.ttu.edu/architecture/documents/course-syllabi/2021-fall/ARCH1101_ArchitecturalRepresentationI_GaloCanizares_F21.pdf",
+        "note": "Architecture-school sequence: points, lines, planes, projection and sections, 3D models, parallel projection in week 10, then perspective in week 11 of 13."
+      }
+    ]
+  },
+  {
+    "id": "persp-imagination",
+    "title": "Drawing from imagination: rotating and combining forms, and building a visual library",
+    "group": "perspective-construction",
+    "level": "advanced",
+    "summary": "Invented drawings run on two things: a stock of structures you understand well enough to rebuild from memory, and the ability to rotate and combine them in perspective. This module is a long-term practice plan, not a single lesson: build a library from careful studies, test it with recall, then combine.",
+    "prerequisites": [
+      "persp-intuitive",
+      "persp-construct-primitives",
+      "persp-measure-scale"
+    ],
+    "est_hours": [
+      30,
+      100
+    ],
+    "learning_outcomes": [
+      "Study a subject until you can rebuild its structure from memory",
+      "Rotate a remembered object to a new viewpoint without a reference",
+      "Combine two or more remembered forms into an invented object or scene",
+      "Keep a small, organised library of references and studies to draw on"
+    ],
+    "resources": [
+      {
+        "title": "The Perspective Course (Understanding Perspective, then Mastering the Skills)",
+        "provider": "Proko",
+        "credit": "Marshall Vandruff (Proko, run by Stan Prokopenko)",
+        "url": "https://www.proko.com/course/the-perspective-course",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course page states 32 free lessons: 28 of 114 in 'Understanding Perspective' and 4 of 32 in 'Mastering the Skills' (the second part is still being published). Only seven free lessons are named on the page: Perspective for Drawing Anything (assignment, 8:55), Perspective: A 600-Year Journey (6:42), Analyzing Hiroshi Yoshida's Rapids (2:29), Simplifying Jack Frost's Palace (2:59), Simplifying Complex Perspective (7:24), Critique: Collecting Masters (57:46), How to Choose Artworks for Learning Perspective (11:55). I could not see which other lessons are free. Full course listed at $261.32 (list $278), or $130.66 per part, in October 2026.",
+        "verified": true,
+        "role": "core",
+        "notes": "Free-tier: Critique: Collecting Masters (57:46) and How to Choose Artworks for Learning Perspective (11:55), both listed as free, plus the free assignment 'Perspective for Drawing Anything' (8:55). Use the 'collect masters' habit to build your reference set.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "What is a visual library? (How to build one + practical tips)",
+        "provider": "Oleander Studios",
+        "credit": "Laura (Oleander Studios)",
+        "url": "https://www.oleanderstudios.com/what-is-a-visual-library/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free blog post. Short and practical, less authoritative than the course sources; use it as a prompt list rather than a method.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "A short blog on defining a visual library and building one: collect your own photos by subject, study from life, test recall by drawing without reference, and vary viewpoints. Lighter than the course sources.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "How To Draw: Drawing and Sketching Objects and Environments from Your Imagination (book)",
+        "provider": "Design Studio Press",
+        "credit": "Scott Robertson and Thomas Bertling",
+        "url": "https://designstudiopress.com/product/how-to-draw",
+        "format": "book",
+        "cost": "paid",
+        "free_notes": "Paid book: $39.95 softcover or $54.95 hardcover, 208 pages (Nov 2013). Publisher page says early chapters teach accurate perspective grids and ellipses, and 25+ pages link to video tutorials via the Design Studio Press app. I did not link any free scan; copies found in search results looked unofficial.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Paid. The publisher page says the book covers drawing objects and environments from your imagination, with perspective grids and ellipses first. If you buy one book on this module, this is the candidate.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Met Open Access collection (492,000+ CC0 works)",
+        "provider": "The Metropolitan Museum of Art",
+        "credit": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Met page states public-domain works are released under CC0 with 492,000+ Open Access works; look for the OA icon in the online collection. Search terms such as 'perspective', 'interior', 'street view', 'architecture' find study material.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "A free source of old master prints, architecture and interiors to study structure, not to copy line by line.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Weekly subject library",
+        "description": "Pick one category each week (for example chairs, boots or street lamps). Collect ten photos from a free photo site, make three construction studies, and keep them in one folder.",
+        "dose": "1 week, 3 sessions of 45 min",
+        "reference_url": "https://unsplash.com/license"
+      },
+      {
+        "title": "Study, then recall",
+        "description": "The day after studying an object, draw it from memory in a new viewpoint, then check against the reference and note which parts failed.",
+        "dose": "5 objects, 20 min each"
+      },
+      {
+        "title": "Two-object fusion",
+        "description": "Choose two remembered objects (a kettle and a boot) and combine them into one invented object using shared primitives, drawn from two viewpoints.",
+        "dose": "6 drawings, 30 min"
+      },
+      {
+        "title": "Primitive-only invention",
+        "description": "Draw ten invented objects from three primitives each, in perspective, with hidden edges.",
+        "dose": "10 thumbnails, 40 min"
+      },
+      {
+        "title": "Blender scaffold",
+        "description": "Block out an invented scene with simple shapes in Blender, choose a camera, then draw the scene in a different viewpoint without looking at the model and check afterwards.",
+        "dose": "2 scenes, 60 min",
+        "reference_url": "https://www.blender.org/releases/5-2/"
+      },
+      {
+        "title": "Master study for structure",
+        "description": "Choose a print from the Met collection with strong spatial structure. Draw only its construction (horizon, forms, vanishing points), not its surface.",
+        "dose": "3 studies, 40 min",
+        "reference_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+      }
+    ],
+    "done_when": [
+      "I have a folder of studied subjects and can rebuild several from memory",
+      "I can draw a studied object from a viewpoint I have never seen it from",
+      "My invented objects keep a consistent horizon and vanishing points",
+      "I can tell the difference between recalling a structure and merely copying a memorised outline"
+    ],
+    "common_mistakes": [
+      "Copying one reference outline instead of studying the structure under it",
+      "Starting from imagination before the construction skills are steady",
+      "Never checking recall against a reference",
+      "Studying only one familiar viewpoint of each subject"
+    ],
+    "school_reference": [
+      {
+        "institution": "Proko online atelier (The Perspective Course outline)",
+        "url": "https://www.proko.com/course/the-perspective-course/lessons",
+        "note": "Section order on the lessons page: intro, depth tricks and old masters, intro to forms, orthos and one point, orthos and no point, XYZ, grids, eye level, picture plane, wide angles, proximity tricks, forms."
+      },
+      {
+        "institution": "Michigan Technological University (Sorby and Baartmans, 2000 spatial visualisation course)",
+        "url": "https://www.vanderbilt.edu/gised/wp-content/uploads/Sorby_DevelopmentAssessmentCourse-Enhancing3DSpatialVisualizationSkillsEngineering.pdf",
+        "note": "Journal article on a ten-week course (isometric and orthographic sketching, rotation, cross-sections, intersections of solids) that raised mental-rotation test scores from about 50 to 80 percent. The paper is hosted on a Vanderbilt site; I could not confirm the host has publisher permission."
+      }
+    ]
+  }
+]

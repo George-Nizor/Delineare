@@ -1,0 +1,1643 @@
+[
+  {
+    "id": "obs-seeing-vs-symbols",
+    "title": "Seeing what is there, not what you know",
+    "group": "observation-accuracy",
+    "level": "beginner",
+    "summary": "Beginners tend to draw a stored picture of an eye, a hand or a vase instead of the shapes in front of them. This module uses a few deliberate tricks, such as copying upside down and solving a figure-ground puzzle, to switch from naming things to looking at edges and spaces. It sets up the habit that every later measuring and copying skill depends on.",
+    "prerequisites": [],
+    "est_hours": [
+      2,
+      4
+    ],
+    "learning_outcomes": [
+      "Explain the difference between drawing a label and drawing a shape.",
+      "Use at least two tricks (copying upside down, working from the bottom up, drawing a centre line first) to stop naming parts while you draw.",
+      "Notice and report the moment a symbol takes over in your own drawing."
+    ],
+    "resources": [
+      {
+        "title": "Try it! The Vase/Faces Exercise",
+        "provider": "Drawing on the Right Side of the Brain (drawright.com)",
+        "credit": "Betty Edwards",
+        "url": "https://www.drawright.com/try-an-exercise",
+        "format": "interactive",
+        "cost": "free",
+        "free_notes": "The page asks for no payment, but it does not state that the exercise is free. The same site sells books and workshops.",
+        "verified": false,
+        "role": "core",
+        "notes": "Print the hand template, do the exercise once straight through without stopping, then read the explanation after you finish. Redo it a few days later on a fresh sheet.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "How to Draw Accurate Proportions (Drawing Basics, lesson 51)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://proko.com/course-lesson/how-to-draw-accurate-proportions",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "This 12:04 lesson is free; a longer premium version exists. Lesson 51, 53, 10 and 142 are free; lessons 52 and 55 are premium only. The full Drawing Basics course (185 lessons, 58 free) costs $159 one-time.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Watch only the opening part on eyeballing and turning the reference upside down, plus the closing self-critique tips. Leave the measuring tools for the measuring module.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Fundamental Drawing Strategies (session of 8 January 2026)",
+        "provider": "John Muir Laws (johnmuirlaws.com)",
+        "credit": "John Muir Laws",
+        "url": "https://johnmuirlaws.com/fundamental-drawing-strategies-1-8-2026/",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Embedded video of at least 2 h 37 min with a chapter list (warm-ups, gesture, blind contour, ghosting, line variation, value). The page asks for donations and promotes a paid Stanford masterclass; it does not state the video's price.",
+        "verified": false,
+        "role": "supplementary",
+        "notes": "A beginner-friendly long session. Use the chapter list to find Warm-ups and Brain Training and Ghosting; watch in two sittings.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawing Foundations (online, self-paced, eight artist-tutors)",
+        "provider": "Royal Drawing School (UK)",
+        "credit": "Royal Drawing School tutors",
+        "url": "https://royaldrawingschool.org/here-to-help/faqs/drawing-foundations",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "Paid course; the FAQ page gives no price and mentions no free lessons. One class a week for eight weeks, one year of access.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Optional paid course if you later want a taught structure. Not needed for this module.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Upside-down copy",
+        "description": "Take a simple line image, turn it upside down and copy it slowly from one side to the other. Turn both the right way up at the end and compare them side by side.",
+        "dose": "20 min, 2 drawings",
+        "reference_url": "https://www.rijksmuseum.nl/en/collection/object/Twee-ruiters-deel-van-het-fries-van-het-Parthenon--500c28a74c24aeb1d55930863aa4f648"
+      },
+      {
+        "title": "Vase and faces puzzle",
+        "description": "Do the profile-and-vase exercise on Betty Edwards's page once. Repeat it later in the week from memory of the method.",
+        "dose": "15 min, twice in one week",
+        "reference_url": "https://www.drawright.com/try-an-exercise"
+      },
+      {
+        "title": "Name-ban drawing of a shoe",
+        "description": "Draw one shoe from life without naming its parts to yourself. Afterwards mark on the drawing every place you slipped into a symbol, such as a tidy zigzag for laces.",
+        "dose": "15 min, 2 shoes"
+      },
+      {
+        "title": "Slip log",
+        "description": "After each session in this group, write one line about a spot where you drew what you knew instead of what you saw.",
+        "dose": "2 min per session, ongoing"
+      }
+    ],
+    "done_when": [
+      "You finished the vase and faces exercise and can say which part of the profile gave you trouble.",
+      "An upside-down copy, turned the right way up, matches the source closely enough that you cannot spot a wrong feature at a glance.",
+      "Your slip log has at least three lines that each name a specific symbol you caught."
+    ],
+    "common_mistakes": [
+      "Treating the exercise as a one-off trick instead of repeating it across several days.",
+      "Narrating the drawing in your head ('this is the nose') while you work.",
+      "Starting with faces or hands, which carry the strongest symbols, instead of plain objects."
+    ],
+    "school_reference": [
+      {
+        "institution": "Royal Drawing School, Drawing Foundations",
+        "url": "https://royaldrawingschool.org/here-to-help/faqs/drawing-foundations",
+        "note": "Online, eight weeks at one class a week; framed as drawing being a way of seeing and engaging with the world. Total hours not stated."
+      },
+      {
+        "institution": "Jamestown Community College (SUNY), ART 1510 Drawing I",
+        "url": "https://www.sunyjcc.edu/sites/default/files/ics/ART%201510.pdf",
+        "note": "3 credit hours, lecture/lab. Lists contour line (contour, blind contour, shaded, gesture), positive and negative space, value and perspective; weekly contact and outside hours not stated."
+      }
+    ]
+  },
+  {
+    "id": "obs-contour-blind-contour",
+    "title": "Contour drawing and blind contour",
+    "group": "observation-accuracy",
+    "level": "beginner",
+    "summary": "Contour drawing follows the edge of a form with a slow line while eye and hand move together. Blind contour removes the chance to correct by looking at the page, which trains close looking and exposes your habitual errors. You practise three versions: blind, modified (occasional glances) and a continuous line through overlapping shapes.",
+    "prerequisites": [
+      "obs-seeing-vs-symbols"
+    ],
+    "est_hours": [
+      4,
+      8
+    ],
+    "learning_outcomes": [
+      "Draw a slow blind contour where the hand moves at the speed of the eye.",
+      "Switch between blind, modified and continuous-line contour on purpose.",
+      "Name your own recurring error (angles too steep, lengths too short, drifting) from a set of blind drawings."
+    ],
+    "resources": [
+      {
+        "title": "A Week of Continuous Line Drawings",
+        "provider": "Liz Steel (lizsteel.com)",
+        "credit": "Liz Steel",
+        "url": "https://www.lizsteel.com/a-week-of-continuous-line-drawings/",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Blog post read in full without login or paywall on 2026-10-13. Liz Steel's paid products are the SketchingNow courses (Foundations, Edges, Buildings, Watercolour) and a Patreon; prices were not shown on the pages opened. The livestream replay linked from the post is for course buyers only.",
+        "verified": true,
+        "role": "core",
+        "notes": "Read the post, then run a week of practice using its loose rules: overlapping shapes, start at the focal point, leave some shapes undrawn. Its tip about blind contour portraits on a video call is easy to try. She also suggests studying blind contours to find your habitual errors.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Fundamental Drawing Strategies (session of 8 January 2026)",
+        "provider": "John Muir Laws (johnmuirlaws.com)",
+        "credit": "John Muir Laws",
+        "url": "https://johnmuirlaws.com/fundamental-drawing-strategies-1-8-2026/",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Embedded video of at least 2 h 37 min with a chapter list (warm-ups, gesture, blind contour, ghosting, line variation, value). The page asks for donations and promotes a paid Stanford masterclass; it does not state the video's price.",
+        "verified": false,
+        "role": "alternative",
+        "notes": "Use the chapter list for the Blind Contour and Gesture Sketching segments first. The full session is long, so do not try to watch it in one go.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "ART 121 Drawing syllabus (Parks), 17-week sequence",
+        "provider": "nr.edu (appears to be New River Community College; inferred from domain)",
+        "credit": "Instructor Parks (name as in the file title)",
+        "url": "https://www.nr.edu/art/pdf/art121_syllabus_PARKS.pdf",
+        "format": "syllabus",
+        "cost": "free",
+        "free_notes": "Public PDF syllabus.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Weeks 1 and 2 show one college sequence: blind contour of objects then hands, heavy contour, contour of a foot, cross-contours and line networks. Borrow the order, not the project wording.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Blind contour of your free hand",
+        "description": "Draw your non-drawing hand without looking at the paper. Keep the pencil on the sheet and match its speed to your eye. Change the hand pose each time.",
+        "dose": "5 min each, 4 drawings"
+      },
+      {
+        "title": "Blind contour of household objects",
+        "description": "One object at a time, from a fixed seat. Pick objects with a few distinct edges: a mug, scissors, a shoe, a plant leaf, a stapler.",
+        "dose": "3 min each, 5 objects"
+      },
+      {
+        "title": "Modified contour",
+        "description": "Same kind of objects, but allow yourself a glance at the paper only at turning points or where lines meet.",
+        "dose": "10 min each, 3 drawings"
+      },
+      {
+        "title": "Continuous-line scene",
+        "description": "Draw a pile of clothes or a plant in one unbroken line. Start at the most interesting spot and work outward, leaving some shapes unfinished, as Liz Steel's post suggests.",
+        "dose": "10 min each, 3 drawings",
+        "reference_url": "https://www.lizsteel.com/a-week-of-continuous-line-drawings/"
+      },
+      {
+        "title": "Error review",
+        "description": "Lay all your blind and modified drawings out together. Write down what goes wrong repeatedly: angles, lengths, drifting off the edge, skipped overlaps.",
+        "dose": "15 min, once"
+      }
+    ],
+    "done_when": [
+      "In five consecutive blind contours the pencil stayed on the paper and the line stayed connected.",
+      "A modified contour of an overlapping object shows what is in front of what in the right order.",
+      "You have written down your top two recurring errors from the blind set."
+    ],
+    "common_mistakes": [
+      "Peeking at the paper during blind drawings, which defeats the exercise.",
+      "Letting the eye race ahead of the pencil.",
+      "Judging blind drawings by how good they look instead of by how closely you watched.",
+      "Choosing a subject so busy that you lose your place."
+    ],
+    "school_reference": [
+      {
+        "institution": "Jamestown Community College (SUNY), ART 1510 Drawing I",
+        "url": "https://www.sunyjcc.edu/sites/default/files/ics/ART%201510.pdf",
+        "note": "3 credit hours, lecture/lab. Lists contour line (contour, blind contour, shaded, gesture), positive and negative space, value and perspective; weekly contact and outside hours not stated."
+      },
+      {
+        "institution": "nr.edu ART 121 Drawing syllabus (Parks)",
+        "url": "https://www.nr.edu/art/pdf/art121_syllabus_PARKS.pdf",
+        "note": "17 weeks, meets MWF 11:15am-1:15pm. Week 1-2: gesture, blind contour of objects then hands, contour of a foot, cross-contours, line networks. Week 10 is locational sketching; Week 15 is a grid copy of a famous work at double size."
+      }
+    ]
+  },
+  {
+    "id": "obs-negative-space",
+    "title": "Negative space",
+    "group": "observation-accuracy",
+    "level": "beginner",
+    "summary": "Negative space is the shape of the gaps around and between forms. Drawing those gaps, and checking them against the reference, lets you find errors in an outline without trusting your idea of the object. You practise on a chair, a plant and single objects, then use it as a check inside later drawings.",
+    "prerequisites": [
+      "obs-seeing-vs-symbols"
+    ],
+    "est_hours": [
+      3,
+      6
+    ],
+    "learning_outcomes": [
+      "Draw the shape of the gaps between chair legs or leaves instead of the object itself.",
+      "Use a single negative shape to find and fix a wrong edge.",
+      "Treat the page edge as one of the shapes in the drawing."
+    ],
+    "resources": [
+      {
+        "title": "How to Draw Accurate Proportions (Drawing Basics, lesson 51)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://proko.com/course-lesson/how-to-draw-accurate-proportions",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "This 12:04 lesson is free; a longer premium version exists. Lesson 51, 53, 10 and 142 are free; lessons 52 and 55 are premium only. The full Drawing Basics course (185 lessons, 58 free) costs $159 one-time.",
+        "verified": true,
+        "role": "core",
+        "notes": "Watch the negative-shapes part and the big-to-small part. Pause the video and try the idea on an object within reach before you carry on.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Tips for sketching complex scenes with edges and shapes",
+        "provider": "Liz Steel (lizsteel.com)",
+        "credit": "Liz Steel",
+        "url": "https://www.lizsteel.com/tips-for-sketching-complex-scenes/",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Full article openly readable. It promotes paid SketchingNow courses and Patreon for further lessons.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Take the tip about checking the large negative shapes, such as sky and foreground, before you draw, to catch errors that come from drawing what you think a thing looks like.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Comparing Positive to Negative Shapes in Direct Watercolor (22 May 2018)",
+        "provider": "Citizen Sketcher",
+        "credit": "Marc Taro Holmes",
+        "url": "https://citizensketcher.com/2018/05/22/comparing-positive-to-negative-shapes-in-direct-watercolor/",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Public blog post, no charge indicated; it also promotes his book. Does not explicitly say it is free.",
+        "verified": false,
+        "role": "supplementary",
+        "notes": "A short comparison of painting a subject directly versus painting the background so the subject is left as paper. Skim it for the idea of a scene as a puzzle of fitted shapes.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Broken Silhouette (2017 Chicago workshop notes, PDF)",
+        "provider": "Citizen Sketcher",
+        "credit": "Marc Taro Holmes",
+        "url": "https://citizensketcher.com/wp-content/uploads/2017/07/the-broken-silhouette_chicago-2017_workshop-notes_marc-taro-holmes.pdf",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Listed on Holmes's downloads page as a free PDF; his books and classes are paid.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Stage 2 paints the background around one object so the object appears as a negative shape. Use ink wash or a marker if you do not paint.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Chair gap drawing",
+        "description": "Draw only the spaces between the legs and rungs of a chair or stool. Do not outline the chair itself. Fill the gaps solid and look at the result from across the room.",
+        "dose": "20 min, 2 drawings"
+      },
+      {
+        "title": "Plant gaps",
+        "description": "Draw the gaps of wall or sky seen between the leaves of a houseplant.",
+        "dose": "20 min, 1 drawing"
+      },
+      {
+        "title": "Repair with gaps",
+        "description": "Take a finished drawing from the measuring practice. Draw its negative shapes on tracing paper, compare them with the real gaps and correct the drawing.",
+        "dose": "15 min, 3 drawings"
+      },
+      {
+        "title": "Paint around it",
+        "description": "Optional: use ink wash or marker around one object so the object stays as bare paper. Follow stage 2 of Holmes's handout for the exercise outline.",
+        "dose": "10 min each, 3 sketches",
+        "reference_url": "https://citizensketcher.com/wp-content/uploads/2017/07/the-broken-silhouette_chicago-2017_workshop-notes_marc-taro-holmes.pdf"
+      }
+    ],
+    "done_when": [
+      "A negative-space drawing of a chair reads as that chair once it is filled in, with no outline drawn.",
+      "You can point to a wrong edge in a drawing by comparing one enclosed gap with the reference.",
+      "In three drawings in a row you decided how shapes meet the page edge on purpose."
+    ],
+    "common_mistakes": [
+      "Looking at the object while telling yourself you are drawing the space.",
+      "Drawing a thin outline around each gap and ignoring the angle of its edges.",
+      "Ignoring the gaps that touch the page edge.",
+      "Choosing a subject with too many tiny gaps at the start."
+    ],
+    "school_reference": [
+      {
+        "institution": "Northwest Arkansas Community College, ART 1303 course outline",
+        "url": "https://www.nwacc.edu/_documents/courseoutlines/art1303.pdf",
+        "note": "3 credit hours, 45 lecture plus 45 lab contact hours. Topics include contour line, positive/negative shapes, sighting and measuring dimensions and angles (including a Mondrian tool), and master study."
+      },
+      {
+        "institution": "Jamestown Community College (SUNY), ART 1510 Drawing I",
+        "url": "https://www.sunyjcc.edu/sites/default/files/ics/ART%201510.pdf",
+        "note": "3 credit hours, lecture/lab. Lists contour line (contour, blind contour, shaded, gesture), positive and negative space, value and perspective; weekly contact and outside hours not stated."
+      }
+    ]
+  },
+  {
+    "id": "obs-comparative-measuring",
+    "title": "Comparative measuring: sighting, plumb and level lines, angles, proportion checks",
+    "group": "observation-accuracy",
+    "level": "beginner",
+    "summary": "Comparative measuring checks proportions by comparing parts of the subject with a chosen unit, using a pencil or straight edge held at arm's length. You learn to sight vertical and horizontal alignments (plumb and level lines), judge angles against vertical or horizontal, and test whether one distance is a half, a third or equal to your unit. It works at any drawing size and from any seat.",
+    "prerequisites": [
+      "obs-negative-space"
+    ],
+    "est_hours": [
+      6,
+      12
+    ],
+    "learning_outcomes": [
+      "Sight a plumb line and a level line to find which points line up.",
+      "Judge an angle against the vertical or horizontal and draw it.",
+      "Pick a unit, record at least six ratios of the subject, then draw using them.",
+      "Keep the same arm length and eye position for every measurement."
+    ],
+    "resources": [
+      {
+        "title": "How to Draw Accurate Proportions (Drawing Basics, lesson 51)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://proko.com/course-lesson/how-to-draw-accurate-proportions",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "This 12:04 lesson is free; a longer premium version exists. Lesson 51, 53, 10 and 142 are free; lessons 52 and 55 are premium only. The full Drawing Basics course (185 lessons, 58 free) costs $159 one-time.",
+        "verified": true,
+        "role": "core",
+        "notes": "Watch the measuring-tools part (pencil sighting, plumb lines, angles, units) and the tip about placing layin lines with straights and slight C curves. Then continue to lesson 53 for a worked example.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Sighting and Measuring Angles (video)",
+        "provider": "Liz Steel (lizsteel.com)",
+        "credit": "Liz Steel",
+        "url": "https://www.lizsteel.com/video-sighting-and-measuring-angles/",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "Video is embedded openly on the blog. The same material was originally planned as a lesson in her paid Buildings course. Video length is not stated on the page.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "A short video on sighting and measuring angles when sketching buildings. After watching, sight five angles on a window or door frame and draw them.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawing Tutorials: Comparative Measurement, Part I",
+        "provider": "Vitruvian Fine Art Studio",
+        "credit": "Vitruvian Fine Art Studio (author not named on the page; builds on teaching by Deane G. Keller)",
+        "url": "https://vitruvianstudio.com/blog/drawing-tutorials-comparative-measurement-part-1/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Page states no price and no paywall was seen, but it does not say the article is free. It invites an email signup in exchange for a free materials guide. Parts 2 and 3 were announced but could not be found.",
+        "verified": false,
+        "role": "alternative",
+        "notes": "Read Part I for the idea of measuring as asking questions of your drawing: compare two parts of the model, make the same comparison in the drawing, adjust if they differ. The page suggests adding angle to size and position.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Demo - Measure Proportions (Drawing Basics, lesson 53)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://proko.com/course-lesson/demo-measure-proportions",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "This 7:57 demo is free; a premium version with extra content exists. The matching project (lesson 52) and critique (lesson 55) are premium only. Course is $159 one-time.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "A portrait demo that measures proportions and checks the drawing against the photo in Procreate. Watch it after you have tried the drills below.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Plumb and level hunt",
+        "description": "Pick a still life or a room corner. Find six pairs of points that line up vertically and six that line up horizontally, using a pencil held at arm's length. Mark them lightly.",
+        "dose": "20 min, 1 session"
+      },
+      {
+        "title": "Angle drill",
+        "description": "Sight 15 angles (chair back, table edge, roof line). Draw each as one line, then compare with a protractor or an overlay.",
+        "dose": "15 min, 2 sessions"
+      },
+      {
+        "title": "Unit and ratios",
+        "description": "Choose a unit, such as the height of a mug. Write six ratios in a table before you draw, then draw the object from the table.",
+        "dose": "30 min, 3 objects"
+      },
+      {
+        "title": "Reverse check",
+        "description": "After drawing, measure your own drawing with the same unit and put the new ratios next to the real ones.",
+        "dose": "15 min per drawing, 3 drawings"
+      },
+      {
+        "title": "Scale change",
+        "description": "Draw the same object small, then large, from the same ratios, to see that the ratios hold at any size. Liz Steel's Lesson 5 explains marking only a few key edges.",
+        "dose": "20 min, 2 drawings",
+        "reference_url": "https://www.lizsteel.com/foundations-friday-2017-lesson-5-measured-setup/"
+      }
+    ],
+    "done_when": [
+      "Your ratio table for a three-object still life differs from the real ratios by about a tenth or less (write both sets down).",
+      "You can sight a plumb line and a level line without the pencil drifting in tilt.",
+      "You can explain why you keep the arm straight and the distance constant.",
+      "You mark only the key measurements and judge the rest by eye."
+    ],
+    "common_mistakes": [
+      "Bending the elbow or leaning between measurements, so the unit quietly changes.",
+      "Chaining every measurement off the previous one so small errors pile up.",
+      "Measuring everything and ending up with a stiff drawing; choose the key edges only.",
+      "Tilting the pencil toward you when judging an angle instead of holding it flat to the picture plane."
+    ],
+    "school_reference": [
+      {
+        "institution": "Northwest Arkansas Community College, ART 1303 course outline",
+        "url": "https://www.nwacc.edu/_documents/courseoutlines/art1303.pdf",
+        "note": "3 credit hours, 45 lecture plus 45 lab contact hours. Topics include contour line, positive/negative shapes, sighting and measuring dimensions and angles (including a Mondrian tool), and master study."
+      },
+      {
+        "institution": "Florence Academy of Art, Foundation in Graphic Arts",
+        "url": "https://florenceacademyofart.edu/wp-content/uploads/2024/12/Foundation-in-Graphic-Arts-Curriculum-2024-25.pdf",
+        "note": "One year, three trimesters, about 35 on-site hours a week. Early work copies a pencil Bargue (about 10x14 in), a charcoal Bargue (about 18x20 in) and a Bargue figure; sight-size is introduced in these exercises as the way to measure accurately; two charcoal cast drawings follow."
+      }
+    ]
+  },
+  {
+    "id": "obs-block-in",
+    "title": "Block-in: big shapes to small, simplification, finding the envelope",
+    "group": "observation-accuracy",
+    "level": "intermediate",
+    "summary": "A block-in starts with the outer envelope of the subject as a few straight lines, then divides it into major masses before any detail appears. You practise reducing a subject to straight-line shapes, subdividing, and softening to curves only after the layout is right. The goal is a layout you can trust before shading starts.",
+    "prerequisites": [
+      "obs-comparative-measuring"
+    ],
+    "est_hours": [
+      5,
+      10
+    ],
+    "learning_outcomes": [
+      "Draw the envelope of a subject in ten or fewer straight lines.",
+      "Subdivide the envelope into major shapes and check each against measured ratios.",
+      "Convert straight lines to curves only after the layout is correct.",
+      "State the order of work: envelope, major divisions, secondary shapes, detail."
+    ],
+    "resources": [
+      {
+        "title": "How to Draw Accurate Proportions (Drawing Basics, lesson 51)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://proko.com/course-lesson/how-to-draw-accurate-proportions",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "This 12:04 lesson is free; a longer premium version exists. Lesson 51, 53, 10 and 142 are free; lessons 52 and 55 are premium only. The full Drawing Basics course (185 lessons, 58 free) costs $159 one-time.",
+        "verified": true,
+        "role": "core",
+        "notes": "Use the big-to-small and layin sections: get the large envelopes right before shading or detail.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Drawing Tutorials: Comparative Measurement, Part I",
+        "provider": "Vitruvian Fine Art Studio",
+        "credit": "Vitruvian Fine Art Studio (author not named on the page; builds on teaching by Deane G. Keller)",
+        "url": "https://vitruvianstudio.com/blog/drawing-tutorials-comparative-measurement-part-1/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Page states no price and no paywall was seen, but it does not say the article is free. It invites an email signup in exchange for a free materials guide. Parts 2 and 3 were announced but could not be found.",
+        "verified": false,
+        "role": "alternative",
+        "notes": "Use its compare-and-check loop to test each division of your block-in against the subject.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "5 Minute Sketching Architecture: How to See",
+        "provider": "Liz Steel (lizsteel.com)",
+        "credit": "Liz Steel",
+        "url": "https://www.lizsteel.com/5-minute-sketching-architecture-how-to-see/",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Public blog post, no paywall seen. The book it promotes is sold separately; SketchingNow courses and Patreon are paid.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Her advice for fast sketches: decide what the drawing is about, then put the big shapes down in the first minutes.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "The Broken Silhouette (2017 Chicago workshop notes, PDF)",
+        "provider": "Citizen Sketcher",
+        "credit": "Marc Taro Holmes",
+        "url": "https://citizensketcher.com/wp-content/uploads/2017/07/the-broken-silhouette_chicago-2017_workshop-notes_marc-taro-holmes.pdf",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Listed on Holmes's downloads page as a free PDF; his books and classes are paid.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Stage 3 shows heavy simplification: squint, group buildings into fore, middle and back layers, and drop most windows and small detail.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Envelope sprints",
+        "description": "Draw the outer envelope of ten household objects using straight lines only, eight to ten lines each.",
+        "dose": "3 min each, 10 objects"
+      },
+      {
+        "title": "Block in, divide, curve",
+        "description": "Pick one object. Block in the envelope, divide it into main masses, then turn straights into curves. Check the divisions with one measuring method before adding curves.",
+        "dose": "25 min, 3 objects"
+      },
+      {
+        "title": "Time squeeze",
+        "description": "Block in the same object in 2, 5 and 10 minutes. Compare which time gave the best layout.",
+        "dose": "17 min total, 2 objects"
+      },
+      {
+        "title": "Squint massing",
+        "description": "Squint at a view or room and draw its three biggest shapes, then add the next level of shapes.",
+        "dose": "10 min, 3 views"
+      },
+      {
+        "title": "Check pass",
+        "description": "After every block-in above, spend a few minutes checking it with negative shapes or a ratio table before going on.",
+        "dose": "5 min per drawing"
+      }
+    ],
+    "done_when": [
+      "An envelope of ten or fewer straight lines matches the silhouette when held against the subject.",
+      "Your finished drawing keeps the block-in proportions; no major shape moved after shading began.",
+      "You can describe the order of steps from memory."
+    ],
+    "common_mistakes": [
+      "Rounding the contour too early.",
+      "Chasing detail before the envelope is right.",
+      "Building the layout from dozens of short sketchy lines instead of a few decisive ones.",
+      "Erasing the block-in instead of correcting it with a second line."
+    ],
+    "school_reference": [
+      {
+        "institution": "Florence Academy of Art, Foundation in Graphic Arts",
+        "url": "https://florenceacademyofart.edu/wp-content/uploads/2024/12/Foundation-in-Graphic-Arts-Curriculum-2024-25.pdf",
+        "note": "One year, three trimesters, about 35 on-site hours a week. Early work copies a pencil Bargue (about 10x14 in), a charcoal Bargue (about 18x20 in) and a Bargue figure; sight-size is introduced in these exercises as the way to measure accurately; two charcoal cast drawings follow."
+      },
+      {
+        "institution": "Northwest Arkansas Community College, ART 1303 course outline",
+        "url": "https://www.nwacc.edu/_documents/courseoutlines/art1303.pdf",
+        "note": "3 credit hours, 45 lecture plus 45 lab contact hours. Topics include contour line, positive/negative shapes, sighting and measuring dimensions and angles (including a Mondrian tool), and master study."
+      }
+    ]
+  },
+  {
+    "id": "obs-sight-size-and-checks",
+    "title": "Sight-size and its modern equivalents: overlay, grid and flip checks",
+    "group": "observation-accuracy",
+    "level": "intermediate",
+    "summary": "Sight-size places the subject and the drawing side by side at the same scale and viewed from one fixed spot, so you can compare them by stepping back. Most home studios cannot keep that setup, so this module also covers stand-ins: overlaying a photo of your drawing on the reference, flipping both horizontally, and using a grid or viewfinder. You learn what each check is good and bad at.",
+    "prerequisites": [
+      "obs-comparative-measuring"
+    ],
+    "est_hours": [
+      5,
+      10
+    ],
+    "learning_outcomes": [
+      "Set up a simple sight-size arrangement with a marked viewing spot.",
+      "Run an overlay check in free software and read the result.",
+      "Use a flip or a mirror to reveal errors that fade with familiarity.",
+      "Choose between sight-size and comparative measuring for a given task."
+    ],
+    "resources": [
+      {
+        "title": "The Three Elements of Sight-Size (About page)",
+        "provider": "Sight-Size.com (Velatura Press)",
+        "credit": "Darren R. Rousar",
+        "url": "https://www.sightsize.com/about.html",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "The page does not say whether it is free. The site lists 100+ articles but also sells Cast Drawing in Sight-Size (book, ebook, video course) and Memory Drawing books.",
+        "verified": false,
+        "role": "core",
+        "notes": "Read the Three Elements of Sight-Size section. The page's example has the viewer standing about eight feet from the setup and contrasts life-size sight-size with comparative measuring, which scales to the source.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "How to Draw Accurate Proportions (Drawing Basics, lesson 51)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://proko.com/course-lesson/how-to-draw-accurate-proportions",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "This 12:04 lesson is free; a longer premium version exists. Lesson 51, 53, 10 and 142 are free; lessons 52 and 55 are premium only. The full Drawing Basics course (185 lessons, 58 free) costs $159 one-time.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Watch the self-critique section: step back, take breaks, look again, and lay a photo of your drawing over the reference for quick feedback.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Comparative measurement (Wikipedia)",
+        "provider": "Wikipedia",
+        "credit": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Comparative_measurement",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Free encyclopedia article. Cites teachers and sources on sight-size and comparative measuring.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Read the sight-size section for the trade-off: fixed setup needed, versus comparative measuring where errors can accumulate.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Krita (free, open-source painting software)",
+        "provider": "Krita",
+        "credit": "Krita contributors",
+        "url": "https://krita.org/en/",
+        "format": "tool",
+        "cost": "free",
+        "free_notes": "Site describes Krita as free and open source under the GNU GPL.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Free software for overlay checks: put the reference on one layer and a photo of your drawing on another at reduced opacity.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Sight-size setup",
+        "description": "Put a small object on a table 2 to 3 metres away and your drawing board beside it at the same height. Mark your standing spot on the floor and draw the object life-size, stepping back to the spot before each comparison.",
+        "dose": "45 min, 2 sessions"
+      },
+      {
+        "title": "Overlay check",
+        "description": "Photograph your drawing square-on, overlay it at about 50% opacity on the reference image, and write down the three largest deviations.",
+        "dose": "15 min, 3 drawings",
+        "reference_url": "https://krita.org/en/"
+      },
+      {
+        "title": "Flip check",
+        "description": "View the drawing in a mirror, or flip drawing and reference horizontally on screen. List what you notice that you missed before.",
+        "dose": "10 min, 3 drawings"
+      },
+      {
+        "title": "Grid or viewfinder check",
+        "description": "Hold a clear sheet with a 3 by 3 grid between you and the subject, or use a cardboard viewfinder, and compare which cell each key point falls in on the subject and in the drawing.",
+        "dose": "20 min, 2 drawings"
+      },
+      {
+        "title": "Method comparison",
+        "description": "Draw the same small object once by comparative measuring and once in sight-size. Write two lines on speed, accuracy and tiredness.",
+        "dose": "30 min, once"
+      }
+    ],
+    "done_when": [
+      "An overlay at the same scale shows your three largest deviations are each only a few millimetres at drawing size.",
+      "You have used each of the four checks (sight-size, overlay, flip, grid) on at least one drawing.",
+      "You can name one situation where sight-size is the better choice and one where it is not."
+    ],
+    "common_mistakes": [
+      "Shifting your standing spot between comparisons.",
+      "Leaning on the overlay without first looking for the error by eye.",
+      "Photographing the drawing at an angle, which makes the overlay lie.",
+      "Calling any scaled-up or scaled-down copy sight-size."
+    ],
+    "school_reference": [
+      {
+        "institution": "Florence Academy of Art, Foundation in Graphic Arts",
+        "url": "https://florenceacademyofart.edu/wp-content/uploads/2024/12/Foundation-in-Graphic-Arts-Curriculum-2024-25.pdf",
+        "note": "One year, three trimesters, about 35 on-site hours a week. Early work copies a pencil Bargue (about 10x14 in), a charcoal Bargue (about 18x20 in) and a Bargue figure; sight-size is introduced in these exercises as the way to measure accurately; two charcoal cast drawings follow."
+      },
+      {
+        "institution": "Northwest Arkansas Community College, ART 1303 course outline",
+        "url": "https://www.nwacc.edu/_documents/courseoutlines/art1303.pdf",
+        "note": "3 credit hours, 45 lecture plus 45 lab contact hours. Topics include contour line, positive/negative shapes, sighting and measuring dimensions and angles (including a Mondrian tool), and master study."
+      }
+    ]
+  },
+  {
+    "id": "obs-still-life-from-life",
+    "title": "Still life: setting up and drawing simple objects from life",
+    "group": "observation-accuracy",
+    "level": "beginner",
+    "summary": "Still life gives you objects that stay put, one controllable light and as much time as you want, which makes it the best place to apply measuring and block-in together. You move from single objects to small overlapping groups against a plain background. The point is to practise the whole routine: set up, block in, measure, correct, then finish.",
+    "prerequisites": [
+      "obs-comparative-measuring",
+      "obs-negative-space"
+    ],
+    "est_hours": [
+      8,
+      16
+    ],
+    "learning_outcomes": [
+      "Arrange a simple still life with one light source and a plain background.",
+      "Draw a single object with believable proportions and sensible placement on the page.",
+      "Draw an overlapping group of three objects with consistent size relationships.",
+      "Write a short correction note after each drawing."
+    ],
+    "resources": [
+      {
+        "title": "+Critique - Simplify Pear from Observation (Drawing Basics, lesson 10)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://proko.com/course-lesson/critique-simplify-pear-from-observation",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "This 9:30 critique clip is free (taken from a longer premium critique). The project and demo lessons around it are not marked free. Course is $159 one-time.",
+        "verified": true,
+        "role": "core",
+        "notes": "Watch the critique of student pear drawings for common problems in shape design, proportion, asymmetry and shadow shapes, then draw your own pear or apple with those in mind.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Foundations Friday 2017, Lesson 5: Measured Setup",
+        "provider": "Liz Steel (lizsteel.com)",
+        "credit": "Liz Steel",
+        "url": "https://www.lizsteel.com/foundations-friday-2017-lesson-5-measured-setup/",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Blog post read in full without login or paywall on 2026-10-13. Liz Steel's paid products are the SketchingNow courses (Foundations, Edges, Buildings, Watercolour) and a Patreon; prices were not shown on the pages opened. The post itself does not say whether it is free; it links to the paid Foundations course for the full lesson.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "The measured-setup lesson: work slowly with faint marks, measure only a few key edges and judge the rest by eye. Her own summary: 'believable rather than precise is what to aim for'.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "ART 121 Drawing syllabus (Parks), 17-week sequence",
+        "provider": "nr.edu (appears to be New River Community College; inferred from domain)",
+        "credit": "Instructor Parks (name as in the file title)",
+        "url": "https://www.nr.edu/art/pdf/art121_syllabus_PARKS.pdf",
+        "format": "syllabus",
+        "cost": "free",
+        "free_notes": "Public PDF syllabus.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "The college project list shows how still-life subjects progress: cross-hatched still life, conte still lifes, charcoal still life, draped fabric, a reflective pot.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Open Access (CC0) images",
+        "provider": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art",
+        "url": "https://www.clevelandart.org/open-access",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "CC0 images and data; use the cc0=1 search filter; download button on object pages.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Use the open-access search with the cc0 filter for 'still life' to study how museum works arrange objects. Save two to compare.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "One object, one light",
+        "description": "Set a mug, pear or book on a table with a desk lamp to one side and a plain wall behind. Block in, measure, correct, finish.",
+        "dose": "30 min, 3 objects"
+      },
+      {
+        "title": "Three viewpoints",
+        "description": "Draw one object from eye level, from above and from low down.",
+        "dose": "15 min each, 3 drawings"
+      },
+      {
+        "title": "Overlapping group",
+        "description": "Arrange three objects that overlap. Draw it once with measuring and once by eye. Compare the two.",
+        "dose": "45 min, 1 pair of drawings"
+      },
+      {
+        "title": "Shape ladder",
+        "description": "Work from an egg or ball, to a box, to a cylinder-shaped bottle, to a jug with a handle.",
+        "dose": "20 min each, 4 objects"
+      },
+      {
+        "title": "Museum arrangement thumbnails",
+        "description": "Pick two still lifes from the Cleveland open-access set. Make 2-minute thumbnails of how the objects are grouped, then build a similar group yourself.",
+        "dose": "20 min, once",
+        "reference_url": "https://www.clevelandart.org/open-access"
+      }
+    ],
+    "done_when": [
+      "A three-object group where the relative sizes match the real objects when you check them with measuring or overlay.",
+      "Each drawing in the set has a visible block-in stage you can point to.",
+      "You wrote a correction note after each of the last three drawings."
+    ],
+    "common_mistakes": [
+      "Using several lights or moving the setup between sessions.",
+      "Putting every object dead centre and the same size on the page.",
+      "Starting with glass or shiny metal objects.",
+      "Sitting in a different spot each session; mark your seat on the floor."
+    ],
+    "school_reference": [
+      {
+        "institution": "nr.edu ART 121 Drawing syllabus (Parks)",
+        "url": "https://www.nr.edu/art/pdf/art121_syllabus_PARKS.pdf",
+        "note": "17 weeks, meets MWF 11:15am-1:15pm. Week 1-2: gesture, blind contour of objects then hands, contour of a foot, cross-contours, line networks. Week 10 is locational sketching; Week 15 is a grid copy of a famous work at double size."
+      },
+      {
+        "institution": "Northwest Arkansas Community College, ART 1303 course outline",
+        "url": "https://www.nwacc.edu/_documents/courseoutlines/art1303.pdf",
+        "note": "3 credit hours, 45 lecture plus 45 lab contact hours. Topics include contour line, positive/negative shapes, sighting and measuring dimensions and angles (including a Mondrian tool), and master study."
+      }
+    ]
+  },
+  {
+    "id": "obs-self-critique-error-log",
+    "title": "Checking and correcting your own drawing: the error log",
+    "group": "observation-accuracy",
+    "level": "intermediate",
+    "summary": "Accurate drawing depends as much on finding mistakes as on avoiding them. This module turns the checks from earlier modules into a habit: a short log of what went wrong, in which direction, and what you changed. After about ten drawings you should see a pattern in your own bias, such as always drawing the top too wide.",
+    "prerequisites": [
+      "obs-comparative-measuring"
+    ],
+    "est_hours": [
+      2,
+      4
+    ],
+    "learning_outcomes": [
+      "Keep a simple error log with three key measurements per drawing.",
+      "Name the direction of your most common error.",
+      "Predict a ratio by eye, then test it, to calibrate your judgement."
+    ],
+    "resources": [
+      {
+        "title": "Drawing Tutorials: Comparative Measurement, Part I",
+        "provider": "Vitruvian Fine Art Studio",
+        "credit": "Vitruvian Fine Art Studio (author not named on the page; builds on teaching by Deane G. Keller)",
+        "url": "https://vitruvianstudio.com/blog/drawing-tutorials-comparative-measurement-part-1/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Page states no price and no paywall was seen, but it does not say the article is free. It invites an email signup in exchange for a free materials guide. Parts 2 and 3 were announced but could not be found.",
+        "verified": false,
+        "role": "core",
+        "notes": "Read Part I's framing of measuring as collecting data and asking questions of the drawing. Use that attitude when you fill in the log.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "A Week of Continuous Line Drawings",
+        "provider": "Liz Steel (lizsteel.com)",
+        "credit": "Liz Steel",
+        "url": "https://www.lizsteel.com/a-week-of-continuous-line-drawings/",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Blog post read in full without login or paywall on 2026-10-13. Liz Steel's paid products are the SketchingNow courses (Foundations, Edges, Buildings, Watercolour) and a Patreon; prices were not shown on the pages opened. The livestream replay linked from the post is for course buyers only.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Her suggestion to study blind contours for habitual angle and length errors applies equally to later drawings.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "How to Draw Accurate Proportions (Drawing Basics, lesson 51)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://proko.com/course-lesson/how-to-draw-accurate-proportions",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "This 12:04 lesson is free; a longer premium version exists. Lesson 51, 53, 10 and 142 are free; lessons 52 and 55 are premium only. The full Drawing Basics course (185 lessons, 58 free) costs $159 one-time.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Self-critique section: step back, take breaks, look again, and overlay a photo of the drawing on the reference.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Error log table",
+        "description": "Make a table: drawing, three key measurements, direction of error (too big or small), and what you changed. Fill it in after each drawing.",
+        "dose": "5 min per drawing, 10 drawings"
+      },
+      {
+        "title": "Fresh-eyes pass",
+        "description": "Finish a drawing, leave it 10 minutes, then check it with a flip or an overlay before touching it again.",
+        "dose": "10 min, 5 drawings"
+      },
+      {
+        "title": "Predict then test",
+        "description": "Before measuring, write down your guess for two ratios on the subject. Then measure and note the gap.",
+        "dose": "10 min, 5 sessions"
+      },
+      {
+        "title": "Bias summary",
+        "description": "After ten entries, write two sentences about the pattern you see in your errors and one habit to try next.",
+        "dose": "15 min, once"
+      }
+    ],
+    "done_when": [
+      "Your log has ten entries with numbers, not just comments.",
+      "You can state your main bias in one sentence, for example 'my verticals run long'.",
+      "Your next three drawings show a smaller error in that direction."
+    ],
+    "common_mistakes": [
+      "Only checking after the drawing is finished.",
+      "Trusting memory instead of writing the numbers down.",
+      "Fixing a bias by erasing the whole drawing instead of noting the cause."
+    ],
+    "school_reference": [
+      {
+        "institution": "Northwest Arkansas Community College, ART 1303 course outline",
+        "url": "https://www.nwacc.edu/_documents/courseoutlines/art1303.pdf",
+        "note": "3 credit hours, 45 lecture plus 45 lab contact hours. Topics include contour line, positive/negative shapes, sighting and measuring dimensions and angles (including a Mondrian tool), and master study."
+      }
+    ]
+  },
+  {
+    "id": "obs-photo-vs-life",
+    "title": "Drawing from photographs versus from life",
+    "group": "observation-accuracy",
+    "level": "intermediate",
+    "summary": "Photos are still, repeatable and easy to overlay, but they are flat, may be bent by the lens and squeeze the range of tones. Drawing from life gives depth and a shifting view and trains looking in ways photos cannot. This module has you draw the same subject both ways, compare results, and set rules for practising from photos without picking up their habits.",
+    "prerequisites": [
+      "obs-still-life-from-life"
+    ],
+    "est_hours": [
+      4,
+      8
+    ],
+    "learning_outcomes": [
+      "Describe three differences you saw between a photo-based and a life-based drawing of the same subject.",
+      "Choose photo or life practice for a given goal.",
+      "Practise from photos using your own rules (own photos, same-size display, a check against the photo)."
+    ],
+    "resources": [
+      {
+        "title": "Demo - Measure Proportions (Drawing Basics, lesson 53)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://proko.com/course-lesson/demo-measure-proportions",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "This 7:57 demo is free; a premium version with extra content exists. The matching project (lesson 52) and critique (lesson 55) are premium only. Course is $159 one-time.",
+        "verified": true,
+        "role": "core",
+        "notes": "A worked example of measuring from a photo and checking the drawing against it in an app. Notice how the photo makes overlay checks easy.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Quickposes (timed reference image tool)",
+        "provider": "Quickposes",
+        "credit": "Quickposes (owner not named on the page)",
+        "url": "https://www.quickposes.com/",
+        "format": "tool",
+        "cost": "free-tier",
+        "free_notes": "Page calls it a free image library and gesture drawing tool. Optional donations (EUR 3, 5, 10) and a EUR 15 desktop app; account optional. Images are model and character poses, not objects or landscapes.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Timed sessions of model photos, useful for fast proportion and angle practice. Account is optional. Remember the images are poses of people, not objects.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Line of Action (practice tools and lessons)",
+        "provider": "Line of Action",
+        "credit": "Line of Action",
+        "url": "https://line-of-action.com/",
+        "format": "tool",
+        "cost": "free-tier",
+        "free_notes": "The page lists paid subscriptions and pay-as-you-go photo packs and a free mailing-list signup; it does not say which practice tools are free. Check before relying on it.",
+        "verified": false,
+        "role": "alternative",
+        "notes": "Practice tools for figures, animals, hands, still life and scenes, plus lessons. Check which parts are free before relying on it.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Smithsonian Open Access (CC0 media)",
+        "provider": "Smithsonian Institution",
+        "credit": "Smithsonian museums, libraries, archives and National Zoo",
+        "url": "https://www.si.edu/openaccess",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "5.2 million+ 2D and 3D items; the 'Just browsing' link filters to CC0 media. The page links separate Terms of Use that were not opened.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "A source of CC0 reference photos of objects and specimens. Use the Just browsing link to filter to CC0 media.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Same subject, two sources",
+        "description": "Draw one object from a photo, then from life. Spend equal time on each, then write three differences.",
+        "dose": "20 min each, 1 pair"
+      },
+      {
+        "title": "Lens distortion test",
+        "description": "Photograph one object from half a metre away and again from three metres with zoom. Compare the ratios in the two photos and in life.",
+        "dose": "20 min, once"
+      },
+      {
+        "title": "Timed proportion sprints",
+        "description": "Do ten 2-minute and four 5-minute drawings from photo poses, aiming only at angles and proportions.",
+        "dose": "40 min, 2 sessions",
+        "reference_url": "https://www.quickposes.com/"
+      },
+      {
+        "title": "Set your photo rules",
+        "description": "Write three rules (for example: my own photos or CC0 only; displayed at drawing size; check against the photo before shading). Follow them for five drawings.",
+        "dose": "15 min plus 5 drawings"
+      },
+      {
+        "title": "Photo then life",
+        "description": "Photograph your own still life, draw from the photo, then draw the real set-up. Overlay the two results.",
+        "dose": "40 min, once"
+      }
+    ],
+    "done_when": [
+      "You have a written list of three photo-versus-life differences from your own drawings.",
+      "You have a short set of photo rules and followed them for at least five drawings.",
+      "You can say when you would pick a photo (speed, repeatability) and when life (depth, changing light)."
+    ],
+    "common_mistakes": [
+      "Copying the flat, low-contrast look of a photo instead of what the eye sees.",
+      "Using other people's photos with unclear rights for work you plan to share.",
+      "Practising only from photos for months.",
+      "Using a zoomed-in screen image that distorts distances."
+    ],
+    "school_reference": [
+      {
+        "institution": "nr.edu ART 121 Drawing syllabus (Parks)",
+        "url": "https://www.nr.edu/art/pdf/art121_syllabus_PARKS.pdf",
+        "note": "17 weeks, meets MWF 11:15am-1:15pm. Week 1-2: gesture, blind contour of objects then hands, contour of a foot, cross-contours, line networks. Week 10 is locational sketching; Week 15 is a grid copy of a famous work at double size."
+      }
+    ]
+  },
+  {
+    "id": "obs-master-copies-bargue",
+    "title": "Master copies and plate drawing: Bargue plates and open-access drawings",
+    "group": "observation-accuracy",
+    "level": "intermediate",
+    "summary": "Copying chosen drawings trains measuring, edge decisions and patience under the eye of a skilled hand. Charles Bargue's Cours de dessin was built for this, moving from plaster casts to master drawings to the living model. The original 19th-century plates are old enough to be public domain, and several museums now offer free downloads of Bargue prints and Old Master drawings.",
+    "prerequisites": [
+      "obs-block-in",
+      "obs-sight-size-and-checks"
+    ],
+    "est_hours": [
+      15,
+      40
+    ],
+    "learning_outcomes": [
+      "Copy a plate or master drawing at a controlled scale using block-in and checks.",
+      "Compare your copy to the source by overlay and log the errors.",
+      "Find and download free, rights-clear copy sources from museum open-access collections."
+    ],
+    "resources": [
+      {
+        "title": "Parthenon. Fragment de la frise (Two riders), Bargue plate from Cours de dessin, Part I",
+        "provider": "Rijksmuseum",
+        "credit": "Charles Bargue (printmaker) with Jean-Leon Gerome; Goupil & Cie (publisher); Lemercier & Cie (printer)",
+        "url": "https://www.rijksmuseum.nl/en/collection/object/Twee-ruiters-deel-van-het-fries-van-het-Parthenon--500c28a74c24aeb1d55930863aa4f648",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Object page carries the Creative Commons Public Domain Mark 1.0 and a Download image option. Rijksmuseum has 9 Bargue print records in total (data service query: data.rijksmuseum.nl/search/collection?creator=Bargue&type=print); only this one was confirmed as a Cours de dessin plate.",
+        "verified": true,
+        "role": "core",
+        "notes": "Open the page, download the image, and use it as your first plate: a Part I cast plate showing the Parthenon frieze. Print it, or display it at the size of your paper, and set it beside your sheet.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Open Access images (CC0), including Old Master drawings",
+        "provider": "The Metropolitan Museum of Art",
+        "credit": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/image-resources",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "CC0; 406,000+ images; filter the collection search by Open Access. A few works carry the icon but have no image on the site and would need a paid request via Art Resource.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Use the Open Access filter to find Old Master drawings and prints for later copies. Download only items that carry the Open Access icon and show a download link.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Charles Bargue (Wikipedia)",
+        "provider": "Wikipedia",
+        "credit": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Charles_Bargue",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Free encyclopedia article. Gives the structure of the Drawing Course (197 lithographs in three parts) but no free scans, and its publication dates are inconsistent.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Background on the Drawing Course: 197 lithographs in three parts (casts, master drawings, living model). Note the page gives inconsistent dates and no free scans.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Foundation in Graphic Arts Curriculum 2024-25 (PDF)",
+        "provider": "Florence Academy of Art",
+        "credit": "Florence Academy of Art",
+        "url": "https://florenceacademyofart.edu/wp-content/uploads/2024/12/Foundation-in-Graphic-Arts-Curriculum-2024-25.pdf",
+        "format": "syllabus",
+        "cost": "free",
+        "free_notes": "Public PDF of the school's one-year curriculum; the programme itself is fee-paying.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Shows how an atelier uses Bargue copies in the first year: a pencil plate, a more advanced charcoal plate and a figure copy, with sight-size used as the measuring method.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Outline-only pass",
+        "description": "Copy only the outline of one plate, checking it by overlay and negative shapes. Do not shade yet.",
+        "dose": "2 to 3 hours, 1 plate",
+        "reference_url": "https://www.rijksmuseum.nl/en/collection/object/Twee-ruiters-deel-van-het-fries-van-het-Parthenon--500c28a74c24aeb1d55930863aa4f648"
+      },
+      {
+        "title": "Full plate copy",
+        "description": "Add the shadow shapes and values to the same plate, comparing at the same scale and from the same spot.",
+        "dose": "8 to 12 hours over several sessions, 1 plate"
+      },
+      {
+        "title": "Old-master head copy",
+        "description": "Pick a CC0 drawing of a head from the Met, National Gallery of Art or Cleveland collections and copy it at about the same size as the original.",
+        "dose": "3 to 5 hours, 1 copy",
+        "reference_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/image-resources"
+      },
+      {
+        "title": "Copy error log",
+        "description": "After each copy, overlay it on the source and write the three largest errors and their direction.",
+        "dose": "20 min per copy"
+      },
+      {
+        "title": "Second plate, tighter check",
+        "description": "Choose a harder plate or drawing and run a check after each stage: envelope, divisions, shadow shapes.",
+        "dose": "6 to 10 hours, 1 copy"
+      }
+    ],
+    "done_when": [
+      "One finished plate copy whose overlay on the source shows no major shape off by more than a few millimetres.",
+      "A second copy from a different artist or part of the course.",
+      "An error log entry for each copy.",
+      "You can name the museum, licence and download link for each source image you used."
+    ],
+    "common_mistakes": [
+      "Choosing a plate that is far too hard, then tracing to rescue it.",
+      "Copying outlines as hard graphic lines instead of edges that change in sharpness.",
+      "Skipping the measuring checks because a copy feels easy.",
+      "Using scans from unofficial sites whose rights are unclear instead of museum downloads."
+    ],
+    "school_reference": [
+      {
+        "institution": "Florence Academy of Art, Foundation in Graphic Arts",
+        "url": "https://florenceacademyofart.edu/wp-content/uploads/2024/12/Foundation-in-Graphic-Arts-Curriculum-2024-25.pdf",
+        "note": "One year, three trimesters, about 35 on-site hours a week. Early work copies a pencil Bargue (about 10x14 in), a charcoal Bargue (about 18x20 in) and a Bargue figure; sight-size is introduced in these exercises as the way to measure accurately; two charcoal cast drawings follow."
+      },
+      {
+        "institution": "nr.edu ART 121 Drawing syllabus (Parks)",
+        "url": "https://www.nr.edu/art/pdf/art121_syllabus_PARKS.pdf",
+        "note": "17 weeks, meets MWF 11:15am-1:15pm. Week 1-2: gesture, blind contour of objects then hands, contour of a foot, cross-contours, line networks. Week 10 is locational sketching; Week 15 is a grid copy of a famous work at double size."
+      },
+      {
+        "institution": "Northwest Arkansas Community College, ART 1303 course outline",
+        "url": "https://www.nwacc.edu/_documents/courseoutlines/art1303.pdf",
+        "note": "3 credit hours, 45 lecture plus 45 lab contact hours. Topics include contour line, positive/negative shapes, sighting and measuring dimensions and angles (including a Mondrian tool), and master study."
+      }
+    ]
+  },
+  {
+    "id": "obs-visual-memory",
+    "title": "Visual memory: draw what you just looked at, then check",
+    "group": "observation-accuracy",
+    "level": "intermediate",
+    "summary": "Memory drawing means studying something carefully, hiding it, drawing it from memory and then comparing the result. It trains you to notice what matters, because you can only recall what you really saw. Lecoq de Boisbaudran taught it in the 19th century as a companion to drawing from nature, and modern atelier teachers still use it.",
+    "prerequisites": [
+      "obs-still-life-from-life"
+    ],
+    "est_hours": [
+      4,
+      8
+    ],
+    "learning_outcomes": [
+      "Run a look, cover, draw, compare cycle on a simple subject.",
+      "Draw a silhouette and a group of simple solids from memory.",
+      "Notice what you tend to forget (angles, overlaps, proportions)."
+    ],
+    "resources": [
+      {
+        "title": "The Training of the Memory in Art and the Education of the Artist (1911 translation)",
+        "provider": "Internet Archive",
+        "credit": "Horace Lecoq de Boisbaudran; translated by L. D. Luard",
+        "url": "https://archive.org/details/TheTrainingOfTheMemoryInArtAndTheEducationOfTheArtist",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Item page offers PDF, EPUB and full-text downloads, no lending restriction seen, and marks the work Public Domain.",
+        "verified": true,
+        "role": "core",
+        "notes": "Public-domain 1911 translation. Read the introduction and the sections on method; it gives only hints on how he taught, so treat it as inspiration and not as a set of drills.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Memory Training for Painters",
+        "provider": "Sight-Size.com (Velatura Press)",
+        "credit": "Darren R. Rousar, abridging Richard Lack's 1990 article",
+        "url": "https://www.sightsize.com/memory-training-for-painters/",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Page does not state a price. Rousar's Memory Drawing books are sold separately at memorydrawing.com.",
+        "verified": false,
+        "role": "alternative",
+        "notes": "A short article abridging Richard Lack. Suggested exercises are recalling geometric shapes, silhouettes and colour swatches; form study gets about three to four times the time of colour study. Memory supplements observation.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Gurney Journey (daily art weblog; labels Preliminary Sketches, Visual Perception, Pencil Sketching)",
+        "provider": "Gurney Journey (gurneyjourney.blogspot.com)",
+        "credit": "James Gurney",
+        "url": "https://gurneyjourney.blogspot.com/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Blog is openly readable; a companion Substack states it runs with no paywalls. Optional tip jar. Label pages are blocked to some fetch tools, so open them in a normal browser.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Browse the Visual Perception label (about 150 posts) on how artists see and remember. Label pages may need a normal browser.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Look, cover, draw",
+        "description": "Study a simple object for 60 seconds, cover it, draw it from memory for 2 minutes, then uncover it and overlay or measure the difference.",
+        "dose": "10 repetitions, about 40 min"
+      },
+      {
+        "title": "Silhouette recall",
+        "description": "Study the silhouette of each of five objects for 30 seconds, then draw each from memory.",
+        "dose": "20 min, once"
+      },
+      {
+        "title": "Solids from memory",
+        "description": "Arrange a cube, a cylinder and a ball. Study for a minute and draw the group from memory, then check.",
+        "dose": "10 min, 5 repetitions"
+      },
+      {
+        "title": "Delay ladder",
+        "description": "Study one object and draw it after 1 minute, 10 minutes and the next day. Compare how details drop away.",
+        "dose": "5 min per attempt, over 2 days"
+      },
+      {
+        "title": "Scene recall",
+        "description": "Look at a cafe table or a street corner for 2 minutes, then draw it later at home. Compare with a photo if you took one.",
+        "dose": "15 min, 3 scenes"
+      }
+    ],
+    "done_when": [
+      "You can complete a look, cover, draw cycle in under five minutes on a simple object.",
+      "You have a short list of the features you most often forget.",
+      "Your memory drawings of simple solids match the originals' proportions when checked."
+    ],
+    "common_mistakes": [
+      "Starting with complicated subjects.",
+      "Skipping the check against the real thing.",
+      "Treating memory work as a replacement for drawing from observation.",
+      "Studying for a long time without trying to draw."
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "obs-thumbnails-essentials",
+    "title": "Thumbnail studies: reducing a subject to its essentials",
+    "group": "observation-accuracy",
+    "level": "beginner",
+    "summary": "A thumbnail is a very small, fast drawing used to decide what a picture is about before you invest in it. You reduce a subject to a few shapes and three values, and you make several versions to compare. The skill transfers to composition, location sketching and planning bigger drawings.",
+    "prerequisites": [
+      "obs-block-in"
+    ],
+    "est_hours": [
+      3,
+      6
+    ],
+    "learning_outcomes": [
+      "Reduce a reference to three values in a small thumbnail.",
+      "Make at least five different thumbnails from one subject.",
+      "Pick a thumbnail on purpose and say why."
+    ],
+    "resources": [
+      {
+        "title": "Project - Value Composition Thumbnails (Drawing Basics, lesson 142)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://proko.com/course-lesson/project-value-composition-thumbnails",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "This 7:07 lesson is free; a premium version with extra content exists. The 2025 submission deadline on the page has passed, so only the exercise description is useful. Course is $159 one-time.",
+        "verified": true,
+        "role": "core",
+        "notes": "Watch the lesson and follow the exercise outline: simplify each photo to three values in small thumbnails, five or more versions per photo, then enlarge your favourite with up to five values. The submission deadline has passed, so treat it as self-study.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Foundations Friday 2017, Lesson 10: Creating a Focus Using Thumbnails",
+        "provider": "Liz Steel (lizsteel.com)",
+        "credit": "Liz Steel",
+        "url": "https://www.lizsteel.com/foundations-friday-2017-lesson-10-creating-a-focus-using-thumbnails/",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Blog post open without login. It links to the paid Foundations course on sketchingnow.com for the full class.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Choose a focus and use five labelled thumbnails of one view to test options before committing.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Foundations Friday 2017, Lesson 11: Working from a Focus",
+        "provider": "Liz Steel (lizsteel.com)",
+        "credit": "Liz Steel",
+        "url": "https://www.lizsteel.com/?p=24267",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Blog post; the post does not say if it is free but it displayed in full. The Foundations course it comes from is paid.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Follow-up lesson on working outward from a focus. She calls this a high-risk approach that needs a solid base of sketching skills.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Gurney Journey (daily art weblog; labels Preliminary Sketches, Visual Perception, Pencil Sketching)",
+        "provider": "Gurney Journey (gurneyjourney.blogspot.com)",
+        "credit": "James Gurney",
+        "url": "https://gurneyjourney.blogspot.com/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Blog is openly readable; a companion Substack states it runs with no paywalls. Optional tip jar. Label pages are blocked to some fetch tools, so open them in a normal browser.",
+        "verified": true,
+        "role": "supplementary",
+        "notes": "Browse the Preliminary Sketches label (about 75 posts) to see how a working illustrator plans a picture. Label pages may need a normal browser.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Three-value thumbnails",
+        "description": "Take three reference photos of your own. Make five small thumbnails of each, simplified to three values.",
+        "dose": "2 to 3 min each, 15 thumbnails"
+      },
+      {
+        "title": "Window view options",
+        "description": "Sit at a window. Draw five thumbnails of the same view, changing the crop and the focal point each time. Choose one and say why.",
+        "dose": "20 min, once",
+        "reference_url": "https://www.lizsteel.com/foundations-friday-2017-lesson-10-creating-a-focus-using-thumbnails/"
+      },
+      {
+        "title": "Story sentence first",
+        "description": "Write one sentence about what the scene is about. Then draw three thumbnails that all serve that sentence.",
+        "dose": "15 min, 3 scenes"
+      },
+      {
+        "title": "Scale up the best",
+        "description": "Enlarge your favourite thumbnail into a slightly bigger sketch with up to five values.",
+        "dose": "15 min, 3 sketches"
+      },
+      {
+        "title": "Museum thumbnails",
+        "description": "Take one CC0 drawing or print from the Met or Cleveland, and reduce it to a 2-minute thumbnail of its main masses.",
+        "dose": "10 min, 3 works",
+        "reference_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/image-resources"
+      }
+    ],
+    "done_when": [
+      "You can make five distinct thumbnails of one subject in under 15 minutes.",
+      "Each thumbnail uses no more than three values.",
+      "You can explain, in a sentence, what made your chosen thumbnail the strongest."
+    ],
+    "common_mistakes": [
+      "Making thumbnails too big, so they become small finished drawings.",
+      "Making five thumbnails that are nearly identical.",
+      "Adding detail instead of deciding what to leave out."
+    ],
+    "school_reference": [
+      {
+        "institution": "nr.edu ART 121 Drawing syllabus (Parks)",
+        "url": "https://www.nr.edu/art/pdf/art121_syllabus_PARKS.pdf",
+        "note": "17 weeks, meets MWF 11:15am-1:15pm. Week 1-2: gesture, blind contour of objects then hands, contour of a foot, cross-contours, line networks. Week 10 is locational sketching; Week 15 is a grid copy of a famous work at double size."
+      }
+    ]
+  },
+  {
+    "id": "obs-quick-location-sketching",
+    "title": "Quick sketching and location (urban) sketching",
+    "group": "observation-accuracy",
+    "level": "intermediate",
+    "summary": "Location sketching applies observation under time pressure: you choose what matters, simplify fast and accept a loose result. You work in short timed bursts on buildings, streets and people, using measuring only for a few key edges. The Urban Sketchers community offers free talks and prompts that make a weekly habit easier.",
+    "prerequisites": [
+      "obs-contour-blind-contour",
+      "obs-thumbnails-essentials"
+    ],
+    "est_hours": [
+      10,
+      24
+    ],
+    "learning_outcomes": [
+      "Finish a readable sketch of a street scene in 5 to 30 minutes.",
+      "Decide on a focus before drawing and leave out the rest.",
+      "Sketch people and moving subjects as simple shapes in a minute or two.",
+      "Keep a weekly location-sketching habit."
+    ],
+    "resources": [
+      {
+        "title": "Quick Sketching Tips (tag page, seven or more posts)",
+        "provider": "Liz Steel (lizsteel.com)",
+        "credit": "Liz Steel",
+        "url": "https://www.lizsteel.com/tag/quick-sketching-tips/",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Posts listed here read as free blog articles with no paywall. Paid: SketchingNow courses and Patreon.",
+        "verified": true,
+        "role": "core",
+        "notes": "Start with '5 Minute Sketching Architecture: How to See' and the 30-minute scene post, then work through the rest of the tag. She stresses finding the story first and says not to force a literal five-minute limit.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Free workshop handouts (PDF): Actors on Stage, Drawing People in Motion, Making Expressive Pen and Ink Drawings on Location, The Broken Silhouette, Site Sketching Card Deck",
+        "provider": "Citizen Sketcher",
+        "credit": "Marc Taro Holmes",
+        "url": "https://citizensketcher.com/downloads/",
+        "format": "reference-bank",
+        "cost": "free-tier",
+        "free_notes": "The page labels these 'Free PDF files'. Holmes's books and online classes are sold separately (prices not shown).",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Use Actors on Stage and Drawing People in Motion for quick people, Making Expressive Pen and Ink Drawings on Location for looser line, and The Broken Silhouette for simplifying streets.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "USk Talks (free lecture series)",
+        "provider": "Urban Sketchers",
+        "credit": "Urban Sketchers and guest speakers",
+        "url": "https://urbansketchers.org/usk-talks/",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "Page describes the series as free lectures. Urban Sketchers membership, workshops and shop are separate and pricing was not shown.",
+        "verified": true,
+        "role": "alternative",
+        "notes": "Watch the season 1 clip 'How to Improve Your Sketches' (5:11) and Season 2's 'Visual Storytelling: Practical Tips' for approaches to choosing and framing a subject.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "USk Prompts (monthly daily sketching prompts)",
+        "provider": "Urban Sketchers",
+        "credit": "Urban Sketchers",
+        "url": "https://urbansketchers.org/usk-prompts/",
+        "format": "interactive",
+        "cost": "free",
+        "free_notes": "Page does not state whether taking part is free and does not mention a fee. Prompts appear as images; post with the month's hashtag.",
+        "verified": false,
+        "role": "supplementary",
+        "notes": "Monthly daily prompts. Pick one a day for a week as a reason to sketch; post with the hashtag if you want to share.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Five-minute street series",
+        "description": "Sketch ten buildings or street corners in five minutes each. Decide the story first, put the big shapes down early, and stop when the time is up.",
+        "dose": "5 min each, 10 sketches",
+        "reference_url": "https://www.lizsteel.com/tag/quick-sketching-tips/"
+      },
+      {
+        "title": "Thirty-minute scene",
+        "description": "Once a week, sketch one complex scene in about 30 minutes using setup lines, big shapes and only a few measured edges.",
+        "dose": "30 min, weekly for 4 weeks",
+        "reference_url": "https://www.lizsteel.com/attempt-sketch-scene-30-minutes/"
+      },
+      {
+        "title": "People in a cafe",
+        "description": "Draw people who are sitting or moving as simple shapes in one to two minutes each. Do not worry about likeness.",
+        "dose": "1 to 2 min each, 15 sketches",
+        "reference_url": "https://citizensketcher.com/downloads/"
+      },
+      {
+        "title": "Prompt week",
+        "description": "Choose one prompt per day from the current month's USk Prompts and sketch it for ten minutes.",
+        "dose": "10 min, 7 days",
+        "reference_url": "https://urbansketchers.org/usk-prompts/"
+      },
+      {
+        "title": "Local sketch outing",
+        "description": "Find a nearby Urban Sketchers meet-up through the Urban Sketchers site, or go to a park with a friend, and sketch for two hours.",
+        "dose": "2 hours, monthly"
+      }
+    ],
+    "done_when": [
+      "Ten 5-minute sketches where you can name the focus of each.",
+      "Four weekly 30-minute scenes completed.",
+      "At least 15 quick people sketches that read as people.",
+      "You have sketched on location at least four times in one month."
+    ],
+    "common_mistakes": [
+      "Trying to draw every window and brick instead of deciding what to leave out.",
+      "Measuring every edge on a five-minute sketch.",
+      "Rubbing out; quick sketches improve by repeating, not by fixing.",
+      "Waiting for perfect weather or a perfect view."
+    ],
+    "school_reference": [
+      {
+        "institution": "nr.edu ART 121 Drawing syllabus (Parks)",
+        "url": "https://www.nr.edu/art/pdf/art121_syllabus_PARKS.pdf",
+        "note": "17 weeks, meets MWF 11:15am-1:15pm. Week 1-2: gesture, blind contour of objects then hands, contour of a foot, cross-contours, line networks. Week 10 is locational sketching; Week 15 is a grid copy of a famous work at double size."
+      }
+    ]
+  },
+  {
+    "id": "obs-nature-study-journaling",
+    "title": "Nature study and field-journal observation",
+    "group": "observation-accuracy",
+    "level": "beginner",
+    "summary": "Nature journaling pairs drawing with slow looking, measurements and questions, a method shared with scientific illustration. You look first, draw second and write what you noticed, using leaves, shells, feathers or garden birds as subjects. It builds accurate observation without the pressure of a finished picture.",
+    "prerequisites": [
+      "obs-contour-blind-contour"
+    ],
+    "est_hours": [
+      6,
+      14
+    ],
+    "learning_outcomes": [
+      "Look at one natural object for several minutes before drawing it.",
+      "Record at least three measurements or comparisons beside a drawing.",
+      "Write three questions or observations per page.",
+      "Compare two similar objects (two leaves, two shells) side by side."
+    ],
+    "resources": [
+      {
+        "title": "Free Nature Journaling Curriculum: Opening the World through Journaling (2nd edition)",
+        "provider": "John Muir Laws (johnmuirlaws.com)",
+        "credit": "John Muir Laws",
+        "url": "https://johnmuirlaws.com/journaling-curriculum/",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "The page states the second edition is a free download. Written for ages 8 and up, usable by teens and adults. Other Laws items (store, Stanford masterclass, educator certification) have unstated or paid fees.",
+        "verified": true,
+        "role": "core",
+        "notes": "Free download. Written for young learners but usable by adults. Use its nested drawing and observation games as a source of exercises.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Workshop Archive (video workshops on drawing, plants, birds, observation)",
+        "provider": "John Muir Laws (johnmuirlaws.com)",
+        "credit": "John Muir Laws and guest teachers",
+        "url": "https://johnmuirlaws.com/blog-archives/",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "The homepage links this archive under the heading 'Free Online Lessons', but the archive page itself does not label items free or paid. Check each video before relying on it.",
+        "verified": false,
+        "role": "alternative",
+        "notes": "Pick from the archive's drawing fundamentals and observation workshops (for example Shape vs. Structure; Deep Observation and Nature Journaling; plant and bird drawing). Not every item is labelled free.",
+        "last_checked": "2026-10-13"
+      },
+      {
+        "title": "Guild of Natural Science Illustrators (Education Resources, Handbook of Science Illustration, Recordings)",
+        "provider": "Guild of Natural Science Illustrators",
+        "credit": "GNSI",
+        "url": "https://www.gnsi.org/",
+        "format": "reference-bank",
+        "cost": "free-tier",
+        "free_notes": "Homepage links education resources, a handbook, recordings and workshops without stating access terms; the journal appears to be a member benefit. Only the homepage was opened.",
+        "verified": false,
+        "role": "supplementary",
+        "notes": "Professional body for scientific illustration. Look at Education Resources and Recordings for any free material; the homepage does not state access terms.",
+        "last_checked": "2026-10-13"
+      }
+    ],
+    "practice": [
+      {
+        "title": "Observe first",
+        "description": "Sit with one leaf, shell or feather for 10 minutes and just look. Then draw it for 15 minutes. List five things you only noticed while drawing.",
+        "dose": "25 min, 3 objects"
+      },
+      {
+        "title": "Labelled study",
+        "description": "Draw one object and add three measurements or comparisons and three questions beside it.",
+        "dose": "25 min, 3 pages"
+      },
+      {
+        "title": "Pair comparison",
+        "description": "Draw two similar objects side by side and write what is the same and what differs.",
+        "dose": "30 min, 2 pairs"
+      },
+      {
+        "title": "Sit spot",
+        "description": "Pick one outdoor spot and draw what you see in three short sessions over a week.",
+        "dose": "20 min, 3 sessions"
+      },
+      {
+        "title": "Specimen from a photo bank",
+        "description": "If you cannot go outside, pick a CC0 specimen photo from the Smithsonian's open-access images and draw it with the same labelling.",
+        "dose": "30 min, 2 drawings",
+        "reference_url": "https://www.si.edu/openaccess"
+      }
+    ],
+    "done_when": [
+      "Three journal pages, each with a drawing plus measurements and questions.",
+      "You can list five details you noticed only because you drew the object.",
+      "A pair-comparison page that identifies at least three differences."
+    ],
+    "common_mistakes": [
+      "Drawing before looking.",
+      "Writing generic notes ('pretty leaf') instead of specific observations.",
+      "Treating the journal page as a showpiece and avoiding messy attempts."
+    ],
+    "school_reference": []
+  }
+]

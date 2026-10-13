@@ -1,0 +1,1564 @@
+{
+  "syllabi": [
+    {
+      "institution": "Open University (OpenLearn Create platform)",
+      "course": "Drawing and Coloring Essentials",
+      "url": "https://www.open.edu/openlearncreate/course/view.php?id=4322",
+      "level": "Level 0 beginner; free self-paced course",
+      "duration_weeks": 0,
+      "hours_per_week": 0,
+      "sequence": [
+        "Welcome and set-up",
+        "Drawing objects",
+        "The human figure",
+        "Portraits",
+        "One extra technique as a bonus unit",
+        "Still life, plus a kite project",
+        "Landscapes",
+        "Closing quiz"
+      ],
+      "assessment_criteria": [
+        "Finishing the sections and passing the end quiz",
+        "A free Statement of Participation is issued on completion (per the page)"
+      ],
+      "notes": "24 study hours in total, self-paced, so weeks and hours per week are recorded as 0 (not stated). Free: you enrol with a free account and the page says the Statement of Participation is also free. The page sits on OpenLearn Create, which can host courses written by outside authors, and I could not confirm the author from the fetched text. Only section titles were visible, not the exercises.",
+      "verified": true
+    },
+    {
+      "institution": "RMIT University (Melbourne)",
+      "course": "Produce drawings to communicate ideas (VART6406C), part of Certificate IV in Design (C4382)",
+      "url": "https://www1.rmit.edu.au/courses/C4382VART6406C2145",
+      "level": "Australian vocational (VET) Certificate IV",
+      "duration_weeks": 21,
+      "hours_per_week": 3.8,
+      "sequence": [
+        "Weeks 2 to 9: seeing and drawing, line and shape, thumbnails and concept sketching, composition",
+        "Weeks 2 to 9 (cont.): line and form with hatching, pattern and texture, structure, perspective, stylised drawing",
+        "Week 10: review the exercises and assemble the folio",
+        "Weeks 11 to 12: introduce the drawing project, research, set personal project aims",
+        "Weeks 13 to 17: concept drawing, media trials, production, feedback, in-class submission",
+        "Weeks 18 to 21: finish assessment and feedback"
+      ],
+      "assessment_criteria": [
+        "Competency-based result (achieved or not yet competent), not a mark out of 100",
+        "Task 1: a folio of in-class exercises (tasks 1 to 8), due week 12",
+        "Task 2: a drawing project judged against a checklist of components and overall outcome, with written feedback, due week 18",
+        "One resubmission allowed if the first attempt is not satisfactory"
+      ],
+      "notes": "80 nominal hours over a 21-week term, so 3.8 hours per week is my division, not a stated contact figure. This is the Term 2 2021 Brunswick offering; the current timetable may differ. Closest Melbourne evidence of how a vocational drawing unit is paced: eight weeks of exercises, then a long self-directed project.",
+      "verified": true
+    },
+    {
+      "institution": "Monash University (Melbourne)",
+      "course": "DWG1201 Drawing 1",
+      "url": "https://www3.monash.edu/pubs/2016handbooks/units/DWG1201.html",
+      "level": "Undergraduate first-year studio unit (6 points)",
+      "duration_weeks": 0,
+      "hours_per_week": 12,
+      "sequence": [
+        "A run of projects drawing manufactured and natural forms, including the human figure",
+        "Study of proportion, structure, volume and space",
+        "Use of line, tone, shape, movement and texture",
+        "Trials of different drawing materials and methods"
+      ],
+      "assessment_criteria": [
+        "Whole grade comes from a folio: 20 percent handed in mid-semester, 80 percent at the end",
+        "Folio includes class work, optional independent work, and a journal tracking progress and research"
+      ],
+      "notes": "From the archived 2016 handbook; the current-handbook URL (handbook.monash.edu/current/units/DWG1201) loaded but showed no synopsis, so I cannot say the unit still runs in this form. 12 hours per week is 4 studio plus 8 independent as stated. Number of weeks is not on the page (semester length, usually about 12 teaching weeks, is my assumption and is left as 0). The page does not give a week-by-week order.",
+      "verified": true
+    },
+    {
+      "institution": "Clark College, Vancouver WA (Community Education)",
+      "course": "Drawing for Beginners, spring 2025",
+      "url": "https://www.clark.edu/cce/class-resources/supply-lists/beginning-drawing-syllabus-spring2025.pdf",
+      "level": "Community-education beginner course",
+      "duration_weeks": 8,
+      "hours_per_week": 2,
+      "sequence": [
+        "Week 1: blind, semi-blind and continuous contour, gesture, circles and ellipses",
+        "Week 2: sighting and alignment to judge proportion",
+        "Week 3: negative space, first look at value",
+        "Week 4: more value work, subtractive drawing, light and shadow for form",
+        "Week 5: one-point and two-point perspective",
+        "Week 6: pen techniques (hatching, cross-hatching, stippling, scumbling)",
+        "Week 7: portraits and face proportions",
+        "Week 8: landscape, with outdoor sessions if the weather allows"
+      ],
+      "assessment_criteria": [
+        "No grading or assessment criteria stated; this is a non-credit class"
+      ],
+      "notes": "Shortest complete beginner-to-landscape run I found: 16 contact hours in total. Good template for a first pass through the basics.",
+      "verified": true
+    },
+    {
+      "institution": "San Jose State University (California)",
+      "course": "ART 24 Drawing 1, section 4, spring 2020",
+      "url": "https://www.sjsu.edu/art/docs/greensheets/syllabi_2202_spring2020/ART_024_04_Friedman_Erik_Spring%202020.pdf",
+      "level": "First-year university studio course",
+      "duration_weeks": 16,
+      "hours_per_week": 5.7,
+      "sequence": [
+        "Weeks 1 to 2: charcoal and pencil handling, pictorial space, edges, proportion exercises",
+        "Weeks 3 to 4: composition frameworks, positive and negative space, shape, intro to contour line",
+        "Weeks 5 to 6: cross-contour, broken line, line weight to build volume",
+        "Week 7: blind contour, continuous line, mass gesture",
+        "Week 8: one- and two-point perspective",
+        "Week 9: ellipses, foreshortening, inclined planes",
+        "Weeks 10 to 12: midterm check-ins, then value range, shadow, contrast, blending, chiaroscuro",
+        "Week 15: wet media (ink) and tonal structure",
+        "Weeks 16 to 17: head and facial planes, portraits, figure analysis, pattern and texture",
+        "Weeks 17 to 18: final drawing and critique"
+      ],
+      "assessment_criteria": [
+        "Class work, including taking part in discussions and critiques: 75 percent",
+        "Homework across the whole term: 25 percent",
+        "Late work marked down a full grade"
+      ],
+      "notes": "Two meetings a week of 12:00 to 2:50 pm gives 5 h 40 min (5.7 h) of contact time; about 91 hours over 16 weeks. The schedule table is numbered up to week 18 although the dates span about 16 weeks including a break, so treat exact week numbers loosely.",
+      "verified": true
+    },
+    {
+      "institution": "Youngstown State University (Ohio)",
+      "course": "ART 1521 Foundation Drawing, fall 2026",
+      "url": "https://catalog.ysu.edu/syllabi/2026-fall/art-1521-01-40519/syllabi-202640-art-1521-01-40519.pdf",
+      "level": "First-year university studio course (3 credits)",
+      "duration_weeks": 16,
+      "hours_per_week": 0,
+      "sequence": [
+        "Weeks 1 to 2: contour, then gesture and continuous line",
+        "Week 2 to 3: positive and negative space, sighting, composition, a linear still life",
+        "Weeks 4 to 5: perspective (two weeks)",
+        "Weeks 6 to 7: value, then value with texture and the start of drapery",
+        "Weeks 8 to 9: drapery, then texture",
+        "Weeks 10 to 11: mixed media, start of portrait",
+        "Weeks 12 to 13: portrait, vocabulary quiz, space and still life",
+        "Weeks 14 to 16: final still life"
+      ],
+      "assessment_criteria": [
+        "Graded pieces in order: contour, gesture and continuous line, positive and negative space, linear still life, perspective, value in perspective, drapery, texture, mixed media, portrait, final still life",
+        "A vocabulary quiz and sketchbook assignments also appear",
+        "Weights are not on the page"
+      ],
+      "notes": "Most current syllabus in the set (fall 2026). Hours per week are not stated beyond two meetings a week for 3 credits, so recorded as 0.",
+      "verified": true
+    },
+    {
+      "institution": "Florence University of the Arts (FUA), Italy; syllabus hosted by CIS Australia",
+      "course": "Foundation Drawing (FAPDFD120)",
+      "url": "https://www.cisaustralia.com.au/wp-content/uploads/2025/08/Foundation-Drawing.pdf",
+      "level": "Beginner, no prerequisites, 3 semester credits",
+      "duration_weeks": 15,
+      "hours_per_week": 0,
+      "sequence": [
+        "Lesson 1: materials, a skills check, basic outline work",
+        "Lesson 2: origins of drawing and expressive line",
+        "Lesson 3: lines into shapes, negative space",
+        "Lesson 4: composition, measuring, proportion, volume, charcoal",
+        "Lesson 5: hatching, cross-hatching, tonal values, grey scale",
+        "Lesson 6: one- and two-point perspective",
+        "Lesson 7: midterm",
+        "Lessons 9 and 10: copy a master drawing, pencil then charcoal",
+        "Lesson 11: personal still life",
+        "Lessons 12 to 14: contemporary drawing, final project, portfolio, presentations",
+        "Lesson 15: final exam"
+      ],
+      "assessment_criteria": [
+        "Attendance 10 percent; participation and assignments 10 percent",
+        "Midterm 20 percent: a critique of progress plus a written test",
+        "Final digital album with a critique 20 percent",
+        "Final project and presentation 20 percent (graphic, stylistic and technical quality, plus a talk)",
+        "Cumulative written final exam 20 percent"
+      ],
+      "notes": "Asks for about 8 hours a week of preparation, at least 5 of them in open studio, so contact hours are not given. It places a master copy in the second half, after tone and perspective. Hosted on a study-abroad provider's site, dated 2025.",
+      "verified": true
+    },
+    {
+      "institution": "MIT Student Arts Association (Arts at MIT)",
+      "course": "Introduction to Drawing, spring 2026 (Tuesday section)",
+      "url": "https://arts.mit.edu/saa-classes/sp26-tuesday-introduction-to-drawing/",
+      "level": "Non-credit beginner class for the MIT community",
+      "duration_weeks": 10,
+      "hours_per_week": 2.5,
+      "sequence": [
+        "Weeks 1 to 4: small observation studies on mark-making, layering, additive and subtractive drawing, line, value, shape",
+        "Remaining weeks: larger drawings that apply those skills to volume, weight, gesture and composition"
+      ],
+      "assessment_criteria": [
+        "No grading described",
+        "Instructor goals: technical skill, confidence, and a critical eye for different subjects"
+      ],
+      "notes": "Not free and not open to the public as far as the page says (MIT students $165, staff and alumni $315, plus $20 materials). Included only as evidence of pacing: four weeks of basics, then bigger synthesis drawings. This is the MIT SAA class, not MIT OpenCourseWare; I did not find an OCW drawing course.",
+      "verified": true
+    },
+    {
+      "institution": "University of Edinburgh (Centre for Open Learning)",
+      "course": "Drawing Practices: Contemporary Approaches (LLLA07228)",
+      "url": "https://www.drps.ed.ac.uk/25_26_Archive_at_01-09-2025/dpt/cxllla07228.htm",
+      "level": "SCQF Level 7, first-year undergraduate equivalent, 10 credits",
+      "duration_weeks": 10,
+      "hours_per_week": 3,
+      "sequence": [
+        "Sketchbook use for recording and researching",
+        "Series of pieces from set and self-chosen themes",
+        "Independent research and projects",
+        "Different materials and methods, including tablets",
+        "Drawing at its edges: installation, sculpture, land art",
+        "Site-specific observational drawing and photographic reference",
+        "Group critique for each project and study of other artists",
+        "Keeping a learning log"
+      ],
+      "assessment_criteria": [
+        "Research, context and ideas: a diligent approach and personal methods for recording visual ideas",
+        "Practice and technique: inventive, focused studies and finished works",
+        "Selection, presentation and reflection: independent judgement in editing and presenting a body of work"
+      ],
+      "notes": "30 contact hours, weekly sessions of about 3 hours, so 10 weeks is implied but not stated. The page lists topics without a strict order and gives no marking weights. It is a concept-led course rather than a skills ladder, so it is useful for the ideas end of the curriculum.",
+      "verified": true
+    },
+    {
+      "institution": "Rhode Island School of Design",
+      "course": "Foundation Year: Drawing studio (Experimental and Foundation Studies)",
+      "url": "https://risd.edu/academics/experimental-and-foundation-studies/first-year",
+      "level": "First year of an art and design degree",
+      "duration_weeks": 0,
+      "hours_per_week": 0,
+      "sequence": [
+        "Two-semester drawing studio taken alongside Design and Spatial Dynamics",
+        "Topics named: generating ideas, perceptual seeing, performance-based drawing, abstraction, materials, three-dimensional structures, visualisation, time-based phenomena",
+        "Fall sections of about 20 students are reshuffled for spring"
+      ],
+      "assessment_criteria": [
+        "Group critique during and at the end of each project",
+        "Building a personal visual language through self-critique",
+        "Combining media, marks and formal elements"
+      ],
+      "notes": "No week-by-week plan is published on this page, so weeks and hours are 0. Valuable mainly because it shows a top art school treats drawing as seeing, idea generation and critique rather than a rendering ladder.",
+      "verified": true
+    },
+    {
+      "institution": "Florence Academy of Art (Italy)",
+      "course": "Foundation in Graphic Arts, curriculum 2024-25",
+      "url": "https://florenceacademyofart.edu/wp-content/uploads/2024/12/Foundation-in-Graphic-Arts-Curriculum-2024-25.pdf",
+      "level": "Full-time one-year atelier foundation (paid school)",
+      "duration_weeks": 0,
+      "hours_per_week": 28,
+      "sequence": [
+        "Figure drawing from the live model in pencil, running through the whole year",
+        "Bargue plate copies by the sight-size method: one pencil copy, one charcoal copy, one figure copy",
+        "Cast drawing: first a feature study, then a mask or head, in charcoal",
+        "Etching starts late in trimester 1 and is printed in trimester 2",
+        "Trimester 3: copies, then a life-size charcoal portrait and self-portrait",
+        "Seminars on sketchbooks, perspective and composition throughout; landscape in spring per the programme page"
+      ],
+      "assessment_criteria": [
+        "Accurate outlines, proportions and shadow shapes",
+        "Competent handling of materials",
+        "For casts: a clear focal point and controlled values",
+        "End-of-term critique covers class work, sketchbooks, anatomy and old-master copies",
+        "Attendance counts: missing more than three anatomy classes in a term fails it"
+      ],
+      "notes": "Three trimesters, weeks per trimester not stated. 28 hours per week is my reading of the core studio days (Mon, Tue, Wed, Fri 9am to 4pm) and excludes Thursday studio lab and evening anatomy. Paid school; included as the atelier model: copy flat images, then casts, then life. The programme page https://www.florenceacademyofart.com/certificate-programs/foundation-in-graphic-art/ describes the same three stages (foundations, figure and portrait, landscape).",
+      "verified": true
+    },
+    {
+      "institution": "Proko (online, self-paced)",
+      "course": "Figure Drawing Fundamentals",
+      "url": "https://www.proko.com/course/figure-drawing-fundamentals",
+      "level": "Online beginner to intermediate figure course",
+      "duration_weeks": 0,
+      "hours_per_week": 0,
+      "sequence": [
+        "Gesture",
+        "The bean (torso block)",
+        "Structure",
+        "Landmarks",
+        "Robo bean",
+        "Mannequinization",
+        "Balance",
+        "Exaggeration",
+        "Proportions",
+        "Measuring",
+        "Shading",
+        "Figure drawing demo",
+        "Closing thoughts"
+      ],
+      "assessment_criteria": [
+        "Assignments with worked critique examples (shown for gesture); no formal grading seen"
+      ],
+      "notes": "Mostly paid: $150 one-time. The page says 32 of 57 lessons are free, about 5 hours free versus about 15 hours for the full course, and the paid lessons are longer versions of free ones. Free part is enough to see the whole module order.",
+      "verified": true
+    }
+  ],
+  "consensus_sequence": [
+    {
+      "stage": 1,
+      "name": "Marks, line and gesture",
+      "typical_weeks": [
+        1,
+        5
+      ],
+      "topics": [
+        "Materials and mark-making",
+        "Line quality and line weight",
+        "Blind, semi-blind and continuous contour",
+        "Cross-contour",
+        "Gesture drawing",
+        "Circles and ellipses"
+      ],
+      "common_benchmark": "Draws a household object in confident, mostly unbroken lines with at least three line weights, and captures the direction and weight of a short pose in under a minute."
+    },
+    {
+      "stage": 2,
+      "name": "Measuring and shape",
+      "typical_weeks": [
+        2,
+        4
+      ],
+      "topics": [
+        "Sighting and comparative measurement",
+        "Positive and negative space",
+        "Proportion and placement on the page",
+        "Composition and format",
+        "Linear still life"
+      ],
+      "common_benchmark": "Draws a three-object still life from observation whose proportions and spacing hold up when laid over the reference."
+    },
+    {
+      "stage": 3,
+      "name": "Perspective and construction",
+      "typical_weeks": [
+        1,
+        2
+      ],
+      "topics": [
+        "One-point and two-point perspective",
+        "Ellipses on cylinders and foreshortening",
+        "Building objects from simple volumes",
+        "Inclined planes"
+      ],
+      "common_benchmark": "Builds boxes, cylinders and a simple interior with one consistent horizon and vanishing points, without a ruler for the ellipses."
+    },
+    {
+      "stage": 4,
+      "name": "Value and form",
+      "typical_weeks": [
+        1,
+        3
+      ],
+      "topics": [
+        "Value scale and range",
+        "Hatching and cross-hatching",
+        "Light and shadow shapes",
+        "Subtractive drawing and blending",
+        "Chiaroscuro, edges and transitions"
+      ],
+      "common_benchmark": "Renders a sphere, cube or egg under one light with a readable light side, core shadow, reflected light and cast shadow."
+    },
+    {
+      "stage": 5,
+      "name": "Surface, texture and media",
+      "typical_weeks": [
+        1,
+        4
+      ],
+      "topics": [
+        "Drapery",
+        "Texture and pattern",
+        "Pen, ink and other wet media",
+        "Mixed media"
+      ],
+      "common_benchmark": "Makes cloth, wood, metal and skin look different from each other using only mark and tone."
+    },
+    {
+      "stage": 6,
+      "name": "Head, portrait and figure",
+      "typical_weeks": [
+        1,
+        3
+      ],
+      "topics": [
+        "Head proportions and facial planes",
+        "Portrait from a model or photo",
+        "Figure gesture, structure and proportion",
+        "Pattern and texture in clothing"
+      ],
+      "common_benchmark": "Draws a head or figure in about 20 minutes with believable proportions and a clear light pattern."
+    },
+    {
+      "stage": 7,
+      "name": "Space, landscape and a finished piece",
+      "typical_weeks": [
+        1,
+        4
+      ],
+      "topics": [
+        "Landscape and depth cues",
+        "Space in a still life or interior",
+        "Final composed drawing",
+        "Folio assembly and critique"
+      ],
+      "common_benchmark": "Completes one longer, composed drawing of a self-chosen subject and can explain what works and what does not."
+    },
+    {
+      "stage": 8,
+      "name": "Ideas, sketchbook and invention",
+      "typical_weeks": [
+        3,
+        10
+      ],
+      "topics": [
+        "Thumbnails and concept sketching",
+        "Sketchbook as research",
+        "Stylised drawing",
+        "A self-directed series or project with critique"
+      ],
+      "common_benchmark": "Develops one idea through a page of thumbnails, picks the strongest, and finishes it as a project with feedback."
+    }
+  ],
+  "benchmarks": [
+    {
+      "after_group": "foundations-habits",
+      "check": "One 60-minute sitting: ten 1-minute gestures from a timed pose source; a 10-minute continuous-line drawing of one household object, looking mostly at the object; a 15-minute drawing of the same object from the other side using at least three line weights. Next day, draw it again from memory in 3 minutes and compare.",
+      "pass_signs": [
+        "Lines are drawn from the shoulder or elbow and committed, not scratchy repeated strokes",
+        "At least three distinct line weights are visible and used on purpose",
+        "Gestures show the pose's main direction before any detail",
+        "The memory sketch gets the overall shape and placement roughly right",
+        "Your log shows regular sessions over the last six weeks (a record, not a streak)"
+      ]
+    },
+    {
+      "after_group": "perspective-construction",
+      "check": "From imagination, draw a cube, a cylinder and a sphere standing on a tiled floor in two-point perspective, then a street corner with three buildings, then one invented object (a kettle, a lamp) built from boxes and cylinders from three different viewpoints. About 90 minutes total.",
+      "pass_signs": [
+        "Extend the receding lines with a ruler: they meet within about a thumb-width of one vanishing point per set",
+        "One horizon line serves the whole page",
+        "Ellipse minor axes sit square to the cylinder's axis, and ellipses get rounder the further they sit from the horizon line",
+        "Objects get smaller and overlap correctly with distance",
+        "The invented object reads as the same thing from all three viewpoints"
+      ]
+    },
+    {
+      "after_group": "observation-accuracy",
+      "check": "Draw a three-object still life from a reference photo in 25 minutes using sighting and negative space only (no grid, no tracing). Scale the photo to the drawing's size and overlay it at 50 percent opacity in Krita or on tracing paper. Repeat with a second subject a week later and compare the two overlays.",
+      "pass_signs": [
+        "Key landmark points land within about 5 percent of the image height from the photo's positions",
+        "Each object's height-to-width ratio is within about 10 percent",
+        "The shapes between and around objects match the photo",
+        "The second overlay is closer than the first",
+        "When the drawing is flipped horizontally, you can spot your own errors before overlaying"
+      ]
+    },
+    {
+      "after_group": "light-shading-rendering",
+      "check": "Under one lamp, draw a sphere or egg, a cube and a cup with a 5-step value scale beside them (45 minutes). Then render one glossy object (a steel spoon) and one matte object (a lemon or an eraser) in 60 minutes.",
+      "pass_signs": [
+        "Light direction is the same on every object and the cast shadows agree with it",
+        "Light, halftone, core shadow, reflected light and cast shadow are each separate and readable",
+        "Photographed and posterised to four grey levels, the drawing breaks into the same big shapes as the real set-up",
+        "Darkest darks and lightest lights are not used until the end",
+        "A viewer can tell glossy from matte without being told"
+      ]
+    },
+    {
+      "after_group": "figure-anatomy-faces",
+      "check": "From timed reference: three 30-second gestures, one 5-minute and one 20-minute figure, then a 30-minute three-quarter head built from a simple skull block. Finish with a mannequin figure in a pose of your choice drawn from three viewpoints.",
+      "pass_signs": [
+        "The gesture line shows weight and action; the shoulders and hips tilt against each other",
+        "Limb lengths and head count agree with the reference to within about half a head",
+        "On the head, the eye line sits near the middle of the skull, and nose, mouth and ear line up with the right guide lines",
+        "Planes of the face read under a simple light direction",
+        "The mannequin keeps the same proportions in all three views"
+      ]
+    },
+    {
+      "after_group": "nature-objects-architecture",
+      "check": "Three 45-minute studies from photos or life: a branch with leaves (growth pattern and overlap), an animal built from simple volumes, and a building facade or street scene. Add one page of four material swatches (wood, metal, glass, fabric).",
+      "pass_signs": [
+        "A stranger names each subject without a label",
+        "The plant shows how leaves attach and overlap, not a row of symbols",
+        "The animal's landmarks (joints, ribcage, head) sit in believable positions",
+        "The building keeps consistent perspective and a believable rhythm of windows and doors against human scale",
+        "The four materials are distinct from mark and value alone"
+      ]
+    },
+    {
+      "after_group": "design-composition-characters",
+      "check": "From a one-line brief (for example, a tired lighthouse keeper in a storm), make nine 2-inch value thumbnails for composition, choose one, then draw a front, side and back view of the character and a six-expression sheet.",
+      "pass_signs": [
+        "The thumbnails use different layouts and each has a clear focal point",
+        "The chosen silhouette still reads at thumbnail size",
+        "Guide lines across the three views line up on head, shoulder, hip and knee landmarks",
+        "All six expressions read without captions",
+        "You can state in one sentence what the picture is about"
+      ]
+    },
+    {
+      "after_group": "color-media-digital",
+      "check": "Make a 2-hour colour study from a photo or a CC0 museum painting using 4 to 6 colours: first a grey value underpainting, then colour on top. Repeat it digitally in Krita with named layers, and export a PNG at a size you set in advance.",
+      "pass_signs": [
+        "Converted to greyscale, the colour version keeps the value structure of the underpainting",
+        "The palette is limited and holds together; shadows and lights follow one temperature logic",
+        "Edges vary between hard and soft on purpose",
+        "The digital file has clean, named layers and exports without surprises",
+        "The result is close enough to the source that a side-by-side check shows the same light and mood"
+      ]
+    }
+  ],
+  "practice_library": [
+    {
+      "id": "loa",
+      "title": "Line of Action",
+      "provider": "Genly Inc",
+      "url": "https://line-of-action.com/",
+      "type": "timed-reference",
+      "cost": "free-tier",
+      "free_notes": "The owner states the original practice tools stay free for everyone, with banner ads for free users. Paid membership (USD, monthly): Doodler $1.49 removes ads and adds review, goal tracking and 5 critique uploads a month; Apprentice $4.99 adds personal photos and 20 uploads; Master $14.95 adds unlimited uploads and 3,000+ extra figure images. 33 percent student or teacher discount. The membership page does not list limits for free accounts.",
+      "licence": "Images belong to their photographers; no reuse licence is given. Use for private practice only.",
+      "use_for_groups": [
+        "foundations-habits",
+        "figure-anatomy-faces",
+        "observation-accuracy",
+        "nature-objects-architecture"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Figure, animals, faces and expressions, hands and feet, scenes and environments, 360-degree views. Some figure reference is nude. Membership details: https://line-of-action.com/membership"
+    },
+    {
+      "id": "quickposes",
+      "title": "Quickposes",
+      "provider": "Quickposes (independent creator)",
+      "url": "https://quickposes.com/en/",
+      "type": "timed-reference",
+      "cost": "free",
+      "free_notes": "Timed practice with a time limit you choose, 20-image challenges, and untimed random poses are available without paying per the page. Optional extras: tips of 3, 5 or 10 euros and a desktop app at 15 euros. No subscription is listed.",
+      "licence": "Not stated on the page; treat the images as practice reference only.",
+      "use_for_groups": [
+        "foundations-habits",
+        "figure-anatomy-faces"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Page does not say what an account unlocks."
+    },
+    {
+      "id": "sketchdaily",
+      "title": "SketchDaily Reference",
+      "provider": "SketchDaily",
+      "url": "https://www.sketchdaily.net/",
+      "type": "timed-reference",
+      "cost": "free",
+      "free_notes": "Described as free by two secondary pages (a Proko community thread and a pose-site roundup). The home page itself is a script-driven app and returned only its title to my fetch, so I could not read pricing on the provider's own page.",
+      "licence": "No licence stated (per the roundup, which advises practice use and no commercial use of work made from it).",
+      "use_for_groups": [
+        "foundations-habits",
+        "figure-anatomy-faces"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Per the Proko thread: stationary or action poses, other subject categories, a class mode, and uploading your own photos. Free status comes from secondary sources only."
+    },
+    {
+      "id": "posemaniacs",
+      "title": "Posemaniacs",
+      "provider": "Posemaniacs",
+      "url": "https://www.posemaniacs.com/",
+      "type": "timed-reference",
+      "cost": "free",
+      "free_notes": "Home page calls its 3D pose references royalty free and offers figure, muscle and face references plus a pose library. It does not state pricing, and the site also lists video courses and seminars that may be paid.",
+      "licence": "Pose references described as royalty free; the Terms of use page was not read.",
+      "use_for_groups": [
+        "figure-anatomy-faces",
+        "foundations-habits"
+      ],
+      "verified": false,
+      "last_checked": "2026-10-13",
+      "notes": "Free status is not confirmed on the page text I could read; check the Terms of use link before relying on it."
+    },
+    {
+      "id": "magicposer",
+      "title": "Magic Poser (free tier)",
+      "provider": "Magic Poser",
+      "url": "https://magicposer.com/pricing-2.html",
+      "type": "software",
+      "cost": "free-tier",
+      "free_notes": "Free forever: one model per scene with unlimited props, all 3D editor features, body, hand and foot posing, one directional light, 50 preset poses, 10 props, 2D image export, unlimited local saves. Not free: body morphs, 3D import and export, more than one model, spot and point lights. Pro is $9.99 one-time (600+ poses, morphs, more characters); Master is $14.99 per month (3,000+ poses, 3D export). Both have a 7-day trial.",
+      "licence": "Your own renders; the site's terms were not read.",
+      "use_for_groups": [
+        "figure-anatomy-faces",
+        "perspective-construction",
+        "light-shading-rendering",
+        "design-composition-characters"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "One model is enough for pose, perspective and lighting studies. Use the 2D export as reference for your own drawing."
+    },
+    {
+      "id": "adorkastock",
+      "title": "AdorkaStock",
+      "provider": "AdorkaStock",
+      "url": "https://adorkastock.com/",
+      "type": "photo-bank",
+      "cost": "free-tier",
+      "free_notes": "A free pose gallery and a timed Sketch tool are listed; the page does not say whether Sketch is free. Paid extras: themed packs on Ko-fi, a Patreon with critiques and 360 videos, and a pose book. Prices are not shown.",
+      "licence": "Free images are released under a Creative Commons licence, covering personal and professional art use per the page; the exact CC variant is not named and there is a separate User License and Terms page. The page asks for no AI use (noai metadata).",
+      "use_for_groups": [
+        "figure-anatomy-faces",
+        "foundations-habits"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Character reference sheets and sitting or group poses are mostly in the paid packs."
+    },
+    {
+      "id": "posemyart",
+      "title": "PoseMyArt",
+      "provider": "PoseMyArt",
+      "url": "https://www.posemyart.com/",
+      "type": "timed-reference",
+      "cost": "free",
+      "free_notes": "A pose-site roundup describes it as a rotatable 3D pose library usable for commercial work, with credit appreciated and no paid tier mentioned. The site blocked my fetch (robots), so this is secondary evidence only.",
+      "licence": "Per the roundup: commercial use allowed, credit appreciated. Not confirmed on the provider's page.",
+      "use_for_groups": [
+        "figure-anatomy-faces"
+      ],
+      "verified": false,
+      "last_checked": "2026-10-13",
+      "notes": "Listed so the report writer can check it; do not publish as free until confirmed."
+    },
+    {
+      "id": "jookpubstock",
+      "title": "JookpubStock",
+      "provider": "JookpubStock",
+      "url": "https://www.jookpubstock.com/",
+      "type": "photo-bank",
+      "cost": "free",
+      "free_notes": "The home page labels its reference photos free and sorts them into full body, close ups (portrait, hands, feet), props, clothing, and stock (animals, nature, objects, textures). It links to Patreon, Ko-fi and VGen shops without saying what they cost.",
+      "licence": "Licence is not stated on the home page. A pose-site roundup says personal and commercial use is allowed except for NFTs or AI; check the Rules and Terms pages.",
+      "use_for_groups": [
+        "figure-anatomy-faces",
+        "observation-accuracy",
+        "nature-objects-architecture"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Useful for hands, feet and props as well as full figures."
+    },
+    {
+      "id": "pexels",
+      "title": "Pexels",
+      "provider": "Pexels",
+      "url": "https://www.pexels.com/license/",
+      "type": "photo-bank",
+      "cost": "free",
+      "free_notes": "Photos and videos are free to download and use.",
+      "licence": "Pexels License: use and modify freely; attribution not required; you may not sell unaltered copies, imply endorsement, or put identifiable people in an offensive light.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "nature-objects-architecture",
+        "light-shading-rendering",
+        "figure-anatomy-faces"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Search by subject and lighting (for example, 'hard light still life') to get value-study reference."
+    },
+    {
+      "id": "unsplash",
+      "title": "Unsplash",
+      "provider": "Unsplash",
+      "url": "https://unsplash.com/license",
+      "type": "photo-bank",
+      "cost": "free",
+      "free_notes": "Images are free to download, copy, modify and use, including commercially.",
+      "licence": "Unsplash License: no permission needed; attribution not required; you cannot compile the images into a competing service.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "nature-objects-architecture",
+        "light-shading-rendering",
+        "perspective-construction"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Good for architecture and landscape reference."
+    },
+    {
+      "id": "pixabay",
+      "title": "Pixabay",
+      "provider": "Pixabay",
+      "url": "https://pixabay.com/service/license-summary/",
+      "type": "photo-bank",
+      "cost": "free",
+      "free_notes": "Content is free to use and modify.",
+      "licence": "Pixabay Content License summary: no attribution needed; no selling unchanged copies; no commercial use showing identifiable brands; only the full licence text is binding.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "nature-objects-architecture",
+        "light-shading-rendering"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "The same library mixes photos, illustrations and vectors, so filter to photos for observation work."
+    },
+    {
+      "id": "stocksnap",
+      "title": "StockSnap",
+      "provider": "StockSnap.io",
+      "url": "https://stocksnap.io/license",
+      "type": "photo-bank",
+      "cost": "free",
+      "free_notes": "Photos are free to download, edit and use.",
+      "licence": "CC0. Attribution not required; you may not imply the photographer or anyone shown endorses a product.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "nature-objects-architecture",
+        "light-shading-rendering"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": ""
+    },
+    {
+      "id": "burst",
+      "title": "Burst",
+      "provider": "Shopify",
+      "url": "https://www.shopify.com/stock-photos",
+      "type": "photo-bank",
+      "cost": "free",
+      "free_notes": "Described on the page as a free stock photo platform; photos are free for personal and commercial use with no attribution required.",
+      "licence": "Burst licence; the full licence page was not read.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "nature-objects-architecture"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Redirects from burst.shopify.com to this address."
+    },
+    {
+      "id": "commons",
+      "title": "Wikimedia Commons",
+      "provider": "Wikimedia Foundation",
+      "url": "https://commons.wikimedia.org/wiki/Main_Page",
+      "type": "photo-bank",
+      "cost": "free",
+      "free_notes": "Page states about 50.7 million freely usable media files that anyone can contribute to.",
+      "licence": "Each file carries its own licence (public domain, CC0, CC BY, CC BY-SA and others); read the licence box on the file page before reusing it. I could not open the reuse guidance page.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "nature-objects-architecture",
+        "figure-anatomy-faces",
+        "perspective-construction"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Strong for anatomy plates, architecture, plants, animals and public-domain illustration."
+    },
+    {
+      "id": "rawpixel-pd",
+      "title": "Rawpixel Public Domain",
+      "provider": "Rawpixel",
+      "url": "https://www.rawpixel.com/public-domain",
+      "type": "photo-bank",
+      "cost": "free-tier",
+      "free_notes": "The page calls the collection free to use under CC0 and says it draws on its own originals and museum works, enhanced digitally. It links Pricing and Licenses pages that I did not read, and download limits are not stated.",
+      "licence": "CC0 as stated on the page; check each item.",
+      "use_for_groups": [
+        "design-composition-characters",
+        "color-media-digital",
+        "observation-accuracy"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Enhanced scans of museum art are handy for colour and composition studies. Premium content exists elsewhere on the site."
+    },
+    {
+      "id": "flickr-commons",
+      "title": "Flickr Commons",
+      "provider": "Flickr Foundation",
+      "url": "https://www.flickr.com/commons",
+      "type": "photo-bank",
+      "cost": "free",
+      "free_notes": "A programme that gives public access to photo archives from over 100 member institutions, starting with the Library of Congress in 2008.",
+      "licence": "Rights wording differs by institution; the page I read did not explain the rights statement.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "nature-objects-architecture",
+        "figure-anatomy-faces"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Old photographs of people, places and objects with no modern styling."
+    },
+    {
+      "id": "loc-free-to-use",
+      "title": "Library of Congress Free to Use and Reuse",
+      "provider": "Library of Congress",
+      "url": "https://www.loc.gov/free-to-use/",
+      "type": "photo-bank",
+      "cost": "free",
+      "free_notes": "More than 100 themed sets of rights-free images, each about 25 to 50 items.",
+      "licence": "The page calls the sets free to use and reuse; the page metadata says only the site text is a US government work. Check each item's rights note.",
+      "use_for_groups": [
+        "design-composition-characters",
+        "nature-objects-architecture",
+        "figure-anatomy-faces",
+        "observation-accuracy"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Sets worth trying: Dragons, Birds, Horses, Athletes, Japanese Fine Prints, Art of the Book."
+    },
+    {
+      "id": "bhl",
+      "title": "Biodiversity Heritage Library",
+      "provider": "Biodiversity Heritage Library (Smithsonian Libraries and Archives hosts)",
+      "url": "https://www.biodiversitylibrary.org/",
+      "type": "museum-open-access",
+      "cost": "free",
+      "free_notes": "Free access to scanned biodiversity books and journals.",
+      "licence": "Image rights are set per item; the home page does not state them. The site notes intermittent PDF problems and an uncertain funding future.",
+      "use_for_groups": [
+        "nature-objects-architecture",
+        "design-composition-characters"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Old natural-history plates are a good source for animal and plant structure and for creature design ideas."
+    },
+    {
+      "id": "morguefile",
+      "title": "Morguefile",
+      "provider": "Morguefile",
+      "url": "https://morguefile.com/",
+      "type": "photo-bank",
+      "cost": "free",
+      "free_notes": "Page title says free photographs for commercial use; I could not read terms from the page text.",
+      "licence": "Morguefile licence; not read.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "nature-objects-architecture"
+      ],
+      "verified": false,
+      "last_checked": "2026-10-13",
+      "notes": "Unverified: the fetched page returned only a title."
+    },
+    {
+      "id": "met",
+      "title": "The Met Open Access",
+      "provider": "Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "type": "museum-open-access",
+      "cost": "free",
+      "free_notes": "Over 492,000 images of public-domain works are free to download; look for the OA icon. A CSV dataset and a JSON API with high-resolution JPEGs are available.",
+      "licence": "CC0.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "light-shading-rendering",
+        "figure-anatomy-faces",
+        "color-media-digital"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Search the drawings and prints holdings for master copies and the Open Access filter in the online collection."
+    },
+    {
+      "id": "rijksmuseum",
+      "title": "Rijksmuseum image reuse policy",
+      "provider": "Rijksmuseum",
+      "url": "https://data.rijksmuseum.nl/policy",
+      "type": "museum-open-access",
+      "cost": "free",
+      "free_notes": "Many images are public domain or CC0 and usable commercially without asking; credit is requested.",
+      "licence": "Public domain or CC0 where the museum holds no rights; CC BY 4.0 where copyright applies; some images are restricted and marked on the collection site.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "light-shading-rendering",
+        "color-media-digital"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Policy page only. I could not confirm a Rijksstudio download page, so find downloads through the museum's collection site."
+    },
+    {
+      "id": "nga",
+      "title": "National Gallery of Art Open Access Images",
+      "provider": "National Gallery of Art (US)",
+      "url": "https://www.nga.gov/open-access-images.html",
+      "type": "museum-open-access",
+      "cost": "free",
+      "free_notes": "More than 60,000 images can be downloaded from object pages; the museum says they are free for any use, commercial or not. The data set (not the images) is CC0 on GitHub.",
+      "licence": "Dataset CC0; the page does not name a licence for the images themselves beyond free for any use.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "light-shading-rendering",
+        "figure-anatomy-faces",
+        "color-media-digital"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Filtered search for downloadable works: nga.gov/artwork-search?download=1"
+    },
+    {
+      "id": "aic",
+      "title": "Art Institute of Chicago Public Domain Images",
+      "provider": "Art Institute of Chicago",
+      "url": "https://www.artic.edu/open-access/open-access-images",
+      "type": "museum-open-access",
+      "cost": "free",
+      "free_notes": "Over 50,000 public-domain images, downloadable from the artwork page; no download button means the work is not public domain. IIIF manifests are provided.",
+      "licence": "CC0. The museum asks for a caption: artist, title, date, The Art Institute of Chicago.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "light-shading-rendering",
+        "color-media-digital"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Tick the public domain box in the advanced filter."
+    },
+    {
+      "id": "cleveland",
+      "title": "Cleveland Museum of Art Open Access",
+      "provider": "Cleveland Museum of Art",
+      "url": "https://www.clevelandart.org/open-access",
+      "type": "museum-open-access",
+      "cost": "free",
+      "free_notes": "High-resolution images of more than half the collection are free; a no-key API covers 61,000+ records; data is on GitHub, Internet Archive and Wikimedia Commons.",
+      "licence": "CC0.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "light-shading-rendering",
+        "color-media-digital"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "3D scans of some objects are viewable on Sketchfab, which is handy for lighting studies."
+    },
+    {
+      "id": "ngv",
+      "title": "NGV Collection Online (public-domain downloads)",
+      "provider": "National Gallery of Victoria (Melbourne)",
+      "url": "https://www.ngv.vic.gov.au/explore/collection/",
+      "type": "museum-open-access",
+      "cost": "free",
+      "free_notes": "Over 30,000 high-resolution images of public-domain works can be downloaded by clicking the download icon. The page says downloads are free for non-commercial use and publications.",
+      "licence": "NGV terms (non-commercial), not a Creative Commons licence; see the NGV reproductions page for detail.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "light-shading-rendering",
+        "color-media-digital",
+        "design-composition-characters"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Local Melbourne option. The page asks users to flag culturally sensitive First Nations material through its form."
+    },
+    {
+      "id": "smithsonian",
+      "title": "Smithsonian Open Access",
+      "provider": "Smithsonian Institution",
+      "url": "https://www.si.edu/openaccess",
+      "type": "museum-open-access",
+      "cost": "free",
+      "free_notes": "More than 5.2 million 2D and 3D digital items; a filtered link opens the CC0 media search. Developer API available.",
+      "licence": "CC0 for items marked open access.",
+      "use_for_groups": [
+        "nature-objects-architecture",
+        "observation-accuracy",
+        "design-composition-characters"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Strong for natural history, tools and everyday objects."
+    },
+    {
+      "id": "getty",
+      "title": "Getty Open Content Program",
+      "provider": "J. Paul Getty Trust",
+      "url": "https://www.getty.edu/projects/open-content-program/",
+      "type": "museum-open-access",
+      "cost": "free",
+      "free_notes": "Over 160,000 images (86,000+ Getty Museum, 78,000+ Getty Research Institute) marked with the CC0 icon can be downloaded without fees.",
+      "licence": "CC0.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "design-composition-characters",
+        "color-media-digital"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Includes prints, drawings and photographs."
+    },
+    {
+      "id": "wellcome",
+      "title": "Wellcome Collection",
+      "provider": "Wellcome Trust",
+      "url": "https://wellcomecollection.org/",
+      "type": "museum-open-access",
+      "cost": "free",
+      "free_notes": "Home page was reachable. Footer says site content is CC BY 4.0 except where noted, but it does not state image terms.",
+      "licence": "Per item; not confirmed.",
+      "use_for_groups": [
+        "figure-anatomy-faces"
+      ],
+      "verified": false,
+      "last_checked": "2026-10-13",
+      "notes": "Likely useful for historical anatomy plates; confirm the licence on each item page before using it."
+    },
+    {
+      "id": "inktober",
+      "title": "Inktober official prompt list",
+      "provider": "Inktober",
+      "url": "https://www.inktober.com/",
+      "type": "prompt-list",
+      "cost": "free",
+      "free_notes": "Annual October ink challenge with an official daily prompt list. The site's robots rules blocked my fetch, so the current prompt list and any paid extras were not seen.",
+      "licence": "Not read.",
+      "use_for_groups": [
+        "foundations-habits",
+        "design-composition-characters"
+      ],
+      "verified": false,
+      "last_checked": "2026-10-13",
+      "notes": "Unverified. Check the official site for this year's list before putting it in the curriculum."
+    },
+    {
+      "id": "exquisite-corpse",
+      "title": "Exquisite corpse drawing game",
+      "provider": "Wikipedia (method description)",
+      "url": "https://en.wikipedia.org/wiki/Exquisite_corpse",
+      "type": "prompt-list",
+      "cost": "free",
+      "free_notes": "Surrealist fold-over game: each person draws one body section (head, torso, legs, feet) without seeing the rest. Solo version: draw each section from a different random prompt.",
+      "licence": "Wikipedia text is CC BY-SA (standard footer, not seen in my fetch).",
+      "use_for_groups": [
+        "design-composition-characters",
+        "foundations-habits"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Good fuel for the 'draw random crazy things' session."
+    },
+    {
+      "id": "random-word-pictionary",
+      "title": "Random Word Generator: Pictionary words",
+      "provider": "randomwordgenerator.com",
+      "url": "https://randomwordgenerator.com/pictionary.php",
+      "type": "prompt-list",
+      "cost": "free",
+      "free_notes": "Free generator; pick how many words and a difficulty. Ads appear and there is a paid ad-removal option.",
+      "licence": "Not stated.",
+      "use_for_groups": [
+        "design-composition-characters",
+        "foundations-habits"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Roll two or three words and draw them as one thing."
+    },
+    {
+      "id": "legendary-creatures",
+      "title": "List of legendary creatures",
+      "provider": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/List_of_legendary_creatures",
+      "type": "prompt-list",
+      "cost": "free",
+      "free_notes": "Index of folklore creatures by letter and by region or culture. Free to read.",
+      "licence": "Wikipedia text licence applies (CC BY-SA); not shown in the fetch.",
+      "use_for_groups": [
+        "design-composition-characters",
+        "nature-objects-architecture"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Pair a creature with a random object to design something new. Follow links for each creature's description."
+    },
+    {
+      "id": "dnd-srd",
+      "title": "D&D Systems Reference Document 5.1",
+      "provider": "Wizards of the Coast",
+      "url": "https://dnd.wizards.com/resources/systems-reference-document",
+      "type": "prompt-list",
+      "cost": "free",
+      "free_notes": "Page links the SRD 5.1 download. The page does not state a price and says only some monsters are included.",
+      "licence": "CC BY 4.0 (and OGL 1.0a) per the page.",
+      "use_for_groups": [
+        "design-composition-characters"
+      ],
+      "verified": false,
+      "last_checked": "2026-10-13",
+      "notes": "Possible source of monster and character prompts; free status not explicit on the page."
+    },
+    {
+      "id": "drawabox-challenges",
+      "title": "Drawabox box and ellipse challenges",
+      "provider": "Drawabox",
+      "url": "https://drawabox.com/",
+      "type": "prompt-list",
+      "cost": "free",
+      "free_notes": "Drawabox is widely reported as a free lesson series with its own box and ellipse challenges, but the site loads by script and my fetch returned only a loading screen, so I could not confirm lessons, challenges or any paid parts.",
+      "licence": "Not read.",
+      "use_for_groups": [
+        "foundations-habits",
+        "perspective-construction"
+      ],
+      "verified": false,
+      "last_checked": "2026-10-13",
+      "notes": "Unverified. The curriculum's foundations researcher may have a better reading of this site."
+    },
+    {
+      "id": "incompetech-graphpaper",
+      "title": "Graph Paper Generators",
+      "provider": "Incompetech (Kevin MacLeod)",
+      "url": "https://incompetech.com/graphpaper/",
+      "type": "worksheet",
+      "cost": "free",
+      "free_notes": "Page offers a downloadable copy that works offline. The page does not list the paper types; my fetch showed only that the app was not runnable in that view.",
+      "licence": "The file and the PDFs it makes are CC0 1.0.",
+      "use_for_groups": [
+        "perspective-construction",
+        "design-composition-characters"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Confirm in the app whether perspective and isometric grids are on the menu before relying on it."
+    },
+    {
+      "id": "printablepaper",
+      "title": "PrintablePaper.net",
+      "provider": "Savetz Publishing",
+      "url": "https://www.printablepaper.net/",
+      "type": "worksheet",
+      "cost": "free",
+      "free_notes": "Page says 3,343 papers are free to download as PDFs, including perspective grid, isometric graph paper, storyboard and comics templates. A 50-paper pack is sold for $19 (optional).",
+      "licence": "No licence on the page; copyright notice by Savetz Publishing, so use for personal practice.",
+      "use_for_groups": [
+        "perspective-construction",
+        "design-composition-characters"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": ""
+    },
+    {
+      "id": "drawspace",
+      "title": "Drawspace",
+      "provider": "Drawspace",
+      "url": "https://www.drawspace.com/",
+      "type": "worksheet",
+      "cost": "free-tier",
+      "free_notes": "Home page advertises hundreds of drawing lessons with a printable curriculum and says a free tier of courses exists. It does not say what the free tier contains or what a paid membership costs.",
+      "licence": "All rights reserved (footer); personal use only.",
+      "use_for_groups": [
+        "foundations-habits",
+        "observation-accuracy",
+        "figure-anatomy-faces"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Check what is free before building modules on it."
+    },
+    {
+      "id": "krita",
+      "title": "Krita",
+      "provider": "Krita Foundation",
+      "url": "https://krita.org/en/about/faq/",
+      "type": "software",
+      "cost": "free",
+      "free_notes": "The site describes it as a professional free and open source painting program.",
+      "licence": "Open source; the licence name is not on the page I read.",
+      "use_for_groups": [
+        "color-media-digital",
+        "design-composition-characters",
+        "observation-accuracy"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Use the overlay method for accuracy checks. Donations are linked but not shown as required."
+    },
+    {
+      "id": "blender",
+      "title": "Blender",
+      "provider": "Blender Foundation",
+      "url": "https://www.blender.org/about/license/",
+      "type": "software",
+      "cost": "free",
+      "free_notes": "Free to use for any purpose; artwork you make is yours. The page links a store and donations without making them required.",
+      "licence": "GNU GPL (v2 or later for the source; Cycles under Apache 2.0).",
+      "use_for_groups": [
+        "perspective-construction",
+        "light-shading-rendering",
+        "nature-objects-architecture"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Block a scene with simple shapes to get your own perspective and lighting reference. This use is my suggestion, not on the page."
+    },
+    {
+      "id": "gimp",
+      "title": "GIMP",
+      "provider": "GIMP project",
+      "url": "https://www.gimp.org/about/",
+      "type": "software",
+      "cost": "free",
+      "free_notes": "Freely distributed image editor.",
+      "licence": "GNU General Public License.",
+      "use_for_groups": [
+        "color-media-digital"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Useful for greyscale and posterise checks on reference."
+    },
+    {
+      "id": "inkscape",
+      "title": "Inkscape",
+      "provider": "Inkscape project",
+      "url": "https://inkscape.org/about/",
+      "type": "software",
+      "cost": "free",
+      "free_notes": "Free and open source vector editor for Linux, Windows and macOS.",
+      "licence": "Open source; licence name not on the page I read.",
+      "use_for_groups": [
+        "design-composition-characters",
+        "color-media-digital"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Useful for clean silhouettes and character sheets."
+    },
+    {
+      "id": "photopea",
+      "title": "Photopea",
+      "provider": "Photopea",
+      "url": "https://www.photopea.com/",
+      "type": "software",
+      "cost": "free",
+      "free_notes": "Browser-based editor with layers, masks and PSD support; the page says all features are available at no cost. The page does not say whether ads appear.",
+      "licence": "Terms not read.",
+      "use_for_groups": [
+        "color-media-digital",
+        "observation-accuracy"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Nothing to install, so works on any computer."
+    },
+    {
+      "id": "sketchup-free",
+      "title": "SketchUp Free",
+      "provider": "Trimble",
+      "url": "https://sketchup.trimble.com/en/plans-and-pricing/sketchup-free",
+      "type": "software",
+      "cost": "free",
+      "free_notes": "Still offered. The page lists 10 GB of cloud storage and import of SKP, JPG, PNG with export of SKP, PNG, STL. It does not say whether commercial use is allowed or whether an account is needed.",
+      "licence": "Trimble terms; not read.",
+      "use_for_groups": [
+        "perspective-construction",
+        "nature-objects-architecture"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Build a quick room or street model, then draw it from a few angles to test perspective."
+    },
+    {
+      "id": "pureref",
+      "title": "PureRef",
+      "provider": "PureRef",
+      "url": "https://www.pureref.com/",
+      "type": "software",
+      "cost": "free-tier",
+      "free_notes": "The page shows a buy-in of $15, $7 or a custom amount and says you can try before you buy. I could not confirm that $0 is accepted. Windows, Mac and most Linux.",
+      "licence": "Not read.",
+      "use_for_groups": [
+        "observation-accuracy",
+        "design-composition-characters",
+        "color-media-digital"
+      ],
+      "verified": false,
+      "last_checked": "2026-10-13",
+      "notes": "Reference board tool. Treat as paid or pay-what-you-want until the price is confirmed."
+    },
+    {
+      "id": "proko-community",
+      "title": "Proko Community",
+      "provider": "Proko",
+      "url": "https://www.proko.com/community",
+      "type": "community",
+      "cost": "free",
+      "free_notes": "Forums for drawing fundamentals, painting, anatomy, concept design, 3D, composition and comics, plus official and member-run challenges. Sign-up is offered but the page does not say whether any tier is paid.",
+      "licence": "Members keep their own work; terms not read.",
+      "use_for_groups": [
+        "foundations-habits",
+        "figure-anatomy-faces",
+        "design-composition-characters"
+      ],
+      "verified": false,
+      "last_checked": "2026-10-13",
+      "notes": "Page lists critique guidelines. Free status of membership not confirmed."
+    },
+    {
+      "id": "loa-discuss",
+      "title": "Line of Action forums (Discuss)",
+      "provider": "Line of Action",
+      "url": "https://line-of-action.com/",
+      "type": "community",
+      "cost": "free",
+      "free_notes": "The home page menu lists forums for critique, practice and advice, shop talk, support, and study groups. Paid tiers add limited critique uploads, which is a separate feature.",
+      "licence": "Posted work stays with the artist.",
+      "use_for_groups": [
+        "foundations-habits",
+        "figure-anatomy-faces",
+        "observation-accuracy"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Forum URL not captured; reach it from the Discuss menu."
+    },
+    {
+      "id": "r-artfundamentals",
+      "title": "r/ArtFundamentals",
+      "provider": "Reddit community",
+      "url": "https://www.reddit.com/r/ArtFundamentals/",
+      "type": "community",
+      "cost": "free",
+      "free_notes": "Reddit blocked my fetch. Generally known as the forum tied to the Drawabox lessons, but I did not confirm this.",
+      "licence": "Not read.",
+      "use_for_groups": [
+        "foundations-habits",
+        "perspective-construction",
+        "observation-accuracy"
+      ],
+      "verified": false,
+      "last_checked": "2026-10-13",
+      "notes": "Unverified."
+    },
+    {
+      "id": "r-learnart",
+      "title": "r/learnart",
+      "provider": "Reddit community",
+      "url": "https://www.reddit.com/r/learnart/",
+      "type": "community",
+      "cost": "free",
+      "free_notes": "Reddit blocked my fetch, so rules, size and activity were not confirmed.",
+      "licence": "Not read.",
+      "use_for_groups": [
+        "foundations-habits",
+        "observation-accuracy"
+      ],
+      "verified": false,
+      "last_checked": "2026-10-13",
+      "notes": "Unverified."
+    },
+    {
+      "id": "dunlosky-2013",
+      "title": "Improving Students' Learning With Effective Learning Techniques",
+      "provider": "Dunlosky, Rawson, Marsh, Nathan, Willingham; Psychological Science in the Public Interest, 2013",
+      "url": "https://www.psychologicalscience.org/publications/journals/pspi/learning-techniques.html",
+      "type": "learning-science",
+      "cost": "free",
+      "free_notes": "The APS summary page is free. It links the full text on SAGE, and the page does not say whether that is open.",
+      "licence": "Publisher copyright.",
+      "use_for_groups": [
+        "foundations-habits"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Takeaway for drawing: space your sessions and test yourself (redraw from memory) instead of rereading or re-watching lessons; the review rated practice testing and spacing high and rereading low."
+    },
+    {
+      "id": "roediger-karpicke-2006",
+      "title": "Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention",
+      "provider": "Roediger and Karpicke; Psychological Science, 2006",
+      "url": "https://learninglab.psych.purdue.edu/downloads/2006/2006_Roediger_Karpicke_PsychSci.pdf",
+      "type": "learning-science",
+      "cost": "free",
+      "free_notes": "Free PDF hosted by the authors' lab.",
+      "licence": "Publisher copyright; author-hosted copy.",
+      "use_for_groups": [
+        "foundations-habits"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Takeaway for drawing: close the lesson and draw its key idea from memory before you check, because recalling beat restudying on tests after a delay."
+    },
+    {
+      "id": "bjork-2011",
+      "title": "Making Things Hard on Yourself, But in a Good Way",
+      "provider": "Bjork and Bjork, 2011 (UCLA Bjork Learning and Forgetting Lab)",
+      "url": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/04/EBjork_RBjork_2011.pdf",
+      "type": "learning-science",
+      "cost": "free",
+      "free_notes": "Free PDF hosted by the lab.",
+      "licence": "Publisher copyright; lab-hosted copy.",
+      "use_for_groups": [
+        "foundations-habits",
+        "observation-accuracy"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Takeaway for drawing: mix subjects within a session (interleave) and space them out; it feels slower, but it carries over better than drilling one thing in a block."
+    },
+    {
+      "id": "hattie-timperley-2007",
+      "title": "The Power of Feedback",
+      "provider": "Hattie and Timperley; Review of Educational Research, 2007",
+      "url": "https://journals.sagepub.com/doi/10.3102/003465430298487",
+      "type": "learning-science",
+      "cost": "free",
+      "free_notes": "Abstract and tables are visible; the page marks the full text as restricted access.",
+      "licence": "Publisher copyright.",
+      "use_for_groups": [
+        "foundations-habits",
+        "observation-accuracy"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Takeaway for drawing: ask for feedback on the task and how to improve it, and compare against your last attempt; praise alone had the weakest effect in the tables shown."
+    },
+    {
+      "id": "learning-scientists",
+      "title": "The Learning Scientists downloadable materials",
+      "provider": "The Learning Scientists",
+      "url": "https://www.learningscientists.org/downloadable-materials",
+      "type": "learning-science",
+      "cost": "free",
+      "free_notes": "Free posters, slides, bookmarks and strategy sheets on spaced practice, retrieval practice, elaboration, interleaving, concrete examples and dual coding.",
+      "licence": "CC BY-NC-ND 4.0: credit them, no commercial use, no changes.",
+      "use_for_groups": [
+        "foundations-habits"
+      ],
+      "verified": true,
+      "last_checked": "2026-10-13",
+      "notes": "Takeaway for drawing: a one-page poster of the six strategies is enough; do not turn it into a notebook project."
+    },
+    {
+      "id": "ericsson-1993",
+      "title": "The Role of Deliberate Practice in the Acquisition of Expert Performance",
+      "provider": "Ericsson, Krampe and Tesch-Romer; Psychological Review, 1993",
+      "url": "https://psycnet.apa.org/doiLanding?doi=10.1037/0033-295X.100.3.363",
+      "type": "learning-science",
+      "cost": "free",
+      "free_notes": "The APA PsycNet page blocked my fetch, so I could not check access. Full text may need a library or an author copy.",
+      "licence": "Publisher copyright.",
+      "use_for_groups": [
+        "foundations-habits"
+      ],
+      "verified": false,
+      "last_checked": "2026-10-13",
+      "notes": "Unverified link. Core idea: practice with a clear target, feedback and repetition at the edge of your ability."
+    }
+  ],
+  "weekly_templates": [
+    {
+      "name": "3 hours a week: keep the thread",
+      "hours_per_week": 3,
+      "description": "Four short sessions on evenings and the weekend, which leaves Tuesday and Thursday free for jiu-jitsu. One lesson, one timed-reference session, one longer practice block, and one session of drawing whatever you like. If a session is missed, drop it rather than stacking it onto the next day.",
+      "sessions": [
+        {
+          "day": "Monday",
+          "minutes": 30,
+          "focus": "One lesson from the current module: 10 minutes watching or reading, 20 minutes on its exercise"
+        },
+        {
+          "day": "Wednesday",
+          "minutes": 30,
+          "focus": "Warm up with 30-second gestures, then 2-minute poses, then 3 minutes drawing the last lesson's key idea from memory with the lesson closed"
+        },
+        {
+          "day": "Saturday",
+          "minutes": 75,
+          "focus": "Apply the week's lesson in one longer drawing from a photo bank or museum image, then 15 minutes comparing it to the source or posting for feedback"
+        },
+        {
+          "day": "Sunday",
+          "minutes": 45,
+          "focus": "Draw random crazy things: roll two random words and a folklore creature, no erasing, no tutorials, no rules"
+        }
+      ]
+    },
+    {
+      "name": "6 hours a week: steady progress",
+      "hours_per_week": 6,
+      "description": "Two weeknight lessons, a short post-jiu-jitsu warm-up that is optional, a Friday accuracy session, and a long weekend block. Includes timed reference most weeks and a master copy from a museum open-access image. Sunday ends with a short check: draw last week's hardest idea from memory.",
+      "sessions": [
+        {
+          "day": "Monday",
+          "minutes": 45,
+          "focus": "Lesson (15 minutes) plus its exercise (30 minutes)"
+        },
+        {
+          "day": "Wednesday",
+          "minutes": 45,
+          "focus": "Timed reference: 10 minutes of gestures or quick poses, then 35 minutes on the module's exercise from reference"
+        },
+        {
+          "day": "Thursday",
+          "minutes": 30,
+          "focus": "Optional after training, about 20:15: ellipses, boxes or line drills only. Skip if tired"
+        },
+        {
+          "day": "Friday",
+          "minutes": 45,
+          "focus": "Accuracy drawing from a photo using sighting, then overlay the photo to see where you drifted"
+        },
+        {
+          "day": "Saturday",
+          "minutes": 120,
+          "focus": "60 minutes applying the module to a bigger drawing, 60 minutes copying a master drawing or painting from a museum open-access image"
+        },
+        {
+          "day": "Sunday",
+          "minutes": 75,
+          "focus": "45 minutes of drawing random crazy things (random words, creature lists, exquisite corpse), then 30 minutes: blank-page recall of last week's lesson, pick the best piece and write two lines on what to fix"
+        }
+      ]
+    },
+    {
+      "name": "10 hours a week: push hard",
+      "hours_per_week": 10,
+      "description": "Daily sessions with two long weekend blocks. Weeknights are an hour on Monday, Wednesday and Friday, with only a light 30 minutes after jiu-jitsu on Tuesday and Thursday. Saturday is for structured long work; Sunday is half free play and half review. Cut this back to the 6-hour plan in any week work gets heavy.",
+      "sessions": [
+        {
+          "day": "Monday",
+          "minutes": 60,
+          "focus": "Lesson (20 minutes) plus exercise (40 minutes)"
+        },
+        {
+          "day": "Tuesday",
+          "minutes": 30,
+          "focus": "After jiu-jitsu, about 20:15: ten 1-minute gestures and 20 minutes of ellipses or box drills"
+        },
+        {
+          "day": "Wednesday",
+          "minutes": 60,
+          "focus": "Timed reference for 20 minutes (figure, hands or animals), then a 40-minute observed drawing"
+        },
+        {
+          "day": "Thursday",
+          "minutes": 30,
+          "focus": "After jiu-jitsu: sketchbook page drawn from memory of something you saw today, then check against a photo"
+        },
+        {
+          "day": "Friday",
+          "minutes": 60,
+          "focus": "Second lesson application plus an overlay accuracy check on one drawing"
+        },
+        {
+          "day": "Saturday",
+          "minutes": 180,
+          "focus": "Three one-hour blocks: master copy from a museum image, a construction or perspective project, and a long pose or portrait from reference"
+        },
+        {
+          "day": "Sunday",
+          "minutes": 180,
+          "focus": "90 minutes of drawing random crazy things in any medium, 30 minutes of review and one critique request, 60 minutes trying a new medium or a digital tool on the week's best idea"
+        }
+      ]
+    }
+  ]
+}

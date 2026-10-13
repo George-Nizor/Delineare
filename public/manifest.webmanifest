@@ -1,0 +1,14 @@
+{
+  "name": "Delineare",
+  "short_name": "Delineare",
+  "description": "Learn to draw anything.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FCFBF7",
+  "theme_color": "#A2A700",
+  "icons": [
+    { "src": "brand/delineare-256.png", "sizes": "256x256", "type": "image/png" },
+    { "src": "brand/delineare-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "brand/delineare.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

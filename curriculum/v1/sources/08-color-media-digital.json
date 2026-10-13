@@ -1,0 +1,2111 @@
+[
+  {
+    "id": "col-color-theory-basics",
+    "title": "Colour theory basics: hue, value, saturation, the wheel, harmonies, temperature",
+    "group": "color-media-digital",
+    "level": "beginner",
+    "summary": "Learn the three dials every colour has (hue, value, saturation), how the colour wheel organises hues, and how common harmonies and warm/cool contrast work. The aim is a shared vocabulary you can use in every later module, plus the habit of judging value separately from hue.",
+    "prerequisites": [],
+    "est_hours": [
+      4,
+      8
+    ],
+    "learning_outcomes": [
+      "Describe any colour in terms of hue, value and saturation",
+      "Build a 12-step wheel from three primaries and name complements, analogues and triads on it",
+      "Explain why warm and cool are relative judgements, not fixed labels",
+      "Spot the colour scheme in a painting and say what it does for the mood",
+      "Check a colour image's value structure by reducing it to grey"
+    ],
+    "resources": [
+      {
+        "title": "A Colour Theory General Ideas (OpenLearn Create)",
+        "provider": "The Open University (OpenLearn Create)",
+        "credit": "The Open University",
+        "url": "https://www.open.edu/openlearncreate/course/view.php?id=5330",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Free. A free account is needed to enrol and track progress; free Statement of Participation, plus a free digital badge for 50% or more on the quiz.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "About 1 hour, beginner level (Level 0). Covers what colour is, its attributes, the psychology of colour and the colour circle. Do the attributes and colour-circle sections first, then the quiz. Sits in a 14-course collection called An Introduction to Plastic Arts."
+      },
+      {
+        "title": "Color Theory Basics for Digital Painters (single lesson)",
+        "provider": "Proko",
+        "credit": "Marco Bucci",
+        "url": "https://proko.com/course-lesson/color-theory-basics-for-digital-painters",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "This one lesson (6 min 41 s) is marked free; the page notes a premium version with extra content. Bucci's full Color Survival Guide course is paid ($79, 11 lessons, about 4 h 23 min, one free lesson).",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Short and fast: hue (including primaries and secondaries), saturation, then value and why greyscale practice matters. Watch once, then redo the value section with your own swatches. The title says digital, but the ideas are medium-neutral."
+      },
+      {
+        "title": "Colour Theory: Understanding and Working with Colour",
+        "provider": "RMIT Open Press (RMIT University, Melbourne)",
+        "credit": "Lisa Cianci (reviewer Riley Barber)",
+        "url": "https://rmit.pressbooks.pub/colourtheory1/",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Open educational resource under CC BY-NC 4.0 (copyright 2023 RMIT University). The contents list did not render for me, so the chapter titles are unverified.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Longer reading for when the basics feel too thin: history of colour theory, how people see colour, colour systems for mixing and relationships, plus quizzes and hands-on activities. Use the site's own contents menu to pick chapters."
+      },
+      {
+        "title": "Paletton colour scheme designer",
+        "provider": "Paletton",
+        "credit": "Paletton (independent project)",
+        "url": "https://paletton.com/",
+        "format": "tool",
+        "cost": "free",
+        "free_notes": "Free to use; the page says it is funded by advertising with optional donations.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "A sandbox, not a lesson. Pick one hue, then switch between monochromatic, adjacent, triad and tetrad modes and watch the five shades it generates per hue. Per its page it uses the classical red-yellow-blue wheel, which differs from the RGB wheels in most screen tools."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Twelve-hue wheel",
+        "description": "Mix or pick twelve hues starting from three primaries, laid out in a ring. Label the complements and mark which pairs are neighbours.",
+        "dose": "1 page, 45 min",
+        "reference_url": "https://paletton.com/"
+      },
+      {
+        "title": "Value versus hue sort",
+        "description": "Choose ten strongly coloured swatches or snips of magazine/screen colour. Sort them from lightest to darkest by eye, then check the order by turning a screenshot to greyscale in any editor.",
+        "dose": "20 min"
+      },
+      {
+        "title": "One subject, three schemes",
+        "description": "Sketch a simple object (a mug, a shoe) as three small thumbnails. Colour one with a complementary pair, one analogous, one triad.",
+        "dose": "3 thumbnails, 20 min"
+      },
+      {
+        "title": "Warm and cool pairs",
+        "description": "Paint a warm and a cool version of red, then of blue, side by side. Note which one reads as warmer depending on what sits next to it.",
+        "dose": "15 min"
+      },
+      {
+        "title": "Colour description journal",
+        "description": "Each day for five days, pick three everyday colours (a door, a jumper, a sky) and write them down as hue + value + saturation words only.",
+        "dose": "5 min a day for 5 days"
+      }
+    ],
+    "done_when": [
+      "I can describe a colour using hue, value and saturation without looking the terms up",
+      "My wheel shows smooth steps and I can point to the complement of any hue on it",
+      "I can name the scheme type in a favourite painting and say what it contributes",
+      "I can explain, with a swatch pair, why a colour is warm next to one neighbour and cool next to another"
+    ],
+    "common_mistakes": [
+      "Treating bright and light as the same thing (that confuses saturation with value)",
+      "Memorising wheel rules as laws instead of testing them with swatches",
+      "Calling a colour warm or cool in isolation rather than relative to its surroundings",
+      "Mixing results in paint then wondering why they differ from a screen wheel (traditional red-yellow-blue and RGB wheels disagree)"
+    ],
+    "school_reference": [
+      {
+        "institution": "RMIT University (RMIT Open Press)",
+        "url": "https://rmit.pressbooks.pub/colourtheory1/",
+        "note": "Open textbook from a Melbourne university, CC BY-NC 4.0, written for art and design students."
+      },
+      {
+        "institution": "The Open University",
+        "url": "https://www.open.edu/openlearncreate/course/view.php?id=5330",
+        "note": "One-hour beginner colour theory course with quiz and badge."
+      }
+    ]
+  },
+  {
+    "id": "col-color-mixing-limited-palettes",
+    "title": "Colour mixing (traditional) and limited palettes",
+    "group": "color-media-digital",
+    "level": "beginner",
+    "summary": "Mix colours on purpose rather than by luck: understand that each primary leans warm or cool, make greys and darks without reaching for black, and use small restricted palettes as a learning tool. The same thinking carries over to digital mixing.",
+    "prerequisites": [
+      "col-color-theory-basics"
+    ],
+    "est_hours": [
+      6,
+      12
+    ],
+    "learning_outcomes": [
+      "Mix a clean secondary and a dull one from the same pair of primaries and explain the difference",
+      "Make a graded neutral from two complements",
+      "Produce a convincing dark without tube black",
+      "Complete a small study with only three or four colours plus white",
+      "Match a sampled real-world colour within a few attempts"
+    ],
+    "resources": [
+      {
+        "title": "Handprint: colour theory and colour mixing pages",
+        "provider": "Handprint.com",
+        "credit": "Bruce MacEvoy",
+        "url": "https://www.handprint.com/HP/WCL/wcolor.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Pages opened without a login or paywall; the site does not state a price on the page I read.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Index page links: Color wheels; Basic mixing method; Mixing with a color wheel; An artist's color wheel; Tonal value; Color temperature; Color harmony and color design; and Learning color through paints (a study plan with 27 topics). Read in small bites; it is dense and written mainly for watercolour, but the logic applies to any paint."
+      },
+      {
+        "title": "On the Wisdom of Colour Schemes",
+        "provider": "Will Kemp Art School",
+        "credit": "Will Kemp",
+        "url": "https://willkempartschool.com/on-the-wisdom-of-colour-schemes/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free blog article (about 12 minutes to read). The site also sells paid courses and offers an optional free newsletter.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Argues for painting one simple object repeatedly with different restricted palettes: browns plus white, one blue plus white, blue plus burnt sienna, adding ochre, and so on. Copy the idea of the sequence, not the exact paints."
+      },
+      {
+        "title": "Mixing Colors (Krita Manual)",
+        "provider": "Krita Foundation (docs.krita.org)",
+        "credit": "Krita manual contributors",
+        "url": "https://docs.krita.org/en/general_concepts/colors/color_mixing.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free manual; page footers state GNU Free Documentation License 1.3+.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "The digital side: glazing, smudging, scumbling, colour sampler blending, and the Digital Colors Mixer docker. Includes tips on limiting palettes and mixing complements to get neutrals. Read after you have mixed in real paint."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Warm/cool primary grid",
+        "description": "Pick a warm and a cool version of each of three primaries (six paints, pencils or digital swatches). Mix every pair into a labelled grid.",
+        "dose": "1 page, 60 min",
+        "reference_url": "https://www.handprint.com/HP/WCL/wcolor.html"
+      },
+      {
+        "title": "Complement-to-grey strips",
+        "description": "For three complementary pairs, mix a ten-step strip from pure colour A through grey to pure colour B.",
+        "dose": "3 strips, 30 min"
+      },
+      {
+        "title": "Black-free darks",
+        "description": "Make a dark from two opposing colours and compare it with a dark made from tube or pencil black. Note which looks richer next to a bright colour.",
+        "dose": "20 min"
+      },
+      {
+        "title": "Limited-palette still life",
+        "description": "Paint or colour one small object using one warm, one cool and white only. Repeat with a different pair.",
+        "dose": "2 studies, 40 min each",
+        "reference_url": "https://willkempartschool.com/on-the-wisdom-of-colour-schemes/"
+      },
+      {
+        "title": "Colour match",
+        "description": "Take a leaf, fruit or fabric and mix five of its colours until the swatch disappears when held against it.",
+        "dose": "30 min"
+      },
+      {
+        "title": "Digital mix check",
+        "description": "Recreate one of your paint mixes in Krita using the Digital Colors Mixer docker and compare the two.",
+        "dose": "20 min",
+        "reference_url": "https://docs.krita.org/en/general_concepts/colors/color_mixing.html"
+      }
+    ],
+    "done_when": [
+      "I can predict roughly which of two blues will give a cleaner green with a given yellow, then test it",
+      "I have a grid showing my primaries' mixes and can read it without labels",
+      "I can make a dark and a grey on demand without using black",
+      "I have finished two limited-palette studies that look unified"
+    ],
+    "common_mistakes": [
+      "Starting with a huge set of colours and never learning what each does",
+      "Lightening everything with white until the work goes chalky",
+      "Mixing three or more pigments at once and getting mud",
+      "Reaching for black to darken instead of mixing a deeper chromatic dark"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-color-light-shadow",
+    "title": "Colour and light: local colour, light colour, shadow colour, lighting conditions",
+    "group": "color-media-digital",
+    "level": "intermediate",
+    "summary": "Separate an object's own colour (local colour) from the colour of the light hitting it and the colour that appears in its shadows and bounce light. Practise predicting how the same object changes under sun, overcast sky and lamp light.",
+    "prerequisites": [
+      "col-color-theory-basics",
+      "col-color-mixing-limited-palettes"
+    ],
+    "est_hours": [
+      8,
+      16
+    ],
+    "learning_outcomes": [
+      "Explain local colour, light colour and shadow colour in your own words",
+      "Predict whether a shadow leans warmer or cooler than its lit side, then confirm by looking",
+      "Paint or colour a pale object under two different lights so both read correctly",
+      "Add believable reflected light without breaking the form",
+      "Plan the colour mood of a scene from its lighting"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint free video library: Painting With Color and Basic Painting Techniques",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/library",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Free library, no ads or subscription, per the site; roughly 5-minute videos. The creator also sells $10 videos in a store.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "In section 11 (Painting With Color, 18 videos) watch: Color Relativity, Intro to Color Schemes, Color Contrast, Vibrant Colors, Unify Your Palette, Painting White Objects, Guess That Color, Grayscale to Color. Then in section 9 (Basic Painting Techniques): Form, Value, and Light; Shadow Properties; Hard and Soft Shadow Edges; Lost Edges. Demos are digital, but the observation habits transfer to paint."
+      },
+      {
+        "title": "Gurney Journey (Color, Gouache and Plein Air labels)",
+        "provider": "Gurney Journey blog",
+        "credit": "James Gurney",
+        "url": "https://gurneyjourney.blogspot.com/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Blog posts are free to read. Gurney also has a Substack and sells books and videos (including Color and Light, which is paid).",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the sidebar labels: Color has about 248 posts, Gouache 229, Plein Air Painting 220. Read short posts on light, shadow and colour temperature. The label pages themselves refused automated access, so open them in a browser."
+      },
+      {
+        "title": "Painting Skin Tones and How Light Affects Color",
+        "provider": "Proko",
+        "credit": "Marco Bucci",
+        "url": "https://www.proko.com/lesson/painting-skin-tones-and-how-light-affects-color-marco-bucci/discussions",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "The page did not say whether this lesson is free; it mentions Bucci's premium content is on his own site. Treat as possibly gated.",
+        "role": "supplementary",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Follow-up to part 1 of a digital painting demo: painting the planes of a head with colour, how light and shadow shift colour, applied to portrait work."
+      },
+      {
+        "title": "Causes of Color (exhibit)",
+        "provider": "WebExhibits",
+        "credit": "WebExhibits (authors not named on the page I read)",
+        "url": "http://webexhibits.org/causesofcolor/",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Cost and licence are not stated on the page I could read, which only showed navigation (Bibliography, About, Credits).",
+        "role": "supplementary",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Optional physics background on why things have colour. Skim only; confirm the content before relying on it."
+      }
+    ],
+    "practice": [
+      {
+        "title": "White object, two lights",
+        "description": "Set a white egg, cup or paper under a window and again under a lamp. For each setup, paint three swatches: lit side, shadow side, bounce light.",
+        "dose": "2 setups, 40 min each",
+        "reference_url": "https://www.ctrlpaint.com/library"
+      },
+      {
+        "title": "Grey first, colour second",
+        "description": "Paint a simple object in greys, then add colour over it (Color blend layer digitally, or a glaze in paint) and compare with painting straight in colour.",
+        "dose": "45 min"
+      },
+      {
+        "title": "Sample the masters' shadows",
+        "description": "Open three paintings with a clear light source from a CC0 museum collection. Pick the lit and shadow colour and write whether the shadow is warmer or cooler.",
+        "dose": "3 paintings, 15 min each",
+        "reference_url": "https://www.metmuseum.org/perspectives/open-access-at-the-met"
+      },
+      {
+        "title": "Three-light thumbnails",
+        "description": "Draw one simple scene as three small thumbnails: low warm sun, flat overcast, night with an artificial lamp. Colour each so the light is obvious without a sun or lamp drawn in.",
+        "dose": "3 thumbnails, 10 min each"
+      },
+      {
+        "title": "Bounce light sphere",
+        "description": "Place a pale sphere or egg on a strongly coloured surface and paint the bounce light on its underside.",
+        "dose": "30 min"
+      }
+    ],
+    "done_when": [
+      "I can say what the local colour, light colour and shadow colour are for any object in front of me",
+      "My white-object studies read as white under both lights",
+      "I can predict a shadow's temperature before I check it",
+      "I have one painting where the bounce light improves the form instead of flattening it"
+    ],
+    "common_mistakes": [
+      "Making shadows by adding black to the local colour",
+      "Using one blue-purple shadow formula for every scene",
+      "Ignoring the colour of the light source when choosing local colours",
+      "Making bounce light as bright as the main light"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-digital-primer",
+    "title": "Digital drawing primer: software, tablets, canvas setup and file formats",
+    "group": "color-media-digital",
+    "level": "beginner",
+    "summary": "Pick a free drawing program for your device, get a pressure-sensitive pen working, and set up a canvas at a sensible size and resolution. Learn which file formats to keep for editing and which to share. Krita is the main tool here because it is free, open source and well documented.",
+    "prerequisites": [],
+    "est_hours": [
+      3,
+      6
+    ],
+    "learning_outcomes": [
+      "Install a free painting program and confirm pen pressure works",
+      "Choose between Krita, GIMP, MediBang, ibisPaint, FireAlpaca and browser tools for a given device and goal",
+      "Create a new canvas at a suitable size and resolution for print or screen",
+      "Save a layered working file and export a shareable PNG or JPEG",
+      "Set up autosave and a simple file-naming habit"
+    ],
+    "resources": [
+      {
+        "title": "Krita Manual: Getting Started",
+        "provider": "Krita Foundation (docs.krita.org)",
+        "credit": "Krita manual contributors",
+        "url": "https://docs.krita.org/en/user_manual/getting_started.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free manual (this edition covers Krita 5.3). Krita itself is free and open source under GNU GPL v3.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Read the four pages in order: Installation, Starting Krita, Basic Concepts, Navigation. Then skim the manual's General Concepts section when a term is unfamiliar."
+      },
+      {
+        "title": "Krita FAQ",
+        "provider": "Krita Foundation (docs.krita.org)",
+        "credit": "Krita manual contributors",
+        "url": "https://docs.krita.org/en/KritaFAQ.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free. Notes that the Steam and Windows Store versions are the same binaries as the free download; the fee supports development.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Covers pressure-tablet setup on Windows (WinTab drivers or Windows Ink), minimum needs (OpenGL 3.2, 2 GB RAM minimum, 4 GB preferable) and platform limits: not available for iPad/iPhone; its Android line said beta, so compare with the download page."
+      },
+      {
+        "title": "Krita download page",
+        "provider": "Krita",
+        "credit": "Krita Foundation",
+        "url": "https://krita.org/en/download/",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Free download (GPL v3). Paid copies exist on Microsoft Store, Steam, Epic and Mac App Store; the page says they support development.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Shows platforms: Windows 8.1+, macOS 10.15, Linux AppImage/Flatpak/snap, Android via Google Play and APK; iPad and iPhone not supported. Page listed version 5.3.4.1 (7 October 2026) and also a 6.0.4 source tarball."
+      },
+      {
+        "title": "File Formats (Krita Manual)",
+        "provider": "Krita Foundation (docs.krita.org)",
+        "credit": "Krita manual contributors",
+        "url": "https://docs.krita.org/en/general_concepts/file_formats.html",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Free manual page.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "One page per format: kra, png, jpg, psd, tiff, svg, webp and more. Rule of thumb from the descriptions: keep layered formats (kra, psd, ora) as working files and export png or jpg to share."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Pressure test",
+        "description": "Install Krita (or your chosen program) and draw a line that goes from the lightest to the heaviest pressure you can manage. Fix drivers or settings if the width does not change.",
+        "dose": "15 min",
+        "reference_url": "https://docs.krita.org/en/KritaFAQ.html"
+      },
+      {
+        "title": "Three canvases",
+        "description": "Create three new documents: a print-style page, a 1920x1080 screen canvas and a square. Save each as a layered working file.",
+        "dose": "15 min",
+        "reference_url": "https://docs.krita.org/en/user_manual/getting_started.html"
+      },
+      {
+        "title": "Export comparison",
+        "description": "Export one drawing as PNG and as JPEG at two quality levels and compare file size against visible quality.",
+        "dose": "15 min",
+        "reference_url": "https://docs.krita.org/en/general_concepts/file_formats.html"
+      },
+      {
+        "title": "Second-tool trial",
+        "description": "Install one other free option (GIMP, MediBang Paint, ibisPaint or FireAlpaca) and draw the same ten-minute sketch. Write five lines on brush feel, layers and export.",
+        "dose": "45 min",
+        "reference_url": "https://www.gimp.org/"
+      },
+      {
+        "title": "Safety net",
+        "description": "Turn on autosave, pick a file-naming pattern (date-subject-v1) and make one backup copy.",
+        "dose": "10 min"
+      }
+    ],
+    "done_when": [
+      "My pen changes line width with pressure, and I know how to fix it if it stops",
+      "I can set up a canvas for print or screen without guessing the numbers",
+      "I keep a layered file and a separate export for anything I share",
+      "I have tried at least two free programs and chosen one as my main tool, with a reason"
+    ],
+    "common_mistakes": [
+      "Working on a tiny canvas and then enlarging it",
+      "Saving only as JPEG and losing the layers",
+      "Buying an expensive tablet before testing free software with the pen you have",
+      "Installing five programs and never learning one"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-digital-brushes-layers",
+    "title": "Digital basics: brushes, layers, selections and sketch control",
+    "group": "color-media-digital",
+    "level": "beginner",
+    "summary": "Get comfortable with the controls that make digital drawing different from paper: layers, brush size/opacity/flow, selection, transform and undo-safe habits. Short control drills build the hand-eye skills you will use for inking and painting.",
+    "prerequisites": [
+      "col-digital-primer"
+    ],
+    "est_hours": [
+      4,
+      10
+    ],
+    "learning_outcomes": [
+      "Use separate layers for sketch, ink and colour",
+      "Explain opacity versus flow and choose between them",
+      "Draw smooth straight lines, curves and ellipses with a stylus",
+      "Use transform and flip to check a drawing for errors",
+      "Keep a small personal brush set instead of dozens"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint: Digital Painting 101 and The Brush Tool",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/library",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Free library with no ads or subscription, per the site. The creator sells paid $10 videos separately.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Section 1, Digital Painting 101 (8 videos): What is digital painting?, Quick Demo, Basic Navigation, Layers, Brush + Eraser, Color, Blending Paint, Moving Forward. Then section 8, The Brush Tool (27 videos): Basic Brush Stroke Types, Brush Control Basics, Opacity vs. Flow, Straight Lines, Ellipse Control, Clean Lines, Custom Brushes. I could not confirm which software the demos use."
+      },
+      {
+        "title": "Krita Beginners tutorial series",
+        "provider": "Krita Artists forum (videos on YouTube)",
+        "credit": "Tamas Molnar (tmolnar)",
+        "url": "https://krita-artists.org/t/krita-beginners-tutorial-series/18521",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "Free videos on YouTube, linked from a forum thread posted February 2021; may show older interface screens.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Seven videos: Installation and configuration; Using, creating and configuring brushes; Basics of layers for beginners; Adding reference images; Selections and transformations; Creating a hair/fur brush; Saving your work."
+      },
+      {
+        "title": "Krita Manual: Tutorials and How-tos",
+        "provider": "Krita Foundation (docs.krita.org)",
+        "credit": "Krita manual contributors",
+        "url": "https://docs.krita.org/en/tutorials.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free manual.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Index of brush-tip tutorials, Inking, Flat Coloring and Common Workflows. Use it to look things up, not to read in order."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Line control pages",
+        "description": "Fill pages with straight lines, long curves and ellipses at steady pressure, drawn with the whole arm for long strokes.",
+        "dose": "3 pages, 15 min each",
+        "reference_url": "https://www.ctrlpaint.com/library"
+      },
+      {
+        "title": "Opacity versus flow strip",
+        "description": "Paint a gradient strip once by changing opacity and once by changing flow. Note how each behaves when you overlap strokes.",
+        "dose": "10 min"
+      },
+      {
+        "title": "Sketch plus ink layers",
+        "description": "Lower a rough sketch layer to low opacity and draw clean lines on a new layer above it. Lock transparency and fill one shape with colour.",
+        "dose": "30 min"
+      },
+      {
+        "title": "Flip check habit",
+        "description": "Flip your canvas horizontally every ten minutes during a sketch and write down the errors it reveals.",
+        "dose": "one sketch session"
+      },
+      {
+        "title": "Three-brush kit",
+        "description": "Choose three brushes (a hard sketching brush, a textured brush, an eraser) and work only with them for a week of short sessions.",
+        "dose": "15 min a day for 5 days"
+      }
+    ],
+    "done_when": [
+      "My sketches, lines and colour live on separate layers by default",
+      "I can explain opacity versus flow and pick the right one",
+      "My straight lines and ellipses stay clean without redrawing them many times",
+      "I use flip and transform to check drawings, not only undo"
+    ],
+    "common_mistakes": [
+      "Drawing everything on one layer",
+      "Relying on undo instead of redrawing a stroke",
+      "Collecting dozens of brushes instead of learning three",
+      "Zooming so far in that proportions drift"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-digital-painting-fundamentals",
+    "title": "Digital painting fundamentals with free tools",
+    "group": "color-media-digital",
+    "level": "intermediate",
+    "summary": "Follow a repeatable pipeline: thumbnail, block in big shapes in greyscale values, add colour on top, then control edges and render. Ctrl+Paint provides the step-by-step lessons and David Revoy's full Krita walkthrough shows the process end to end.",
+    "prerequisites": [
+      "col-digital-brushes-layers",
+      "col-color-light-shadow"
+    ],
+    "est_hours": [
+      20,
+      40
+    ],
+    "learning_outcomes": [
+      "Block in a simple subject with three to five flat values",
+      "Put colour over a value painting without losing the values",
+      "Control hard, soft and lost edges deliberately",
+      "Render a basic form in stages from flat shape to finished light",
+      "Finish a small illustration from thumbnail to final in one program"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint: Basic Painting Techniques, Painting With Color, Uniquely Digital Techniques",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/library",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Free library, no ads or subscription per the site; paid $10 videos sold separately. A few lessons carry a Preview tag, which may mean part of the lesson is held back; check on the page.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Section 9 (32 videos): block-in demos, Form, Value, and Light, Sketching with Values, Why practice in Grayscale?, edges and blending, Basic Rendering 1-4, Painting Flat, Painting Backwards. Section 11: Grayscale to Color, Colored Lineart, Imaginary Landscape Thumbnails. Section 15: Gradient Map and Color Correction series."
+      },
+      {
+        "title": "Tutorial: an Illustration from A to Z with Krita",
+        "provider": "davidrevoy.com",
+        "credit": "David Revoy",
+        "url": "https://www.davidrevoy.com/article924/tutorial-an-illustration-from-a-to-z-with-krita",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Free video (1 h 22 min) on YouTube and PeerTube, published 15 August 2022 under CC BY 4.0. His art carries an AI-derivation prohibition.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Chapters: interface setup (A4 at 300 dpi), planning and thumbnails, values and Krita basics, colour and brush work, drawing and painting, paint-over (histogram, colour temperature), then finishing (background, lighten silhouette, lens blur, archiving)."
+      },
+      {
+        "title": "Common Workflows (Krita Manual)",
+        "provider": "Krita Foundation (docs.krita.org)",
+        "credit": "Krita manual contributors; speed-painting example credits David Revoy",
+        "url": "https://docs.krita.org/en/tutorials/common_workflows.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free manual; footer says GNU Free Documentation License 1.3+.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Read Painting: Starting from chaos, and Starting from a value-based underground (greyscale underpainting plus a Color blend layer). Also Speed Painting and Conceptualizing."
+      },
+      {
+        "title": "Marco Bucci YouTube channel",
+        "provider": "YouTube",
+        "credit": "Marco Bucci",
+        "url": "https://www.youtube.com/@MarcoBucci",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "Free videos on painting fundamentals and applied demos. More lessons are sold at his own store. I could not list individual playlists from the channel page.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Professional concept artist and teacher (CGMA, Academy of Art University, Centennial College per channel description). Browse for painting-fundamentals playlists and demos."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Greyscale block-in",
+        "description": "Block in a simple object with 3 to 5 flat values, no blending, then step back and check it reads at thumbnail size.",
+        "dose": "3 objects, 30 min each",
+        "reference_url": "https://www.ctrlpaint.com/library"
+      },
+      {
+        "title": "Colour over values",
+        "description": "Take a finished greyscale painting and add colour in a Color-mode layer. Compare with a version coloured directly.",
+        "dose": "45 min",
+        "reference_url": "https://docs.krita.org/en/tutorials/common_workflows.html"
+      },
+      {
+        "title": "Rendering ladder",
+        "description": "Paint one sphere or egg in four stages: flat shape, basic light and shadow, edges, final render. Save each stage.",
+        "dose": "60-90 min"
+      },
+      {
+        "title": "Edge study",
+        "description": "Paint two overlapping shapes three times, using hard edges, soft edges and one lost edge. Describe how each changes focus.",
+        "dose": "30 min"
+      },
+      {
+        "title": "Colour crop study",
+        "description": "Copy a small crop of a public-domain painting in colour, aiming at value relationships, not detail.",
+        "dose": "60 min",
+        "reference_url": "https://www.nga.gov/open-access-images.html"
+      },
+      {
+        "title": "Landscape thumbnails",
+        "description": "Draw six tiny greyscale landscape thumbnails from imagination, pick two, and colour them.",
+        "dose": "60 min"
+      }
+    ],
+    "done_when": [
+      "I can block in a subject in greyscale and the values still read when I shrink the image",
+      "My colour layers do not flatten the value structure",
+      "I can name where my edges are hard, soft and lost, and why",
+      "I have finished one small piece from thumbnail to final without switching programs"
+    ],
+    "common_mistakes": [
+      "Starting with colour and detail before values are right",
+      "Chasing small details before the big shapes work",
+      "Over-using a soft airbrush for everything",
+      "Picking colours from a photo without checking the values"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-trad-coloured-pencil",
+    "title": "Traditional media primer: coloured pencil",
+    "group": "color-media-digital",
+    "level": "beginner",
+    "summary": "Learn to build colour in thin layers with light pressure, blend by layering, and save the heavy burnishing for the end. Coloured pencil is slow but forgiving and a good first step into colour on paper.",
+    "prerequisites": [
+      "col-color-theory-basics"
+    ],
+    "est_hours": [
+      6,
+      12
+    ],
+    "learning_outcomes": [
+      "Produce an even pressure ladder from light to heavy with one pencil",
+      "Layer two or three pencils to make a new colour",
+      "Blend by layering and, where useful, with a colourless blender",
+      "Finish a small still life built from light to dark",
+      "Choose paper that suits the amount of layering you plan"
+    ],
+    "resources": [
+      {
+        "title": "Drawing and Coloring Essentials (OpenLearn Create)",
+        "provider": "The Open University (OpenLearn Create)",
+        "credit": "The Open University",
+        "url": "https://www.open.edu/openlearncreate/course/view.php?id=4322",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Free to study; the course page code is OLCreate PUB_2109_1.0. A free account is likely needed for tracking (the sister colour theory course needs one); I did not confirm for this course.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Beginner level, 24 hours of study. Pencil exercises and colouring with coloured pencils or pastels: materials, perspective, objects, the human figure, portraits, still life, landscapes, and a quiz. Take the materials and objects sections first. Part of the 14-course An Introduction to Plastic Arts collection."
+      },
+      {
+        "title": "How to blend coloured pencils (video)",
+        "provider": "Derwent",
+        "credit": "Derwent (ACCO UK Ltd)",
+        "url": "https://www.derwentart.com/en-gb/a/187468/how-to-blend-coloured-pencils",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "The page does not state a price; it is an embedded short clip with a one-line description and no written steps. Treat as probably free but unconfirmed.",
+        "role": "alternative",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Short manufacturer clip on blending successfully. Watch it with a pencil in hand and copy the motion on scrap paper."
+      },
+      {
+        "title": "Ann Kullberg: Learning Tools for Colored Pencil Artists",
+        "provider": "annkullberg.com",
+        "credit": "Ann Kullberg",
+        "url": "https://annkullberg.com/",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Free: a sample issue of COLOR Magazine and a Free Colors Workbook help session video (Amy Lindenberger). Paid: monthly magazine issues ($5.40 digital in October 2026), webinars ($25), classes ($45-$75), books and kits.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use only the free items to see how a dedicated colored-pencil community teaches colour mixing. Do not feel obliged to buy anything."
+      },
+      {
+        "title": "Coloured pencil tutorials (art supply retailer blog)",
+        "provider": "artsupplies.co.uk",
+        "credit": "Authors named on page include Cherry Ferris and Rosie Wallace",
+        "url": "https://www.artsupplies.co.uk/blog/category/tutorials/coloured-pencil-tutorials/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "The listing page does not say whether articles are free; they appear to be open blog posts. Unconfirmed.",
+        "role": "supplementary",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Listing includes step-by-step Derwent tutorials (fox fur, a cat portrait, botanical layering, water droplets). Pick one subject and follow it slowly."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Pressure ladder",
+        "description": "With three different pencils, make a five-step strip from the lightest touch to your heaviest pressure.",
+        "dose": "15 min"
+      },
+      {
+        "title": "Layered colour chart",
+        "description": "Layer two or three pencils on top of each other to make five new colours and compare each with the closest single pencil.",
+        "dose": "20 min"
+      },
+      {
+        "title": "Blending trial",
+        "description": "Test pencil-only layering, a paper stump and (if you own one) a colourless blender on three identical patches. Keep notes.",
+        "dose": "20 min"
+      },
+      {
+        "title": "Fruit study from light to dark",
+        "description": "Draw a simple fruit and build the colour in three light layers before any dark accents.",
+        "dose": "60 min"
+      },
+      {
+        "title": "Paper test",
+        "description": "Draw the same patch on smooth cartridge paper and on a toothier paper to see how many layers each takes.",
+        "dose": "20 min"
+      }
+    ],
+    "done_when": [
+      "My pressure ladder has an even, smooth progression",
+      "I can mix a new colour by layering and predict the result",
+      "My fruit study has soft transitions and no shiny wax patches",
+      "I know which paper in my kit suits heavy layering"
+    ],
+    "common_mistakes": [
+      "Pressing hard in the first layer so later layers will not take",
+      "Outlining shapes with a dark line instead of building edges with colour",
+      "Using too many similar pencils instead of mixing by layering",
+      "Working on thin paper that tears or shines under layers"
+    ],
+    "school_reference": [
+      {
+        "institution": "The Open University",
+        "url": "https://www.open.edu/openlearncreate/course/view.php?id=4322",
+        "note": "Beginner-level drawing and colouring course, 24 hours."
+      }
+    ]
+  },
+  {
+    "id": "col-trad-markers",
+    "title": "Traditional media primer: alcohol markers",
+    "group": "color-media-digital",
+    "level": "beginner",
+    "summary": "Learn how alcohol markers lay down and blend colour: nib choice, layering, fading one colour into another while wet, and using a colourless blender. The free lessons come from the manufacturer, so techniques are shown on one brand but transfer to most alcohol markers.",
+    "prerequisites": [
+      "col-color-theory-basics"
+    ],
+    "est_hours": [
+      4,
+      8
+    ],
+    "learning_outcomes": [
+      "Lay down a streak-free flat colour",
+      "Blend a smooth gradient between two markers before they dry",
+      "Build shading by layering marker over marker",
+      "Colour a line drawing using three values of one hue",
+      "Pick line art ink and paper that will not bleed or dissolve"
+    ],
+    "resources": [
+      {
+        "title": "Copic Sketch and Copic Ciao: how to use",
+        "provider": "COPIC Official Website",
+        "credit": "COPIC",
+        "url": "https://copic.jp/en/howto/marker/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Page shows no price, subscription or login. It is a manufacturer site, so it focuses on Copic markers.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Sections: nib types (Medium Broad, Super Brush), drawing lines, layering and colour on colour, gradation and texture, the Colorless Blender, changing nibs and refilling. Linked tutorials: Coloring Basics, eyes, hair, crystals and shiny objects, and Copic ink in illustrations."
+      },
+      {
+        "title": "Copic basic how-to movies (official)",
+        "provider": "COPIC_Official on YouTube",
+        "credit": "COPIC",
+        "url": "https://www.youtube.com/playlist?list=PL0PpH6TSR87vxaiCXqQThtmvbUUVgnKSq",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "Free to watch on YouTube.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Playlist titled Official: How to Use Copic, Copic basic how-to movie, 11 videos. Video titles were not visible to me. The title is in Japanese and English; videos may carry subtitles."
+      },
+      {
+        "title": "Copic Line Art free downloads",
+        "provider": "COPIC Official Website",
+        "credit": "COPIC and contributing artists",
+        "url": "https://copic.jp/en/coloring/",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Free for personal use only, per the page. Roughly 100 line drawings across Manga, Illustration, Design, Landscape & Botanicals and Craft, plus colour charts.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Print a drawing for colouring practice. The page recommends a laser printer with heat-fixing toner, because inkjet lines may vanish when marker ink goes over them."
+      },
+      {
+        "title": "Copic tutorials index",
+        "provider": "COPIC Official Website",
+        "credit": "COPIC",
+        "url": "https://copic.jp/en/tutorials/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "The page does not say whether tutorials are free; they appear to be open pages.",
+        "role": "supplementary",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Lists tutorials grouped by product: alcohol markers (Coloring Basics, eyes, hair, crystals, ink), acrea, and other products (highlights, airbrush system)."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Flat colour swatches",
+        "description": "Fill ten 3 cm squares with a single marker, each with a different stroke speed, and note which are streak-free.",
+        "dose": "20 min"
+      },
+      {
+        "title": "Gradient fade",
+        "description": "Make a fade from one colour to a neighbouring colour by blending before the first dries, then try the same fade using a colourless blender.",
+        "dose": "2 strips, 15 min"
+      },
+      {
+        "title": "Layering grid",
+        "description": "Put one, two, three and four coats of one marker next to each other to see how each coat darkens.",
+        "dose": "15 min"
+      },
+      {
+        "title": "Line art colouring",
+        "description": "Print a free line drawing and colour it with four markers of one hue family (light, mid, dark plus an accent).",
+        "dose": "45 min",
+        "reference_url": "https://copic.jp/en/coloring/"
+      },
+      {
+        "title": "Own object, marker-safe ink",
+        "description": "Draw a simple object in pencil, ink it with a waterproof fineliner that does not smear, then colour it in three values.",
+        "dose": "45 min"
+      }
+    ],
+    "done_when": [
+      "My flat colours are even with no obvious stroke seams",
+      "I can blend two colours into a smooth gradient most of the time",
+      "I know which pens and which printer type will not run when marker goes over them",
+      "I have one finished object coloured with a deliberate light, mid and dark"
+    ],
+    "common_mistakes": [
+      "Printing line art on an inkjet printer and watching the lines dissolve",
+      "Moving too slowly, which leaves dark ends and streaks",
+      "Trying to blend after the ink has dried",
+      "Pressing the nib hard, which damages it and bleeds through"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-trad-ink-brush-pen",
+    "title": "Traditional media primer: ink, pen and brush pen",
+    "group": "color-media-digital",
+    "level": "beginner",
+    "summary": "Practise line quality with fineliners, dip pens and brush pens, then build value with hatching, cross-hatching, stippling and washes. Ink is unforgiving, which makes it good training for committing to a line.",
+    "prerequisites": [],
+    "est_hours": [
+      5,
+      10
+    ],
+    "learning_outcomes": [
+      "Make confident lines of varying weight with a pen and a brush pen",
+      "Build a five-step value scale using hatching, cross-hatching and stippling",
+      "Render a simple object's texture in ink",
+      "Combine pen line with a light ink wash",
+      "Choose between waterproof and water-soluble ink for a job"
+    ],
+    "resources": [
+      {
+        "title": "Alphonso Dunn YouTube channel (pen and ink)",
+        "provider": "YouTube",
+        "credit": "Alphonso Dunn",
+        "url": "https://www.youtube.com/@AlphonsoDunn",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Channel description says it teaches drawing through free tutorials, including pen and ink, watercolour, urban sketching and figure drawing. His books are sold separately.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Look for his pen-and-ink technique videos first (hatching, cross-hatching, stippling, line weight), then his watercolour and urban sketching videos for combined pen and wash. I could not list specific playlist names from the channel page."
+      },
+      {
+        "title": "Inktober",
+        "provider": "inktober.com",
+        "credit": "Jake Parker (founder, 2009)",
+        "url": "https://inktober.com/",
+        "format": "interactive",
+        "cost": "free",
+        "free_notes": "The site does not say whether joining costs anything; it describes a 31-day, 31-drawing challenge with Classic and Inktober52 formats. Rules are at inktober.com/rules.",
+        "role": "alternative",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Use as a motivation scaffold: a month of daily ink drawings. October is Inktober month, so it lines up with the date of this research. The 2026 prompt list was not on the page I read."
+      },
+      {
+        "title": "Ink (Tate Art Terms)",
+        "provider": "Tate",
+        "credit": "Tate",
+        "url": "https://www.tate.org.uk/art/art-terms/i/ink",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Public glossary page with no paywall seen.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Short background on carbon-and-binder inks, historic iron gall and sepia, quill, reed and metal pens, and pen-and-wash. Eight artworks are shown for visual reference, including Marlene Dumas, Henri Michaux and Alexander Cozens."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Line-quality pages",
+        "description": "Fill pages with parallel lines, curves and tapered strokes using a fineliner and a brush pen, drawn quickly and without lifting early.",
+        "dose": "3 pages, 15 min each"
+      },
+      {
+        "title": "Hatching value scale",
+        "description": "Build a five-step scale of squares using hatching, then another with cross-hatching and a third with stippling.",
+        "dose": "20 min per scale",
+        "reference_url": "https://www.youtube.com/@AlphonsoDunn"
+      },
+      {
+        "title": "Texture patches",
+        "description": "Fill six 5 cm squares with ink textures: bark, cloth, scales, fur, stone, water.",
+        "dose": "30 min"
+      },
+      {
+        "title": "Ink object from life",
+        "description": "Draw one object in pen directly or over a light pencil guide, committing to lines without erasing.",
+        "dose": "30 min"
+      },
+      {
+        "title": "Pen and wash",
+        "description": "Draw a small subject in water-soluble or waterproof ink and add one light wash on top. Compare what each ink does.",
+        "dose": "30 min"
+      },
+      {
+        "title": "Thirty-one-day ink run",
+        "description": "Do a short ink drawing a day for a week or the whole month.",
+        "dose": "15-20 min a day",
+        "reference_url": "https://inktober.com/"
+      }
+    ],
+    "done_when": [
+      "My lines are confident, with visible variation in weight",
+      "I can build a smooth value scale with at least two ink techniques",
+      "I have one ink drawing that is finished and readable",
+      "I know whether my ink is waterproof before I add a wash"
+    ],
+    "common_mistakes": [
+      "Drawing short, hesitant strokes from the wrist",
+      "Hatching at the same angle and spacing everywhere",
+      "Adding water to non-waterproof ink by accident",
+      "Trying to erase ink instead of planning around it"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-trad-watercolour",
+    "title": "Traditional media primer: watercolour",
+    "group": "color-media-digital",
+    "level": "beginner",
+    "summary": "Learn washes, controlling water, layering transparent colour and keeping the white of the paper. Combine free YouTube demonstrations with Handprint's detailed colour pages and a library of free natural-history illustrations for reference.",
+    "prerequisites": [
+      "col-color-theory-basics",
+      "col-color-mixing-limited-palettes"
+    ],
+    "est_hours": [
+      10,
+      25
+    ],
+    "learning_outcomes": [
+      "Paint flat, graded and wet-in-wet washes",
+      "Plan light-to-dark layering and save the white of the paper",
+      "Mix clean colours from a small triad and avoid mud",
+      "Complete a small object study in two or three layers",
+      "Paint a simple sky or landscape wash study"
+    ],
+    "resources": [
+      {
+        "title": "The Mind of Watercolor (YouTube)",
+        "provider": "YouTube",
+        "credit": "Steve Mitchell",
+        "url": "https://www.youtube.com/@mindofwatercolor",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Free to watch. The channel description lists watercolour and mixed media tips and techniques, product reviews and painting challenges.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Steve Mitchell is a designer and illustrator with 30-plus years of experience per the channel page. I could not list playlists. Browse his beginner tips and technique videos in date order for the basics."
+      },
+      {
+        "title": "Handprint: watercolour and colour pages",
+        "provider": "Handprint.com",
+        "credit": "Bruce MacEvoy",
+        "url": "https://www.handprint.com/HP/WCL/wcolor.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Pages opened without a login or paywall; price not stated on the page I read.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the colour pages for watercolour mixing: a colour wheel built from pigments, the watercolor mixing complements chart and the study plan Learning color through paints. I could not confirm other watercolour pages (the library index did not load)."
+      },
+      {
+        "title": "Alphonso Dunn YouTube channel (watercolour and urban sketching)",
+        "provider": "YouTube",
+        "credit": "Alphonso Dunn",
+        "url": "https://www.youtube.com/@AlphonsoDunn",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Free tutorials per the channel description; books are paid.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Pick his watercolour videos for washes and for pen-and-wash sketching."
+      },
+      {
+        "title": "Gurney Journey: watercolour posts",
+        "provider": "Gurney Journey blog",
+        "credit": "James Gurney",
+        "url": "https://gurneyjourney.blogspot.com/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free to read. The Watercolor Painting label had about 355 posts when checked.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Browse the Watercolor Painting label in the sidebar for process notes and materials. The label pages block automated access, so open them in a browser."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Wash trio",
+        "description": "Paint three swatches each of a flat wash, a graded wash and a wet-in-wet wash.",
+        "dose": "30 min"
+      },
+      {
+        "title": "One-pigment value scale",
+        "description": "Make a five-step scale with a single pigment by changing only the water-to-paint ratio.",
+        "dose": "20 min"
+      },
+      {
+        "title": "Triad mixing chart",
+        "description": "Choose three pigments and mix every pair and the triple on a labelled grid. Compare to your earlier mixing chart.",
+        "dose": "30 min",
+        "reference_url": "https://www.handprint.com/HP/WCL/wcolor.html"
+      },
+      {
+        "title": "Egg or pear study",
+        "description": "Paint a simple object in light, mid and dark washes, leaving the highlight as bare paper.",
+        "dose": "45 min"
+      },
+      {
+        "title": "Natural-history plate study",
+        "description": "Pick a free illustrated plate from the Biodiversity Heritage Library, simplify it, and paint a small version focusing on colour relationships.",
+        "dose": "60 min",
+        "reference_url": "https://www.biodiversitylibrary.org/"
+      },
+      {
+        "title": "Three skies",
+        "description": "Paint three small skies (clear, cloudy, sunset), each in about 15 minutes.",
+        "dose": "45 min"
+      }
+    ],
+    "done_when": [
+      "I can lay a flat and a graded wash without hard edges or blooms",
+      "I can keep a highlight as bare paper in a small study",
+      "My mixes stay clean because I use three or fewer pigments in most mixes",
+      "I have finished three small studies in watercolour"
+    ],
+    "common_mistakes": [
+      "Overworking an area while it is half-dry",
+      "Using too little paint, leaving everything pale",
+      "Mixing too many pigments, which gives mud",
+      "Painting on thin paper that buckles, or covering the white you wanted to keep"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-trad-gouache",
+    "title": "Traditional media primer: gouache",
+    "group": "color-media-digital",
+    "level": "intermediate",
+    "summary": "Gouache is opaque, reworkable water-based paint that dries a little different in tone from how it looks wet. It suits flat shapes, illustration and quick outdoor studies. James Gurney is the best free source, supported by his blog and a paid video that is worth knowing about.",
+    "prerequisites": [
+      "col-color-mixing-limited-palettes"
+    ],
+    "est_hours": [
+      6,
+      14
+    ],
+    "learning_outcomes": [
+      "Mix a value scale with white and see how colours dry",
+      "Paint flat opaque shapes without streaks",
+      "Soften or keep crisp edges on purpose",
+      "Complete short studies from life with a value-and-colour plan",
+      "Decide whether you need a paid course after the free material"
+    ],
+    "resources": [
+      {
+        "title": "James Gurney YouTube channel",
+        "provider": "YouTube",
+        "credit": "James Gurney",
+        "url": "https://www.youtube.com/@JamesGurney",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Free to watch. The channel description mentions gouache, plein air painting and dinosaur reconstructions. His full-length video courses are sold elsewhere.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Search the channel for his gouache and plein air videos. I could not list playlists from the channel page."
+      },
+      {
+        "title": "Gurney Journey: gouache posts",
+        "provider": "Gurney Journey blog",
+        "credit": "James Gurney",
+        "url": "https://gurneyjourney.blogspot.com/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free to read. The Gouache label had about 229 posts when checked.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the Gouache and Paint Technique labels in the sidebar. The label pages block automated access, so open them in a browser."
+      },
+      {
+        "title": "Gouache in the Wild (video)",
+        "provider": "James Gurney (Sellfy/Gumroad)",
+        "credit": "James Gurney",
+        "url": "https://jamesgurney.com/products/gouache-in-the-wild",
+        "format": "video",
+        "cost": "paid",
+        "free_notes": "Paid video. The price was not shown to me. Listed here so you know what exists and can judge whether you need it after the free material.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Per a third-party review: six filmed plein air sessions, building detail in layers, a quick value and colour thumbnail before painting, and a grid transfer method."
+      },
+      {
+        "title": "240: Painting with Gouache (review)",
+        "provider": "Brad Teare blog",
+        "credit": "Brad Teare",
+        "url": "https://bradteare.com/240-painting-with-gouache/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free blog post, about 500 words, posted February 2021 with a July 2015 sign-off date.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "A short review of Gurney's video. Use it to see whether the paid course covers what you want."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Value scale with white",
+        "description": "Mix a ten-step value scale from one hue plus white. Let it dry and compare dry and wet tones.",
+        "dose": "30 min"
+      },
+      {
+        "title": "Flat shape set",
+        "description": "Paint five object silhouettes in solid opaque colours with no visible streaks.",
+        "dose": "30 min"
+      },
+      {
+        "title": "Thumbnail then paint",
+        "description": "Make a quick value and colour thumbnail of a scene or object, then paint it from life in 30 minutes.",
+        "dose": "45 min"
+      },
+      {
+        "title": "Edge variety",
+        "description": "Paint a shape with one crisp edge and one soft edge using the same brush and paint.",
+        "dose": "20 min"
+      },
+      {
+        "title": "Three small studies",
+        "description": "Paint three small gouache studies from life at 20 minutes each.",
+        "dose": "60 min"
+      },
+      {
+        "title": "Dry shift test",
+        "description": "Paint a patch of ten colours wet, photograph it, then compare after drying.",
+        "dose": "15 min"
+      }
+    ],
+    "done_when": [
+      "I know how my gouache changes when it dries and plan for it",
+      "My flat shapes are even and clean",
+      "I can make one edge crisp and another soft on purpose",
+      "I have three finished small studies"
+    ],
+    "common_mistakes": [
+      "Applying thick paint that later cracks",
+      "Ignoring dry shift and being surprised when a mix changes",
+      "Re-wetting lower layers while painting on top and lifting them",
+      "Overblending until everything is soft and flat"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-trad-charcoal",
+    "title": "Traditional media primer: charcoal",
+    "group": "color-media-digital",
+    "level": "beginner",
+    "summary": "Learn vine versus compressed charcoal, working from large gestures, building tone, lifting highlights with an eraser and fixing finished work. Charcoal is one of the fastest ways to practise value and edges.",
+    "prerequisites": [],
+    "est_hours": [
+      4,
+      8
+    ],
+    "learning_outcomes": [
+      "Choose between vine, compressed and pencil charcoal for a job",
+      "Make a smooth value scale and lift highlights",
+      "Draw a simple form by erasing light shapes out of a toned page",
+      "Use workable fixative sensibly and store finished work",
+      "Work big, from the shoulder, for gesture"
+    ],
+    "resources": [
+      {
+        "title": "Charcoal Drawing Techniques: How to Draw with Charcoal",
+        "provider": "The Virtual Instructor",
+        "credit": "Matt Fussell",
+        "url": "https://thevirtualinstructor.com/charcoal.html",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "This lesson is free. Some other resources on the site (the live lesson and The Secrets to Drawing module) need membership.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Covers vine versus compressed charcoal, pencils and white charcoal, erasers, stumps, grip and technique, fixatives, paper, and a step-by-step skull drawing (contour, powdered charcoal, lifting highlights, white highlights, shadows, fixing)."
+      },
+      {
+        "title": "Charcoal (Tate Art Terms)",
+        "provider": "Tate",
+        "credit": "Tate",
+        "url": "https://www.tate.org.uk/art/art-terms/c/charcoal",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Public glossary page with no paywall seen.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Short description (willow twigs, smudging, fixative, compressed charcoal from the twentieth century) plus eleven charcoal works for study, including Vija Celmins, Henri Matisse, Henry Moore and Keith Vaughan."
+      },
+      {
+        "title": "The Met Open Access collection",
+        "provider": "The Metropolitan Museum of Art",
+        "credit": "The Met",
+        "url": "https://www.metmuseum.org/perspectives/open-access-at-the-met",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Images of public-domain works are CC0 (no restrictions); the Met reported more than 375,000 images in 2017.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Filter the collection to public-domain works and search for charcoal or chalk drawings to use as references for tonal studies."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Tone ladder",
+        "description": "Make a seven-step value scale using vine, then compressed charcoal.",
+        "dose": "20 min"
+      },
+      {
+        "title": "Lift-out drawing",
+        "description": "Tone a page mid-grey, then draw an egg, cup or skull by lifting highlights with a kneaded eraser and deepening darks.",
+        "dose": "45 min",
+        "reference_url": "https://thevirtualinstructor.com/charcoal.html"
+      },
+      {
+        "title": "Whole-arm gesture",
+        "description": "Make five 5-minute gestural drawings with big arm movements on large paper.",
+        "dose": "25 min"
+      },
+      {
+        "title": "Blend comparison",
+        "description": "Blend the same patch of tone with a stump, tissue and a finger, and compare how each looks.",
+        "dose": "15 min"
+      },
+      {
+        "title": "Master drawing study",
+        "description": "Pick a public-domain drawing from a CC0 museum collection and do a 30-minute tonal study in charcoal.",
+        "dose": "30 min",
+        "reference_url": "https://www.metmuseum.org/perspectives/open-access-at-the-met"
+      }
+    ],
+    "done_when": [
+      "I can describe the difference between vine and compressed charcoal from experience",
+      "My value scale has even steps and my highlights are clean",
+      "I can complete a simple lift-out drawing without smearing the whole page",
+      "I know how to protect finished drawings"
+    ],
+    "common_mistakes": [
+      "Starting with heavy dark marks that cannot be removed",
+      "Smudging with your hand or sleeve while drawing",
+      "Blending everything until the drawing has no crisp edges",
+      "Skipping fixative or applying too much of it, or using very smooth paper that will not hold charcoal"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-trad-pastel",
+    "title": "Traditional media primer: soft pastel",
+    "group": "color-media-digital",
+    "level": "beginner",
+    "summary": "Soft pastel sits between drawing and painting. Learn paper choice, hatching, twisting and smudging, layering and protecting finished work. Start with a small set; the free beginners' guide from Unison Colour is a good way in.",
+    "prerequisites": [
+      "col-color-theory-basics"
+    ],
+    "est_hours": [
+      5,
+      12
+    ],
+    "learning_outcomes": [
+      "Choose a suitable paper and set up a workspace",
+      "Use hatching, twisting and smudging deliberately",
+      "Layer light over dark and dark over light",
+      "Complete a small landscape or still life on toned paper",
+      "Store and protect pastel work"
+    ],
+    "resources": [
+      {
+        "title": "Soft Pastels for Beginners (guide and PDF)",
+        "provider": "Unison Colour",
+        "credit": "Rebecca de Mendonca (Unison associate artist)",
+        "url": "https://www.unisoncolour.com/op/introduction-to-soft-pastels/",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Free PDF, but you have to enter your name and email, and Unison will add you to its mailing list. An online version with videos is also offered.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Covers workspace and paper, cleaning pastels, protecting and storing work, hatching, twisting, smudging, and combining the techniques. The page did not mention fixing or pastel types."
+      },
+      {
+        "title": "Unison Colour: soft pastel tutorials",
+        "provider": "Unison Colour",
+        "credit": "Unison Colour",
+        "url": "https://www.unisoncolour.com/soft-pastel-tutorials/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "The page did not list individual tutorials or say whether all are free.",
+        "role": "alternative",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Check this page for follow-on tutorials after the beginner guide."
+      },
+      {
+        "title": "Pastel (Tate Art Terms)",
+        "provider": "Tate",
+        "credit": "Tate",
+        "url": "https://www.tate.org.uk/art/art-terms/p/pastel",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Public glossary page with no paywall seen.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Describes soft, hard, pencil and oil pastel and blending by finger, cloth or tortillon. Links a guide to drawing like Paula Rego and an essay on The Craze for Pastel."
+      },
+      {
+        "title": "Drawing and Coloring Essentials (OpenLearn Create)",
+        "provider": "The Open University (OpenLearn Create)",
+        "credit": "The Open University",
+        "url": "https://www.open.edu/openlearncreate/course/view.php?id=4322",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Free to study (see the coloured pencil module for notes).",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Includes colouring with pastels among its exercises. Use the materials section and the still life and landscape sections."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Technique swatches",
+        "description": "On pastel paper, make swatches of hatching, twisting and smudging with three colours.",
+        "dose": "20 min",
+        "reference_url": "https://www.unisoncolour.com/op/introduction-to-soft-pastels/"
+      },
+      {
+        "title": "Layer test",
+        "description": "Layer a light colour over a dark one, then dark over light, and compare how each covers.",
+        "dose": "20 min"
+      },
+      {
+        "title": "Toned-paper sky",
+        "description": "On mid-tone paper, make a small sky and landscape study with about eight colours.",
+        "dose": "45 min"
+      },
+      {
+        "title": "Pastel pencil detail",
+        "description": "Block in with soft pastel and finish small details with a pastel pencil.",
+        "dose": "40 min"
+      },
+      {
+        "title": "Storage routine",
+        "description": "Wrap or interleave a finished piece and write a note on how you will store it.",
+        "dose": "10 min"
+      }
+    ],
+    "done_when": [
+      "I can use all three of hatching, twisting and smudging with intent",
+      "I have a toned-paper study that uses at most about eight to ten pastels",
+      "I know how I will protect and store finished work",
+      "I know which papers in my kit hold pastel well"
+    ],
+    "common_mistakes": [
+      "Blending everything with fingers until it turns muddy",
+      "Filling the paper's tooth with heavy early layers",
+      "Using smooth paper that will not hold pigment, or buying a huge box instead of a small set",
+      "Working in a poorly ventilated space with fine dust"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-inking-line-art",
+    "title": "Inking and clean line art",
+    "group": "color-media-digital",
+    "level": "intermediate",
+    "summary": "Turn a rough sketch into confident final lines on a separate layer, with deliberate line weight, stabiliser settings that help rather than hinder, and a clean base for flat colour. Applies equally to scanned pen drawings and digital ink.",
+    "prerequisites": [
+      "col-digital-brushes-layers"
+    ],
+    "est_hours": [
+      6,
+      14
+    ],
+    "learning_outcomes": [
+      "Ink over a faded sketch on a new layer without copying its mistakes",
+      "Vary line weight to separate outer contour, inner detail and shadow",
+      "Set a stabiliser level that helps without making lines stiff",
+      "Prepare line art so colour can sit under it (transparent background)",
+      "Flat-colour a piece of line art on separate layers"
+    ],
+    "resources": [
+      {
+        "title": "Inking (Krita Manual tutorial)",
+        "provider": "Krita Foundation (docs.krita.org)",
+        "credit": "Krita manual contributors (author not named on page)",
+        "url": "https://docs.krita.org/en/tutorials/inking.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free manual; footers across the manual state GNU Free Documentation License 1.3+.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Covers posture and stroke length, Bezier and Assistant tools, aliased versus anti-aliased brushes for print, pressure curves, stabiliser around 50, and step-by-step: fade the sketch to about 10% opacity and ink on a layer above it. It references David Revoy's separate inking tips video."
+      },
+      {
+        "title": "Ctrl+Paint: Clean Lines and Colored Lineart",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/library",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Free library, no ads or subscription per the site.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "In section 8 (The Brush Tool): Clean Lines pt. 1 and 2, Ellipse Control, Tackling Complex Shapes. In section 11 (Painting With Color): Colored Lineart."
+      },
+      {
+        "title": "Flat Coloring (Krita Manual tutorial)",
+        "provider": "Krita Foundation (docs.krita.org)",
+        "credit": "Krita manual contributors",
+        "url": "https://docs.krita.org/en/tutorials/flat-coloring.html",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free manual.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Four ways to make line art transparent (Multiply, selection masks, transparency mask, Color to Alpha) and four ways to fill colour (fill tool, selection tools, geometric tools, colorize mask), then splitting each colour to its own layer."
+      },
+      {
+        "title": "CLIP STUDIO TIPS",
+        "provider": "Clip Studio Paint",
+        "credit": "Tutorials by artists worldwide plus official Clip Studio authors",
+        "url": "https://tips.clip-studio.com/en-us",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Articles appear open without a paywall, but the page does not state terms. Written around the paid Clip Studio Paint app, so some steps will not apply to Krita.",
+        "role": "supplementary",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Sections: Popular, New, Tips of the Month, Video TIPS, Official Tutorials. Search for inking, line art and flat colour articles and translate the ideas to your own program. Includes articles in several languages."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Stabiliser comparison",
+        "description": "Draw the same circle, spiral and wavy line at three stabiliser settings and pick the lowest that still feels smooth.",
+        "dose": "15 min",
+        "reference_url": "https://docs.krita.org/en/tutorials/inking.html"
+      },
+      {
+        "title": "Sketch to ink",
+        "description": "Fade a rough sketch to about 10% opacity and ink it on a new layer, redrawing wobbly strokes rather than keeping them.",
+        "dose": "45 min"
+      },
+      {
+        "title": "Line weight sheet",
+        "description": "Ink one object three times: same width everywhere, thicker on shadow side, thicker on outer contour. Decide which reads best.",
+        "dose": "30 min"
+      },
+      {
+        "title": "Print test",
+        "description": "Make one aliased and one anti-aliased version of the same line art, print both at a real size and compare edges.",
+        "dose": "20 min"
+      },
+      {
+        "title": "Flat colour pass",
+        "description": "Take one of your inked drawings and flat-colour it using a fill or colorize-mask method on separate layers.",
+        "dose": "45 min",
+        "reference_url": "https://docs.krita.org/en/tutorials/flat-coloring.html"
+      },
+      {
+        "title": "Five-day ink streak",
+        "description": "Ink one small subject a day for five days.",
+        "dose": "20 min a day",
+        "reference_url": "https://inktober.com/"
+      }
+    ],
+    "done_when": [
+      "My final lines look smooth and deliberate, not sketchy or hairy",
+      "I use varied line weight on purpose",
+      "My line art has a transparent background, so colour layers sit beneath it",
+      "I can flat-colour a drawing without gaps or leaks"
+    ],
+    "common_mistakes": [
+      "Over-smoothing, which makes lines look stiff and mechanical",
+      "Using one width everywhere",
+      "Drawing long lines from the wrist instead of the elbow or shoulder",
+      "Leaving gaps in contours that flood the fill tool, or inking on the same layer as the sketch"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-style-development",
+    "title": "Style development: finding your voice, studying influences, avoiding copying",
+    "group": "color-media-digital",
+    "level": "intermediate",
+    "summary": "Style is the set of choices you repeat: what you simplify, exaggerate, ignore and colour. Study artists by breaking down their choices, test those choices in your own work, and credit what you borrow. This module is a process for exploring, not a set of lessons.",
+    "prerequisites": [
+      "col-color-theory-basics"
+    ],
+    "est_hours": [
+      10,
+      30
+    ],
+    "learning_outcomes": [
+      "Break down three artists' work into specific, observable choices",
+      "Test borrowed choices in new subjects without tracing or copying",
+      "Name your own recurring choices in shape, line, colour and subject",
+      "Explain the line between learning from an artist and copying them",
+      "Keep a living influences list with credit"
+    ],
+    "resources": [
+      {
+        "title": "Steal Like an Artist",
+        "provider": "austinkleon.com",
+        "credit": "Austin Kleon",
+        "url": "https://austinkleon.com/steal/",
+        "format": "text",
+        "cost": "free-tier",
+        "free_notes": "Free: the ten-point list, blog posts and a weekly newsletter. Paid: the expanded book (hardcover, paperback, ebook, audiobook).",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Short and useful on borrowing from many sources instead of one. Ten lessons include Build on the work of others, Start before you know who you are, Do good work and share it. Read the free list first; buy the book only if it helps."
+      },
+      {
+        "title": "The Art Assignment (PBS YouTube series)",
+        "provider": "YouTube",
+        "credit": "Sarah Urist Green",
+        "url": "https://www.youtube.com/@theartassignment",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Free videos. Educational series about art and art history.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Curated by a museum curator. Useful for stepping outside your usual influences; I could not list episodes or playlists from the channel page. Browse for episodes on process, assignments and contemporary artists."
+      },
+      {
+        "title": "Smarthistory",
+        "provider": "Smarthistory",
+        "credit": "Over 850 contributing scholars, per the site",
+        "url": "https://smarthistory.org/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "The page does not say whether it is free; articles appear openly readable. Unconfirmed.",
+        "role": "supplementary",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Art from every continent, prehistoric to today, with curated guides and a Reframing Art History section. Use it to find artists outside your usual feed and to understand why they made their choices."
+      },
+      {
+        "title": "Muddy Colors",
+        "provider": "Muddy Colors",
+        "credit": "A collective of more than 20 artists",
+        "url": "https://www.muddycolors.com/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free online resource supported by Patreon, per the site; a new article daily.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Working artists share process posts. Read two or three posts for how professionals handle consistency and personal style."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Influence breakdown",
+        "description": "Choose three artists you admire. For each, write five observable choices (shape language, line quality, palette, proportions, edge handling).",
+        "dose": "3 pages, 30 min each"
+      },
+      {
+        "title": "Same subject, five lenses",
+        "description": "Draw one subject (a fox, a teapot, a bridge) five times, each time borrowing one choice from a different artist.",
+        "dose": "5 sketches, 20 min each"
+      },
+      {
+        "title": "Memory redraw",
+        "description": "Study a favourite piece for two minutes, hide it, and redraw it from memory in your own marks. Compare the two.",
+        "dose": "30 min"
+      },
+      {
+        "title": "Constraint week",
+        "description": "For one week, limit yourself to one palette of four colours, one tool and simple shapes.",
+        "dose": "15 min a day"
+      },
+      {
+        "title": "Thirty-piece review",
+        "description": "After thirty pieces, pick the ones you like most and list what they share.",
+        "dose": "30 min"
+      }
+    ],
+    "done_when": [
+      "I can describe three choices I make repeatedly in my own work",
+      "I have tried borrowing from at least three different artists",
+      "I know when a piece I made is too close to someone else's work, and I change it",
+      "I keep a short list of influences with credit"
+    ],
+    "common_mistakes": [
+      "Tracing or copying a favourite artist's signature motifs",
+      "Following a single artist so closely that you cannot see your own choices",
+      "Changing style every week and never repeating enough to notice patterns",
+      "Mistaking polished rendering for style, or comparing your sketchbook with another artist's finished work"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-finishing-portfolio",
+    "title": "Finishing, sharing and portfolio basics",
+    "group": "color-media-digital",
+    "level": "intermediate",
+    "summary": "Capture finished work cleanly (photograph or scan, crop, correct), name and store files sensibly, assemble a small consistent set, and share with communities that give useful feedback. Also decide how you feel about AI scraping and the tools that try to limit it.",
+    "prerequisites": [
+      "col-digital-primer"
+    ],
+    "est_hours": [
+      4,
+      10
+    ],
+    "learning_outcomes": [
+      "Photograph or scan a drawing evenly and correct the perspective and levels",
+      "Keep a layered master file and web-sized exports with a clear naming habit",
+      "Assemble a coherent set of five to nine pieces",
+      "Post a piece with a process note and a specific request for critique",
+      "Make an informed choice about platforms and protection tools"
+    ],
+    "resources": [
+      {
+        "title": "File Formats (Krita Manual)",
+        "provider": "Krita Foundation (docs.krita.org)",
+        "credit": "Krita manual contributors",
+        "url": "https://docs.krita.org/en/general_concepts/file_formats.html",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Free manual page.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use it to decide what to archive (layered kra/psd) and what to export for the web (png or jpg). PNG is lossless; JPG is lossy and suits photos."
+      },
+      {
+        "title": "GIMP documentation (3.2 manual)",
+        "provider": "GIMP",
+        "credit": "GIMP documentation team",
+        "url": "https://docs.gimp.org/",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Free documentation; the site says the manual is a work in progress with possibly outdated pieces. GIMP is free software under the GNU General Public License.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the manual for correcting photographed or scanned work: crop, levels/curves, perspective correction, colour balance. I did not open individual manual pages, so search the manual by tool name."
+      },
+      {
+        "title": "Urban Sketchers",
+        "provider": "Urban Sketchers",
+        "credit": "Urban Sketchers community",
+        "url": "https://www.urbansketchers.org/",
+        "format": "interactive",
+        "cost": "free",
+        "free_notes": "The page does not say whether joining a chapter costs anything. It lists Teaching & Learning, a USk Talks Series and USk Prompts. Website content appears open.",
+        "role": "supplementary",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "A worldwide community built around drawing on location. Use it as a place to share sketchbook pages and to find local chapters (check for a Melbourne chapter). Read its teaching and prompts pages."
+      },
+      {
+        "title": "Krita Artists forum",
+        "provider": "Krita Artists",
+        "credit": "Krita Artists community",
+        "url": "https://krita-artists.org/",
+        "format": "interactive",
+        "cost": "free",
+        "free_notes": "The page does not state membership cost. It is built on Discourse.",
+        "role": "supplementary",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Has an Artwork category that invites requests for critique from fellow Krita artists, plus Resources and Tech Support. Good for first feedback if you paint in Krita."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Photograph a drawing well",
+        "description": "Photograph a drawing in daylight by a window with the camera parallel to the page. Fix the perspective, crop the border and adjust the levels in GIMP or a phone editor.",
+        "dose": "30 min",
+        "reference_url": "https://docs.gimp.org/"
+      },
+      {
+        "title": "File system",
+        "description": "Scan or photograph five pieces. Name the files date-subject-version and keep a master file plus a web copy at about 2000 pixels on the long edge.",
+        "dose": "20 min",
+        "reference_url": "https://docs.krita.org/en/general_concepts/file_formats.html"
+      },
+      {
+        "title": "Mini portfolio sheet",
+        "description": "Pick nine pieces on a related theme and arrange them with consistent crops and order on one image.",
+        "dose": "45 min"
+      },
+      {
+        "title": "Post and listen",
+        "description": "Share one piece with a short process note and a specific question (for example, does the focal point read?). Reply to feedback within a day.",
+        "dose": "30 min",
+        "reference_url": "https://krita-artists.org/"
+      },
+      {
+        "title": "Decide your AI-scraping stance",
+        "description": "Read what Glaze (University of Chicago SAND Lab) says it does and does not do, then write down a short policy for where you post.",
+        "dose": "20 min",
+        "reference_url": "https://glaze.cs.uchicago.edu/"
+      }
+    ],
+    "done_when": [
+      "My photographed work has even light and straight edges",
+      "I keep a master file and web export for every finished piece",
+      "I have a set of five to nine pieces that look related",
+      "I have posted at least one piece and acted on feedback"
+    ],
+    "common_mistakes": [
+      "Photographing at an angle or with a shadow across the page",
+      "Over-editing the colour so it no longer matches the original",
+      "Only posting finished pieces and never sketchbook pages",
+      "Using references or influences without crediting them, or skipping backups"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "col-color-studies-master-copies",
+    "title": "Colour studies from public-domain paintings",
+    "group": "color-media-digital",
+    "level": "intermediate",
+    "summary": "Use free, openly licensed museum images as a gym for colour: small, fast studies that capture relationships (value, temperature, saturation) rather than detail. Add a guess-then-check habit to train your eye before you sample colours.",
+    "prerequisites": [
+      "col-color-light-shadow",
+      "col-color-mixing-limited-palettes"
+    ],
+    "est_hours": [
+      10,
+      25
+    ],
+    "learning_outcomes": [
+      "Find and download a usable public-domain painting from at least three museums",
+      "Capture a painting's main colour relationships in five-minute studies",
+      "Name which colours in a painting are neutral and which are high chroma",
+      "Guess a colour's hue, value and saturation before sampling it",
+      "Compare a screen image with the colours you see in person"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint: Painting With Color (Guess That Color, Color Pickers, Remix Your Color)",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/library",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Free library, no ads or subscription per the site.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "From section 11 take: Guess That Color, Color Pickers, The Info Tool pt. 1-2, Remix Your Color, Unify Your Palette. They train the guess-then-check habit used in the practice items."
+      },
+      {
+        "title": "Open Access at The Met",
+        "provider": "The Metropolitan Museum of Art",
+        "credit": "The Met",
+        "url": "https://www.metmuseum.org/perspectives/open-access-at-the-met",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Images of public-domain works are CC0, so you can use them without restriction. Collection page filters to public-domain works.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Filter by public domain, then search by painter, school or subject. The Met reported more than 375,000 images in 2017 (a figure from that year)."
+      },
+      {
+        "title": "National Gallery of Art Open Access Images",
+        "provider": "National Gallery of Art, Washington",
+        "credit": "NGA",
+        "url": "https://www.nga.gov/open-access-images.html",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "The page says images are free for any use, commercial or not; the open data set is CC0. More than 60,000 images were available when checked.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Download directly from object pages or use the free-download artwork search."
+      },
+      {
+        "title": "Cleveland Museum of Art Open Access",
+        "provider": "Cleveland Museum of Art",
+        "credit": "CMA",
+        "url": "https://www.clevelandart.org/open-access",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "High-resolution images and data are CC0 for public-domain works; the CMA says more than half the collection has high-resolution images.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Search with the CC0 filter on Collection Online, then use the download button on each object's page. The API needs no key."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Ten five-minute colour sketches",
+        "description": "Pick ten paintings from ten artists. Make a tiny sketch of each using only five or six colours that capture its overall feel.",
+        "dose": "10 sketches, 5 min each",
+        "reference_url": "https://www.metmuseum.org/perspectives/open-access-at-the-met"
+      },
+      {
+        "title": "Palette extraction notes",
+        "description": "Choose one painting and write down eight key colours, marking each as neutral or high chroma and warm or cool.",
+        "dose": "20 min",
+        "reference_url": "https://www.nga.gov/open-access-images.html"
+      },
+      {
+        "title": "Guess then check",
+        "description": "Before sampling a colour from a painting, write its hue, value and saturation in words. Then sample it and see how close you were. Repeat ten times.",
+        "dose": "15 min per session",
+        "reference_url": "https://www.ctrlpaint.com/library"
+      },
+      {
+        "title": "Greyscale-to-colour reversal",
+        "description": "Convert a favourite painting to greyscale. Colour the grey version from imagination, then compare with the original.",
+        "dose": "40 min"
+      },
+      {
+        "title": "45-minute crop copy",
+        "description": "Copy a section of a landscape or still life in colour, aiming for the relationships, not the details.",
+        "dose": "45 min",
+        "reference_url": "https://www.clevelandart.org/open-access"
+      },
+      {
+        "title": "Visit a gallery",
+        "description": "Spend an hour at NGV International in Melbourne (general entry is free, open daily 10am-5pm per its site). Choose three paintings and write how the colours differ from the screen images.",
+        "dose": "60 min",
+        "reference_url": "https://www.ngv.vic.gov.au/visit/ngv-international/"
+      }
+    ],
+    "done_when": [
+      "I have downloaded and used images from at least three open-access museum collections",
+      "My quick studies capture the overall colour mood of the original",
+      "My guessed colours are usually close to the sampled ones",
+      "I have seen at least one painting in person and noted the difference from the screen"
+    ],
+    "common_mistakes": [
+      "Copying details instead of colour relationships",
+      "Trusting a screen image as the true colour of a painting",
+      "Using a low-resolution compressed copy and not noting the source and credit",
+      "Sampling colours before looking and guessing"
+    ],
+    "school_reference": [
+      {
+        "institution": "National Gallery of Victoria (Melbourne)",
+        "url": "https://www.ngv.vic.gov.au/visit/ngv-international/",
+        "note": "Free general entry to NGV International; entry fees may apply for special exhibitions. The page does not say whether sketching is allowed, so ask staff."
+      }
+    ]
+  },
+  {
+    "id": "col-color-script-mood",
+    "title": "Colour for mood and invented scenes: gamut masks, palettes and colour scripts",
+    "group": "color-media-digital",
+    "level": "advanced",
+    "summary": "When the subject is invented, colour becomes a design decision. Use gamut masks and small palettes to hold a scene together, plan colour across a short sequence of images (a colour script) and use one accent to direct the eye. Suits surreal and imagined work.",
+    "prerequisites": [
+      "col-color-light-shadow",
+      "col-color-mixing-limited-palettes"
+    ],
+    "est_hours": [
+      8,
+      20
+    ],
+    "learning_outcomes": [
+      "Explain what a gamut mask is and draw one on a colour wheel",
+      "Paint the same simple scene inside two different gamuts",
+      "Plan colour across six small frames of a story",
+      "Choose a restrained palette for a mood word and test it on a thumbnail",
+      "Use a single accent colour as the focal point"
+    ],
+    "resources": [
+      {
+        "title": "James Gurney on Gamut Masking (Lines and Colors blog)",
+        "provider": "Lines and Colors",
+        "credit": "Charley Parker (author of the post); method by James Gurney",
+        "url": "https://linesandcolors.com/2011/09/19/james-gurney-on-gamut-masking/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free blog post. It points to Gurney's paid book Color and Light for more detail.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Defines a gamut as a range of mixable colours and summarises Gurney's method for planning and altering colour schemes. Links to Gurney's three-part Gamut Masking Method series on Gurney Journey (Part 3 has a demo video) and earlier posts on colour wheel masking."
+      },
+      {
+        "title": "Artistic Color Selector docker (Krita Manual)",
+        "provider": "Krita Foundation (docs.krita.org)",
+        "credit": "Krita manual contributors",
+        "url": "https://docs.krita.org/en/reference_manual/dockers/artistic_color_selector.html",
+        "format": "tool",
+        "cost": "free",
+        "free_notes": "Free manual and free software.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Krita has built-in gamut masks: manage them in the Gamut Masks docker, toggle and rotate the active mask, and choose whether it restricts selection or only shows an overlay."
+      },
+      {
+        "title": "Lospec Palette List",
+        "provider": "Lospec",
+        "credit": "Lospec community",
+        "url": "https://lospec.com/palette-list",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Free: the site says over 2,500 pixel art palettes can be downloaded for free; the listing showed 4,530 results. Formats include PNG, PAL, ASE, Paint.NET TXT, GIMP GPL and HEX.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Filter by number of colours, tags or newest. Pixel-art oriented, but small palettes are useful for any painting. The GIMP .GPL format is, I believe, also readable in Krita's palette docker (not confirmed)."
+      },
+      {
+        "title": "Coolors palette generator",
+        "provider": "Coolors",
+        "credit": "Coolors",
+        "url": "https://coolors.co/",
+        "format": "tool",
+        "cost": "free-tier",
+        "free_notes": "Free tier is limited to 10 saved palettes, 1 project and 5 favourite colours, with ads. Pro (a pop-up mentioned $3 a month) removes limits and adds picking colours from images and contrast checks.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the spacebar generator to test combinations quickly. Judge each palette by value as well as hue."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Gamut mask pair",
+        "description": "Draw a mask on a wheel and paint one simple scene using only colours inside it. Shift or rotate the mask and repaint the same scene.",
+        "dose": "2 paintings, 30 min each",
+        "reference_url": "https://docs.krita.org/en/reference_manual/dockers/artistic_color_selector.html"
+      },
+      {
+        "title": "Colour script in six frames",
+        "description": "Write a six-line story and make six tiny frames that carry the story in colour and value alone, with no detail.",
+        "dose": "45 min"
+      },
+      {
+        "title": "Palette from a mood word",
+        "description": "Pick a word (quiet, tense, warm). Build two five-colour palettes for it and apply each to the same thumbnail.",
+        "dose": "40 min",
+        "reference_url": "https://lospec.com/palette-list"
+      },
+      {
+        "title": "Surreal object recolour",
+        "description": "Invent an object. Paint it in three unlikely palettes and decide which reads best.",
+        "dose": "3 studies, 20 min each"
+      },
+      {
+        "title": "Accent focal point",
+        "description": "Paint a scene in muted colours with a single high-saturation accent that tells the viewer where to look.",
+        "dose": "40 min"
+      }
+    ],
+    "done_when": [
+      "I can explain gamut masks to someone and demonstrate one",
+      "I have repainted a scene in a second gamut and can say what changed in mood",
+      "My six-frame colour script tells a story with no detail",
+      "I can use a single accent as a focal point"
+    ],
+    "common_mistakes": [
+      "Using too many hues at equal saturation",
+      "Choosing a palette first and checking values later",
+      "Relying on auto-generated palettes without testing them in a scene",
+      "Giving every area the same saturation, so nothing leads the eye"
+    ],
+    "school_reference": []
+  }
+]

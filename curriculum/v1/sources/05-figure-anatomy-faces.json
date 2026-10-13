@@ -1,0 +1,2222 @@
+[
+  {
+    "id": "fig-gesture-line-of-action",
+    "title": "Gesture drawing and the line of action",
+    "group": "figure-anatomy-faces",
+    "level": "beginner",
+    "summary": "Gesture drawing records the movement and weight of a pose in a few flowing marks before any anatomy or outline. You learn to find the line of action, see the figure as three tilting masses (head, ribcage, pelvis), and tell rhythm (curves) from tension (angles). Everything else in this group sits on top of this skill.",
+    "prerequisites": [],
+    "est_hours": [
+      3,
+      8
+    ],
+    "learning_outcomes": [
+      "Find the single dominant line of action in a photo or live pose and draw it in one stroke.",
+      "Describe any pose as three masses (head, ribcage, pelvis) with different tilts, then link them with limbs that flow from those masses.",
+      "Tell a rhythm pose (curves) from a tension pose (zigzags and corners) and pick marks to match.",
+      "Say what separates gesture from outline and from detail."
+    ],
+    "resources": [
+      {
+        "title": "How to Draw Gesture (free lesson in Figure Drawing Fundamentals)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://www.proko.com/course-lesson/how-to-draw-gesture",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "This lesson is marked free on its own page (9:31 there; the course page lists 16:17, so the free and premium cuts may differ). The parent course, Figure Drawing Fundamentals, is $150 one-time (57 lessons, 16h44m). Only four gesture lessons are visibly free: this one, Gesture Step by Step, the 2-Minute Poses assignment examples and the Gesture critique. The 30-second-poses lesson and every later section (Bean, Structure, Landmarks, Robo Bean, Mannequinization, Balance, Exaggeration, Proportions, Measuring, Shading) are premium.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch this first, then 'How to Draw Gesture - Step by Step' (27:38, also free: https://www.proko.com/course-lesson/how-to-draw-gesture-step-by-step). Covers gesture as the flow linking forms, C/S/I curves, the longest axis of each body part, rhythm versus tension, asymmetry and exaggeration. Pause and copy the demo marks."
+      },
+      {
+        "title": "Free drawing tutorial: gesture and pose basics",
+        "provider": "Line of Action",
+        "credit": "Line of Action team",
+        "url": "https://www.line-of-action.com/learn-to-draw",
+        "format": "interactive",
+        "cost": "free-tier",
+        "free_notes": "The page calls this roughly 15-minute hands-on tutorial free (line of action, three movable masses, limb placement). The same site also sells memberships and photo bundles, so only the tutorial is confirmed free.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Do it right after the Proko lesson: it is a different explanation of the same idea (three movable masses and limb placement) and gives instant practice poses."
+      },
+      {
+        "title": "The Gesture Course (free lessons)",
+        "provider": "Proko",
+        "credit": "Steven Michael Hampton",
+        "url": "https://www.proko.com/course/the-gesture-course",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course is $125 one-time (27 lessons, 11h16m). The page says 5 lessons are free; I could confirm 3: How to Think About Gesture (26:05), How to Draw Expressive Hands (17:14, lesson 17) and How to Draw Expressive Feet (16:02, lesson 18). The 16-line method for difficult poses, foreshortening, weight and balance and the shape method are in the premium part.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Take the free first lesson, 'How to Think About Gesture' (26:05), for a more theoretical view of why gesture comes before structure. Skip the rest unless you decide to buy the course."
+      },
+      {
+        "title": "Simplified Gesture and Structure with Steve Huston (free lesson)",
+        "provider": "Proko",
+        "credit": "Steve Huston (credited with Stan Prokopenko)",
+        "url": "https://www.proko.com/lesson/simplified-gesture-and-structure-with-steve-huston",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "Marked free (20:48), lesson 128 of 185 in the Drawing Basics course, which is $159 one-time; the rest of the course is mostly premium (the course page says 58 free lessons, but only six were visible to me).",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch after you have done a week of gesture drills. Huston shows how to combine gesture with simple structure using curves and corners, which is where this module hands over to the construction module."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Single-line warm-up",
+        "description": "For each reference pose draw only the main curve of the action, then add one line for the ribcage tilt and one for the pelvis tilt. Nothing else.",
+        "dose": "20 poses at 20 seconds each (about 8 minutes)",
+        "reference_url": "https://line-of-action.com"
+      },
+      {
+        "title": "Three-mass thumbnails",
+        "description": "Reduce each pose to a head shape, a ribcage shape and a pelvis shape, tilted as in the reference, joined by the line of action. Check that ribcage and pelvis lean in different directions.",
+        "dose": "12 poses at 1 minute each",
+        "reference_url": "https://quickposes.com"
+      },
+      {
+        "title": "Rhythm or tension sort",
+        "description": "Before drawing, label each reference 'curves' or 'angles'. Then draw it using marks that match the label. Compare your label with a friend or with your own second look.",
+        "dose": "10 curve poses and 10 angle poses, 1 minute each"
+      },
+      {
+        "title": "Limbs flow from the masses",
+        "description": "Add arms and legs as continuous lines that start inside the torso masses instead of being stuck on afterwards.",
+        "dose": "10 poses at 90 seconds each"
+      },
+      {
+        "title": "Overlay check",
+        "description": "On tracing paper or a digital layer, draw the line of action directly over the reference photo, then over your drawing. Note where yours is straighter, shorter or more symmetrical.",
+        "dose": "10 minutes at the end of each session"
+      }
+    ],
+    "done_when": [
+      "You can point to the line of action in a new reference within about 5 seconds and an overlay confirms it.",
+      "Your 1-minute sketches show whether the figure is leaning, reaching, twisting or sitting without any detail.",
+      "Ribcage and pelvis are drawn at clearly different angles in most of your sketches.",
+      "You can explain in one sentence why gesture is not an outline."
+    ],
+    "common_mistakes": [
+      "Tracing the outline of the body instead of the movement through it.",
+      "Drawing symmetrical, upright poses because they feel safe.",
+      "Starting with the head and adding limbs as separate sticks, so nothing flows.",
+      "Adding detail (faces, fingers) in a 1-minute drawing."
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      },
+      {
+        "institution": "College of the Redwoods, ART 19 Figure Drawing, Fall 2021 (C. Hooper)",
+        "url": "https://www.redwoods.edu/fs/syllabi/art/2021F-ART19-E1803-Hooper.pdf",
+        "note": "15-week syllabus; gesture and contour in week 1, anatomy in weeks 9-10."
+      },
+      {
+        "institution": "Likely Finger Lakes Community College (inferred), ART 200 Figure Drawing I",
+        "url": "https://cyber.flcc.edu/pdf/syllabi/ART200.pdf",
+        "note": "Syllabus describes the pose-length ladder from 30 seconds up to 2-6 hour long poses."
+      }
+    ]
+  },
+  {
+    "id": "fig-timed-gesture-progression",
+    "title": "Timed gesture practice progression (30 seconds to 5 minutes) and session review",
+    "group": "figure-anatomy-faces",
+    "level": "beginner",
+    "summary": "A repeatable session that climbs from 30-second poses to 5-minute ones, plus a short review routine so the practice actually changes your drawings. The ladder shows what each time slot should and should not contain. The review step is the part most self-taught students skip.",
+    "prerequisites": [
+      "fig-gesture-line-of-action"
+    ],
+    "est_hours": [
+      6,
+      20
+    ],
+    "learning_outcomes": [
+      "Run a 30-minute timed session without fiddling with tools.",
+      "Know what each time slot is for: 30 s action only, 1 min masses, 2 min limbs and weight, 5 min first structure.",
+      "Review a session by naming your two most frequent errors and one thing to try next time.",
+      "Keep a log you can compare across weeks."
+    ],
+    "resources": [
+      {
+        "title": "Quicksketch Assignment Examples - 2 Minute Poses (free lesson)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://www.proko.com/course-lesson/quicksketch-assignment-examples-2-minute-poses",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "Marked free (37:58) inside Figure Drawing Fundamentals ($150). The matching 30-second poses lesson (4:54) is not marked free. The critique 'Figure Drawing Critiques - Gesture' (1:00:31) is also free: https://www.proko.com/course-lesson/figure-drawing-critiques-gesture",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch a few student examples, then the critique to learn how a teacher reviews a gesture sheet: what is praised, what is flagged (stiffness, symmetry, lost line of action). Use those criteria in your own review step."
+      },
+      {
+        "title": "Quickposes: free image library and gesture drawing tool",
+        "provider": "Quickposes",
+        "credit": "Quickposes (site operator not named on the page)",
+        "url": "https://quickposes.com",
+        "format": "interactive",
+        "cost": "free-tier",
+        "free_notes": "Site calls itself a free image library and gesture drawing tool. Modes on the page: timed practice with a time limit, random gestures with no limit, and Challenges (always 20 images). Support options are a coffee (EUR 3), sandwich (EUR 5), lunch (EUR 10) or a desktop app (EUR 15); the page does not say what the desktop app adds or what an account unlocks. The page does not say whether nude references are included or how they are labelled, so treat the library as possibly containing nudes until you check.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Good first timer: choose timed practice, a pose type, and a time per image. The 20-image Challenges mode is a ready-made session. Free image library; check the nude/clothed mix before sharing your screen."
+      },
+      {
+        "title": "Line of Action: Figure Drawing, Hands and Feet, Faces and Expression, 360 degree views",
+        "provider": "Line of Action",
+        "credit": "Line of Action (site team and photographers)",
+        "url": "https://line-of-action.com",
+        "format": "interactive",
+        "cost": "free-tier",
+        "free_notes": "The Draw menu lists Figure Drawing, Animals, Hands and Feet, Faces and Expression, Basic Shapes and Still Life (labelled a test feature), Scenes and Environment, and 360 degree views. The Store menu shows Subscriptions, Pay as you go, photo bundles and gift cards, so there is a paid tier, but I could not read what the free tier limits (ads, photo counts, timer options). The FAQ says memberships are 'Full' or 'Doodler'. NUDE CONTENT: the site hosts nude and clothed model photos (a news post mentions nude sets); a Proko forum post says you can choose nude or clothed, male or female, and child, teen or adult. LICENCE: per the FAQ the gesture-tool photos are licensed for educational use inside the tools; you may post your own drawings elsewhere but not sell them.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the Figure Drawing tool for timed sessions; a Proko forum post says it offers class mode (a timed sequence) and nude/clothed and age filters, but the free-tier limits are not confirmed, so test it before relying on it."
+      },
+      {
+        "title": "Proko Timer (reference packs with a session timer)",
+        "provider": "Proko",
+        "credit": "Proko (packs credited to individual photographers)",
+        "url": "https://www.proko.com/timer",
+        "format": "tool",
+        "cost": "free-tier",
+        "free_notes": "Free: sample packs such as '300 Best Of 2025 Free Sample Pack' (300 images), 'Classical Art Poses: Free Sample Pack' (439) and 'Grafit Reference Sampler' (81). Paid: other packs priced from $5 up to $229 (an 868-image portrait and expressions pack). A session takes 1 to 999 images with a mm:ss time per image. NUDE CONTENT: several packs are tagged 'mature content' (for example 'Gesture Reference Sampler (NUDE)'). A forum post says the free samples total 2,500+ images. The page shows Log In and Sign Up and a sessions history link, but does not say whether an account is needed to start. Licence terms are not shown on the page; the page's robots tag includes NoAI.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Pick the free sample packs and set the image count and seconds per image. Useful if you want to build the exact 30 s, 1 min, 2 min, 5 min ladder as separate sessions."
+      }
+    ],
+    "practice": [
+      {
+        "title": "The 29-minute ladder",
+        "description": "Ten poses at 30 s, six at 1 min, four at 2 min, two at 5 min. Spend the 30 s poses on action only, 1 min on three masses, 2 min on limbs and weight, 5 min on first structure.",
+        "dose": "29 minutes, 3 times a week for 4 weeks",
+        "reference_url": "https://www.proko.com/timer"
+      },
+      {
+        "title": "Review ritual",
+        "description": "Lay the sheet out. Circle your best and worst pose. Write one sentence about each. Name the error that appears most often, and write one change for next session.",
+        "dose": "5-10 minutes after every session"
+      },
+      {
+        "title": "Memory replay",
+        "description": "The next day, redraw from memory the pose you found hardest. Then check against the reference.",
+        "dose": "2 minutes, once a day on session days"
+      },
+      {
+        "title": "One-lens sessions",
+        "description": "Run a whole session looking at only one thing: line of action, then silhouette, then weight on the supporting leg, then overlaps.",
+        "dose": "4 sessions of 15 minutes"
+      },
+      {
+        "title": "Same pose, three times",
+        "description": "Draw one pose at 30 s, 2 min and 5 min on one page. Write what the extra time added and what it cost you.",
+        "dose": "1 pose per week"
+      }
+    ],
+    "done_when": [
+      "You have logged at least 12 sessions with a written review for each.",
+      "Your 30-second drawings read as poses and your 5-minute ones add structure without losing the action.",
+      "You can name your two most common errors from your own notes, not from guesswork.",
+      "You can set up a session in under 2 minutes."
+    ],
+    "common_mistakes": [
+      "Using extra seconds to polish details instead of fixing the action.",
+      "Skipping the review so the same errors repeat for months.",
+      "Staring at the paper; most of the time should be spent looking at the reference.",
+      "Picking only easy standing poses; include twisting, sitting and foreshortened ones."
+    ],
+    "school_reference": [
+      {
+        "institution": "Likely Finger Lakes Community College (inferred), ART 200 Figure Drawing I",
+        "url": "https://cyber.flcc.edu/pdf/syllabi/ART200.pdf",
+        "note": "Syllabus describes the pose-length ladder from 30 seconds up to 2-6 hour long poses."
+      },
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      }
+    ]
+  },
+  {
+    "id": "fig-simplified-construction",
+    "title": "Simplified figure construction: mannequin, bean and ribcage-pelvis, boxes and cylinders",
+    "group": "figure-anatomy-faces",
+    "level": "beginner",
+    "summary": "Construction turns the gesture into a set of simple volumes you can rotate in your head: ribcage and pelvis as eggs, beans or boxes, limbs as tapered tubes, joints as balls. You practise building a mannequin on top of a gesture line and checking that it holds up from other angles. Free video here is thin, so the core path mixes two free lessons with a public-domain book.",
+    "prerequisites": [
+      "fig-gesture-line-of-action"
+    ],
+    "est_hours": [
+      10,
+      25
+    ],
+    "learning_outcomes": [
+      "Build a standing or leaning figure from gesture line, ribcage, pelvis, limbs and joints in about 5 minutes.",
+      "Keep ribcage and pelvis volumes consistent in 3/4 and side views.",
+      "Draw limbs as tubes with overlapping forms and cross-contours.",
+      "Explain how construction differs from gesture and when to use each."
+    ],
+    "resources": [
+      {
+        "title": "Simplified Gesture and Structure with Steve Huston (free lesson)",
+        "provider": "Proko",
+        "credit": "Steve Huston (credited with Stan Prokopenko)",
+        "url": "https://www.proko.com/lesson/simplified-gesture-and-structure-with-steve-huston",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "Marked free (20:48), lesson 128 of 185 in the Drawing Basics course, which is $159 one-time; the rest of the course is mostly premium (the course page says 58 free lessons, but only six were visible to me).",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Start here. Huston adds simple structure (tubes, curves and corners) to a gesture. Redraw his demo with your own reference before moving on."
+      },
+      {
+        "title": "Introduction to Figure Construction (2 free lessons)",
+        "provider": "Proko (also sold on Gumroad)",
+        "credit": "Steven Michael Hampton",
+        "url": "https://www.proko.com/course/introduction-to-figure-construction",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "$125 one-time, 48 lessons, 10h53m; also listed on Gumroad at $125 as a recording of his university lectures. Only two lessons are free: What Are the Fundamentals? (11:09) and Foundations (19:46). Sections that matter later (Proportions, Hand Construction, Foot Construction, Dynamic Poses, Foreshortening, Gesture, Rendering) are premium.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch the two free lessons, 'What Are the Fundamentals?' and 'Foundations', for a university-style view of the shapes you need before building a figure. The remaining 46 lessons are paid."
+      },
+      {
+        "title": "Constructive Anatomy (1920)",
+        "provider": "Internet Archive and DrawingBooks.org",
+        "credit": "George B. Bridgman",
+        "url": "https://archive.org/details/constructiveanat00brid",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Archive.org shows 'Free Download, Borrow, and Streaming' (PDF and EPUB) for the 1920 Pelham, N.Y. edition and no rights statement. A 1920 US publication is public domain in the US; DrawingBooks.org states all its books are public domain in the US and shows the same book page by page at https://www.drawingbooks.org/bridgman1/index.html. Do not confuse it with Bridgman's later 1950s guides, which I did not check. The book contains anatomical drawings of nude figures.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Read 'General Anatomy' and 'Masses and Movements of the Body' (book pages 11-17) in the online reader at https://www.drawingbooks.org/bridgman1/index.html and copy two of the mass diagrams. The style is dated (blocky wedges), but it is the origin of many modern mannequins."
+      },
+      {
+        "title": "Constructive Figure Drawing I (7 weeks)",
+        "provider": "New Masters Academy",
+        "credit": "Steve Huston",
+        "url": "https://www.nma.art/courses/constructive-figure-drawing-i/",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "15h58m in total; price not shown on the page I could read. Every lesson shows a Preview link but the page does not say whether previews are free. Week 1 Gesture and Structure is 1h30m49s; Week 2 Form and Position is 2h9m2s; Week 3 Head and Torso, Week 4 Shoulders and Limbs, Week 5 Proportions and the Whole Figure.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use as the paid next step if you want a full structured course after the free material. It follows the same order as this module and the next three."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Bean or box torsos",
+        "description": "Draw the ribcage as an egg or box and the pelvis as a bean or box, tilted against each other, with a centre line wrapping around both. Add the spine as a curve between them.",
+        "dose": "15 poses at 2 minutes each",
+        "reference_url": "https://line-of-action.com"
+      },
+      {
+        "title": "Tube limbs",
+        "description": "Fill a page with tapered arm and leg tubes bending in space. Add cross-contour lines that curve around the tube and ellipses at the joints.",
+        "dose": "3 pages, about 10 minutes each"
+      },
+      {
+        "title": "One pose, four cameras",
+        "description": "Pose a 3D figure, then draw it from four camera angles. Keep the mannequin proportions consistent.",
+        "dose": "4 drawings at 5 minutes each",
+        "reference_url": "https://www.posemaniacs.com"
+      },
+      {
+        "title": "Mannequin over photo",
+        "description": "Draw the gesture line, then the mannequin, next to a reference photo. Afterwards overlay the mannequin on the photo and check where joints land.",
+        "dose": "10 poses at 5 minutes each",
+        "reference_url": "https://quickposes.com"
+      },
+      {
+        "title": "Copy a mass diagram",
+        "description": "Redraw two of Bridgman's body-mass diagrams from the free scan, then redraw them from memory the next day.",
+        "dose": "2 diagrams, 15 minutes each",
+        "reference_url": "https://www.drawingbooks.org/bridgman1/index.html"
+      }
+    ],
+    "done_when": [
+      "You can build a standing mannequin in 5 minutes that reads as a body from front and 3/4 views.",
+      "Ribcage and pelvis stay the same size and shape as you rotate them across poses.",
+      "Limbs overlap with clear in-front and behind relationships.",
+      "You can tell when a drawing has gesture but no structure, or the reverse, and fix it."
+    ],
+    "common_mistakes": [
+      "Treating the mannequin as a rigid robot and losing the gesture.",
+      "Drawing the ribcage too small, which shortens the torso and makes arms look long.",
+      "Using flat circles for joints instead of volumes that overlap.",
+      "Starting the mannequin without a line of action."
+    ],
+    "school_reference": [
+      {
+        "institution": "New Masters Academy (studio school), Constructive Figure Drawing I (Steve Huston)",
+        "url": "https://www.nma.art/courses/constructive-figure-drawing-i/",
+        "note": "Seven-week course: gesture and structure, form and position, head and torso, shoulders and limbs, proportions, light, rendering."
+      },
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      }
+    ]
+  },
+  {
+    "id": "fig-proportion-systems-variation",
+    "title": "Figure proportion systems and variation: heads-tall canons, children, body types and ages",
+    "group": "figure-anatomy-faces",
+    "level": "intermediate",
+    "summary": "Heads-tall canons (7, 7.5, 8 heads) give you landmarks to check against, but real people vary and children are built differently. This module teaches the canon first, then uses reference to draw different ages, builds and heights. Free structured video is limited here; the free route uses public-domain texts plus photo and 3D references.",
+    "prerequisites": [
+      "fig-simplified-construction"
+    ],
+    "est_hours": [
+      6,
+      15
+    ],
+    "learning_outcomes": [
+      "Lay out a standing figure at a chosen heads-tall height with landmarks (chin, nipples, navel, crotch, knees) placed in the right zones.",
+      "Describe how a young child's head, torso and limb ratios differ from an adult's.",
+      "Draw three clearly different body types without defaulting to one build.",
+      "Use a canon as a check and not as a rule."
+    ],
+    "resources": [
+      {
+        "title": "Figure Drawing (R. G. Hatton): 'Method and Proportion', then Head and Neck, Trunk, Limbs, Drapery",
+        "provider": "DrawingBooks.org",
+        "credit": "R. G. Hatton",
+        "url": "https://www.drawingbooks.org/fdhatton/index.html",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Site states its books are public domain in the US (its own claim). Presented as a two-page viewer. Contents: Method and Proportion (viewer page 1), The Head and Neck, The Trunk, The Upper Limb, The Lower Limb, Drapery. The page text does not describe the proportion chapter, so open it and judge; the language is early 20th century.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Read the first chapter for how the author divides the body, then compare his divisions with a modern 7.5 or 8-head chart. Copy his proportion diagram, then test it on photos."
+      },
+      {
+        "title": "The Human Figure (J. H. Vanderpoel)",
+        "provider": "DrawingBooks.org",
+        "credit": "John H. Vanderpoel",
+        "url": "https://www.drawingbooks.org/vanderpoel1/index.html",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Page-by-page reader, about 168 pages, 17 chapters from eyes and head through trunk, limbs, hands and feet to The Figure as a Whole, with Student's Notes. Site claims US public domain; the page does not give a publication year (it dates to the early 1900s, from my own knowledge, not the page).",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Read 'The Figure as a Whole' and the chapters on limbs for proportion and landmarks. Student's Notes give practical exercises."
+      },
+      {
+        "title": "Figure Drawing Children (C. H. Rimmer)",
+        "provider": "DrawingBooks.org",
+        "credit": "Caroline Hunt Rimmer",
+        "url": "https://www.drawingbooks.org/rimmer/index.html",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Listed on DrawingBooks.org as public domain in the US (site claim). The landing page I could open showed only purchase links and a tip jar; I could not confirm the contents or page count, so open the reader and check.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "For child proportions. If the reader does not load, use child and teen photos from Line of Action's age filter instead."
+      },
+      {
+        "title": "Line of Action: Figure Drawing, Hands and Feet, Faces and Expression, 360 degree views",
+        "provider": "Line of Action",
+        "credit": "Line of Action (site team and photographers)",
+        "url": "https://line-of-action.com",
+        "format": "interactive",
+        "cost": "free-tier",
+        "free_notes": "The Draw menu lists Figure Drawing, Animals, Hands and Feet, Faces and Expression, Basic Shapes and Still Life (labelled a test feature), Scenes and Environment, and 360 degree views. The Store menu shows Subscriptions, Pay as you go, photo bundles and gift cards, so there is a paid tier, but I could not read what the free tier limits (ads, photo counts, timer options). The FAQ says memberships are 'Full' or 'Doodler'. NUDE CONTENT: the site hosts nude and clothed model photos (a news post mentions nude sets); a Proko forum post says you can choose nude or clothed, male or female, and child, teen or adult. LICENCE: per the FAQ the gesture-tool photos are licensed for educational use inside the tools; you may post your own drawings elsewhere but not sell them.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the age and body-type spread in the photo library as the variation source: draw a child, teen, adult and older adult, and note the head-count and where the halfway point of the body falls. A Proko forum post says child, teen and adult filters exist; confirm on the site."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Head-unit chart",
+        "description": "Draw one standing pose three times on equal head-unit grids at 7, 7.5 and 8 heads. Mark chin, nipples, navel, crotch, knees.",
+        "dose": "3 drawings at 10 minutes each"
+      },
+      {
+        "title": "Age ladder",
+        "description": "Pick a child, a teen, an adult and an older adult from reference. Mark head-count and the halfway point on each, then draw each as a simple mannequin.",
+        "dose": "4 drawings at 10 minutes each",
+        "reference_url": "https://line-of-action.com"
+      },
+      {
+        "title": "Body-type sheet",
+        "description": "Choose six reference photos of different builds. For each, draw only the ribcage-to-pelvis-to-limb length ratios as a stick diagram.",
+        "dose": "6 diagrams at 5 minutes each"
+      },
+      {
+        "title": "Landmark ruler",
+        "description": "Mark eye line, chin, nipples, navel, crotch and knees on five standing photos. Compare them against your canon and write the differences.",
+        "dose": "5 photos at 5 minutes each"
+      },
+      {
+        "title": "Exaggerate on purpose",
+        "description": "Redraw one pose at 6 heads and at 9 heads to see how height changes the read of the character.",
+        "dose": "2 drawings at 8 minutes each"
+      }
+    ],
+    "done_when": [
+      "You can lay out a standing figure at a chosen height with landmarks in about 2 minutes.",
+      "You can say how a young child's proportions differ from an adult's and draw both.",
+      "You have drawn at least three distinct body types from reference.",
+      "You treat the canon as a check and can say where reality differs."
+    ],
+    "common_mistakes": [
+      "Applying one adult canon to every body, so children look like small adults.",
+      "Measuring heads-tall from the wrong baseline (e.g. including hair or a raised heel).",
+      "Using 9-10 head fashion proportions for realistic figures.",
+      "Forgetting that foreshortening changes apparent proportions."
+    ],
+    "school_reference": [
+      {
+        "institution": "Likely Finger Lakes Community College (inferred), ART 200 Figure Drawing I",
+        "url": "https://cyber.flcc.edu/pdf/syllabi/ART200.pdf",
+        "note": "Syllabus describes the pose-length ladder from 30 seconds up to 2-6 hour long poses."
+      },
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      },
+      {
+        "institution": "Utah Valley University, ART 4700R Figure Drawing, Spring 2025 (P. Stewart)",
+        "url": "https://uvu.edu/syllabi-repository/docs/art-470r-001-202520.pdf",
+        "note": "15-week syllabus aimed at stylised and animation-minded figure work."
+      }
+    ]
+  },
+  {
+    "id": "fig-anatomy-skeleton-muscle",
+    "title": "Skeleton and muscle anatomy by region: torso, arms, legs, and surface landmarks",
+    "group": "figure-anatomy-faces",
+    "level": "intermediate",
+    "summary": "Anatomy gives your construction a reason: where bones show under skin, which muscles bulge in which poses, and how parts attach. The free route uses Proko's 115 free anatomy lessons, a free 3D atlas to rotate every layer, and a short public-domain primer. Study by region and always draw, never just read.",
+    "prerequisites": [
+      "fig-simplified-construction"
+    ],
+    "est_hours": [
+      30,
+      80
+    ],
+    "learning_outcomes": [
+      "Draw ribcage, pelvis, spine and shoulder girdle from memory in simplified form from three angles.",
+      "Name and place at least 12 surface landmarks (e.g. collarbone ends, elbow points, kneecap, front hip bones).",
+      "Block in the major muscle groups of torso, upper arm and thigh as simple masses with the right attachments.",
+      "Use anatomy to explain a bulge or dip in a reference pose."
+    ],
+    "resources": [
+      {
+        "title": "Anatomy of the Human Body (115 free lessons)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://www.proko.com/course/anatomy-of-the-human-body",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "371 lessons, about 77 hours, three parts: Torso (163 lessons, 59 free), Arms (101, 28 free) and Legs (107, 28 free). Full course listed at about $434 (parts about $145-159 each) on 2026-10-13. Free lessons I could name: Introduction to Human Anatomy for Artists (14:49), How to Do an Anatomy Tracing (14:31), The Language of Anatomy (6:59), The 6 Types of Joints (12:06), Simplifying Joints in Perspective Assignment Example 2 (4:02), Anatomy Critiques Types of Joints (1:16:41), How to Draw Hand Bones (8:17) and How to Draw Feet (14:23). Premium examples: foreshortened hands, female hands. The page does not name the other free Arms and Legs lessons. Anatomical figures are nude.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Start with the free Basics: Introduction to Human Anatomy for Artists, How to Do an Anatomy Tracing, The Language of Anatomy, The 6 Types of Joints. Then work through the free Torso lessons (59), then Arms (28), then Legs (28). The lesson hrefs are on https://www.proko.com/course-lesson/introduction-to-human-anatomy-for-artists and similar. Do the anatomy tracing exercise for each region."
+      },
+      {
+        "title": "Z-Anatomy: free layered 3D atlas of the human body",
+        "provider": "Z-Anatomy project",
+        "credit": "Gauthier Kervyn (design, modelling, anatomy), Marcin Zielinski (script), Lluis Vinent (Unity)",
+        "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+        "format": "interactive",
+        "cost": "free",
+        "free_notes": "Source repository states code and content are CC BY-SA 4.0 (attribute and share alike). It is a Blender template with skeleton, muscle, vessel, nerve and organ layers, built on BodyParts3D, with a male body and Terminologia Anatomica labels. A 2022 CG Channel article says the Blender file and an Android app are free and points to https://www.z-anatomy.com, which loads an in-browser viewer. The models are unclothed anatomical figures. Wikipedia-derived definitions may contain errors, per the project.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use it as the 3D lab: switch on bones only, then add muscle layers, and rotate to see the part you just studied from the front, side and back. Sketch the region at three angles."
+      },
+      {
+        "title": "Artistic Anatomy of the Human Figure (Henry Warren)",
+        "provider": "DrawingBooks.org",
+        "credit": "Henry Warren",
+        "url": "https://www.drawingbooks.org/warren1/index.html",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Online reader, about 64 pages (inferred from the page menu). Contents: The Skeleton; Head and Neck; Muscles of the Face and Neck; The Shoulder Joint, Trunk and Back; The Arm (front, back, side); The Legs and their muscles. Site claims US public domain. Illustrations are old engravings of nude anatomical figures.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "A fast written summary to read next to the Proko lessons. Copy one plate per region."
+      },
+      {
+        "title": "Anatomy and Physiology 2e (textbook)",
+        "provider": "OpenStax, Rice University",
+        "credit": "OpenStax authors",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Page says the book can be read online or downloaded free. The licence is not shown in the text I could read, but OpenStax publishes under open licences, so confirm on the page. Medical, not artist-oriented: use it to check names, attachments and movement, not for drawing method.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the skeletal system and muscular system chapters to check names and attachments (chapter numbers not read; I believe they are chapters 6-8 and 11, check before relying on that). Not for drawing method."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Anatomy tracing",
+        "description": "Trace a bone or muscle diagram, naming landmarks as you go. One region at a time (spine and ribcage, pelvis, shoulder, arm, leg). Then redraw it without tracing.",
+        "dose": "5 traces per region, about 15 minutes each"
+      },
+      {
+        "title": "Landmark hunt",
+        "description": "On three photos of different people, mark 10 bony landmarks. Check them against the 3D atlas.",
+        "dose": "3 photos at 10 minutes each",
+        "reference_url": "https://github.com/Z-Anatomy/Models-of-human-anatomy"
+      },
+      {
+        "title": "Bones in the pose",
+        "description": "Take six gesture sketches you have already made and draw the simplified skeleton inside them.",
+        "dose": "6 poses at 5 minutes each"
+      },
+      {
+        "title": "Muscle block-ins",
+        "description": "For torso, upper arm and thigh, draw the main muscle groups as simple shapes, with arrows showing direction.",
+        "dose": "5 per region, about 8 minutes each"
+      },
+      {
+        "title": "Atlas rotation",
+        "description": "Pick a region in Z-Anatomy or in the browser-based BodyParts3D viewer (Japan's Database Center for Life Science; filter to Bone or Muscle), sketch it from three angles, then check each against the others.",
+        "dose": "3 regions at 20 minutes each",
+        "reference_url": "https://lifesciencedb.jp/bp3d/?lng=en"
+      },
+      {
+        "title": "Memory test",
+        "description": "Without a reference, draw ribcage, pelvis and spine. Check, mark errors, redraw. Repeat weekly.",
+        "dose": "15 minutes per week"
+      }
+    ],
+    "done_when": [
+      "You can draw the ribcage, pelvis and spine in side, front and 3/4 view from memory.",
+      "You can name and place 12 or more surface landmarks on a living reference.",
+      "You can block in torso, upper arm and thigh muscles correctly in at least two poses.",
+      "You use anatomy notes to explain, not to decorate, a drawing."
+    ],
+    "common_mistakes": [
+      "Memorising Latin names without drawing the shapes.",
+      "Drawing detailed muscles on every figure, even when fat or clothes hide them.",
+      "Making left and right muscles identical and ignoring the pose.",
+      "Skipping bones and going straight to muscles."
+    ],
+    "school_reference": [
+      {
+        "institution": "College of the Redwoods, ART 19 Figure Drawing, Fall 2021 (C. Hooper)",
+        "url": "https://www.redwoods.edu/fs/syllabi/art/2021F-ART19-E1803-Hooper.pdf",
+        "note": "15-week syllabus; gesture and contour in week 1, anatomy in weeks 9-10."
+      },
+      {
+        "institution": "Likely Finger Lakes Community College (inferred), ART 200 Figure Drawing I",
+        "url": "https://cyber.flcc.edu/pdf/syllabi/ART200.pdf",
+        "note": "Syllabus describes the pose-length ladder from 30 seconds up to 2-6 hour long poses."
+      },
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      }
+    ]
+  },
+  {
+    "id": "fig-hands",
+    "title": "Hands",
+    "group": "figure-anatomy-faces",
+    "level": "intermediate",
+    "summary": "Hands are built from a flat wedge-shaped palm, a thumb that sits on its own base, and fingers that follow arcs. You learn to start from gesture and simple parts, then add bones, then foreshortening and holding objects. There are good free lessons and a free 1920 book of hand studies.",
+    "prerequisites": [
+      "fig-simplified-construction"
+    ],
+    "est_hours": [
+      8,
+      20
+    ],
+    "learning_outcomes": [
+      "Draw a hand in about 20 seconds as a simple palm shape plus a thumb plane.",
+      "Show finger length relationships and knuckle arcs without measuring each time.",
+      "Draw a hand holding an object so the grip makes sense.",
+      "Draw 10 distinct hand poses from imagination that look plausible."
+    ],
+    "resources": [
+      {
+        "title": "How to Draw Expressive Hands (free lesson in The Gesture Course)",
+        "provider": "Proko",
+        "credit": "Steven Michael Hampton",
+        "url": "https://www.proko.com/course-lesson/how-to-draw-expressive-hands",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "Marked free (17:14, lesson 17 of 27); the full Gesture Course is $125. Teaches hands as simple parts with shape, rhythm and expression for storytelling.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch, then redraw each of his hand examples once without tracing."
+      },
+      {
+        "title": "How to Draw Hand Bones (free lesson in Anatomy of the Human Body)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://www.proko.com/course-lesson/how-to-draw-hand-bones-anatomy-for-artists/",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "Marked free (8:17, lesson 177 of 371); a premium version with more content exists. The full anatomy course is about $434. Covers carpals, metacarpals and phalanges and proportions by halving.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Do this after a week of gesture-first hands. Draw the bones, then draw a hand over them."
+      },
+      {
+        "title": "Book of a Hundred Hands (1920)",
+        "provider": "DrawingBooks.org",
+        "credit": "George B. Bridgman",
+        "url": "https://www.drawingbooks.org/bridgman2/index.html",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Online reader to about page 175. Contents include bones of the wrist, fingers, knuckles, thumb, veins and muscle origin, insertion and action. Site states its books are public domain in the US (its own claim); 1920 publication supports that. The page also offers paid copies.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use as a visual dictionary of hand poses and anatomy diagrams; copy ten plates over weeks."
+      },
+      {
+        "title": "Anatomy Drawing of the Hands and Feet (Vilppu), free preview",
+        "provider": "New Masters Academy",
+        "credit": "Glenn Vilppu",
+        "url": "https://www.nma.art/videolessons/anatomy-drawing-of-the-hands-and-feet/",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "49m51s lesson. The 'Free to try' section offers a 24-second recommendation and a 12-minute Introduction to the Hands; the rest needs an NMA membership (price not shown). A second NMA page (Drawing the Figure: Hands and Feet, 50m43s) offers a similar free intro to hand anatomy of about 12 minutes.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch the free 12-minute 'Introduction to the Hands' preview for Vilppu's approach to hand anatomy and its link to the arm."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Hand gesture sheet",
+        "description": "Draw hands as a mitten shape with thumb plane first, then add fingers. Vary pose each time.",
+        "dose": "30 hands at 30-60 seconds each",
+        "reference_url": "https://line-of-action.com"
+      },
+      {
+        "title": "Own-hand studies",
+        "description": "Draw your non-drawing hand in 10 different poses without photo reference. Use a mirror or a phone to check one or two.",
+        "dose": "10 poses at 3 minutes each"
+      },
+      {
+        "title": "Bone framework",
+        "description": "Draw the bones of the hand, then draw skin and tendons over them.",
+        "dose": "5 hands at 10 minutes each"
+      },
+      {
+        "title": "Hands that hold things",
+        "description": "Draw hands gripping a mug, a pencil, a phone, a rope, a ball and a door handle.",
+        "dose": "6 poses at 5 minutes each"
+      },
+      {
+        "title": "Master hand copies",
+        "description": "Copy hand studies from an open-access collection; compare with your own drawing.",
+        "dose": "4 studies at 10 minutes each",
+        "reference_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+      },
+      {
+        "title": "Foreshortened hands",
+        "description": "Draw hands pointing at you and palms toward you, using boxes and overlapping shapes.",
+        "dose": "5 poses at 5 minutes each",
+        "reference_url": "https://www.posemaniacs.com"
+      }
+    ],
+    "done_when": [
+      "You can draw a believable hand from any of the common angles in about a minute.",
+      "Finger lengths and knuckle arcs hold up when compared with a photo.",
+      "Grips look like they would hold an object.",
+      "You stop hiding hands in pockets or behind objects in your drawings."
+    ],
+    "common_mistakes": [
+      "Drawing each finger as a separate sausage with no palm.",
+      "Making all fingers the same length and the palm flat.",
+      "Putting the thumb too high or too low on the palm.",
+      "Over-rendering one hand while the rest of the drawing stays rough."
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      },
+      {
+        "institution": "College of the Redwoods, ART 19 Figure Drawing, Fall 2021 (C. Hooper)",
+        "url": "https://www.redwoods.edu/fs/syllabi/art/2021F-ART19-E1803-Hooper.pdf",
+        "note": "15-week syllabus; gesture and contour in week 1, anatomy in weeks 9-10."
+      },
+      {
+        "institution": "Utah Valley University, ART 4700R Figure Drawing, Spring 2025 (P. Stewart)",
+        "url": "https://uvu.edu/syllabi-repository/docs/art-470r-001-202520.pdf",
+        "note": "15-week syllabus aimed at stylised and animation-minded figure work."
+      }
+    ]
+  },
+  {
+    "id": "fig-feet",
+    "title": "Feet",
+    "group": "figure-anatomy-faces",
+    "level": "intermediate",
+    "summary": "A foot is an arched wedge with a heel at the back and toes that fan out at the front; the ankle bones sit at different heights. Weight changes how the foot spreads and flattens. Two free lessons cover construction and gesture, and a free 1920 book covers the bones.",
+    "prerequisites": [
+      "fig-simplified-construction"
+    ],
+    "est_hours": [
+      4,
+      10
+    ],
+    "learning_outcomes": [
+      "Draw a foot from side, front and 3/4 as a wedge with arch and toe groups.",
+      "Place the inner and outer ankle bones at their different heights.",
+      "Show whether a foot carries weight or is lifted.",
+      "Draw shoes over a foot form."
+    ],
+    "resources": [
+      {
+        "title": "How to Draw Feet (free lesson in Anatomy of the Human Body)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://proko.com/course-lesson/how-to-draw-feet",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "Marked free (14:23, lesson 362 of 371, Legs part); a premium version exists. The full anatomy course is about $434.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Builds the foot from basic forms, then shows dynamic feet and how classical teachers such as Bridgman stylise them."
+      },
+      {
+        "title": "How to Draw Expressive Feet (free lesson in The Gesture Course)",
+        "provider": "Proko",
+        "credit": "Steven Michael Hampton",
+        "url": "https://www.proko.com/course-lesson/how-to-draw-expressive-feet",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "Marked free (16:02, lesson 18 of 27); the Gesture Course is $125 and its other lessons are premium.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch after the first lesson; focus on how simple shapes and gesture anchor the figure to the ground."
+      },
+      {
+        "title": "Constructive Anatomy (1920)",
+        "provider": "Internet Archive and DrawingBooks.org",
+        "credit": "George B. Bridgman",
+        "url": "https://archive.org/details/constructiveanat00brid",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Archive.org shows 'Free Download, Borrow, and Streaming' (PDF and EPUB) for the 1920 Pelham, N.Y. edition and no rights statement. A 1920 US publication is public domain in the US; DrawingBooks.org states all its books are public domain in the US and shows the same book page by page at https://www.drawingbooks.org/bridgman1/index.html. Do not confuse it with Bridgman's later 1950s guides, which I did not check. The book contains anatomical drawings of nude figures.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Read 'The Foot' (book page 202) and 'The Leg' (page 180) in the online reader at https://www.drawingbooks.org/bridgman1/index.html and copy two foot plates."
+      },
+      {
+        "title": "Anatomy Drawing of the Hands and Feet (Vilppu), free preview",
+        "provider": "New Masters Academy",
+        "credit": "Glenn Vilppu",
+        "url": "https://www.nma.art/videolessons/anatomy-drawing-of-the-hands-and-feet/",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "49m51s lesson. The 'Free to try' section offers a 24-second recommendation and a 12-minute Introduction to the Hands; the rest needs an NMA membership (price not shown). A second NMA page (Drawing the Figure: Hands and Feet, 50m43s) offers a similar free intro to hand anatomy of about 12 minutes.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "The free preview covers hands; the feet part of Vilppu's lesson needs a paid NMA membership. Treat this as a pointer to the paid next step."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Foot block-ins",
+        "description": "Draw a wedge for the foot, an arch line, and the toe group as a stepped block. Vary angle.",
+        "dose": "15 feet at 2 minutes each",
+        "reference_url": "https://line-of-action.com"
+      },
+      {
+        "title": "Own-foot studies",
+        "description": "Draw one of your own feet in top, side, 3/4, heel and sole views.",
+        "dose": "6 views at 5 minutes each"
+      },
+      {
+        "title": "Weight on the foot",
+        "description": "From standing and walking references, show how weight flattens and spreads the foot.",
+        "dose": "8 poses at 3 minutes each",
+        "reference_url": "https://quickposes.com"
+      },
+      {
+        "title": "Shoes as boxes",
+        "description": "Draw boots, trainers and sandals as simple volumes over a foot form.",
+        "dose": "6 shoes at 5 minutes each"
+      },
+      {
+        "title": "Ankle to foot",
+        "description": "Draw the lower leg and ankle bones into the foot in several poses.",
+        "dose": "6 studies at 5 minutes each"
+      }
+    ],
+    "done_when": [
+      "You can draw a foot from three angles without a reference and it reads as a foot.",
+      "Ankle bones are at different heights in your drawings.",
+      "A planted foot looks like it carries weight; a lifted foot looks relaxed.",
+      "Shoe drawings show the foot shape inside."
+    ],
+    "common_mistakes": [
+      "Drawing a flat, shoe-shaped blob with no arch.",
+      "Making all toes equal sausages.",
+      "Placing both ankle bones at the same height.",
+      "Making feet too small relative to the head and leg."
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      },
+      {
+        "institution": "College of the Redwoods, ART 19 Figure Drawing, Fall 2021 (C. Hooper)",
+        "url": "https://www.redwoods.edu/fs/syllabi/art/2021F-ART19-E1803-Hooper.pdf",
+        "note": "15-week syllabus; gesture and contour in week 1, anatomy in weeks 9-10."
+      },
+      {
+        "institution": "Utah Valley University, ART 4700R Figure Drawing, Spring 2025 (P. Stewart)",
+        "url": "https://uvu.edu/syllabi-repository/docs/art-470r-001-202520.pdf",
+        "note": "15-week syllabus aimed at stylised and animation-minded figure work."
+      }
+    ]
+  },
+  {
+    "id": "fig-head-construction",
+    "title": "Head construction: sphere-and-planes methods (Loomis-style, Reilly-style, block head)",
+    "group": "figure-anatomy-faces",
+    "level": "beginner",
+    "summary": "You build the head as a ball with the sides sliced off, then add a jaw and a centre line that wraps around the form, so the face can turn to any angle. Proko's free Loomis-method lessons cover the basic method. Reilly and block-head methods are mostly in paid courses.",
+    "prerequisites": [],
+    "est_hours": [
+      10,
+      30
+    ],
+    "learning_outcomes": [
+      "Construct a head from front, side, 3/4, up-tilt and down-tilt using a sphere, centre line, brow line and jaw.",
+      "Place brow, nose and chin lines consistently.",
+      "Simplify the head into larger planes (block head) for lighting.",
+      "Explain the difference between a Loomis, Reilly and block-head approach."
+    ],
+    "resources": [
+      {
+        "title": "Portrait Drawing Fundamentals: The Loomis Method (7 free lessons)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://www.proko.com/course/portrait-drawing-fundamentals",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course is $65 one-time (35 lessons, 8h10m). Free: How to Draw the Head from Any Angle (5:19), Front View (3:36), Side View (3:17), Extreme Angles (4:47), and Loomis Method Parts 1-3 (durations not shown). Premium: 3D Model, and the real-time demos (8-13 minutes each). The page header says 16 free lessons but only 8 are visible to me (7 Loomis lessons plus How to Draw Hair).",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch the free lessons in order, drawing along. After Part 3 you can construct heads at any angle."
+      },
+      {
+        "title": "Head Drawing for Beginners (4-instructor sequence)",
+        "provider": "New Masters Academy",
+        "credit": "Steve Huston, Charles Hu, Mark Westermoe, Glenn Vilppu",
+        "url": "https://nma.art/courses/structure-of-the-head-for-beginners/",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "19 lessons, about 52h11m. Price is not shown on the page I could read; every lesson has a 'Quick View Preview' link but the page does not say how much is free. NMA is a subscription library; check the signup page. Level 1 Huston: basic and intermediate head construction, eyes, nose, mouth, ears (1h18m to 3h32m each). Level 2 Hu: proportions and structure, skull, light and shadow, achieving a likeness (1h1m), facial features, facial expressions (1h26m). Level 3 Westermoe: Reilly-method head. Level 4 Vilppu: How to Draw the Head (4h44m).",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "A paid, deeper path. Level 1 with Steve Huston builds head construction; Level 3 with Mark Westermoe is the Reilly-method head (the Abstraction, planes of the head). Take the free previews first."
+      },
+      {
+        "title": "The Frank Reilly Illustration Drawing Method (16 lessons)",
+        "provider": "New Masters Academy",
+        "credit": "Mark Westermoe (taught the Reilly method)",
+        "url": "https://www.nma.art/courses/the-frank-reilly-drawing-method/",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "42h4m in total; price not shown. Level 1 (lessons 1-6) is head drawing: anatomy, the Abstraction, light and shadow, underpainting, planes of the head, rendering. Level 2 (lessons 7-16) is figure. Every lesson has a 'Quick View Preview' link; whether previews are free is not stated.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "For the Reilly Abstraction (a way to simplify the head and figure into rhythm-based shapes). Not needed to start."
+      },
+      {
+        "title": "Constructive Anatomy (1920)",
+        "provider": "Internet Archive and DrawingBooks.org",
+        "credit": "George B. Bridgman",
+        "url": "https://archive.org/details/constructiveanat00brid",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Archive.org shows 'Free Download, Borrow, and Streaming' (PDF and EPUB) for the 1920 Pelham, N.Y. edition and no rights statement. A 1920 US publication is public domain in the US; DrawingBooks.org states all its books are public domain in the US and shows the same book page by page at https://www.drawingbooks.org/bridgman1/index.html. Do not confuse it with Bridgman's later 1950s guides, which I did not check. The book contains anatomical drawings of nude figures.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Read the 'The Head' section (book page 114) for classic skull and plane thinking, and copy two diagrams."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Loomis ball and planes",
+        "description": "Draw a ball, slice the sides, add centre line, brow line, nose line and chin line. Do it for front, side and 3/4.",
+        "dose": "20 heads at 3 minutes each"
+      },
+      {
+        "title": "Tilt it",
+        "description": "Take one head and tilt it up, down and sideways; keep the construction lines wrapping.",
+        "dose": "12 drawings at 2 minutes each",
+        "reference_url": "https://www.posemaniacs.com"
+      },
+      {
+        "title": "Block head",
+        "description": "Simplify to a box-and-planes head, marking which planes face up, front and side.",
+        "dose": "10 heads at 5 minutes each"
+      },
+      {
+        "title": "Skull to head",
+        "description": "Draw a simple skull (cranium, cheekbones, jaw), then wrap a head around it.",
+        "dose": "6 skulls at 10 minutes each",
+        "reference_url": "https://github.com/Z-Anatomy/Models-of-human-anatomy"
+      },
+      {
+        "title": "Memory heads",
+        "description": "Draw 10 heads from memory at random angles, then compare with a 3D head.",
+        "dose": "10 heads at 3 minutes each",
+        "reference_url": "https://www.posemaniacs.com"
+      }
+    ],
+    "done_when": [
+      "You can construct a head at six different angles in under 3 minutes each.",
+      "Brow, nose and chin lines stay consistent across a sheet.",
+      "Jaw and cheekbones read as volumes, not outlines.",
+      "You can draw a believable head from imagination."
+    ],
+    "common_mistakes": [
+      "Drawing an egg instead of a ball with planes cut off.",
+      "Centre line that stays flat instead of wrapping around the form.",
+      "Ignoring the jaw and the back of the skull.",
+      "Placing eyes too high; they sit near the middle of the head."
+    ],
+    "school_reference": [
+      {
+        "institution": "New Masters Academy, Head Drawing for Beginners",
+        "url": "https://nma.art/courses/structure-of-the-head-for-beginners/",
+        "note": "Level sequence: Huston construction and features, Hu proportions, skull, likeness, expressions, Westermoe Reilly head, Vilppu head."
+      },
+      {
+        "institution": "College of the Redwoods, ART 19 Figure Drawing, Fall 2021 (C. Hooper)",
+        "url": "https://www.redwoods.edu/fs/syllabi/art/2021F-ART19-E1803-Hooper.pdf",
+        "note": "15-week syllabus; gesture and contour in week 1, anatomy in weeks 9-10."
+      },
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      }
+    ]
+  },
+  {
+    "id": "fig-facial-features-expressions",
+    "title": "Facial features and expressions",
+    "group": "figure-anatomy-faces",
+    "level": "intermediate",
+    "summary": "Eyes, nose, mouth and ears are small forms wrapped around the head; expressions come from brow, eyelid, cheek and mouth shifts across the whole face. Free structured video is scarce for this topic, so the core path is a classic anatomy text, a free expression-reference tool, and Darwin's 1872 book. Paid NMA lessons are the fuller structured option.",
+    "prerequisites": [
+      "fig-head-construction"
+    ],
+    "est_hours": [
+      10,
+      25
+    ],
+    "learning_outcomes": [
+      "Draw eye, nose, mouth and ear from front, 3/4 and side with correct construction.",
+      "Build six basic expressions on one head by changing brows, eyelids, cheeks and mouth.",
+      "Check an expression at thumbnail size.",
+      "Use a coding system (FACS action units) as a checklist for what changes in an expression."
+    ],
+    "resources": [
+      {
+        "title": "Constructive Anatomy (1920)",
+        "provider": "Internet Archive and DrawingBooks.org",
+        "credit": "George B. Bridgman",
+        "url": "https://archive.org/details/constructiveanat00brid",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Archive.org shows 'Free Download, Borrow, and Streaming' (PDF and EPUB) for the 1920 Pelham, N.Y. edition and no rights statement. A 1920 US publication is public domain in the US; DrawingBooks.org states all its books are public domain in the US and shows the same book page by page at https://www.drawingbooks.org/bridgman1/index.html. Do not confuse it with Bridgman's later 1950s guides, which I did not check. The book contains anatomical drawings of nude figures.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Read The Eye (page 130), The Nose (138), The Ear (142), The Mouth (144) and The Chin (145) in the reader at https://www.drawingbooks.org/bridgman1/index.html. The language is dated, but the construction diagrams are clear; draw each feature as a block first."
+      },
+      {
+        "title": "Line of Action: Figure Drawing, Hands and Feet, Faces and Expression, 360 degree views",
+        "provider": "Line of Action",
+        "credit": "Line of Action (site team and photographers)",
+        "url": "https://line-of-action.com",
+        "format": "interactive",
+        "cost": "free-tier",
+        "free_notes": "The Draw menu lists Figure Drawing, Animals, Hands and Feet, Faces and Expression, Basic Shapes and Still Life (labelled a test feature), Scenes and Environment, and 360 degree views. The Store menu shows Subscriptions, Pay as you go, photo bundles and gift cards, so there is a paid tier, but I could not read what the free tier limits (ads, photo counts, timer options). The FAQ says memberships are 'Full' or 'Doodler'. NUDE CONTENT: the site hosts nude and clothed model photos (a news post mentions nude sets); a Proko forum post says you can choose nude or clothed, male or female, and child, teen or adult. LICENCE: per the FAQ the gesture-tool photos are licensed for educational use inside the tools; you may post your own drawings elsewhere but not sell them.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the Faces and Expression tool for timed photo practice. Use short times first (1-2 minutes), then longer."
+      },
+      {
+        "title": "The Expression of the Emotions in Man and Animals (1872)",
+        "provider": "Project Gutenberg",
+        "credit": "Charles Darwin",
+        "url": "https://www.gutenberg.org/ebooks/1227",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Gutenberg eBook #1227, read online or download (EPUB, Kindle, text, HTML); listed as public domain in the USA.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Skim the chapters on joy, grief, anger and surprise to see how the muscles around the eyes and mouth change; choose an edition with images when you download (the page lists with-images and without-images EPUBs)."
+      },
+      {
+        "title": "Head Drawing for Beginners (4-instructor sequence)",
+        "provider": "New Masters Academy",
+        "credit": "Steve Huston, Charles Hu, Mark Westermoe, Glenn Vilppu",
+        "url": "https://nma.art/courses/structure-of-the-head-for-beginners/",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "19 lessons, about 52h11m. Price is not shown on the page I could read; every lesson has a 'Quick View Preview' link but the page does not say how much is free. NMA is a subscription library; check the signup page. Level 1 Huston: basic and intermediate head construction, eyes, nose, mouth, ears (1h18m to 3h32m each). Level 2 Hu: proportions and structure, skull, light and shadow, achieving a likeness (1h1m), facial features, facial expressions (1h26m). Level 3 Westermoe: Reilly-method head. Level 4 Vilppu: How to Draw the Head (4h44m).",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "For fuller structured video, Steve Huston's parts on eyes, nose, mouth and ears (1h18m to 3h32m each) and Charles Hu's Facial Features (1h15m) and Facial Expressions (1h26m) are the best match, but they are paid."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Eye blocks",
+        "description": "Draw an eyeball as a sphere with lids wrapping over it, from front, 3/4 and side.",
+        "dose": "12 eyes at 3 minutes each"
+      },
+      {
+        "title": "Nose and mouth planes",
+        "description": "Draw noses and mouths as simple planes from front, 3/4 and side.",
+        "dose": "8 noses and 8 mouths at 3 minutes each"
+      },
+      {
+        "title": "Ears",
+        "description": "Draw ears with their main folds simplified into one C shape and an inner Y shape.",
+        "dose": "6 ears at 5 minutes each"
+      },
+      {
+        "title": "Expression grid",
+        "description": "On one head construction, change only brows, eyelids and mouth corners to produce six expressions. Use the FACS action-unit list (https://en.wikipedia.org/wiki/Facial_Action_Coding_System) as a checklist of what moves.",
+        "dose": "6 expressions at 6 minutes each",
+        "reference_url": "https://en.wikipedia.org/wiki/Facial_Action_Coding_System"
+      },
+      {
+        "title": "Asymmetry drill",
+        "description": "Draw expressions where the two sides differ (smirk, sneer, wink).",
+        "dose": "6 expressions at 5 minutes each"
+      },
+      {
+        "title": "Photo expressions",
+        "description": "Pick a face reference tool and draw quick expressions to practise reading them.",
+        "dose": "10 faces at 2 minutes each",
+        "reference_url": "https://line-of-action.com"
+      }
+    ],
+    "done_when": [
+      "You can draw each feature from three angles without reference.",
+      "You can produce six readable expressions on one head construction.",
+      "Expressions still read at thumbnail size.",
+      "You can say which muscles or action units changed in an expression."
+    ],
+    "common_mistakes": [
+      "Drawing features as flat symbols instead of forms.",
+      "Treating expression as just mouth shape and forgetting brows, eyelids and cheeks.",
+      "Making expressions symmetrical.",
+      "Drawing the full iris in realistic eyes when the upper lid usually covers part of it."
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      },
+      {
+        "institution": "New Masters Academy, Head Drawing for Beginners",
+        "url": "https://nma.art/courses/structure-of-the-head-for-beginners/",
+        "note": "Huston features then Hu facial features and expressions."
+      }
+    ]
+  },
+  {
+    "id": "fig-portrait-likeness",
+    "title": "Portrait drawing and likeness",
+    "group": "figure-anatomy-faces",
+    "level": "intermediate",
+    "summary": "A likeness comes from getting the big proportions and shapes of one particular head right before adding any feature detail. You practise measuring on a photo, comparing with overlays, and building the head with Loomis-style construction first. Proko's portrait course and critique give the free core; NMA's likeness lesson is the paid deeper dive.",
+    "prerequisites": [
+      "fig-head-construction",
+      "fig-facial-features-expressions"
+    ],
+    "est_hours": [
+      15,
+      40
+    ],
+    "learning_outcomes": [
+      "Capture a recognisable likeness from a photo in about 30 minutes.",
+      "Name the three proportions that make a given face different from the average.",
+      "Use a measure-and-compare routine to find errors before adding detail.",
+      "Keep a consistent head angle and lighting across a series of portraits."
+    ],
+    "resources": [
+      {
+        "title": "Portrait Drawing Fundamentals (free Loomis and hair lessons)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://www.proko.com/course/portrait-drawing-fundamentals",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "$65 one-time, 35 lessons, 8h10m. Free lessons I could confirm: seven Loomis-method lessons and How to Draw Hair (6:57). The sections 'The Features' and 'Full Drawing Demos' were collapsed on the page I could read, and the page claims 16 free lessons, so the demos may include more free material than I could see.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Do the free Loomis lessons, then How to Draw Hair, then decide whether $65 for the features and full demos is worth it."
+      },
+      {
+        "title": "Drawing Basics: 'Critique - Simplify Portrait from Observation' (free)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://www.proko.com/course/drawing-basics",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course is $159 one-time (185 lessons, 82h). This 1h4m45s critique and a pear critique (1h24m58s) are shown as free among six visible free lessons; the page claims 58 free overall. Find the lesson inside the course page's list.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch for how a teacher spots proportion and shape errors on student portraits. Use his checks on your own work."
+      },
+      {
+        "title": "Head Drawing for Beginners (4-instructor sequence)",
+        "provider": "New Masters Academy",
+        "credit": "Steve Huston, Charles Hu, Mark Westermoe, Glenn Vilppu",
+        "url": "https://nma.art/courses/structure-of-the-head-for-beginners/",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "19 lessons, about 52h11m. Price is not shown on the page I could read; every lesson has a 'Quick View Preview' link but the page does not say how much is free. NMA is a subscription library; check the signup page. Level 1 Huston: basic and intermediate head construction, eyes, nose, mouth, ears (1h18m to 3h32m each). Level 2 Hu: proportions and structure, skull, light and shadow, achieving a likeness (1h1m), facial features, facial expressions (1h26m). Level 3 Westermoe: Reilly-method head. Level 4 Vilppu: How to Draw the Head (4h44m).",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Charles Hu's 'Part 4: Achieving a Likeness' (1h1m) is the most relevant lesson, but it is a paid NMA lesson; use the preview link to see what it covers."
+      },
+      {
+        "title": "The Met Open Access (CC0 images of public-domain works)",
+        "provider": "The Metropolitan Museum of Art",
+        "credit": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Page states Open Access images and data are CC0 and says 'more than 492,000 Open Access works'. Filter the collection search with showOnly=openAccess or look for the OA icon on an image. Works flagged Public Domain without OA may still be download-restricted, so use the OA filter.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Filter the Met's Open Access works for portrait drawings. Copy three for 20 minutes each; ask what the artist simplified."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Three self-portraits",
+        "description": "Draw yourself three times: 20 minutes construction first; 40 minutes with measurements; then 20 minutes from memory followed by correction. Use a mirror or a photo.",
+        "dose": "3 sessions across 3 weeks"
+      },
+      {
+        "title": "Proportion map",
+        "description": "Mark eye-to-eye, eye-to-nose, nose-to-mouth and face width on a photo. Redraw the face from the map before drawing features.",
+        "dose": "5 faces at 15 minutes each"
+      },
+      {
+        "title": "Shape-first likeness",
+        "description": "For six strangers' photos, spend the first 5 minutes on hairline, jaw, brow and cheek planes only, then place features.",
+        "dose": "6 portraits at 20 minutes each"
+      },
+      {
+        "title": "Flip check",
+        "description": "Flip both the photo and the drawing horizontally every 10 minutes to see errors you had stopped seeing.",
+        "dose": "Every portrait session"
+      },
+      {
+        "title": "Subtle caricature",
+        "description": "Push the three most distinctive proportions in a face by about 20% and compare with the photo.",
+        "dose": "4 faces at 10 minutes each"
+      },
+      {
+        "title": "Master portrait copies",
+        "description": "Copy three portrait drawings from open-access collections.",
+        "dose": "3 copies at 20 minutes each",
+        "reference_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+      }
+    ],
+    "done_when": [
+      "A friend can recognise the subject from a 30-minute portrait.",
+      "You can name three proportions that set this face apart.",
+      "You have finished at least three self-portraits and compared them.",
+      "Your measuring routine catches errors before shading."
+    ],
+    "common_mistakes": [
+      "Drawing features before the head shape.",
+      "Using wide-angle or very close photos, which distort faces.",
+      "Erasing and guessing instead of measuring.",
+      "Making faces more symmetrical than the real ones."
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      },
+      {
+        "institution": "College of the Redwoods, ART 19 Figure Drawing, Fall 2021 (C. Hooper)",
+        "url": "https://www.redwoods.edu/fs/syllabi/art/2021F-ART19-E1803-Hooper.pdf",
+        "note": "15-week syllabus; gesture and contour in week 1, anatomy in weeks 9-10."
+      },
+      {
+        "institution": "New Masters Academy, Head Drawing for Beginners",
+        "url": "https://nma.art/courses/structure-of-the-head-for-beginners/",
+        "note": "Charles Hu section includes a lesson titled Achieving a Likeness."
+      }
+    ]
+  },
+  {
+    "id": "fig-hair",
+    "title": "Hair",
+    "group": "figure-anatomy-faces",
+    "level": "intermediate",
+    "summary": "Hair reads as a few large volumes with a growth direction, not as separate strands. You learn to block it as masses over the head construction, then add edge detail and light. There is one short free lesson, and open-access museum drawings give plenty of examples to copy.",
+    "prerequisites": [
+      "fig-head-construction"
+    ],
+    "est_hours": [
+      3,
+      8
+    ],
+    "learning_outcomes": [
+      "Block hair as three to five 3D volumes over a head construction.",
+      "Show part, hairline and growth direction.",
+      "Draw at least four hair types (straight, wavy, curly, coily) with believable volume.",
+      "Add strands only at edges and accents."
+    ],
+    "resources": [
+      {
+        "title": "How to Draw Hair (free lesson in Portrait Drawing Fundamentals)",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://www.proko.com/course-lesson/how-to-draw-hair",
+        "format": "video",
+        "cost": "free-tier",
+        "free_notes": "Marked free (6:57, lesson 29 of 35); the course is $65 and the lesson has a premium version with extra content.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Teaches hair as volumes rather than strands, so it looks three-dimensional instead of like spaghetti. Watch once, then draw along."
+      },
+      {
+        "title": "The Met Open Access (CC0 images of public-domain works)",
+        "provider": "The Metropolitan Museum of Art",
+        "credit": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Page states Open Access images and data are CC0 and says 'more than 492,000 Open Access works'. Filter the collection search with showOnly=openAccess or look for the OA icon on an image. Works flagged Public Domain without OA may still be download-restricted, so use the OA filter.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Filter for portrait and figure drawings with hair; copy three studies for how artists simplify hair."
+      },
+      {
+        "title": "Magic Poser free tier (hair and clothing presets)",
+        "provider": "Magic Poser",
+        "credit": "Magic Poser team",
+        "url": "https://magicposer.com/pricing-2.html",
+        "format": "tool",
+        "cost": "free-tier",
+        "free_notes": "Free plan ($0) includes 4 hair and clothing options, 1 character (Arnold 3), 1 model per scene, 1 light, 10 props, 50 preset poses, and 2D image export; no 3D export or body morphs. Pro is $9.99 one-time; Master is $14.99 per month.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Pose the model, change hair, and rotate the camera to see how hair sits on the head from other angles. The preset hair is limited."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Hair as volumes",
+        "description": "Draw heads and block hair into 3-5 big masses. No strands.",
+        "dose": "10 heads at 5 minutes each"
+      },
+      {
+        "title": "Flow lines",
+        "description": "Mark the part and crown, then draw lines showing how hair falls from there.",
+        "dose": "8 studies at 3 minutes each"
+      },
+      {
+        "title": "Hair types page",
+        "description": "For straight, wavy, curly, coily, braided and short hair, draw four thumbnails each.",
+        "dose": "6 types x 4 thumbnails, about 40 minutes"
+      },
+      {
+        "title": "Light on hair",
+        "description": "Find the highlight band and the shadow shape on a lit head of hair; draw those first.",
+        "dose": "4 studies at 10 minutes each"
+      },
+      {
+        "title": "Hair in motion",
+        "description": "Draw heads where hair reacts to wind or movement.",
+        "dose": "4 poses at 5 minutes each"
+      }
+    ],
+    "done_when": [
+      "You can block in hair as volumes on any head construction.",
+      "Part and growth direction are clear in your drawings.",
+      "You can draw at least four hair types without them looking the same.",
+      "You add strand detail only where it helps."
+    ],
+    "common_mistakes": [
+      "Drawing each strand as a line (the spaghetti look).",
+      "Putting hair flat on the skull with no volume.",
+      "Ignoring the hairline shape.",
+      "Using one hair type for every character."
+    ],
+    "school_reference": [
+      {
+        "institution": "New Masters Academy, Head Drawing for Beginners",
+        "url": "https://nma.art/courses/structure-of-the-head-for-beginners/",
+        "note": "Hair is not named in the lesson list I could read; included only as the nearest head-drawing sequence."
+      }
+    ]
+  },
+  {
+    "id": "fig-clothing-drapery",
+    "title": "Clothing and drapery folds",
+    "group": "figure-anatomy-faces",
+    "level": "intermediate",
+    "summary": "Folds happen because of tension, gravity and the body underneath: sleeves and trousers wrap limbs, and cloth hangs from support points. You learn the main fold types, then draw clothed figures by building the body first. Hampton's free drapery lessons are the best free structured material; a public-domain figure book and a Met open-access drapery study add reading and copying.",
+    "prerequisites": [
+      "fig-simplified-construction",
+      "fig-gesture-line-of-action"
+    ],
+    "est_hours": [
+      10,
+      25
+    ],
+    "learning_outcomes": [
+      "Find tension points and gravity direction in a clothed pose and show them with fold lines.",
+      "Name and draw the main fold types (pipe, diaper, half-lock, spiral, compression, flag, inert).",
+      "Draw sleeve and trouser folds that follow the limb form.",
+      "Simplify busy cloth reference into a few big shapes."
+    ],
+    "resources": [
+      {
+        "title": "Drapery Fundamentals (6 free lessons plus a free pipe-and-diaper intro)",
+        "provider": "Proko",
+        "credit": "Steven Michael Hampton",
+        "url": "https://www.proko.com/course/drapery-fundamentals",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "$125 one-time; 38 lessons so far (about 18h20m) with 2-3 added weekly. Free lessons: Introduction to Drapery (24:37), Drawing Gesture for Drapery (21:40), Figure Construction for Drapery (22:41), Constructing the Back of the Figure (14:43), Project - Figure Review (1:50), Critique - Figure Review (1:26:58). The lesson Intro to Pipe Folds and Diaper Folds (19:07) is also marked free on its own page. The lesson A Review of the 7 Folds is premium.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch the free lessons in order: Introduction to Drapery, Drawing Gesture for Drapery, Figure Construction for Drapery, then Constructing the Back of the Figure, and the free 'Intro to Pipe Folds and Diaper Folds' (https://www.proko.com/course-lesson/intro-to-pipe-folds-and-diaper-folds). The review of the 7 folds is premium."
+      },
+      {
+        "title": "Figure Drawing (R. G. Hatton): Drapery chapter",
+        "provider": "DrawingBooks.org",
+        "credit": "R. G. Hatton",
+        "url": "https://www.drawingbooks.org/fdhatton/index.html",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Online two-page viewer; Drapery starts at viewer page 336. Site claims US public domain (its own claim). Dated language and engravings.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use it as a second opinion on how cloth hangs from support points and how folds follow limbs."
+      },
+      {
+        "title": "Drapery Studies, Anselm Feuerbach (Met)",
+        "provider": "The Metropolitan Museum of Art",
+        "credit": "Anselm Feuerbach (1829-1880)",
+        "url": "https://www.metmuseum.org/art/collection/search/383410",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "The record is labelled Public Domain. It does not state Open Access or CC0, so check the OA icon before downloading a high-resolution file; the Met's general policy is at https://www.metmuseum.org/about-the-met/policies-and-documents/open-access.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Copy this drapery study (recto and verso) for 20 minutes and note how the artist simplified folds."
+      },
+      {
+        "title": "How to Draw Folds and Study Drapery (Muddy Colors post, Dec 2025)",
+        "provider": "Muddy Colors",
+        "credit": "Unnamed instructor who previously taught at CGMA (author not named on the page I read)",
+        "url": "https://www.muddycolors.com/2025/12/how-to-draw-folds-and-study-drapery",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free blog post. It recommends observing first, learning why folds happen, and mentions the author's own free video series covering nine fold types; no link to that series was visible, and the series is not verified.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Read for the observe-then-invent advice. Ignore the spam comments."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Fold taxonomy sheet",
+        "description": "Using real cloth, draw each of the seven fold types on one page, labelled.",
+        "dose": "1 page, about 40 minutes"
+      },
+      {
+        "title": "Tension map",
+        "description": "Drape cloth on a chair arm or a hand. Mark tension points, then draw folds radiating from them.",
+        "dose": "5 studies at 10 minutes each"
+      },
+      {
+        "title": "Body first, then cloth",
+        "description": "Construct a figure from gesture, then add a shirt and trousers that follow the limb forms.",
+        "dose": "6 poses at 15 minutes each"
+      },
+      {
+        "title": "Real cloth study",
+        "description": "Hang a towel or shirt from one point and draw it. No tools needed.",
+        "dose": "4 studies at 15 minutes each"
+      },
+      {
+        "title": "Master drapery copies",
+        "description": "Copy drapery studies from the Met's open-access works.",
+        "dose": "3 copies at 20 minutes each",
+        "reference_url": "https://www.metmuseum.org/art/collection/search/383410"
+      },
+      {
+        "title": "Outfit thumbnails",
+        "description": "Reduce outfits to 3-5 shapes on a figure.",
+        "dose": "10 thumbnails at 3 minutes each"
+      }
+    ],
+    "done_when": [
+      "You can show where tension and gravity create the folds in a clothed pose.",
+      "You can name and draw at least five fold types.",
+      "Sleeves and trousers wrap around limbs rather than lie flat.",
+      "You can simplify a busy photo of cloth into big shapes."
+    ],
+    "common_mistakes": [
+      "Random wrinkle lines with no cause.",
+      "Drawing clothes as flat stickers with no body underneath.",
+      "Too many folds, all the same weight.",
+      "Ignoring fabric type (stiff versus soft)."
+    ],
+    "school_reference": [
+      {
+        "institution": "College of the Redwoods, ART 19 Figure Drawing, Fall 2021 (C. Hooper)",
+        "url": "https://www.redwoods.edu/fs/syllabi/art/2021F-ART19-E1803-Hooper.pdf",
+        "note": "15-week syllabus; gesture and contour in week 1, anatomy in weeks 9-10."
+      },
+      {
+        "institution": "New Masters Academy (course list in search snippets): How to Draw the Costumed Figure",
+        "url": "https://www.nma.art/?s=vilppu",
+        "note": "Search snippet only: lessons on expression, weighting, folds, rhythm and design. Paid; I did not open the course page."
+      }
+    ]
+  },
+  {
+    "id": "fig-foreshortening-perspective",
+    "title": "Figure in perspective and foreshortening",
+    "group": "figure-anatomy-faces",
+    "level": "advanced",
+    "summary": "Foreshortening is the squashing of a limb or torso as it points toward or away from you. You learn to use boxes, overlaps and size change instead of drawing the full length. Free structured lessons for the figure are thin, so this module combines Vandruff's perspective lessons, a rotating 3D pose tool and Muybridge's multi-view photos.",
+    "prerequisites": [
+      "fig-simplified-construction",
+      "fig-proportion-systems-variation"
+    ],
+    "est_hours": [
+      10,
+      30
+    ],
+    "learning_outcomes": [
+      "Draw a limb pointing at the viewer so it reads as short and close, using overlaps and size change.",
+      "Keep a consistent eye level across a whole figure.",
+      "Build a torso and limbs as boxes in 2-point perspective.",
+      "Find and fix foreshortening errors in your own sketches."
+    ],
+    "resources": [
+      {
+        "title": "The Perspective Course (Marshall Vandruff), 20 lessons listed",
+        "provider": "Proko",
+        "credit": "Marshall Vandruff",
+        "url": "https://www.proko.com/@marshall/lessons",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "The page lists 20 lessons and has a 'Free Content' filter, but does not mark which lessons are free in the text I could read. Titles include Measure Depth! Keep Track of Imaginary Space (11:01), Assignment - XYZ: The Framework for Drawing in 3D (10:11), Assignment - How to Draw Above and Below Eye Level (10:54), Solving Perspective Problems with the Picture Plane (10:02) and Assignment - Perfect Cubes From Your Mind's Eye (9:11). Use the filter to see what costs nothing.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the Free Content filter, then pick lessons on measuring depth, the XYZ framework for drawing in 3D, and above and below eye level. These are perspective lessons, not figure-specific, so apply each idea to a mannequin straight away."
+      },
+      {
+        "title": "The Gesture Course (free lessons)",
+        "provider": "Proko",
+        "credit": "Steven Michael Hampton",
+        "url": "https://www.proko.com/course/the-gesture-course",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course is $125 one-time (27 lessons, 11h16m). The page says 5 lessons are free; I could confirm 3: How to Think About Gesture (26:05), How to Draw Expressive Hands (17:14, lesson 17) and How to Draw Expressive Feet (16:02, lesson 18). The 16-line method for difficult poses, foreshortening, weight and balance and the shape method are in the premium part.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "The premium part of this course covers foreshortening and difficult poses (16-line method); only three free lessons are confirmed, none of which cover foreshortening directly. Treat this as the paid next step."
+      },
+      {
+        "title": "Line of Action: Figure Drawing, Hands and Feet, Faces and Expression, 360 degree views",
+        "provider": "Line of Action",
+        "credit": "Line of Action (site team and photographers)",
+        "url": "https://line-of-action.com",
+        "format": "interactive",
+        "cost": "free-tier",
+        "free_notes": "The Draw menu lists Figure Drawing, Animals, Hands and Feet, Faces and Expression, Basic Shapes and Still Life (labelled a test feature), Scenes and Environment, and 360 degree views. The Store menu shows Subscriptions, Pay as you go, photo bundles and gift cards, so there is a paid tier, but I could not read what the free tier limits (ads, photo counts, timer options). The FAQ says memberships are 'Full' or 'Doodler'. NUDE CONTENT: the site hosts nude and clothed model photos (a news post mentions nude sets); a Proko forum post says you can choose nude or clothed, male or female, and child, teen or adult. LICENCE: per the FAQ the gesture-tool photos are licensed for educational use inside the tools; you may post your own drawings elsewhere but not sell them.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the 360 degree views tool (listed on the Draw menu) to see the same pose from several angles, then draw one that looks foreshortened. The tool's access limits are not confirmed."
+      },
+      {
+        "title": "Muybridge motion plates, National Gallery of Art open access",
+        "provider": "National Gallery of Art, Washington",
+        "credit": "Eadweard Muybridge (1887 Animal Locomotion collotypes)",
+        "url": "https://www.nga.gov/artworks/166511-plate-number-7-walking",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "This plate's page states the media is free and in the public domain and offers a full-resolution Download link. I opened only Plate 7 (Walking); search results also showed NGA pages for Plate 185 (Hopping on left foot) and Plate 287 (Baseball, running and picking up the ball), which I did not open. Plates include unclothed models.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Muybridge's plates show one action from several camera positions, a good way to compare how the same limbs change from side to front views. Download a plate and draw the foreshortened view."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Box people",
+        "description": "Draw the torso as a box and the limbs as boxes in perspective, in poses with a limb pointing at the viewer.",
+        "dose": "10 poses at 5 minutes each"
+      },
+      {
+        "title": "Overlap and size",
+        "description": "Draw a limb pointing toward the viewer. Make the near end larger and overlap the rest.",
+        "dose": "8 drawings at 5 minutes each"
+      },
+      {
+        "title": "One pose, four cameras",
+        "description": "Pose a 3D figure and draw it from four camera heights.",
+        "dose": "4 drawings at 5 minutes each",
+        "reference_url": "https://www.posemaniacs.com"
+      },
+      {
+        "title": "Tube ellipses",
+        "description": "Draw arm and leg tubes with contour ellipses curving toward the viewer.",
+        "dose": "2 pages, about 15 minutes each"
+      },
+      {
+        "title": "Phone and mirror",
+        "description": "Photograph your own arm pointing at the camera and draw it.",
+        "dose": "3 drawings at 5 minutes each"
+      },
+      {
+        "title": "Worm's-eye and bird's-eye",
+        "description": "Draw figures from extreme low and high viewpoints, with a horizon line.",
+        "dose": "4 drawings at 10 minutes each",
+        "reference_url": "https://line-of-action.com"
+      }
+    ],
+    "done_when": [
+      "A limb pointing at the viewer looks short and close, not stretched.",
+      "Eye level is consistent across the figure.",
+      "You can draw a torso and limbs as boxes in perspective.",
+      "You can spot a foreshortening error in a sketch and say why."
+    ],
+    "common_mistakes": [
+      "Drawing the limb at full length.",
+      "Ignoring overlaps, so forms look pasted side by side.",
+      "Drawing parallel contour lines that flatten the form.",
+      "Using wide-angle photos, which exaggerate foreshortening."
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      },
+      {
+        "institution": "College of the Redwoods, ART 19 Figure Drawing, Fall 2021 (C. Hooper)",
+        "url": "https://www.redwoods.edu/fs/syllabi/art/2021F-ART19-E1803-Hooper.pdf",
+        "note": "15-week syllabus; gesture and contour in week 1, anatomy in weeks 9-10."
+      }
+    ]
+  },
+  {
+    "id": "fig-dynamic-poses-interaction",
+    "title": "Dynamic poses, action, interaction between two figures, weight and balance",
+    "group": "figure-anatomy-faces",
+    "level": "advanced",
+    "summary": "Dynamic poses show where weight sits, what is about to happen, and how two bodies share balance and rhythm. You practise finding the support leg and balance point, drawing action sequences, and linking two figures with one rhythm. Free two-person references are scarce, so some of this relies on your own photos and the school syllabus idea of a double-model pose.",
+    "prerequisites": [
+      "fig-timed-gesture-progression",
+      "fig-simplified-construction"
+    ],
+    "est_hours": [
+      10,
+      30
+    ],
+    "learning_outcomes": [
+      "Find the support leg and balance point in a pose and show the weight clearly.",
+      "Draw an off-balance pose that clearly falls, leaps or lunges.",
+      "Link two figures with a shared line of action and mark contact points.",
+      "Push a pose with a stronger line of action and clearer silhouette."
+    ],
+    "resources": [
+      {
+        "title": "The Gesture Course (free lessons)",
+        "provider": "Proko",
+        "credit": "Steven Michael Hampton",
+        "url": "https://www.proko.com/course/the-gesture-course",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Course is $125 one-time (27 lessons, 11h16m). The page says 5 lessons are free; I could confirm 3: How to Think About Gesture (26:05), How to Draw Expressive Hands (17:14, lesson 17) and How to Draw Expressive Feet (16:02, lesson 18). The 16-line method for difficult poses, foreshortening, weight and balance and the shape method are in the premium part.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "The free lessons in this course are about thinking and about hands and feet. The premium part covers weight and balance and the 16-line method for hard poses; check the course page for which lessons are free before buying."
+      },
+      {
+        "title": "Fundamentals of Figure Drawing Workshop, Part 2 (gesture and structure)",
+        "provider": "New Masters Academy",
+        "credit": "Steve Huston",
+        "url": "https://www.nma.art/videolessons/fundamentals-of-figure-drawing-workshop-with-steve-huston-part-2-2",
+        "format": "video",
+        "cost": "paid",
+        "free_notes": "1h36m50s. Only the first segment (Lesson Overview, 40 seconds) is free; the other five need an NMA membership. Sessions: stability and balance of the gesture (18m7s), connecting gestures along the fundamental design line (15m11s), visual components for structure and gesture (40m7s), adjusting and redesigning the gesture (15m19s), stealing from the masters (7m26s).",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Pointer to the paid next step. The topics match this module."
+      },
+      {
+        "title": "Muybridge motion plates, National Gallery of Art open access",
+        "provider": "National Gallery of Art, Washington",
+        "credit": "Eadweard Muybridge (1887 Animal Locomotion collotypes)",
+        "url": "https://www.nga.gov/artworks/166511-plate-number-7-walking",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "This plate's page states the media is free and in the public domain and offers a full-resolution Download link. I opened only Plate 7 (Walking); search results also showed NGA pages for Plate 185 (Hopping on left foot) and Plate 287 (Baseball, running and picking up the ball), which I did not open. Plates include unclothed models.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Download plate images of sequences (jumping, hopping, throwing, running) and draw a 1-minute gesture of each frame. The plates include nude models."
+      },
+      {
+        "title": "Friday Figure Drawing with Glenn Vilppu (free live session)",
+        "provider": "New Masters Academy",
+        "credit": "Glenn Vilppu",
+        "url": "https://www.nma.art/?p=1323667",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "The event page says it is free but you must RSVP to attend. Session length and model details are not stated on the page. Check NMA's event listings for the current schedule.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Free live figure drawing with Vilppu (RSVP). Use it to draw a real pose with someone correcting your gesture and balance."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Weight line",
+        "description": "Drop a vertical line from the pit of the neck and mark where it lands relative to the feet. See where the weight sits.",
+        "dose": "20 poses at 1-2 minutes each"
+      },
+      {
+        "title": "Support leg",
+        "description": "Label which leg carries the weight and draw the hips and shoulders tilting in opposite directions.",
+        "dose": "10 poses at 3 minutes each",
+        "reference_url": "https://quickposes.com"
+      },
+      {
+        "title": "Action sequences",
+        "description": "Take a Muybridge sequence and draw a 1-minute gesture of each frame.",
+        "dose": "3 sequences, 6 frames each",
+        "reference_url": "https://www.nga.gov/artworks/166511-plate-number-7-walking"
+      },
+      {
+        "title": "Two-figure gesture",
+        "description": "Use photos of two people (dance, sport, hugging). Draw one line of action through both and mark contact points.",
+        "dose": "10 photos at 2 minutes each"
+      },
+      {
+        "title": "Contact points",
+        "description": "In five two-figure poses, mark where the bodies touch and which figure carries the weight.",
+        "dose": "5 poses at 5 minutes each"
+      },
+      {
+        "title": "Push the pose",
+        "description": "Redraw five poses with a stronger line of action and a clearer silhouette.",
+        "dose": "5 poses at 5 minutes each"
+      }
+    ],
+    "done_when": [
+      "You can find the support leg and balance point in any pose.",
+      "An off-balance pose clearly looks like it is falling or moving.",
+      "Two figures read as connected by one rhythm.",
+      "Your silhouettes are readable."
+    ],
+    "common_mistakes": [
+      "Floating figures (feet not under the centre of mass).",
+      "Symmetrical standing poses.",
+      "Drawing two figures as separate stick people with no link.",
+      "Ignoring contact points and where weight goes."
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      },
+      {
+        "institution": "Utah Valley University, ART 4700R Figure Drawing, Spring 2025 (P. Stewart)",
+        "url": "https://uvu.edu/syllabi-repository/docs/art-470r-001-202520.pdf",
+        "note": "15-week syllabus aimed at stylised and animation-minded figure work."
+      }
+    ]
+  },
+  {
+    "id": "fig-imagination-visual-library",
+    "title": "Drawing the figure from imagination using a visual library",
+    "group": "figure-anatomy-faces",
+    "level": "advanced",
+    "summary": "Drawing without reference needs two things: a store of shapes and poses you have studied and can recall, and a construction habit that lets you rotate and combine them. You build the library by drawing from reference, hiding it, drawing from memory, and then checking. This is where George's characters, scenes and surreal ideas start to look solid.",
+    "prerequisites": [
+      "fig-anatomy-skeleton-muscle",
+      "fig-head-construction",
+      "fig-hands",
+      "fig-feet",
+      "fig-foreshortening-perspective"
+    ],
+    "est_hours": [
+      20,
+      60
+    ],
+    "learning_outcomes": [
+      "Draw a believable figure in a pose you have not studied, using construction rather than reference.",
+      "Draw hands, feet and heads from memory at three angles.",
+      "Keep a visual library of at least 100 dated studies.",
+      "Make stylisation choices (elongate, simplify, exaggerate) on purpose."
+    ],
+    "resources": [
+      {
+        "title": "Constructive Anatomy (1920)",
+        "provider": "Internet Archive and DrawingBooks.org",
+        "credit": "George B. Bridgman",
+        "url": "https://archive.org/details/constructiveanat00brid",
+        "format": "book",
+        "cost": "free",
+        "free_notes": "Archive.org shows 'Free Download, Borrow, and Streaming' (PDF and EPUB) for the 1920 Pelham, N.Y. edition and no rights statement. A 1920 US publication is public domain in the US; DrawingBooks.org states all its books are public domain in the US and shows the same book page by page at https://www.drawingbooks.org/bridgman1/index.html. Do not confuse it with Bridgman's later 1950s guides, which I did not check. The book contains anatomical drawings of nude figures.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Constructive Anatomy is a book of forms you can redraw from memory. Study a page, close it, redraw it from memory, check, and repeat for each region."
+      },
+      {
+        "title": "Learning to See and Draw the Human Form",
+        "provider": "Proko",
+        "credit": "Steve Huston",
+        "url": "https://www.proko.com/course/learning-to-see-and-draw-the-human-form",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "$139 one-time, 64 lessons, 16h8m. The page says 4 free lessons; I could confirm The Intuitive Approach and How to Practice Art Without Burnout. It covers gesture, structure, 'filters' and 'iterations' (focused exercises), and body parts including hands and feet.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch the two free lessons for an approach to practice and to building your own simplified style; the iterations idea fits the study-hide-draw cycle."
+      },
+      {
+        "title": "The Perspective Course (Marshall Vandruff), 20 lessons listed",
+        "provider": "Proko",
+        "credit": "Marshall Vandruff",
+        "url": "https://www.proko.com/@marshall/lessons",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "The page lists 20 lessons and has a 'Free Content' filter, but does not mark which lessons are free in the text I could read. Titles include Measure Depth! Keep Track of Imaginary Space (11:01), Assignment - XYZ: The Framework for Drawing in 3D (10:11), Assignment - How to Draw Above and Below Eye Level (10:54), Solving Perspective Problems with the Picture Plane (10:02) and Assignment - Perfect Cubes From Your Mind's Eye (9:11). Use the filter to see what costs nothing.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "The assignment 'Perfect Cubes From Your Mind's Eye' (9:11) is a small imagination drill for box construction; use the Free Content filter to see what is free."
+      },
+      {
+        "title": "Posemaniacs: royalty-free 3D pose, muscle, hand and face references",
+        "provider": "Posemaniacs",
+        "credit": "Posemaniacs (Japan-based site; operator not named on the page)",
+        "url": "https://www.posemaniacs.com",
+        "format": "interactive",
+        "cost": "free",
+        "free_notes": "Home page describes the site as royalty free 3D pose reference. It does not state pricing in the text I could read and I saw no paid tier, so 'free' is not confirmed by the page itself (verified false for cost). Sections: 3D Figure references, Muscle references, Hand Poses, Face references, tutorials. Sign up is offered for bookmarks and browsing history. I could not open the Terms of use page (a guessed URL failed), so check it for exact reuse rules. The muscle models are anatomical (unclothed) figures and one pose category is labelled 'Sexy'; nudity policy is not stated on the home page.",
+        "role": "supplementary",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Pose a figure in 3D, hide it, draw from memory, then reveal the 3D version to check your drawing."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Study, hide, draw",
+        "description": "Look at a reference for 60 seconds, hide it, draw from memory for 3 minutes, reveal and correct in a different colour.",
+        "dose": "10 poses per session, twice a week"
+      },
+      {
+        "title": "Rotate it",
+        "description": "Draw a pose, then imagine turning it 90 degrees and draw that. Check with a 3D figure.",
+        "dose": "6 poses at 10 minutes each",
+        "reference_url": "https://www.posemaniacs.com"
+      },
+      {
+        "title": "Library pages",
+        "description": "Dedicate a sketchbook page to one subject (ribcages, hands, feet, twisting torsos) and fill it with 20 small studies from memory.",
+        "dose": "1 page per week"
+      },
+      {
+        "title": "Invent a character",
+        "description": "Design a character in three poses: silhouette, construction, simple form.",
+        "dose": "3 poses at 10 minutes each"
+      },
+      {
+        "title": "Surreal mash-up",
+        "description": "Combine a human figure with a non-human form (tree, machine, animal), keeping the construction.",
+        "dose": "4 drawings at 15 minutes each"
+      },
+      {
+        "title": "Always check",
+        "description": "After every memory drawing, compare with reference and mark errors in a different colour.",
+        "dose": "Every session"
+      }
+    ],
+    "done_when": [
+      "You can draw a believable figure in a new pose from imagination in 10 minutes.",
+      "Hands, feet and heads from memory hold up at three angles.",
+      "You have a dated library of 100+ studies.",
+      "You can explain your stylisation choices."
+    ],
+    "common_mistakes": [
+      "Expecting to draw from memory without studying first.",
+      "Skipping the reference check afterwards, so errors become habits.",
+      "Repeating one pose over and over.",
+      "Putting style ahead of structure."
+    ],
+    "school_reference": [
+      {
+        "institution": "Utah Valley University, ART 4700R Figure Drawing, Spring 2025 (P. Stewart)",
+        "url": "https://uvu.edu/syllabi-repository/docs/art-470r-001-202520.pdf",
+        "note": "15-week syllabus aimed at stylised and animation-minded figure work."
+      },
+      {
+        "institution": "New Masters Academy (Huston)",
+        "url": "https://www.nma.art/courses/constructive-figure-drawing-i/",
+        "note": "Constructive course shows the construct-from-knowledge approach."
+      }
+    ]
+  },
+  {
+    "id": "fig-master-studies",
+    "title": "Master studies from open-access collections (added module)",
+    "group": "figure-anatomy-faces",
+    "level": "intermediate",
+    "summary": "Copying and analysing drawings by earlier artists teaches simplification, gesture and economy of line faster than most lessons. Several museums let you download high-resolution drawings free, and a few historic anatomy atlases are free too. This module gives a method for choosing, copying and writing a short critique.",
+    "prerequisites": [
+      "fig-simplified-construction"
+    ],
+    "est_hours": [
+      10,
+      40
+    ],
+    "learning_outcomes": [
+      "Copy a drawing for structure and rhythm, not just outline.",
+      "Write a three-sentence note on what the master simplified and why.",
+      "Build a personal reference folder of hands, feet, drapery and heads from free sources.",
+      "Know which collections allow downloads and for what use."
+    ],
+    "resources": [
+      {
+        "title": "The Met Open Access (CC0 images of public-domain works)",
+        "provider": "The Metropolitan Museum of Art",
+        "credit": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Page states Open Access images and data are CC0 and says 'more than 492,000 Open Access works'. Filter the collection search with showOnly=openAccess or look for the OA icon on an image. Works flagged Public Domain without OA may still be download-restricted, so use the OA filter.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the Open Access filter (showOnly=openAccess) and search for figure studies, hands, drapery and portrait drawings. Download a high-resolution file and print or load it next to your sheet."
+      },
+      {
+        "title": "Rijksmuseum online collection (free high-resolution downloads)",
+        "provider": "Rijksmuseum",
+        "credit": "Rijksmuseum, Amsterdam",
+        "url": "https://www.rijksmuseum.nl/en/about-collection-online",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Page says all freely available works can be downloaded in high resolution for personal and commercial use. It does not name a licence (CC0 or public domain) on that page, so check the individual record. Not every work is marked freely available.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Rijksmuseum has a very large drawing collection, including Rembrandt and his school; confirm each record is marked freely available. I did not open specific drawing records."
+      },
+      {
+        "title": "Historical Anatomies on the Web (U.S. National Library of Medicine)",
+        "provider": "National Library of Medicine",
+        "credit": "NLM History of Medicine Division",
+        "url": "https://www.nlm.nih.gov/exhibition/historicalanatomies/home.html",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Digital library of historic anatomy atlases. The page's metadata lists rights as Public Domain; I did not open the Browse Titles page, so the exact atlases (e.g. Vesalius) were not checked. Illustrations are of dissected bodies.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Browse for old anatomy plates for copying; start with the Browse Titles page."
+      },
+      {
+        "title": "Muybridge motion plates, National Gallery of Art open access",
+        "provider": "National Gallery of Art, Washington",
+        "credit": "Eadweard Muybridge (1887 Animal Locomotion collotypes)",
+        "url": "https://www.nga.gov/artworks/166511-plate-number-7-walking",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "This plate's page states the media is free and in the public domain and offers a full-resolution Download link. I opened only Plate 7 (Walking); search results also showed NGA pages for Plate 185 (Hopping on left foot) and Plate 287 (Baseball, running and picking up the ball), which I did not open. Plates include unclothed models.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use motion plates as master-study material for gesture; the NGA labels the media free and public domain."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Gesture copies",
+        "description": "Copy 10 drawings for movement only: line of action, masses, no detail.",
+        "dose": "10 copies at 5 minutes each"
+      },
+      {
+        "title": "Long copy plus note",
+        "description": "Copy one drawing for 45 minutes, then write three sentences on what the artist simplified.",
+        "dose": "1 copy per week"
+      },
+      {
+        "title": "Hands and drapery harvest",
+        "description": "Build a folder of 20 hand studies and 10 drapery studies and keep it next to your desk.",
+        "dose": "2 hours, one time"
+      },
+      {
+        "title": "Compare to photo",
+        "description": "Find a modern photo of a similar pose and compare with the master.",
+        "dose": "5 comparisons at 10 minutes each"
+      },
+      {
+        "title": "Anatomy plate copy",
+        "description": "Copy two historical anatomy plates and name the landmarks.",
+        "dose": "2 copies at 30 minutes each"
+      }
+    ],
+    "done_when": [
+      "You have copied at least 20 master drawings.",
+      "Your notes show what the artist simplified, not just what they drew.",
+      "You have a reference folder of hands, feet, drapery and heads with source and licence noted.",
+      "You know which collections allow reuse and which do not."
+    ],
+    "common_mistakes": [
+      "Copying the outline and missing the rhythm.",
+      "Choosing only famous pieces instead of rough studies.",
+      "Not noting the source and licence.",
+      "Copying without analysing."
+    ],
+    "school_reference": [
+      {
+        "institution": "Likely Finger Lakes Community College (inferred), ART 200 Figure Drawing I",
+        "url": "https://cyber.flcc.edu/pdf/syllabi/ART200.pdf",
+        "note": "Syllabus describes the pose-length ladder from 30 seconds up to 2-6 hour long poses."
+      },
+      {
+        "institution": "College of the Redwoods, ART 19 Figure Drawing, Fall 2021 (C. Hooper)",
+        "url": "https://www.redwoods.edu/fs/syllabi/art/2021F-ART19-E1803-Hooper.pdf",
+        "note": "15-week syllabus; gesture and contour in week 1, anatomy in weeks 9-10."
+      }
+    ]
+  },
+  {
+    "id": "fig-life-drawing-session-routine",
+    "title": "Life drawing session routine: from short poses to long poses (added module)",
+    "group": "figure-anatomy-faces",
+    "level": "intermediate",
+    "summary": "This module ties the group together in a weekly session that mimics an art-school class: short gestures, then structured poses, then one long pose. It uses free timed video and photo packs, and a free live session. Local life drawing classes are worth adding if you can find one.",
+    "prerequisites": [
+      "fig-timed-gesture-progression",
+      "fig-simplified-construction"
+    ],
+    "est_hours": [
+      20,
+      60
+    ],
+    "learning_outcomes": [
+      "Run a 50-minute session with gestures, short poses and one long pose.",
+      "Switch from gesture to construction within a single drawing.",
+      "Pick a skill focus each week and review it.",
+      "Compare your drawing to a reference using an overlay or flip."
+    ],
+    "resources": [
+      {
+        "title": "Daily Life Drawing Sessions (timed 1, 2, 5 and 10 minute poses)",
+        "provider": "New Masters Academy",
+        "credit": "New Masters Academy instructors",
+        "url": "https://www.nma.art/courses/daily-life-drawing-sessions/",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "The course page shows seven lessons (main sessions of 70h21m18s plus six demonstrations by Vilppu, Huston, Hu, Karl Gnass and Danny Galieote) with a signup button and does not say it is free. Another NMA page says 'Our Daily Life Drawing Sessions are free timed reference videos'. These conflict, so check whether the timed videos need a signup. Whether the models are nude is not stated.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the 1, 2, 5 and 10-minute pose videos as a class: one hour of poses gives you a mini-class without needing a live model."
+      },
+      {
+        "title": "Friday Figure Drawing with Glenn Vilppu (free live session)",
+        "provider": "New Masters Academy",
+        "credit": "Glenn Vilppu",
+        "url": "https://www.nma.art/?p=1323667",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "The event page says it is free but you must RSVP to attend. Session length and model details are not stated on the page. Check NMA's event listings for the current schedule.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Join the free live Friday session when it suits your time zone (Melbourne is in the UTC+10 to +11 range, check the event time)."
+      },
+      {
+        "title": "Proko Timer (reference packs with a session timer)",
+        "provider": "Proko",
+        "credit": "Proko (packs credited to individual photographers)",
+        "url": "https://www.proko.com/timer",
+        "format": "tool",
+        "cost": "free-tier",
+        "free_notes": "Free: sample packs such as '300 Best Of 2025 Free Sample Pack' (300 images), 'Classical Art Poses: Free Sample Pack' (439) and 'Grafit Reference Sampler' (81). Paid: other packs priced from $5 up to $229 (an 868-image portrait and expressions pack). A session takes 1 to 999 images with a mm:ss time per image. NUDE CONTENT: several packs are tagged 'mature content' (for example 'Gesture Reference Sampler (NUDE)'). A forum post says the free samples total 2,500+ images. The page shows Log In and Sign Up and a sessions history link, but does not say whether an account is needed to start. Licence terms are not shown on the page; the page's robots tag includes NoAI.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "The 'Classical Art Poses: Free Sample Pack' (439 images) is useful for longer poses. Some packs are tagged nude."
+      },
+      {
+        "title": "Line of Action: Figure Drawing, Hands and Feet, Faces and Expression, 360 degree views",
+        "provider": "Line of Action",
+        "credit": "Line of Action (site team and photographers)",
+        "url": "https://line-of-action.com",
+        "format": "interactive",
+        "cost": "free-tier",
+        "free_notes": "The Draw menu lists Figure Drawing, Animals, Hands and Feet, Faces and Expression, Basic Shapes and Still Life (labelled a test feature), Scenes and Environment, and 360 degree views. The Store menu shows Subscriptions, Pay as you go, photo bundles and gift cards, so there is a paid tier, but I could not read what the free tier limits (ads, photo counts, timer options). The FAQ says memberships are 'Full' or 'Doodler'. NUDE CONTENT: the site hosts nude and clothed model photos (a news post mentions nude sets); a Proko forum post says you can choose nude or clothed, male or female, and child, teen or adult. LICENCE: per the FAQ the gesture-tool photos are licensed for educational use inside the tools; you may post your own drawings elsewhere but not sell them.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the Figure Drawing tool to build a session. A forum post says class mode exists; check on the site."
+      }
+    ],
+    "practice": [
+      {
+        "title": "50-minute class template",
+        "description": "Five 30-second poses, four 1-minute, three 2-minute, two 5-minute and one 20-minute pose, then a 10-minute review.",
+        "dose": "About 50 minutes, weekly",
+        "reference_url": "https://www.proko.com/timer"
+      },
+      {
+        "title": "Long pose structure",
+        "description": "For one 30-60 minute pose, spend 5 minutes on gesture, 20 on construction, the rest on refining shapes.",
+        "dose": "1 long pose per week"
+      },
+      {
+        "title": "Weekly focus",
+        "description": "Pick one lens per week (line of action, weight, overlap, hands) and write what you tried.",
+        "dose": "1 sentence per session"
+      },
+      {
+        "title": "Overlay and flip",
+        "description": "Compare your long drawing to the reference with an overlay or a horizontal flip.",
+        "dose": "10 minutes after the long pose"
+      },
+      {
+        "title": "Find a local class",
+        "description": "Search for local life drawing sessions and try one in person if you can.",
+        "dose": "1 attempt per month"
+      }
+    ],
+    "done_when": [
+      "You have logged 12 full sessions with reviews.",
+      "You can produce a 20-minute structured drawing that keeps the gesture.",
+      "You can say what you are working on each week.",
+      "You have tried at least one live class or a live online session."
+    ],
+    "common_mistakes": [
+      "Only doing 30-second poses and never a long pose.",
+      "Skipping review.",
+      "Using the same reference every time.",
+      "Switching focus every session."
+    ],
+    "school_reference": [
+      {
+        "institution": "University of Florida (inferred from domain), ART2330C Figure Drawing I, Spring 2026 (T. Baxley)",
+        "url": "https://digitalworlds.ufl.edu/syllabi/2026/Spring/2026-Spring-Art%202330%20-%20Figure%20Drawing%201-10497.pdf",
+        "note": "Syllabus PDF with a week-by-week plan; the institution name is not spelled out in the PDF itself."
+      },
+      {
+        "institution": "Likely Finger Lakes Community College (inferred), ART 200 Figure Drawing I",
+        "url": "https://cyber.flcc.edu/pdf/syllabi/ART200.pdf",
+        "note": "Syllabus describes the pose-length ladder from 30 seconds up to 2-6 hour long poses."
+      },
+      {
+        "institution": "College of the Redwoods, ART 19 Figure Drawing, Fall 2021 (C. Hooper)",
+        "url": "https://www.redwoods.edu/fs/syllabi/art/2021F-ART19-E1803-Hooper.pdf",
+        "note": "15-week syllabus; gesture and contour in week 1, anatomy in weeks 9-10."
+      }
+    ]
+  }
+]

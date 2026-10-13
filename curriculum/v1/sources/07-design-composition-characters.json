@@ -1,0 +1,2035 @@
+[
+  {
+    "id": "des-ideation-sketching",
+    "title": "Sketching for ideas: loose ideation, ugly first drafts and iteration speed",
+    "group": "design-composition-characters",
+    "level": "beginner",
+    "summary": "This module trains the habit of making many fast, rough drawings to find ideas instead of trying to produce one good drawing. You learn to treat early sketches as disposable thinking, set small constraints so you never face a blank page, and push past the first obvious idea by varying one thing at a time.",
+    "prerequisites": [
+      "found-sketchbook-habits"
+    ],
+    "est_hours": [
+      5,
+      15
+    ],
+    "learning_outcomes": [
+      "Fill a page with 20 or more quick variations of one subject without erasing or judging them",
+      "Set your own constraints (time, shape, subject, tool) so you can start drawing within a minute",
+      "Explain why the first idea is rarely the best and how to push past it by changing one variable",
+      "Choose which rough to develop using a stated reason rather than a hunch",
+      "Draw something from memory, notice where memory fails, and know when you need reference"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint Free Video Library: Study Habits and Theory & Mindset sections (What Should I Draw Today?, Generating Ideas, Give Yourself Assignments, Loosen Up, Letting Go, Start Anywhere)",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/videos/what-should-i-draw-today",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "The provider's library page calls its videos short and free, and a new one was said to appear every Tuesday and Thursday. A separate Premium Series ($10 videos, for example Playbook 16 Machine Design) is sold in the store and is not in this list. Individual lesson pages do not repeat the word free.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch in this order: What Should I Draw Today? (Feb 2012, how choosing a subject can be harder than drawing it), Generating Ideas (Sept 2012, invent narrow fake assignments; the page links the donjon and Chaotic Shiny random generators), Give Yourself Assignments (Jan 2013, act as your own art director and impose a few limits). Then dip into Loosen Up (https://www.ctrlpaint.com/videos/loosen-up), Letting Go (https://www.ctrlpaint.com/videos/mastering-the-art-of-letting-go), the blog post Start Anywhere (https://www.ctrlpaint.com/blog/start-anywhere) and, from the Drawing 2 section, When in Doubt Draw 100 (https://www.ctrlpaint.com/videos/draw-100) and Real Object, Imaginary Details (https://www.ctrlpaint.com/videos/real-object-imaginary-details). I opened the first three pages; the others are listed on the library page but I did not open them."
+      },
+      {
+        "title": "Training Yourself to Draw From Imagination, Part 1",
+        "provider": "Proko",
+        "credit": "Peter Han (entertainment designer, illustrator, author of Dynamic Bible)",
+        "url": "https://www.proko.com/lesson/training-yourself-to-draw-from-imagination-peter-han",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "The lesson page shows no price, paywall or parent course. It was recorded at the Proko booth at Lightbox Expo. Not explicitly labelled free, so treat as free but unconfirmed.",
+        "role": "alternative",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Watch Han build an invented fantasy character (a dwarf and a hog) while talking through his decisions, then finish with line work and ink shadows. The notes page does not list his steps, so the value is in watching how he explores shapes before committing. Duration not shown on the page."
+      },
+      {
+        "title": "Gurney Journey: Preliminary Sketches label",
+        "provider": "James Gurney",
+        "credit": "James Gurney",
+        "url": "https://gurneyjourney.blogspot.com",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Blog is free and a January 2026 post says it runs with no paywalls; a Substack edition exists. The Permissions section allows non-commercial quoting with credit and a link. His books and video courses are separate paid products and are not linked here.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the sidebar label list (Preliminary Sketches had about 75 posts when checked). Read a handful of posts that show a rough sketch next to the finished piece, and note how many rough ideas came first. I opened the home page only; the label page itself is blocked to automated fetching."
+      },
+      {
+        "title": "Muddy Colors",
+        "provider": "Muddy Colors",
+        "credit": "Collective of 20+ fantasy and illustration artists",
+        "url": "https://www.muddycolors.com",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "The site describes itself as a free online resource with a new article daily; it asks readers to support it on Patreon. Individual artists may sell their own courses elsewhere.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Browse for process articles in which working illustrators show early thumbnails and rough explorations. The home page showed posts on starting with small thumbnail sketches and on the creative process; I did not verify individual article quality."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Twenty ugly sketches in twenty minutes",
+        "description": "Pick one ordinary subject (a kettle, a hat, a house). Make 20 one-minute sketches, a new angle or silhouette each time, with no erasing and no looking back. Circle the three most interesting afterwards.",
+        "dose": "1 page, 20 min"
+      },
+      {
+        "title": "Draw 100 variations of a simple thing",
+        "description": "Choose a simple object and draw 100 small versions of it over several sittings, changing proportion, silhouette or detail each time. The point is to run out of easy ideas and keep going. See the When in Doubt Draw 100 video on Ctrl+Paint for the original idea.",
+        "dose": "100 small drawings across 5 sessions of 15 min",
+        "reference_url": "https://www.ctrlpaint.com/videos/draw-100"
+      },
+      {
+        "title": "Self-assigned brief with three limits",
+        "description": "Act as your own art director: write a one-line subject, then add three limits (for example 10 minutes, only triangles, only a ballpoint pen). Complete it without breaking a limit. Repeat with a new brief. The Give Yourself Assignments video describes the approach.",
+        "dose": "3 briefs, 15 min each",
+        "reference_url": "https://www.ctrlpaint.com/videos/give-yourself-assignments"
+      },
+      {
+        "title": "Memory first, reference second",
+        "description": "Draw a bicycle, a hand or a street lamp from memory in 5 minutes. Then look up a photo and mark in a second colour every place memory got the structure wrong. This shows exactly what you need to collect reference for.",
+        "dose": "3 subjects, 15 min each",
+        "reference_url": "https://unsplash.com"
+      },
+      {
+        "title": "Same sketch at 5, 2 and 1 minute",
+        "description": "Draw one idea three times against a timer at 5, 2 and 1 minute. Compare what survived as the time shrank; that is the part of the idea that matters most.",
+        "dose": "3 ideas x 3 timed drawings, 25 min"
+      }
+    ],
+    "done_when": [
+      "You can fill a page with 20 distinct rough variations of one subject in about 20 minutes without erasing",
+      "When you sit down with no idea, you write a three-limit brief and start drawing inside one minute",
+      "You can say why you picked one rough over the others in a single sentence that is not 'it looks nicest'",
+      "You have at least 100 rough drawings in a sketchbook and have not thrown any away"
+    ],
+    "common_mistakes": [
+      "Polishing the first sketch because it feels promising, which ends the exploring early",
+      "Erasing during the ideation phase, which slows you down and makes each mark feel precious",
+      "Varying everything at once, so you cannot tell which change helped; change one variable per round",
+      "Waiting for inspiration instead of imposing constraints and starting"
+    ],
+    "school_reference": [
+      {
+        "institution": "FZD School of Design (Singapore)",
+        "url": "https://www.fzdschool.com/",
+        "note": "Its one-year programme opens with a fundamentals term (the site also lists free articles such as Sketching 101) before moving on to idea generation from reference."
+      },
+      {
+        "institution": "Ringling College of Art and Design, Illustration BFA",
+        "url": "https://www.ringling.edu/academics/majors/illustration/",
+        "note": "Its Visual Development emphasis is described as high volume with quick turnarounds, which is the working pace this module rehearses."
+      }
+    ]
+  },
+  {
+    "id": "des-composition-fundamentals",
+    "title": "Composition fundamentals: focal point, balance, rhythm, thirds, leading lines, framing and negative space",
+    "group": "design-composition-characters",
+    "level": "beginner",
+    "summary": "Composition is how you arrange shapes, values and edges so the viewer's eye lands where you intend and moves through the picture on purpose. You study the standard devices (focal point, balance, repetition and rhythm, thirds, leading lines, framing, negative space) and learn to spot tangents and clutter that work against them.",
+    "prerequisites": [],
+    "est_hours": [
+      6,
+      14
+    ],
+    "learning_outcomes": [
+      "Find the focal point of an unfamiliar image and name the contrasts that create it",
+      "Use symmetrical and asymmetrical balance, repetition and rhythm, and movement deliberately",
+      "Apply thirds, leading lines, framing elements and negative space as tools rather than formulas",
+      "Spot and remove tangents and accidental overlaps",
+      "Critique a composition in plain language"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint Composition Basics: Principles of Design series, Visual Simplification, Visual Tangents, Framing Elements, Shadow Shape",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/videos/principles-of-design-introduction",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "The provider's library page calls its videos short and free. A separate Premium Series ($10 videos) is sold in the store and is not part of this list. Individual lesson pages do not repeat the word free.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch in the order the library lists them: Principles of Design Intro (Dec 2011), Scale and Proportion, Repetition (rhythm), Emphasis, Balance, Movement, Unity (slugs follow https://www.ctrlpaint.com/videos/principles-of-design-balance and similar), then Visual Simplification (https://www.ctrlpaint.com/videos/visual-simplification), Visual Tangents (https://www.ctrlpaint.com/videos/avoiding-visual-tangents), Compositional Framing Elements (https://www.ctrlpaint.com/videos/compositional-framing-elements, Mar 2012), Shadow Shape (https://www.ctrlpaint.com/videos/shadow-shapes) and the Critique video. The Photoshop references are incidental; the design principles are tool-independent. I opened the intro and framing lessons; the rest are taken from the library listing."
+      },
+      {
+        "title": "Gurney Journey: Composition label (about 105 posts)",
+        "provider": "James Gurney",
+        "credit": "James Gurney",
+        "url": "https://gurneyjourney.blogspot.com",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Blog is free and a January 2026 post says it runs with no paywalls. The Permissions section allows non-commercial quoting with credit and a link. His books and video courses are separate paid products and are not linked.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use the Composition label in the sidebar and read short worked examples in date order, about 10 posts. The label page is blocked to automated fetching, so I confirmed the label and its post count from the home page only."
+      },
+      {
+        "title": "Tate Art Terms: Composition",
+        "provider": "Tate",
+        "credit": "Tate (UK)",
+        "url": "https://www.tate.org.uk/art/art-terms/c/composition",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free to read on tate.org.uk. Tate site terms apply to reuse of text and images.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "A short definition (the arrangement of elements within a work) with the historical contrast between classical triangular or pyramidal layouts and later 'allover' composition. Read it for vocabulary and to see that the thirds-and-triangles toolkit is one tradition among several."
+      },
+      {
+        "title": "Creative Composition (Will Terry), School of Visual Storytelling",
+        "provider": "SVSLearn (School of Visual Storytelling)",
+        "credit": "Will Terry",
+        "url": "https://courses.svslearn.com/courses/creative-composition",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "Only available through an SVSLearn subscription ($180 per 6 months billed monthly, or $300 per year). There is a 14-day free trial that needs a credit card and renews automatically unless cancelled. No standalone course price or free preview was shown.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "51 lessons, about 4 hours of video. Page lists: four principles of design, planning an image with them, legibility, simplifying complex images, a hierarchy of focal points, and thumbnails through to a finished drawing. Included because Will Terry is a well-known composition teacher; use the trial only if you will cancel in time."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Dissect ten images into flat shapes",
+        "description": "Choose ten paintings from an open-access museum collection or ten film stills. For each, draw a small rectangle and block in 3 to 5 flat shapes showing where the big masses sit, then mark the focal point with a dot and note in a few words what attracts the eye (contrast, edge sharpness, size, position).",
+        "dose": "10 images, 5 min each",
+        "reference_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+      },
+      {
+        "title": "One set of shapes, five layouts",
+        "description": "Gather five to seven simple shapes. Arrange them in five small frames, each aiming at a different device: symmetrical balance, asymmetrical balance, rhythm through repetition, a thirds placement, and a frame within a frame. Write one line under each saying what you changed.",
+        "dose": "5 frames, 25 min"
+      },
+      {
+        "title": "Tangent hunt on your own sketches",
+        "description": "Take three of your older sketches or photos and mark every place where two edges just touch or line up awkwardly. Redraw each quickly with the problem edges overlapped or separated.",
+        "dose": "3 sketches, 30 min",
+        "reference_url": "https://www.ctrlpaint.com/videos/avoiding-visual-tangents"
+      },
+      {
+        "title": "Same scene, three ways to make the focus",
+        "description": "Draw one simple scene (a figure in a doorway) three times in tiny frames. In the first make the focal point with value contrast, in the second with edge sharpness, in the third with size and position. Compare which reads fastest from across the room.",
+        "dose": "3 mini frames, 20 min"
+      },
+      {
+        "title": "Negative space silhouette scene",
+        "description": "Design a small scene where the empty area is the main shape: a lone tree on a hill, a doorway, a tiny person under a huge sky. Do four versions varying how much empty space surrounds the subject.",
+        "dose": "4 thumbnails, 20 min"
+      }
+    ],
+    "done_when": [
+      "You can name the focal point of an unseen image within a few seconds and give two reasons for it",
+      "Your last five thumbnails have no unintended tangents",
+      "You can produce, on request, a version of one scene that is balanced symmetrically and another that is balanced asymmetrically",
+      "You can explain in one sentence when you would deliberately break the thirds guideline",
+      "Someone else can point to your intended focal point without being told"
+    ],
+    "common_mistakes": [
+      "Putting the main subject dead centre by default and splitting the frame into equal halves",
+      "Treating the rule of thirds as a law and placing subjects on intersections mechanically",
+      "Giving every area equal contrast and detail, so there is no hierarchy",
+      "Ignoring the frame edge and filling every gap, so shapes get cut awkwardly and calm areas never support the focus"
+    ],
+    "school_reference": [
+      {
+        "institution": "Ringling College of Art and Design, Illustration BFA",
+        "url": "https://www.ringling.edu/academics/majors/illustration/",
+        "note": "Its curriculum is described as starting with visual storytelling, colour theory, composition and anatomy before students choose an emphasis in third year."
+      },
+      {
+        "institution": "CalArts, Character Animation BFA",
+        "url": "https://calarts.edu/academics/programs-and-degrees/bfa-character-animation",
+        "note": "First year pairs life drawing with colour and design and storytelling classes; students make one short film per year, which is where composition gets used in motion."
+      }
+    ]
+  },
+  {
+    "id": "des-thumbnailing",
+    "title": "Thumbnailing and compositional sketching",
+    "group": "design-composition-characters",
+    "level": "beginner",
+    "summary": "Thumbnails are tiny, fast drawings used to try many compositions before committing to a large one. You practise reducing a scene to a few value shapes, generating lots of variations quickly (including by cutting up and rearranging them), and picking the strongest on purpose.",
+    "prerequisites": [
+      "des-composition-fundamentals"
+    ],
+    "est_hours": [
+      6,
+      15
+    ],
+    "learning_outcomes": [
+      "Produce a dozen distinct thumbnails of one brief in under 30 minutes",
+      "Reduce a scene to two or three values so the layout reads at small size",
+      "Vary camera angle, crop and shape arrangement, not just where objects sit",
+      "Combine or remix thumbnails to create new ideas",
+      "Select one thumbnail to develop and say why"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint thumbnail videos: Modular Thumbnail Sketches, Thumbnail Iteration, Chop and Warp, Imaginary Landscape Thumbnails, The Tiny Study",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/videos/modular-thumbnail-sketching",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "The provider's library page calls its videos short and free; the Premium Series is sold separately. Individual lesson pages do not repeat the word free.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "In order: The Tiny Study (https://www.ctrlpaint.com/videos/the-tiny-study, reduce a photo to colour patches), Imaginary Landscape Thumbnails (https://www.ctrlpaint.com/videos/imaginary-landscape-thumbnails, small landscape thumbnails from imagination), Modular Thumbnail Sketches (build reusable parts and recombine them; the demo subject is robots), Thumbnail Iteration (https://www.ctrlpaint.com/videos/thumbnail-iteration, refining a single silhouette thumbnail with masks instead of redrawing), Chop and Warp (https://www.ctrlpaint.com/videos/remix-your-thumbnails-chop-and-warp, cut thumbnails apart and remix them). Demos use Photoshop but the ideas work on paper by cutting up photocopies."
+      },
+      {
+        "title": "Drawing Basics (Proko): free value and thumbnail projects",
+        "provider": "Proko",
+        "credit": "Stan Prokopenko",
+        "url": "https://www.proko.com/course-lesson/project-notan-master-thumbnails",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Drawing Basics is a $159 course with 185 lessons, 58 of them free. Free lessons I could see marked: Project - Notan Master Thumbnails (7:48), How to Organize Values, Project - Value Composition Thumbnails (7:07), Project - Designing Value Groups. The demo and critique videos for these projects are premium only (for example Demo 1 - Value Composition Thumbnails, Level 1, 30:47).",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Start with Project - Notan Master Thumbnails: small two- or three-value thumbnails of master paintings, then a self-lit still life photographed and reduced the same way. Then Project - Value Composition Thumbnails (https://proko.com/course-lesson/project-value-composition-thumbnails): at least five thumbnail variations per reference photo in three values. The deadlines shown on the pages (Nov 2024, Jan 2025) belonged to community challenges; the lessons remain."
+      },
+      {
+        "title": "Pictorial Composition (Nathan Fowkes), Schoolism",
+        "provider": "Schoolism",
+        "credit": "Nathan Fowkes (concept artist and teacher)",
+        "url": "https://schoolism.com/courses/concept-art/pictorial-composition-nathan-fowkes",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "A paid Schoolism course. The page shown did not list a price, lesson count or free preview. Nathan Fowkes' own site says his classes are available as self-study through Schoolism. I could not verify any free YouTube lessons by him.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Named in the brief as a key composition teacher. Page text is a one-line pitch ('great art requires great composition'). Treat as optional; the free sources above cover thumbnailing practice."
+      },
+      {
+        "title": "Muddy Colors",
+        "provider": "Muddy Colors",
+        "credit": "Collective of 20+ fantasy and illustration artists",
+        "url": "https://www.muddycolors.com",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Described on the site as a free online resource with a new article daily, funded by Patreon support.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Look for posts where artists show planning stages that begin with small thumbnail sketches. The home page showed such a post; I did not check the quality of specific articles."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Two-value master thumbnails",
+        "description": "Pick 10 paintings from an open-access collection. For each make a postage-stamp-sized thumbnail using only light and dark shapes, ignoring all detail. Do it in 2 minutes per painting. Compare with the original afterwards.",
+        "dose": "10 thumbnails, 25 min",
+        "reference_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+      },
+      {
+        "title": "One brief, twelve thumbnails",
+        "description": "Write a one-line brief (for example 'a lighthouse keeper's kitchen at dusk'). Draw 12 thumbnails about 4 cm wide in 30 minutes, making at least four of them change the viewpoint or crop rather than just move objects around. Mark your top two.",
+        "dose": "12 thumbnails, 30 min"
+      },
+      {
+        "title": "Modular kit and recombination",
+        "description": "Design 8 to 10 simple parts for one subject (roof shapes, windows, towers for a castle). Arrange them in 12 different combinations as thumbnails, then see which three read most clearly at a glance.",
+        "dose": "1 kit + 12 combos, 40 min",
+        "reference_url": "https://www.ctrlpaint.com/videos/modular-thumbnail-sketching"
+      },
+      {
+        "title": "Cut and remix",
+        "description": "Draw six thumbnails of a scene, photograph or photocopy them, cut each in two or three pieces, and reassemble the pieces into new compositions. Keep any combination that surprises you and redraw it cleanly.",
+        "dose": "6 thumbnails + 6 remixes, 30 min",
+        "reference_url": "https://www.ctrlpaint.com/videos/remix-your-thumbnails-chop-and-warp"
+      },
+      {
+        "title": "Thumbnail then bigger value sketch",
+        "description": "Take your best thumbnail from any session and redraw it at four times the size in 3 or 4 values, solving the problems you could not see at small size.",
+        "dose": "1 sketch, 20 min"
+      }
+    ],
+    "done_when": [
+      "You can produce 12 distinct thumbnails of one brief in about 30 minutes",
+      "Your thumbnails read clearly when shrunk to the size of a stamp",
+      "At least a third of your thumbnails differ in camera angle or crop, not only in object placement",
+      "You can state why you chose one thumbnail over the rest",
+      "You have remixed at least one thumbnail set and kept an idea you would not have drawn directly"
+    ],
+    "common_mistakes": [
+      "Drawing thumbnails too large and filling them with detail, which defeats the purpose of seeing the layout",
+      "Making all thumbnails the same arrangement with small tweaks",
+      "Ignoring value and only drawing outlines, so you cannot judge readability",
+      "Choosing the first thumbnail instead of comparing at least a dozen"
+    ],
+    "school_reference": [
+      {
+        "institution": "Ringling College of Art and Design, Illustration BFA (Visual Development emphasis)",
+        "url": "https://www.ringling.edu/academics/majors/illustration/",
+        "note": "Visual Development is described as high volume with quick turnarounds and needs an art test; students draw props, characters and environments in 2D."
+      },
+      {
+        "institution": "FZD School of Design (Singapore)",
+        "url": "https://www.fzdschool.com/",
+        "note": "Publishes free articles including Sketching 101 and Fundamentals of Design; its programme moves from fundamentals to idea generation to a story-driven portfolio."
+      }
+    ]
+  },
+  {
+    "id": "des-reference-visual-library",
+    "title": "Reference gathering and building a visual library (with licences)",
+    "group": "design-composition-characters",
+    "level": "beginner",
+    "summary": "Good invented drawings come from a stock of real things you have looked at closely. This module covers where to find free, reusable reference (museum open-access collections, free photo licences), how to organise it, and how to study from it without copying a single image.",
+    "prerequisites": [],
+    "est_hours": [
+      4,
+      12
+    ],
+    "learning_outcomes": [
+      "Find usable reference on a topic from at least three free sources in 15 minutes",
+      "Tell the difference between 'free to view', 'free to download' and 'free to reuse', and record where each image came from",
+      "Build a themed reference board and annotate what you will take from it",
+      "Make a small study from reference that simplifies rather than copies",
+      "Combine features from several references into one new design"
+    ],
+    "resources": [
+      {
+        "title": "The Met Open Access (CC0 collection images and API)",
+        "provider": "The Metropolitan Museum of Art",
+        "credit": "The Met",
+        "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Images of public-domain works and basic data on all accessioned works are CC0 (unrestricted use). More than 492,000 open access works were listed. Look for the OA icon on images. A JSON API and CSV datasets on GitHub are provided.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Search the Online Collection for armour, textiles, costume, animals, landscapes, prints and drawings. Filter to Open Access and keep the object number in your notes so you can credit and re-find items."
+      },
+      {
+        "title": "Smithsonian Open Access",
+        "provider": "Smithsonian Institution",
+        "credit": "Smithsonian",
+        "url": "https://www.si.edu/openaccess",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "The page says images can be downloaded, shared and reused without asking and cites more than 5.2 million 2D and 3D items, including National Zoo material. It does not say every item is CC0; the 'Just browsing' link opens a CC0-filtered search, so check each record's usage line.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Good for natural history specimens, skeletons, tools, ships and 3D models you can rotate in the Smithsonian's 3D viewer. Use the CC0 filter if you plan to publish anything derived from it."
+      },
+      {
+        "title": "Unsplash (free photo licence)",
+        "provider": "Unsplash",
+        "credit": "Unsplash photographers",
+        "url": "https://unsplash.com/license",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "The licence page says images are free for commercial and non-commercial use with no permission or credit required, but you may not compile Unsplash images into a competing image service.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "A fast source of cities, rooms, weather, landscapes and faces. Remember that a licence to use a photo is different from a licence to trace a recognisable person; keep reference for study and invention rather than direct copying."
+      },
+      {
+        "title": "PureRef (reference board app)",
+        "provider": "PureRef",
+        "credit": "PureRef",
+        "url": "https://www.pureref.com/",
+        "format": "tool",
+        "cost": "free-tier",
+        "free_notes": "A stand-alone reference viewer for Windows, Mac and Linux. The pages I opened did not state the price or any free-tier limits; I could not open its support page. Check current pricing before relying on it. A plain folder plus an image viewer also works.",
+        "role": "supplementary",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Use it to drag images into one zoomable board, group them and keep the board open beside your drawing. Pricing unverified."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Themed board of 40",
+        "description": "Pick a theme (for example 'deep-sea salvage crew'). Collect 40 images spread across four categories: faces and bodies, clothing and tools, places, textures. Save the source and licence of each in a plain text file.",
+        "dose": "40 images, 45 min",
+        "reference_url": "https://www.si.edu/openaccess"
+      },
+      {
+        "title": "Tiny studies from reference",
+        "description": "Make five very small studies (about 5 cm) of five different references, each time simplifying a photo down to its main colour or value patches rather than detail. Ctrl+Paint's The Tiny Study video shows the idea.",
+        "dose": "5 studies, 5 min each",
+        "reference_url": "https://www.ctrlpaint.com/videos/the-tiny-study"
+      },
+      {
+        "title": "Three references, one new design",
+        "description": "Take three unrelated references (a beetle, a cathedral window, a coat). Pull one shape or idea from each and combine them into a new object or creature in four thumbnails.",
+        "dose": "4 thumbnails, 25 min",
+        "reference_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+      },
+      {
+        "title": "Weekly library top-up",
+        "description": "Once a week spend 15 minutes adding 10 new images to your board from a category you rarely draw (maritime, insects, machinery, ceramics).",
+        "dose": "15 min per week",
+        "reference_url": "https://www.clevelandart.org/open-access"
+      }
+    ],
+    "done_when": [
+      "You can find and save a dozen relevant images on any topic from free, reusable sources within 15 minutes",
+      "Every image in your board has a recorded source and licence note",
+      "You have made at least five simplified studies from reference and not one of them is a copy",
+      "You can explain the difference between a free-to-view image and a CC0 image"
+    ],
+    "common_mistakes": [
+      "Collecting hundreds of images without ever drawing from them",
+      "Copying one photo closely instead of drawing from several and inventing",
+      "Treating 'free to view online' as permission to reuse or publish",
+      "Only collecting references in the subjects you already like"
+    ],
+    "school_reference": [
+      {
+        "institution": "FZD School of Design (Singapore)",
+        "url": "https://www.fzdschool.com/",
+        "note": "Its second term is described as expanding the student's visual library by studying history, culture and nature and generating ideas from real-world references."
+      }
+    ]
+  },
+  {
+    "id": "des-prompt-challenges",
+    "title": "Prompt lists, drawing challenges and random generators",
+    "group": "design-composition-characters",
+    "level": "beginner",
+    "summary": "Prompt lists and generators give you a reason to start and a reason to stop. This module shows how to use Inktober-style lists, unofficial remixes and free random generators to practise idea generation in a flexible way, without turning it into a streak you dread.",
+    "prerequisites": [],
+    "est_hours": [
+      4,
+      20
+    ],
+    "learning_outcomes": [
+      "Run a short prompt challenge (7 to 31 days) on a schedule you can keep",
+      "Use a random generator to create a brief and turn it into a drawing",
+      "Combine several prompts into one coherent picture",
+      "Understand who owns the lists and what the Inktober name can and cannot be used for",
+      "Keep a light weekly reflection instead of heavy note-taking"
+    ],
+    "resources": [
+      {
+        "title": "The Official Inktober 2026 Prompt List",
+        "provider": "SVSLearn (School of Visual Storytelling)",
+        "credit": "Inktober was started by Jake Parker; post by Lisa F on SVSLearn",
+        "url": "https://www.svslearn.com/news/2026/9/1/the-official-inktober-2026-prompt-list",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "The article is public and says following the list is optional. The prompt words appear to be in an image that I could not read, so open the page to see them. The site also sells memberships and mentions a free Inktober community hangout.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "The challenge: make one ink drawing a day in October, pencil underdrawing allowed, tag it with #inktober and #inktober2026. The list is a prompt, not a rule. The official site's rules page (https://inktober.com/rules) says official lists have been published since 2016 and links separate trademark guidelines for anyone using the Inktober name to sell products."
+      },
+      {
+        "title": "Unofficial Inktober Prompt List 2026",
+        "provider": "The Art of Aaron Blaise (Creature Art Teacher)",
+        "credit": "Posted by Nick Burch on Aaron Blaise's site, 1 Oct 2026",
+        "url": "https://creatureartteacher.com/ink-prompts-2026/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "The page does not say whether the list can be downloaded or reused, and the footer states the site's content is copyright Aaron Blaise. Treat it as a view-only prompt source. The site also promotes paid courses.",
+        "role": "alternative",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "A second prompt list for the same month; the prompt words are in a header image I could not read. Useful as an alternative if the official list does not suit you. Earlier years' lists exist at the same site (ink-prompts-2025, ink-prompts-2024)."
+      },
+      {
+        "title": "Chaotic Shiny random generators",
+        "provider": "Chaotic Shiny",
+        "credit": "Hannah 'Swordgleam' Lipsky",
+        "url": "https://www.chaoticshiny.com/",
+        "format": "tool",
+        "cost": "free-tier",
+        "free_notes": "Many generators are available at no charge; some are sold as paid packs through the affiliated store. No terms-of-use section was found, so use results as private prompts, not as material to republish.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Relevant generators listed on the home page: Fantasy Character, Class Mashup, Monsters, Zoomorph (animal-human mixes), Familiar, Tavern, Bazaar, Arena, Combat Terrain, Map, Planet, Situation, Portal. The site has run since 2010 and the author says it is unlikely to add many more."
+      },
+      {
+        "title": "donjon random generators",
+        "provider": "donjon",
+        "credit": "drow (code copyright 2009-2026)",
+        "url": "https://donjon.bin.sh/",
+        "format": "tool",
+        "cost": "free",
+        "free_notes": "The home page does not state pricing but has donation links only; it says some content is used under the Open Game License. It sets no terms for generated text, so treat output as private prompts.",
+        "role": "supplementary",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Useful ones: Fantasy Random Generator (NPCs), SciFi Random Generator (NPCs, mecha, spaceships), Random Town and Inn generators, Avatar Legends random generator (hybrid animals), Microlite20 Random Monster Generator. Ctrl+Paint's Generating Ideas video links to donjon for constraints."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Seven-day mini challenge",
+        "description": "Choose seven prompts from any list, one per day for a week, with a 20-minute cap each. Change format daily (full figure, close-up, environment, object). Stop when the time is up even if unfinished.",
+        "dose": "7 sketches, 20 min each",
+        "reference_url": "https://www.svslearn.com/news/2026/9/1/the-official-inktober-2026-prompt-list"
+      },
+      {
+        "title": "Prompt remix",
+        "description": "Take three prompts from a list and merge them into one picture with a clear focal point. Do it as four thumbnails first and pick one.",
+        "dose": "4 thumbnails + 1 drawing, 30 min"
+      },
+      {
+        "title": "Roll a character, a place and a problem",
+        "description": "Use a generator to roll a character, a location and a complication. Draw a single frame that shows all three. Repeat three times with different rolls.",
+        "dose": "3 frames, 15 min each",
+        "reference_url": "https://www.chaoticshiny.com/"
+      },
+      {
+        "title": "Weekly three-line reflection",
+        "description": "At the end of each week write three lines only: what you drew, what was hard, what you will try next. This light retrieval step replaces long notes.",
+        "dose": "3 lines, 5 min per week"
+      },
+      {
+        "title": "Count, don't streak",
+        "description": "Set a target count for the month (for example 15 drawings) instead of a daily streak. Missing a day then costs nothing.",
+        "dose": "15 drawings in a month"
+      }
+    ],
+    "done_when": [
+      "You have finished a prompt challenge of at least seven drawings in a row of days or a month-long count",
+      "You can turn a random generator result into a drawing brief in under two minutes",
+      "You have used at least two prompts together in a single image",
+      "You know the Inktober name is trademarked for selling products and that the prompt list is optional"
+    ],
+    "common_mistakes": [
+      "Treating the challenge as an all-or-nothing streak and quitting after one missed day",
+      "Polishing each prompt for hours so the challenge becomes unsustainable",
+      "Posting or selling work under the Inktober name without checking its trademark guidelines",
+      "Using only prompts you already find easy"
+    ],
+    "school_reference": []
+  },
+  {
+    "id": "des-shape-language-silhouette",
+    "title": "Shape language and silhouette",
+    "group": "design-composition-characters",
+    "level": "beginner",
+    "summary": "Shape language is the idea that circles, squares and triangles carry different feelings, and that a strong character reads from its outline alone. You design many silhouettes quickly, test whether they read at small size, and learn to use shape families to hint at personality.",
+    "prerequisites": [
+      "des-thumbnailing",
+      "found-basic-shapes"
+    ],
+    "est_hours": [
+      5,
+      12
+    ],
+    "learning_outcomes": [
+      "Design a character or object from a dominant shape family and explain the effect",
+      "Produce 20 distinct silhouettes in a short session",
+      "Test silhouettes for readability at thumbnail size and by showing them to others",
+      "Vary proportion, mass and posture to change the personality of a design",
+      "Avoid symmetrical, static silhouettes with arms at the sides"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint: Thumbnail Iteration (character silhouettes) and The Danger of Painting Silhouettes",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/videos/thumbnail-iteration",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "The provider's library page calls its videos short and free; the Premium Series is sold separately. This lesson page does not repeat the word free.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Thumbnail Iteration shows a variation on silhouette thumbnailing: instead of drawing silhouette after silhouette hoping one works, refine one promising thumbnail with masks. It credits the idea to the book The Skillful Huntsman and points to The Danger of Painting Silhouettes (https://www.ctrlpaint.com/videos/the-danger-of-painting-silhouettes, listed under Study Habits; I did not open it). This resource is about the silhouette process, not the meaning of shape families; see the Aaron Blaise livestream for that."
+      },
+      {
+        "title": "The Art of Animation with Aaron Blaise: Character Design and Storytelling (live stream)",
+        "provider": "Wacom Community",
+        "credit": "Aaron Blaise (former Disney animator)",
+        "url": "https://community.wacom.com/en-au/videos/live-stream-animation-character-design",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Published 18 March 2025. The page shows no price or paywall but does not state that it is free, and no duration is shown.",
+        "role": "alternative",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Aaron sketches animal characters from books and film and discusses shape language, animation fundamentals and using live-action reference, plus his Disney film work. Watch for how he simplifies a character to a few shapes first."
+      },
+      {
+        "title": "Character Design with Aaron Blaise (paid course)",
+        "provider": "The Art of Aaron Blaise (Creature Art Teacher)",
+        "credit": "Aaron Blaise",
+        "url": "https://creatureartteacher.com/product/character-design-course-aaron-blaise/",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "Shown at $35 (sale, from $75) with lifetime downloads $5 extra; the page says 20+ video lessons and 16-18+ hours (figures conflict). Two preview excerpts are embedded but no lesson is labelled free. The listed topics include making clear silhouettes and using straights and curves; shape language is not named as a topic.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Optional paid extension. Part 1 covers silhouettes, straights and curves, line of action, expressions, eyes, perspective, caricature, costumes and props; Part 2 designs characters for Peter and the Wolf."
+      },
+      {
+        "title": "Storytelling Portraits (Proko)",
+        "provider": "Proko",
+        "credit": "Lucas Peinador",
+        "url": "https://www.proko.com/course/storytelling-portraits",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "Full course $49 for 18 lessons (about 4.5 hours). Only one lesson is free: The 10 Head Volumes. The rest is premium.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Students design faces for seven animal-based archetypes (lion, bear, ox, snake, fox, owl, pup) in male and female versions, then a full character portrait. A paid way to practise using animal shape cues to express personality."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Circle, square, triangle cast",
+        "description": "Design three characters (for example a baker, a guard, a thief) where the first is built mostly from circles, the second from squares, the third from triangles. Do three silhouettes of each shape family in black, then pick the clearest per family.",
+        "dose": "9 silhouettes, 30 min"
+      },
+      {
+        "title": "Twenty silhouettes, one brief",
+        "description": "Pick a role (lighthouse keeper, space postman). Fill 20 black silhouettes at about 4 cm tall in 30 minutes, varying proportion, hat or hair shape, tool, pose and posture. Cross out any that look alike.",
+        "dose": "20 silhouettes, 30 min"
+      },
+      {
+        "title": "Stamp-size readability test",
+        "description": "Shrink your silhouettes to stamp size (zoom out or hold the page at arm's length) and rank them for readability. Show five to a friend and ask what each character does for a living.",
+        "dose": "1 page, 15 min"
+      },
+      {
+        "title": "One body, five personalities",
+        "description": "Keep one character's basic job and change only head size, torso shape and stance to make it read as timid, bossy, sleepy, cunning and jolly. Five silhouettes.",
+        "dose": "5 silhouettes, 20 min"
+      },
+      {
+        "title": "Animal archetype plus occupation",
+        "description": "Pick an animal (owl, fox, bear) and an occupation (cook, pilot). Draw six silhouettes that blend the two without becoming a realistic animal.",
+        "dose": "6 silhouettes, 20 min",
+        "reference_url": "https://www.si.edu/openaccess"
+      }
+    ],
+    "done_when": [
+      "You can fill a page with 20 different silhouettes for one brief in about 30 minutes",
+      "At stamp size, a stranger can tell your characters apart and roughly guess their role",
+      "You can explain what your dominant shape choice is meant to communicate for each design",
+      "You have deliberately broken the shape rules at least once and can say why it worked"
+    ],
+    "common_mistakes": [
+      "Treating shape-to-personality as strict rules rather than tendencies",
+      "Putting detail inside the outline and ignoring the outer edge",
+      "Making all characters the same height and mass, so the cast does not contrast",
+      "Using stiff front-facing poses with arms at the sides, which hides the silhouette"
+    ],
+    "school_reference": [
+      {
+        "institution": "Swinburne University of Technology (Melbourne), Bachelor of Animation",
+        "url": "https://www.swinburne.edu.au/course/undergraduate/bachelor-of-animation",
+        "note": "First-year semester 2 includes Introduction to Character and Environment Design; second-year semester 1 adds Advanced Character Design for Animation."
+      },
+      {
+        "institution": "Ringling College of Art and Design, 2D Character Animation BFA",
+        "url": "https://www.ringling.edu/academics/majors/2d-character-animation/",
+        "note": "Page describes students creating original characters and worlds with character design, storyboarding and animatics; the gallery shows character design sheets."
+      }
+    ]
+  },
+  {
+    "id": "des-depth-overlap-atmosphere",
+    "title": "Depth, overlap and atmospheric perspective in scenes",
+    "group": "design-composition-characters",
+    "level": "intermediate",
+    "summary": "A flat picture feels deep when you organise it into foreground, middle ground and background and use overlap, size, value and atmosphere to separate them. This module treats depth as a composition tool: you break scenes into layers, then use lighter, cooler, lower-contrast distant shapes to push space back.",
+    "prerequisites": [
+      "des-composition-fundamentals",
+      "persp-depth-cues",
+      "persp-horizon-vps"
+    ],
+    "est_hours": [
+      6,
+      14
+    ],
+    "learning_outcomes": [
+      "Divide any scene into foreground, middle ground and background shapes",
+      "Use overlap, size change and value steps to create depth",
+      "Apply atmospheric perspective (paler, cooler, softer, less detail with distance)",
+      "Pick a horizon height and viewpoint on purpose",
+      "Explain when to flatten space on purpose"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint Film Studies: Foreground, Middleground, Background (plus Capturing Stills, Gesture, Color)",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/videos/film-studies-foreground-middleground-background",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "The provider's library page calls its videos short and free; the Premium Series is sold separately. The lesson page does not repeat the word free.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Posted May 2012. The lesson takes movie stills and reduces each to three simple graphic shapes for foreground, middle ground and background. Watch Capturing Stills first (https://www.ctrlpaint.com/videos/film-studies-capturing-stills) to learn how to grab frames, then do this lesson, then Film Studies: Color. Also see Horizon Line and Viewpoint (https://www.ctrlpaint.com/videos/horizon-line-and-viewpoint, Aug 2012, with a worksheet) for choosing a high or low viewpoint."
+      },
+      {
+        "title": "Aerial perspective (Wikipedia)",
+        "provider": "Wikipedia",
+        "credit": "Wikipedia contributors",
+        "url": "https://en.wikipedia.org/wiki/Aerial_perspective",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free to read. Wikipedia text is normally CC BY-SA but I did not open the licence page.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Explains that distant objects become paler, lower in contrast, less detailed and less saturated, shifting toward the sky colour, and gives the history (ancient Roman frescoes, Leonardo, Chinese landscape painters). Use it as a checklist for the cues to paint."
+      },
+      {
+        "title": "The Perspective Course (Proko): free lessons",
+        "provider": "Proko",
+        "credit": "Marshall Vandruff",
+        "url": "https://www.proko.com/course/the-perspective-course",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "146 lessons (about 38.5 hours); 32 are free (28 in Part 1, 4 in Part 2). The full course is about $261 at the discount I saw. The page lists a lesson called Depth Tricks and Old Masters; I could not tell whether that one is free. It does not list atmospheric perspective or overlap as sections.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Use only as a free-lesson supplement; check the lesson list for the free badges and look at Depth Tricks and Old Masters."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Three-shape scene reduction",
+        "description": "Capture six movie stills or photos. For each draw a small frame and fill three flat tones for foreground, middle ground and background. Compare how the shapes overlap.",
+        "dose": "6 reductions, 5 min each",
+        "reference_url": "https://www.ctrlpaint.com/videos/film-studies-foreground-middleground-background"
+      },
+      {
+        "title": "Overlap ladder",
+        "description": "Draw the same five blocks four times: side by side; overlapping; overlapping with size change; overlapping with size change and value shift. Note which panel feels deepest.",
+        "dose": "4 panels, 20 min"
+      },
+      {
+        "title": "Atmosphere ramp landscape",
+        "description": "Draw a landscape thumbnail with five distance bands: darkest, most detailed and warmest at the front; paler, cooler and simpler toward the horizon. Do three versions with different sky colours or times of day.",
+        "dose": "3 thumbnails, 30 min",
+        "reference_url": "https://en.wikipedia.org/wiki/Aerial_perspective"
+      },
+      {
+        "title": "Horizon height test",
+        "description": "Draw one scene (a path with a house and a tree) with the horizon low, at the middle and high. Notice how each changes what feels grand or intimate. See the Horizon Line and Viewpoint worksheet.",
+        "dose": "3 thumbnails, 15 min",
+        "reference_url": "https://www.ctrlpaint.com/videos/horizon-line-and-viewpoint"
+      },
+      {
+        "title": "Flatten on purpose",
+        "description": "Redraw one of your deep scenes as a flat poster-style version with no overlap cues, then compare with the deep version and note when each suits a story.",
+        "dose": "2 drawings, 20 min"
+      }
+    ],
+    "done_when": [
+      "You can break any scene into foreground, middle ground and background shapes in a few minutes",
+      "Your landscape thumbnails show clear distance bands without needing perspective lines",
+      "You can list four atmospheric cues and apply them when asked",
+      "You choose horizon height deliberately, not by default"
+    ],
+    "common_mistakes": [
+      "Giving distant objects the same contrast and detail as foreground ones",
+      "Placing the horizon in the middle of the frame by habit",
+      "Cutting the scene into too many layers so none reads",
+      "Applying haze evenly instead of increasing it with distance"
+    ],
+    "school_reference": [
+      {
+        "institution": "ArtCenter College of Design, Entertainment Design BS (Concept Track)",
+        "url": "https://www.artcenter.edu/academics/undergraduate-degrees/entertainment-design/overview.html",
+        "note": "The page lists light and colour, visual structure and world building among Concept Track topics."
+      }
+    ]
+  },
+  {
+    "id": "des-environment-scene-building",
+    "title": "Environment and scene building: landscapes, interiors, cityscapes and set design",
+    "group": "design-composition-characters",
+    "level": "intermediate",
+    "summary": "This module is about designing places rather than copying them: landscapes with clear value layers, interiors that imply who lives there, city streets with scale and rhythm, and stage-like sets that serve a story. You work from small thumbnails and simple perspective, using photos for materials and colour rather than shape.",
+    "prerequisites": [
+      "des-thumbnailing",
+      "des-depth-overlap-atmosphere",
+      "persp-horizon-vps",
+      "persp-one-point"
+    ],
+    "est_hours": [
+      12,
+      30
+    ],
+    "learning_outcomes": [
+      "Design a landscape from imagination with a planned composition and value layers",
+      "Plan a believable interior or street using perspective at the right scale",
+      "Use props, scale cues and wear to imply who lives or works in a place",
+      "Sketch a simple set (plan view plus key view) for a scene",
+      "Use reference for materials and light without copying shapes"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint: Imaginary Landscape Thumbnails, Horizon Line and Viewpoint, The Tiny Study, Perspective Sketching",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/videos/imaginary-landscape-thumbnails",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "The provider's library page calls its videos short and free. Perspective Sketching is labelled a Preview on the library page, so the full version may be premium. Individual lesson pages do not repeat the word free.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Order: Horizon Line and Viewpoint (Aug 2012, with worksheet), The Tiny Study (Aug 2012, reduce a photo to colour only), Imaginary Landscape Thumbnails (Aug 2012; make small landscape thumbs from imagination and use a photo only for colour and material). Then Perspective Drawing isn't Scary (https://www.ctrlpaint.com/videos/perspective-drawing-isnt-scary) and Perspective Sketching (https://www.ctrlpaint.com/videos/perspective-sketching, preview) from the Drawing 2 section; I did not open those two."
+      },
+      {
+        "title": "Gurney Journey: Imaginative Realism and Composition labels",
+        "provider": "James Gurney",
+        "credit": "James Gurney",
+        "url": "https://gurneyjourney.blogspot.com",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Blog is free and a January 2026 post says it runs with no paywalls. Permissions allow non-commercial quoting with credit. His books and video courses are separate paid products and are not linked.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "The Imaginative Realism label had about 53 posts when checked. Gurney is the creator of Dinotopia; look for posts showing how he builds believable invented places from maquettes, sketches and reference."
+      },
+      {
+        "title": "Marvel's The Art of Storytelling (Proko): Environments section",
+        "provider": "Proko with Marvel",
+        "credit": "Daniel Warren Johnson (environments), with other Marvel artists in other sections",
+        "url": "https://www.proko.com/course/marvels-the-art-of-storytelling",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "130 lessons, 22 free; the full course is paid ($249 list, $199.20 on a sale I saw). The free lessons I could confirm by name are the intro and the expressions lesson, not environment lessons.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "The course FAQ assigns environments to Daniel Warren Johnson. Check the Lessons tab for which environment lessons are free; I could not read the lesson list."
+      },
+      {
+        "title": "Interior Environment Design (Will Terry), School of Visual Storytelling",
+        "provider": "SVSLearn (School of Visual Storytelling)",
+        "credit": "Will Terry",
+        "url": "https://courses.svslearn.com/courses/interior-environment-design",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "Subscription only: $180 per 6 months or $300 per year, with a 14-day free trial that needs a credit card. 14 lessons including 8 videos (about 30 minutes) and a workbook.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Covers designing interiors from different viewpoints, planning spaces to scale, adding props and overlapping foreground objects, and period and location detail. Short; use only if you want a guided interior exercise."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Twelve imaginary landscape thumbnails",
+        "description": "Draw 12 small landscapes from imagination in three values (foreground, middle, background), varying horizon height and the main shape (mountain, valley, river bend). Use a photo only for colour afterwards.",
+        "dose": "12 thumbnails, 40 min",
+        "reference_url": "https://www.ctrlpaint.com/videos/imaginary-landscape-thumbnails"
+      },
+      {
+        "title": "A room that tells you who lives there",
+        "description": "Design one interior (a cartographer's attic, a retired boxer's kitchen) in simple one- or two-point perspective, placing six props that hint at the occupant. Draw it from two viewpoints.",
+        "dose": "2 drawings, 60 min",
+        "reference_url": "https://unsplash.com"
+      },
+      {
+        "title": "Street with rhythm and scale",
+        "description": "Block in a city street with a vanishing point, then repeat windows, shopfronts or lamp posts with decreasing size. Add three people at different distances to set scale.",
+        "dose": "1 drawing, 45 min"
+      },
+      {
+        "title": "Set design: plan plus view",
+        "description": "Choose a location (a market, a clock tower) and draw a rough top-down plan with entrances, then three key views the characters could be filmed or drawn in.",
+        "dose": "1 plan + 3 views, 60 min"
+      },
+      {
+        "title": "Study five places from free photos",
+        "description": "Pick five photos of real places. Make a tiny colour-patch study of each (no detail), then draw a different place using only the colours and materials from one study.",
+        "dose": "5 studies + 1 drawing, 60 min",
+        "reference_url": "https://unsplash.com/license"
+      }
+    ],
+    "done_when": [
+      "You can produce a believable landscape thumbnail from imagination in about five minutes",
+      "A viewer can guess something about a room's occupant from the props you chose",
+      "Your street scenes hold consistent perspective and include scale cues",
+      "You can sketch a plan and key views for a place you invented"
+    ],
+    "common_mistakes": [
+      "Starting with detail before the big shapes and values are settled",
+      "Copying the shapes of a photo instead of using it for colour and materials",
+      "Leaving out scale cues such as doors, people or vehicles",
+      "Forgetting that the horizon line must stay consistent across objects"
+    ],
+    "school_reference": [
+      {
+        "institution": "ArtCenter College of Design, Entertainment Design BS",
+        "url": "https://www.artcenter.edu/academics/undergraduate-degrees/entertainment-design/overview.html",
+        "note": "Concept Track topics listed include animal anatomy, costume design, light and color, digital painting, visual structure and world building."
+      },
+      {
+        "institution": "Swinburne University of Technology (Melbourne), Bachelor of Animation",
+        "url": "https://www.swinburne.edu.au/course/undergraduate/bachelor-of-animation",
+        "note": "Introduction to Character and Environment Design is a first-year unit."
+      },
+      {
+        "institution": "Ringling College of Art and Design, Illustration BFA (Visual Development emphasis)",
+        "url": "https://www.ringling.edu/academics/majors/illustration/",
+        "note": "Visual Development students create 2D props, characters and environments for games, film, TV and toys."
+      }
+    ]
+  },
+  {
+    "id": "des-character-design-process",
+    "title": "Character design process: reference, iteration, turnarounds and model sheets",
+    "group": "design-composition-characters",
+    "level": "intermediate",
+    "summary": "A character design is the result of a process: a short brief, reference gathering, many silhouettes, a handful of refinements, and finally a sheet that other people could draw from. This module walks that route and ends with a consistent turnaround and a one-page model sheet.",
+    "prerequisites": [
+      "des-shape-language-silhouette",
+      "des-ideation-sketching",
+      "des-reference-visual-library"
+    ],
+    "est_hours": [
+      15,
+      40
+    ],
+    "learning_outcomes": [
+      "Write a short brief and gather reference for a character",
+      "Iterate from many silhouettes to one refined design with stated reasons",
+      "Draw a front, side, back and three-quarter turnaround with consistent proportions",
+      "Assemble a model sheet with expressions, poses and key props",
+      "Build a character whose look implies a backstory"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint: Designing with Reference, What is Design?, The Reference Process, How to Draw Anything in 3 Steps",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/videos/designing-with-reference",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "The provider's library page calls its videos short and free; the Premium Series is sold separately. The lesson pages do not repeat the word free.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Designing with Reference (Aug 2012) has you dress provided mannequin drawings as real-world professions (police, firefighters) with specific details, arguing that this builds a visual library for later fantasy and sci-fi characters; it offers a Basic Male Figures worksheet. Read it alongside What is Design? (https://www.ctrlpaint.com/videos/what-is-design) and The Reference Process (https://www.ctrlpaint.com/videos/the-reference-process), which describes how reference photos can play unexpected roles in a painting. The library's design material has no turnaround or model-sheet lesson; see the gap note."
+      },
+      {
+        "title": "Training Yourself to Draw From Imagination, Part 1",
+        "provider": "Proko",
+        "credit": "Peter Han",
+        "url": "https://www.proko.com/lesson/training-yourself-to-draw-from-imagination-peter-han",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "The lesson page shows no price, paywall or parent course. Not explicitly labelled free, so treat as free but unconfirmed.",
+        "role": "alternative",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Han invents a fantasy character (a dwarf and a hog), explaining his thinking as he builds it, then does line work and ink shadows. A good look at the exploration phase before a design is fixed."
+      },
+      {
+        "title": "Blender Studio: Spring open movie (concept art, character design, model sheets)",
+        "provider": "Blender Studio",
+        "credit": "Andy Goralczyk (writer and director of Spring) and the Spring team",
+        "url": "https://studio.blender.org/films/spring/",
+        "format": "reference-bank",
+        "cost": "free-tier",
+        "free_notes": "Some blog articles are tagged Free. A related Blender Studio training page (Anglerfish) required a login and a membership of 11.50 euros per month, and said its content is CC-BY. I could not tell whether the Spring gallery items need a login or what licence they carry.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "The film page's featured gallery lists environment concept art, a 'Spring and Autumn, character design' image, model sheets, previz images and a colored storyboard sample, plus a 48-minute staff-file breakdown. Treat it as a real production example of what a finished character package looks like."
+      },
+      {
+        "title": "Character Design with Aaron Blaise (paid course)",
+        "provider": "The Art of Aaron Blaise (Creature Art Teacher)",
+        "credit": "Aaron Blaise",
+        "url": "https://creatureartteacher.com/product/character-design-course-aaron-blaise/",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "Shown at $35 (sale, from $75). The page lists no free lessons; two preview excerpts are embedded. No turnaround lesson is named.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Part 2 applies the skills while designing characters for Peter and the Wolf; model sheet images appear in the gallery."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Brief plus reference sprint",
+        "description": "Write a three-line brief (who, what they do, one flaw). Gather 20 reference images across faces, clothing, tools and places. Under each group write two details you will use.",
+        "dose": "1 brief + 20 images, 40 min",
+        "reference_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+      },
+      {
+        "title": "Iteration ladder",
+        "description": "From the brief draw 30 small silhouettes, circle five, refine those into rough drawings with faces, circle one, then draw three variations of the head and outfit. Keep every step on one page so you can see the narrowing.",
+        "dose": "1 character, 90 min"
+      },
+      {
+        "title": "Four-view turnaround",
+        "description": "For your chosen character draw front, side, back and three-quarter views on guide lines for the head, shoulders, waist, knees and feet so proportions match in each view.",
+        "dose": "1 sheet, 60 min"
+      },
+      {
+        "title": "One-page model sheet",
+        "description": "On one page include the turnaround, six expressions, four poses and any key props, with notes on colours and materials.",
+        "dose": "1 page, 90 min",
+        "reference_url": "https://studio.blender.org/films/spring/"
+      },
+      {
+        "title": "Backstory test",
+        "description": "Show your character without text to a friend and ask for three guesses about the person's life. Change one visual element and see if the guesses change.",
+        "dose": "1 test, 15 min"
+      }
+    ],
+    "done_when": [
+      "You can take a one-line brief to a refined design with visible iteration steps",
+      "Your turnaround views match in height and proportions when overlaid on guide lines",
+      "Your model sheet contains a turnaround, expressions, poses and props",
+      "A viewer can guess something accurate about the character's life from the drawing"
+    ],
+    "common_mistakes": [
+      "Designing from memory only and ending up with generic looks",
+      "Skipping the silhouette stage and refining the first idea",
+      "Turnaround views with drifting proportions or details that do not match",
+      "Over-detailing the costume before the core shape works, or copying an existing franchise character instead of inventing"
+    ],
+    "school_reference": [
+      {
+        "institution": "Ringling College of Art and Design, 2D Character Animation BFA",
+        "url": "https://www.ringling.edu/academics/majors/2d-character-animation/",
+        "note": "Students create original characters and worlds through character design, storyboarding and animatics; the gallery shows character design sheets, environment design, expressions, poses and props."
+      },
+      {
+        "institution": "Swinburne University of Technology (Melbourne), Bachelor of Animation",
+        "url": "https://www.swinburne.edu.au/course/undergraduate/bachelor-of-animation",
+        "note": "First-year Introduction to Character and Environment Design leads to second-year Advanced Character Design for Animation and Acting for Animation."
+      },
+      {
+        "institution": "ArtCenter College of Design, Illustration BS",
+        "url": "https://www.artcenter.edu/academics/undergraduate-degrees/illustration/overview.html",
+        "note": "The Entertainment Arts track is described as covering character design, storyboarding, action development and backgrounds."
+      }
+    ]
+  },
+  {
+    "id": "des-costume-props-accessories",
+    "title": "Costume, props and accessories",
+    "group": "design-composition-characters",
+    "level": "intermediate",
+    "summary": "Clothing and objects are how a design tells you someone's job, wealth, era and habits. You learn to dress a body rather than paste outfits on it, to design props as families, and to use historic and museum collections as reference for shape, material and construction.",
+    "prerequisites": [
+      "des-character-design-process"
+    ],
+    "est_hours": [
+      8,
+      20
+    ],
+    "learning_outcomes": [
+      "Draw clothing that follows the body underneath",
+      "Choose a few telling details instead of decorating everything",
+      "Design a prop in several versions across cultures or materials",
+      "Use museum collections as reference for historic dress and objects",
+      "Show wear, repair and use to suggest story"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint: Costume Sketching and Designing with Reference",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/videos/costume-sketching",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "The provider's library page calls its videos short and free; the Premium Series is sold separately. The lesson pages do not repeat the word free.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Costume Sketching (Mar 2012) uses fashion photos from The Sartorialist blog as reference for drawing clothed figures. Designing with Reference (https://www.ctrlpaint.com/videos/designing-with-reference, Aug 2012) has you dress mannequin drawings as real-world professions with specific details and gives a Basic Male Figures worksheet. Do both, in that order."
+      },
+      {
+        "title": "Cleveland Museum of Art Open Access",
+        "provider": "Cleveland Museum of Art",
+        "credit": "Cleveland Museum of Art",
+        "url": "https://www.clevelandart.org/open-access",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "High-resolution images and data are released under CC0 for use without restriction; the page says high-res images are available for more than half the collection. The API needs no key and covers over 61,000 CC0 records.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Search the collection for armour, textiles, jewellery, ceramics and costume. Save images with accession numbers."
+      },
+      {
+        "title": "The Met Open Access",
+        "provider": "The Metropolitan Museum of Art",
+        "credit": "The Met",
+        "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Public-domain works are CC0; more than 492,000 open access works were listed at last check.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Search by terms such as armour, dress, jewellery or helmet and filter to Open Access. I did not check any particular department's coverage."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Dress the mannequin for six jobs",
+        "description": "Use a simple mannequin drawing and dress it for six real jobs (nurse, baker, firefighter, fisher, surveyor, bus driver), adding three specific details to each. See Designing with Reference for the exercise idea.",
+        "dose": "6 outfits, 45 min",
+        "reference_url": "https://www.ctrlpaint.com/videos/designing-with-reference"
+      },
+      {
+        "title": "Read a portrait's clothing",
+        "description": "Pick one historical portrait from an open-access collection. List five details in the clothing that suggest wealth, job or era, then redraw the figure simplified with only those details.",
+        "dose": "1 portrait, 25 min",
+        "reference_url": "https://www.clevelandart.org/open-access"
+      },
+      {
+        "title": "Prop family",
+        "description": "Design four versions of one prop (a lantern, a key, a satchel) from different materials or cultures. Add one design reason beside each.",
+        "dose": "4 props, 30 min"
+      },
+      {
+        "title": "Silhouette-first outfit changes",
+        "description": "Draw ten silhouettes of outfit changes for one character on the same body (cloak, apron, armour, tunic), checking they read at small size.",
+        "dose": "10 silhouettes, 20 min"
+      },
+      {
+        "title": "Wear and repair pass",
+        "description": "Take one costume and add three signs of use (patch, scuff, stain), each with a reason in a few words.",
+        "dose": "1 drawing, 25 min"
+      }
+    ],
+    "done_when": [
+      "Your clothing drawings show folds and seams that follow the body",
+      "Each costume has a few specific, purposeful details rather than random decoration",
+      "You can design a prop in at least four distinct versions",
+      "You can explain what each costume element says about the wearer"
+    ],
+    "common_mistakes": [
+      "Drawing clothes as flat stickers that ignore the body beneath",
+      "Adding unrelated details without a reason",
+      "Mixing eras without research",
+      "Ignoring materials, so cloth, leather and metal look the same"
+    ],
+    "school_reference": [
+      {
+        "institution": "ArtCenter College of Design, Entertainment Design BS (Concept Track)",
+        "url": "https://www.artcenter.edu/academics/undergraduate-degrees/entertainment-design/overview.html",
+        "note": "Costume design is listed among Concept Track topics alongside animal anatomy and world building."
+      },
+      {
+        "institution": "Ringling College of Art and Design, Illustration BFA (Visual Development emphasis)",
+        "url": "https://www.ringling.edu/academics/majors/illustration/",
+        "note": "Visual Development students create 2D props, characters and environments."
+      }
+    ]
+  },
+  {
+    "id": "des-creature-monster-design",
+    "title": "Creature and monster design: anatomy-based invention, hybrids, fantasy and sci-fi",
+    "group": "design-composition-characters",
+    "level": "intermediate",
+    "summary": "Believable creatures are built on real animal structure, habitat and behaviour, then pushed toward the fantastic with deliberate changes. You study real skeletons and locomotion, make hybrids that still work mechanically, and design for a purpose and a place.",
+    "prerequisites": [
+      "des-shape-language-silhouette",
+      "des-reference-visual-library",
+      "nat-mammal-anatomy-construction"
+    ],
+    "est_hours": [
+      15,
+      40
+    ],
+    "learning_outcomes": [
+      "Design a creature from a skeleton outward with joints that make sense",
+      "Create hybrids by swapping specific structures rather than gluing parts together",
+      "Design creatures around habitat, diet and movement",
+      "Use real-animal reference from open collections",
+      "Avoid the creature rut of repeating other artists' designs"
+    ],
+    "resources": [
+      {
+        "title": "Profile: creature design legend Terryl Whitlatch",
+        "provider": "ArtStation Magazine",
+        "credit": "Terryl Whitlatch (interviewed); article on ArtStation Magazine, Sept 2016",
+        "url": "https://magazine.artstation.com/2016/09/profile-creature-design-legend-terryl-whitlatch/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free to read. The article also links a free creature design course for school students (Creatures of Amalthea) and a 2015 livestream talk; I could not open those links. Her book and Gnomon workshops are paid.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Read for her method: draw real animals from life and from paused wildlife footage; base even fantastical creatures on real anatomy and behaviour; use subtle human-like touches for believability; learn horses, dogs and cats first. She warns about falling into a creature rut by copying other artists' designs."
+      },
+      {
+        "title": "Smithsonian Open Access",
+        "provider": "Smithsonian Institution",
+        "credit": "Smithsonian",
+        "url": "https://www.si.edu/openaccess",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Page says images can be downloaded, shared and reused without asking; 5.2 million+ 2D and 3D items including National Zoo material. Use the CC0-filtered search to be sure of licence.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Search skeletons, specimens, insects and fish. The 3D Voyager viewer lets you rotate scanned models."
+      },
+      {
+        "title": "Biodiversity Heritage Library",
+        "provider": "Biodiversity Heritage Library (BHL)",
+        "credit": "BHL consortium",
+        "url": "https://www.biodiversitylibrary.org/",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "The home page states its aim is free access to biodiversity literature. It does not state licences for individual items, so check each item's rights note. The page mentions intermittent PDF generation problems and an uncertain future.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "A deep source of scientific illustration plates of animals, plants and sea life from historical books. Browse by animal group to see how naturalists drew form and pattern."
+      },
+      {
+        "title": "Creature Design with Aaron Blaise (paid course)",
+        "provider": "The Art of Aaron Blaise (Creature Art Teacher)",
+        "credit": "Aaron Blaise",
+        "url": "https://creatureartteacher.com/course/creature-design-with-aaron-blaise/",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "Page showed $45 with downloads (from $70) or $40 streaming only; 14 lessons, 18+ hours of real-time demos. No free preview lessons were mentioned.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Covers anatomy-based invention for bipedal and four-legged creatures, silhouette design, flying and land creatures, mythical creatures, bones and muscles, skin textures, photo-bashing and how environment shapes a creature. Optional paid extension."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Real animal studies",
+        "description": "Make six quick studies of real animals from photos or paused footage, focusing on the skeleton's proportions and where limbs attach. Try horse, dog, cat, bird, lizard and fish.",
+        "dose": "6 studies, 10 min each",
+        "reference_url": "https://www.si.edu/openaccess"
+      },
+      {
+        "title": "Anatomy transplant",
+        "description": "Pick two animals and swap one structural feature between them (for example a heron's legs on a bear's body). Redraw so the joints, weight and balance still work. Four designs.",
+        "dose": "4 designs, 40 min"
+      },
+      {
+        "title": "Habitat first",
+        "description": "Write three environmental pressures (dark, wet, windy). Design three adaptations to those pressures and combine them in one creature in four thumbnails.",
+        "dose": "4 thumbnails, 30 min"
+      },
+      {
+        "title": "Generator mashup",
+        "description": "Use a random creature or animal-mix generator, then draw five thumbnails of the result as if it were a real animal. Pick one and add skeleton lines over it.",
+        "dose": "5 thumbnails, 30 min",
+        "reference_url": "https://www.chaoticshiny.com/"
+      },
+      {
+        "title": "Skeleton to skin",
+        "description": "For one creature draw the skeleton first, then muscle masses, then skin and surface. Place a human silhouette and a plant beside it to show scale.",
+        "dose": "1 creature, 60 min",
+        "reference_url": "https://www.biodiversitylibrary.org/"
+      }
+    ],
+    "done_when": [
+      "You can draw a creature skeleton with joints that suit how it moves",
+      "Your hybrids are not simply parts stuck together; you can explain how weight and movement work",
+      "You can describe how each design feature links to habitat or behaviour",
+      "You have made studies from real animals as the base of every creature"
+    ],
+    "common_mistakes": [
+      "Stitching features together without joint logic",
+      "Ignoring weight and locomotion so the creature could not stand or move",
+      "Copying other artists' creature designs instead of using real animals",
+      "Adding features that have no purpose"
+    ],
+    "school_reference": [
+      {
+        "institution": "ArtCenter College of Design, Entertainment Design BS (Concept Track)",
+        "url": "https://www.artcenter.edu/academics/undergraduate-degrees/entertainment-design/overview.html",
+        "note": "Animal anatomy is listed as a Concept Track topic."
+      }
+    ]
+  },
+  {
+    "id": "des-expression-acting",
+    "title": "Facial expression and acting for characters",
+    "group": "design-composition-characters",
+    "level": "intermediate",
+    "summary": "A character comes alive through expression and body language. You practise simplified faces that still show a range of emotions, then add posture, gesture and context so the feeling is believable and easy to read.",
+    "prerequisites": [
+      "des-shape-language-silhouette",
+      "des-ideation-sketching"
+    ],
+    "est_hours": [
+      8,
+      20
+    ],
+    "learning_outcomes": [
+      "Draw a simplified head showing twelve or more distinct emotions",
+      "Use eyebrows, eyelids and mouth shapes together, not just the mouth",
+      "Show emotion through posture and gesture without the face",
+      "Draw subtle and extreme versions of the same emotion",
+      "Draw two characters reacting to each other"
+    ],
+    "resources": [
+      {
+        "title": "Drawing Character Expressions (lesson 81 of Marvel's The Art of Storytelling)",
+        "provider": "Proko with Marvel",
+        "credit": "Alitha Martinez",
+        "url": "https://www.proko.com/course-lesson/drawing-character-expressions",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "This lesson is marked free (14:02); the full course is paid and has a premium version of this lesson with extra content. 22 of the course's 130 lessons are free.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Covers drawing expressive comic characters using research, simple maths and facial structure. Watch once, then pause and draw along."
+      },
+      {
+        "title": "Ctrl+Paint: Expressiveness in Your Drawing",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/videos/expressiveness-in-drawing",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "The provider's library page calls its videos short and free; the Premium Series is sold separately. This lesson page does not repeat the word free.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Posted Nov 2012. Argues that character drawing needs expression and body language, not only accurate anatomy, and recommends studying animator Glen Keane's work. No assignment is stated on the page."
+      },
+      {
+        "title": "Atlas of Emotions",
+        "provider": "Atlas of Emotions",
+        "credit": "Dr. Paul Ekman and Dr. Eve Ekman; designed by Stamen Design; funded by the Dalai Lama Trust",
+        "url": "https://atlasofemotions.org/",
+        "format": "interactive",
+        "cost": "free",
+        "free_notes": "Offered online at no charge and asks for donations. No licence or usage terms were found, so use it for study only.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Maps five emotion families (anger, fear, disgust, sadness, enjoyment) with triggers, related states, actions and moods. Use it as a checklist for the range of emotions to draw and for what they lead characters to do."
+      },
+      {
+        "title": "Emoji Based Expressions (Drawing Exercises for Beginners, lesson 5 of 6)",
+        "provider": "Proko",
+        "credit": "Steven Zapata",
+        "url": "https://www.proko.com/course-lesson/emoji-based-expressions",
+        "format": "video",
+        "cost": "paid",
+        "free_notes": "This 39:09 lesson is premium only; the full course costs $25. No free preview was shown.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Teaches drawing emotive faces by using emojis and your own face as reference, starting simple and adding detail. Optional paid extension."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Emotion grid",
+        "description": "Draw one simplified head twelve times in a grid, each showing a different emotion. Use the five emotion families in the Atlas of Emotions as a checklist (anger, fear, disgust, sadness, enjoyment) plus variations.",
+        "dose": "12 heads, 30 min",
+        "reference_url": "https://atlasofemotions.org/"
+      },
+      {
+        "title": "Mirror and simplify",
+        "description": "Photograph yourself making ten expressions. Redraw each as a simple face using as few lines as possible. Keep private images private.",
+        "dose": "10 faces, 30 min"
+      },
+      {
+        "title": "Body-first acting",
+        "description": "Draw eight full-body silhouettes that show an emotion through posture alone (no face).",
+        "dose": "8 poses, 20 min"
+      },
+      {
+        "title": "Intensity ladder",
+        "description": "Pick five emotions and draw each at three intensities (subtle, clear, extreme).",
+        "dose": "15 faces, 30 min"
+      },
+      {
+        "title": "Same face, three situations",
+        "description": "Keep one expression fixed and place it in three different contexts (a gift, a bill, a spider) to see how context changes its meaning.",
+        "dose": "3 drawings, 20 min"
+      }
+    ],
+    "done_when": [
+      "You can draw a simple head showing at least twelve readable emotions",
+      "Your expressions use eyebrows and eyelids, not only the mouth",
+      "You can convey an emotion from silhouette and posture alone",
+      "You can draw two characters reacting to each other in one frame"
+    ],
+    "common_mistakes": [
+      "Showing emotion only with the mouth",
+      "Making both sides of the face the same, which looks stiff",
+      "Confusing intensity with a bigger pose rather than a clearer shape",
+      "Copying an emoji instead of building the expression from facial structure"
+    ],
+    "school_reference": [
+      {
+        "institution": "Swinburne University of Technology (Melbourne), Bachelor of Animation",
+        "url": "https://www.swinburne.edu.au/course/undergraduate/bachelor-of-animation",
+        "note": "Acting for Animation is a second-year unit following Advanced Character Design."
+      },
+      {
+        "institution": "CalArts, Character Animation BFA",
+        "url": "https://calarts.edu/academics/programs-and-degrees/bfa-character-animation",
+        "note": "The programme is described as focusing on character performance and storytelling."
+      }
+    ]
+  },
+  {
+    "id": "des-visual-storytelling",
+    "title": "Storytelling and visual narrative: single-image storytelling, comics and sequential basics",
+    "group": "design-composition-characters",
+    "level": "intermediate",
+    "summary": "A picture can tell a story through what it shows, what it hints at and what it leaves out. You start with single-image storytelling, then move to short silent comics, learning shot choice, panel flow and how to make a change or reveal clear.",
+    "prerequisites": [
+      "des-composition-fundamentals",
+      "des-thumbnailing"
+    ],
+    "est_hours": [
+      12,
+      30
+    ],
+    "learning_outcomes": [
+      "Design a single image that implies before and after",
+      "Plan a four-panel silent comic with a clear change or reveal",
+      "Choose shot distances and angles for emphasis",
+      "Show reading order and pace through panel layout",
+      "Explain basic story structure with character, change and stakes"
+    ],
+    "resources": [
+      {
+        "title": "Pixar in a Box: The Art of Storytelling",
+        "provider": "Khan Academy with Pixar Animation Studios",
+        "credit": "Pixar story artists; introduction by Pete Docter and Valerie LaPointe",
+        "url": "https://www.khanacademy.org/computing/pixar/storytelling",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "Khan Academy describes Pixar in a Box as a free curriculum, and a 2017 No Film School article calls this storytelling course free. The course page is JavaScript-rendered, so I could not read its current lesson list or confirm it still exists in this form.",
+        "role": "core",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "Per the 2017 article the course had six lessons: We Are All Storytellers, Character, Structure, Visual Language, Filmmaking Grammar, Storyboarding. Pay most attention to Visual Language and Storyboarding. Confirm the current list on the page first."
+      },
+      {
+        "title": "Marvel's The Art of Storytelling (Proko): free lessons",
+        "provider": "Proko with Marvel",
+        "credit": "Instructors include Jim Zub (story), Mike Hawthorne (cinematography), Aaron Conley (page and panel layout), Alitha Martinez (acting), Daniel Warren Johnson (environments)",
+        "url": "https://www.proko.com/course/marvels-the-art-of-storytelling",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "130 lessons, 22 free (about 35 h 46 m total). Full course is paid ($249 list; $199.20 on the sale seen on 13 Oct 2026). Non-premium users can only open selected previews. The free lessons I could confirm by name are How to Make Comics (the intro, listed 10:17 on the course page and 10:42 on its lesson page) and Drawing Character Expressions (14:02).",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Start with the free intro lesson (https://www.proko.com/course-lesson/how-to-make-comics-marvels-the-art-of-storytelling), which previews nine topics including writing, penciling, character design and cover design and sets assignments at the end of each section. The other 20 free lessons are not named on the pages I could read; check the Lessons tab."
+      },
+      {
+        "title": "The visual magic of comics (TED2005)",
+        "provider": "TED",
+        "credit": "Scott McCloud",
+        "url": "https://www.ted.com/talks/scott_mccloud_on_comics",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "Free to watch on ted.com (16:48, filmed Feb 2005). The licence is TED's CC BY-NC-ND 4.0 usage policy; the policy says use in structured courses or curricula needs a separate licence, so link to it rather than copying or embedding. McCloud's own site lists paid workshops, and his books (Understanding Comics, Making Comics) are paid and not linked.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "A talk on the visual magic of comics, presented in a comic-like style, from the author of Understanding Comics. The page gives no detailed outline; watch it for McCloud's framing of comics as a visual language."
+      },
+      {
+        "title": "Start writing fiction (OpenLearn A174_1)",
+        "provider": "The Open University (OpenLearn)",
+        "credit": "The Open University",
+        "url": "https://www.open.edu/openlearn/history-the-arts/creative-writing/start-writing-fiction/content-section-0?active-tab=description-tab",
+        "format": "course",
+        "cost": "free",
+        "free_notes": "12 hours, Level 1. Free statement of participation on completion; an account and enrolment are needed. Released under a Creative Commons licence (third-party material excluded).",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "A writing course, not a drawing one, but useful for story basics: character (round and flat characters, sources of characters), setting (including setting as antagonist) and genre. Skim the character and setting sections; it feeds directly into character and environment design."
+      }
+    ],
+    "practice": [
+      {
+        "title": "One image with a before and after",
+        "description": "Design a single image that implies what happened just before and what will happen next (a tipped chair, muddy footprints, an open window). Do three versions and ask a friend what they think happened.",
+        "dose": "3 images, 45 min"
+      },
+      {
+        "title": "Four-panel silent comic",
+        "description": "Plan a four-panel comic with no words and a reveal in the last panel. Do eight tiny thumbnail plans first, then pick one to draw cleanly.",
+        "dose": "1 comic, 90 min",
+        "reference_url": "https://www.peppercarrot.com/"
+      },
+      {
+        "title": "Panel layout study",
+        "description": "Choose one page from a public-domain comic. Redraw its layout as grey boxes with arrows showing reading order and note where the biggest panel is and why.",
+        "dose": "3 pages, 15 min each",
+        "reference_url": "https://digitalcomicmuseum.com/"
+      },
+      {
+        "title": "Six shot sizes of one moment",
+        "description": "Draw one moment (a character opening a letter) in six shot choices: extreme wide, wide, medium, close-up, high angle, low angle. Note which tells the story best.",
+        "dose": "6 thumbnails, 25 min"
+      },
+      {
+        "title": "Story spine beats",
+        "description": "Write six beats of a very short story in one sentence each, then draw one thumbnail per beat. Check that each frame shows something changing.",
+        "dose": "6 thumbnails, 30 min"
+      }
+    ],
+    "done_when": [
+      "You can design a single image that makes a viewer ask what happened before and after",
+      "Your silent four-panel comic can be understood by a stranger without words",
+      "You choose shot size and angle for a reason in each panel",
+      "You can mark the reading order on any comic page"
+    ],
+    "common_mistakes": [
+      "Relying on captions to explain what the drawing does not show",
+      "Using the same shot size in every panel",
+      "Confusing reading order through crowded layouts",
+      "Telling a sequence with no change, reveal or stake"
+    ],
+    "school_reference": [
+      {
+        "institution": "CalArts, Character Animation BFA",
+        "url": "https://calarts.edu/academics/programs-and-degrees/bfa-character-animation",
+        "note": "Year 1 includes storytelling and students make a short film each year, with a visiting artist series throughout."
+      },
+      {
+        "institution": "Swinburne University of Technology (Melbourne), Bachelor of Animation",
+        "url": "https://www.swinburne.edu.au/course/undergraduate/bachelor-of-animation",
+        "note": "Second-year Writing and Directing for Animation leads to a third-year major project pitched and produced by teams."
+      },
+      {
+        "institution": "Ringling College of Art and Design, Illustration BFA",
+        "url": "https://www.ringling.edu/academics/majors/illustration/",
+        "note": "Described as starting with the basics of visual storytelling; student publications include a graphic novel (Meanwhile) and a visual development book (Design Unscripted)."
+      }
+    ]
+  },
+  {
+    "id": "des-cartooning-stylisation-caricature",
+    "title": "Cartooning, stylisation, exaggeration and caricature",
+    "group": "design-composition-characters",
+    "level": "intermediate",
+    "summary": "Stylisation means choosing what to keep, simplify and push. You practise exaggerating a feature while keeping the whole character believable, designing at different levels of simplification, and learning classic cartoon construction.",
+    "prerequisites": [
+      "des-shape-language-silhouette",
+      "des-expression-acting"
+    ],
+    "est_hours": [
+      8,
+      25
+    ],
+    "learning_outcomes": [
+      "Push one feature at several strengths and judge where likeness breaks",
+      "Draw the same character at three levels of simplification",
+      "Construct a cartoon head with volumes and guidelines",
+      "Know the difference between caricature of a person and exaggeration of a design",
+      "Pick a stylisation level to suit a story or audience"
+    ],
+    "resources": [
+      {
+        "title": "Ctrl+Paint: Exaggeration and Expressiveness in Your Drawing",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/videos/exaggeration",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "The provider's library page calls its videos short and free; the Premium Series is sold separately. I could not load the Exaggeration page itself (two fetch errors) but it is listed in the library's Drawing 2 section.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Watch Exaggeration, then Expressiveness in Your Drawing (https://www.ctrlpaint.com/videos/expressiveness-in-drawing, Nov 2012; body language and facial expression, recommends studying Glen Keane). I could not read the Exaggeration page, so its content is unconfirmed."
+      },
+      {
+        "title": "Animation Drawing Course (Preston Blair with John Kricfalusi), Animation Resources",
+        "provider": "Animation Resources",
+        "credit": "Preston Blair (book), John Kricfalusi (commentary), Animation Resources (non-profit)",
+        "url": "https://animationresources.org/?p=11345",
+        "format": "course",
+        "cost": "free-tier",
+        "free_notes": "The lesson pages are public, but the course needs Preston Blair's Animation (Book 1), sold separately, plus printed pages from a first-edition Blair book. The book remains in copyright and the site's terms prohibit copying or distributing its material, so only link to it. The site also sells memberships.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Lesson One (Construction, The Head) asks you to repeat a bear head hundreds of times, build an egg model, draw Blair's characters from volumes, compare with the original in red pencil and redraw. Kricfalusi's commentary is on his blog. Only Lesson One was visible on the page I opened."
+      },
+      {
+        "title": "Character Design with Aaron Blaise (paid course)",
+        "provider": "The Art of Aaron Blaise (Creature Art Teacher)",
+        "credit": "Aaron Blaise",
+        "url": "https://creatureartteacher.com/product/character-design-course-aaron-blaise/",
+        "format": "course",
+        "cost": "paid",
+        "free_notes": "Shown at $35 (sale, from $75). No lesson is labelled free; two preview excerpts are embedded.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Part 1 topics listed on the page include caricature, simple expressions, eyes, and costumes and props."
+      },
+      {
+        "title": "Trove (National Library of Australia)",
+        "provider": "National Library of Australia",
+        "credit": "National Library of Australia",
+        "url": "https://trove.nla.gov.au/",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "NOT VERIFIED: a bot-check page blocked my fetch, so I could not read what is viewable or any rights statements. Check each item's rights before reusing.",
+        "role": "supplementary",
+        "verified": false,
+        "last_checked": "2026-10-13",
+        "notes": "A candidate local source for historical Australian cartoons and caricatures for study. Use only after you confirm what it offers."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Exaggeration ladder",
+        "description": "Draw one face at four strengths of pushing a single feature (0, 25, 50, 100 percent). Choose the strength where it is still recognisably the same character.",
+        "dose": "4 faces, 15 min",
+        "reference_url": "https://www.ctrlpaint.com/videos/exaggeration"
+      },
+      {
+        "title": "Caricature from public-domain portraits",
+        "description": "Pick five painted portraits from an open-access museum collection. For each, find the one or two features that define the face and draw a quick caricature in 10 minutes. Avoid living private individuals.",
+        "dose": "5 caricatures, 10 min each",
+        "reference_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+      },
+      {
+        "title": "Three levels of simplification",
+        "description": "Draw one character in three versions: realistic, semi-stylised and minimal. Note what you removed at each step.",
+        "dose": "3 drawings, 30 min"
+      },
+      {
+        "title": "Construct a cartoon head repeatedly",
+        "description": "Following the Animation Resources lesson idea, draw a simple cartoon head from volumes and guidelines many times, comparing each with the original page. Needs the source book.",
+        "dose": "20 heads, 40 min",
+        "reference_url": "https://animationresources.org/?p=11345"
+      },
+      {
+        "title": "Five big shapes from a photo",
+        "description": "Reduce a photo of a person or animal to five big shapes, then stylise them with exaggeration.",
+        "dose": "3 photos, 10 min each",
+        "reference_url": "https://unsplash.com/license"
+      }
+    ],
+    "done_when": [
+      "You can push a feature to several strengths and pick the one that works",
+      "You can draw the same character in three levels of simplification",
+      "You can explain what you kept and removed in a simplified version",
+      "You can draw a cartoon head from volumes without outlines first"
+    ],
+    "common_mistakes": [
+      "Exaggerating every feature equally, which loses the likeness",
+      "Copying one artist's surface style without understanding the construction",
+      "Making a mocking caricature of a living private person",
+      "Simplifying so much that the character loses personality"
+    ],
+    "school_reference": [
+      {
+        "institution": "ArtCenter College of Design, Illustration BS",
+        "url": "https://www.artcenter.edu/academics/undergraduate-degrees/illustration/overview.html",
+        "note": "Entertainment Arts track covers character design, storyboarding and backgrounds; graduates produce character designs and storyboards for film, TV, commercials and games."
+      },
+      {
+        "institution": "Ringling College of Art and Design, 2D Character Animation BFA",
+        "url": "https://www.ringling.edu/academics/majors/2d-character-animation/",
+        "note": "Described as pairing traditional draftsmanship with contemporary production tools."
+      }
+    ]
+  },
+  {
+    "id": "des-surreal-ideation",
+    "title": "Surreal and imaginative ideation: mashups, chance methods and drawing random crazy things on purpose",
+    "group": "design-composition-characters",
+    "level": "beginner",
+    "summary": "This module borrows methods from Surrealism and from random generators to get past your usual ideas. You use chance (exquisite corpse, rubbings, blots), mashups and random prompts to produce strange images, then edit them so the weirdness has an inner logic.",
+    "prerequisites": [
+      "des-ideation-sketching",
+      "des-reference-visual-library"
+    ],
+    "est_hours": [
+      8,
+      25
+    ],
+    "learning_outcomes": [
+      "Use at least three chance-based techniques to start drawings",
+      "Interpret accidental marks as creatures, places or objects",
+      "Build mashups from random prompts that still read as coherent",
+      "Edit surreal ideas so they have a clear internal logic",
+      "Draw many strange things quickly without self-censoring"
+    ],
+    "resources": [
+      {
+        "title": "Tate Art Terms: Cadavre exquis (exquisite corpse), plus Automatism and Frottage",
+        "provider": "Tate",
+        "credit": "Tate (UK)",
+        "url": "https://www.tate.org.uk/art/art-terms/c/cadavre-exquis-exquisite-corpse",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free to read on tate.org.uk. Tate site terms apply to reuse of text and images.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Exquisite corpse is a collaborative drawing method where each player draws a section of a figure hidden from the next; the entry says Tanguy, Prevert, Breton and Duchamp invented it in Paris in 1925. Then read Automatism (https://www.tate.org.uk/art/art-terms/a/automatism, fast unguided drawing that bypasses conscious control) and Frottage (https://www.tate.org.uk/art/art-terms/f/frottage, rubbing a textured surface, developed by Max Ernst from 1925). National Galleries of Scotland has a similar frottage entry (https://www.nationalgalleries.org/art-and-artists/glossary-terms/frottage)."
+      },
+      {
+        "title": "Glossary of Surrealist Techniques",
+        "provider": "Centre Pompidou",
+        "credit": "Centre Pompidou teaching resources",
+        "url": "https://www.centrepompidou.fr/en/offre-aux-professionnels/enseignants/dossiers-ressources-sur-lart/le-surrealisme/glossaire-des-techniques-surrealistes",
+        "format": "reference-bank",
+        "cost": "free",
+        "free_notes": "Free to read on the museum's teachers' resource pages.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Short entries for ten techniques: exquisite corpse, collage, decalcomania, automatic writing, frottage, fumage (candle smoke), grattage (scraping), surrealist object, paranoiac-critical method, rayograph. Pick three to try."
+      },
+      {
+        "title": "Drawing Surrealism (exhibition wall texts, LACMA)",
+        "provider": "Los Angeles County Museum of Art",
+        "credit": "LACMA (didactics PDF dated October 2012)",
+        "url": "https://www.lacma.org/sites/default/files/Drawing%20Surrealism%20didactics%2010.22.12.pdf",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Free PDF on the museum's site. It is exhibition text, not a how-to.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Describes automatic drawing, exquisite corpse, frottage, decalcomania, fumage, collage and photomontage, photograms, aerographs, and drawings made in response to texts. Read for ideas to try."
+      },
+      {
+        "title": "Ctrl+Paint: Generating Ideas",
+        "provider": "Ctrl+Paint",
+        "credit": "Matt Kohr",
+        "url": "https://www.ctrlpaint.com/videos/generating-ideas",
+        "format": "video",
+        "cost": "free",
+        "free_notes": "The provider's library page calls its videos short and free; the Premium Series is sold separately. This lesson page appears in the free library but does not repeat the word free.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Posted Sept 2012. Kohr suggests inventing narrow fake assignments, and the page links random generators for sci-fi characters, spaceships, fantasy characters, castles, weather, flags, instruments, arenas and magical familiars (donjon and Chaotic Shiny)."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Exquisite corpse in three folds",
+        "description": "Fold a sheet in three. Draw a head on the top, fold it over, pass it on or continue yourself without looking, then do torso and legs. Repeat five times and rework your favourite into a coherent character in a second drawing.",
+        "dose": "5 rounds, 30 min",
+        "reference_url": "https://www.tate.org.uk/art/art-terms/c/cadavre-exquis-exquisite-corpse"
+      },
+      {
+        "title": "Frottage hunt",
+        "description": "Make ten rubbings of textured surfaces around you with a soft pencil. Find forms in each and develop four of them into creatures or landscapes.",
+        "dose": "10 rubbings + 4 drawings, 60 min",
+        "reference_url": "https://www.tate.org.uk/art/art-terms/f/frottage"
+      },
+      {
+        "title": "Ink blot interpretation",
+        "description": "Make six ink or watery paint blots on paper, let them dry, then draw into each to turn it into a creature, place or object.",
+        "dose": "6 blots, 45 min",
+        "reference_url": "https://www.centrepompidou.fr/en/offre-aux-professionnels/enseignants/dossiers-ressources-sur-lart/le-surrealisme/glossaire-des-techniques-surrealistes"
+      },
+      {
+        "title": "Three-column mashup",
+        "description": "Roll or choose three words: an animal, an everyday object and a place. Draw eight thumbnails combining all three. Pick one and redraw it with a reason for each combination.",
+        "dose": "8 thumbnails + 1 drawing, 45 min",
+        "reference_url": "https://www.chaoticshiny.com/"
+      },
+      {
+        "title": "Crazy hour",
+        "description": "Set a timer for 60 minutes and draw 30 strange things, never repeating a concept. Keep everything, then circle the five most interesting.",
+        "dose": "30 drawings, 60 min"
+      }
+    ],
+    "done_when": [
+      "You have tried at least three chance techniques and kept results from each",
+      "You can turn a chance mark into a recognisable creature or place",
+      "Your mashups can be explained in a sentence about how the parts connect",
+      "You can fill a page with 30 strange ideas in an hour without stopping to judge"
+    ],
+    "common_mistakes": [
+      "Treating randomness as the point and never editing the results",
+      "Confusing 'surreal' with 'random'; a convincing odd image has its own logic",
+      "Waiting for inspiration instead of using a technique",
+      "Discarding rough results before developing any of them"
+    ],
+    "school_reference": [
+      {
+        "institution": "FZD School of Design (Singapore)",
+        "url": "https://www.fzdschool.com/",
+        "note": "Its second term is described as developing design languages by studying history, culture and nature and generating ideas from real-world references."
+      }
+    ]
+  },
+  {
+    "id": "des-visual-development-workflow",
+    "title": "Visual development workflow: from idea to rough to finished piece",
+    "group": "design-composition-characters",
+    "level": "advanced",
+    "summary": "This capstone module puts the group together: a brief, reference, many thumbnails, a chosen layout, a value rough, a colour pass and a finished image, with checkpoints between stages. You learn to budget time per stage and to look at a real artist's or studio's process to compare.",
+    "prerequisites": [
+      "des-thumbnailing",
+      "des-environment-scene-building",
+      "des-character-design-process"
+    ],
+    "est_hours": [
+      20,
+      60
+    ],
+    "learning_outcomes": [
+      "Take a short brief to a finished image through defined stages",
+      "Use stage checks (reads at small size, clear focal point) before moving on",
+      "Budget time per stage and finish pieces",
+      "Compare your process with that of professional artists and studios",
+      "Review your own work after a delay and note what to change"
+    ],
+    "resources": [
+      {
+        "title": "FZD School of Design: free articles and Design Cinema (Feng Zhu)",
+        "provider": "FZD School of Design",
+        "credit": "Feng Zhu",
+        "url": "https://www.fzdschool.com/",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "The school's page says Design Cinema is a YouTube channel offering free tutorials and industry knowledge, and lists free blog posts. The school itself is a paid one-year diploma programme. I could not open the Design Cinema Notion page or confirm specific episodes.",
+        "role": "core",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Blog posts named on the page: Sketching 101, Line Art Fundamentals, Fundamentals of Design, Top 10 Tips for Designers, For Students: Learning Perspective. The school's own channel is https://www.youtube.com/@FZDSCHOOL (concept design tutorials for games and film; I confirmed the channel exists but no specific videos). The three programme terms on the page (fundamentals, expanding the visual library, story-driven portfolio) are a handy map of the whole workflow."
+      },
+      {
+        "title": "Marco Bucci YouTube channel",
+        "provider": "Marco Bucci",
+        "credit": "Marco Bucci",
+        "url": "https://www.youtube.com/@marcobucci",
+        "format": "playlist",
+        "cost": "free",
+        "free_notes": "The channel is free. His paid material includes lessons at marcobucciartstore.com, a 22-lesson Proko course 'Illustrating Children's Books (and beyond!)' ($59; lesson 20 'Painting Final Art' runs 48:25 and is premium) and 'From Fundamentals to Finished Paintings with Marco Bucci' on Creature Art Teacher.",
+        "role": "alternative",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "The channel description says it covers painting fundamentals, applied painting demos and insights into growing as a creative person, with experience in film, TV, games and print. I could not fetch playlists or specific video titles, so choose from the Playlists tab."
+      },
+      {
+        "title": "Gurney Journey: Preliminary Sketches and Imaginative Realism labels",
+        "provider": "James Gurney",
+        "credit": "James Gurney",
+        "url": "https://gurneyjourney.blogspot.com",
+        "format": "text",
+        "cost": "free",
+        "free_notes": "Blog is free and a January 2026 post says it runs with no paywalls. Permissions allow non-commercial quoting with credit.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "Preliminary Sketches had about 75 posts and Imaginative Realism about 53 when checked. Pick posts that show a sequence of stages."
+      },
+      {
+        "title": "Blender Studio: Spring open movie production material",
+        "provider": "Blender Studio",
+        "credit": "Andy Goralczyk and the Spring team",
+        "url": "https://studio.blender.org/films/spring/",
+        "format": "reference-bank",
+        "cost": "free-tier",
+        "free_notes": "Some articles are tagged Free; a related training page needed a login and a membership of 11.50 euros per month. I could not confirm whether the gallery is free.",
+        "role": "supplementary",
+        "verified": true,
+        "last_checked": "2026-10-13",
+        "notes": "A real short-film production: concept art, character design, storyboard samples, model sheets, previz images, production logs and a 48-minute staff-file breakdown listed in the gallery. Use it to compare a professional pipeline with your own."
+      }
+    ],
+    "practice": [
+      {
+        "title": "Brief to finish in stages",
+        "description": "Write a three-line brief. Produce 12 thumbnails, 3 value roughs, 1 tonal sketch, a colour pass, then a finished piece, noting time spent at each stage. Spread across sessions if needed.",
+        "dose": "1 piece, 6 to 10 hours",
+        "reference_url": "https://www.ctrlpaint.com/videos/modular-thumbnail-sketching"
+      },
+      {
+        "title": "Reference round",
+        "description": "Collect 30 references and note five decisions the references changed in your design.",
+        "dose": "30 images, 40 min",
+        "reference_url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access"
+      },
+      {
+        "title": "Stage-gate checklist",
+        "description": "Before leaving each stage, check: reads at stamp size, one clear focal point, silhouettes distinct, no tangents, value groups clear. Write a tick or cross per stage.",
+        "dose": "5 checks per stage"
+      },
+      {
+        "title": "Compare with a pro process",
+        "description": "Open a production page and compare its stages to yours, noting one thing to copy and one thing to avoid.",
+        "dose": "1 comparison, 30 min",
+        "reference_url": "https://studio.blender.org/films/spring/"
+      },
+      {
+        "title": "Delayed review",
+        "description": "Wait a day, look at the piece fresh, and write three lines: what works, what does not, what you would change next time.",
+        "dose": "1 review, 10 min"
+      }
+    ],
+    "done_when": [
+      "You have completed one piece from brief to finish with record of each stage",
+      "You can state the time you spent per stage and which stage over-ran",
+      "Your final piece keeps the focal point and silhouette decisions made at thumbnail stage",
+      "You have compared your workflow with a professional example and changed one habit"
+    ],
+    "common_mistakes": [
+      "Rendering before the composition is settled",
+      "Skipping reference and thumbnails and starting at the final size",
+      "Giving no time limit per stage, so early stages swallow the whole project",
+      "Never finishing because you keep restarting"
+    ],
+    "school_reference": [
+      {
+        "institution": "Ringling College of Art and Design, Illustration BFA (Visual Development emphasis)",
+        "url": "https://www.ringling.edu/academics/majors/illustration/",
+        "note": "Visual Development students create props, characters and environments; the emphasis requires an art test and involves high volume and quick turnarounds."
+      },
+      {
+        "institution": "FZD School of Design (Singapore)",
+        "url": "https://www.fzdschool.com/",
+        "note": "Three terms: fundamentals, expanding the visual library, then developing a story-driven portfolio."
+      },
+      {
+        "institution": "Swinburne University of Technology (Melbourne), Bachelor of Animation",
+        "url": "https://www.swinburne.edu.au/course/undergraduate/bachelor-of-animation",
+        "note": "Third year is a two-semester major project (preproduction, then production and post) done in teams and intended for festival or public exhibition."
+      },
+      {
+        "institution": "ArtCenter College of Design, Entertainment Design BS",
+        "url": "https://www.artcenter.edu/academics/undergraduate-degrees/entertainment-design/overview.html",
+        "note": "Sponsored Projects bring industry professionals into the classroom; the portfolio is presented as the main career asset."
+      }
+    ]
+  }
+]
