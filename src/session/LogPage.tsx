@@ -2,7 +2,7 @@ import { useState } from 'react';
 import type { Module } from '../data/types';
 import { useApp } from '../app/state';
 import { applyAttempt, today, type Plan, type Step } from '../engine/plan';
-import { db, type CheckAnswer } from '../store/db';
+import { db, type CheckAnswer, type ReferenceRecord } from '../store/db';
 import { preparePhoto, type PreparedPhoto } from '../store/photo';
 import { useBlobUrl } from '../components/bits';
 import { Answers } from '../components/Answers';
@@ -11,8 +11,8 @@ const KIND_TEXT = { judgement: 'you judge', measured: 'measure it against the re
 
 // The last part of a session: photograph the page, say where it is most off before looking hard,
 // answer each check in words, and write one line for next time. No score and no grade.
-export function LogPage({ plan, step, module, onSaved, onSkip }: {
-  plan: Plan; step: Step; module: Module | null; onSaved: (id: number) => void; onSkip: () => void;
+export function LogPage({ plan, step, module, reference, onSaved, onSkip }: {
+  plan: Plan; step: Step; module: Module | null; reference: ReferenceRecord | null; onSaved: (id: number) => void; onSkip: () => void;
 }) {
   const { progress } = useApp();
   const [photo, setPhoto] = useState<PreparedPhoto | null>(null);
@@ -37,7 +37,7 @@ export function LogPage({ plan, step, module, onSaved, onSkip }: {
     const id = await db.drawings.add({
       date: new Date().toISOString(), moduleId: module?.id || step.moduleId, practiceId: exercise?.practiceId || null, sessionId: null,
       revisit: false, note: [guess && `Predicted: ${guess}`, note].filter(Boolean).join('\n'), checks,
-      photo: photo?.photo || null, thumb: photo?.thumb || null, width: photo?.width || 0, height: photo?.height || 0, reference: null,
+      photo: photo?.photo || null, thumb: photo?.thumb || null, width: photo?.width || 0, height: photo?.height || 0, reference,
     });
     if (module) await db.progress.put(applyAttempt(module, progress.get(module.id), checks, day, false));
     onSaved(id as number);

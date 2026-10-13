@@ -139,6 +139,7 @@ select, input[type='text'], input[type='number'], textarea {
 }
 textarea { width: 100%; resize: vertical; font-family: var(--read); font-size: 17px; }
 input[type='checkbox'] { accent-color: var(--accent); width: 18px; height: 18px; }
+input[type='range'] { accent-color: var(--accent); }
 
 /* ---- Lists ---------------------------------------------------------------------------------- */
 .steps { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }

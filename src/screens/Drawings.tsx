@@ -132,7 +132,7 @@ export function DrawingPage({ id }: { id: number }) {
             <h2 className="section-title">{drawing.revisit ? 'The revisit checks' : 'The checks'}</h2>
             <ul className="read" style={{ margin: 0, padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 8, fontSize: 17 }}>
               {module.done_when.map((check, index) => (
-                drawing.checks[index] ? <li key={check.text} className="between"><span>{check.text}</span><span className="tag">{ANSWER_TEXT[drawing.checks[index]!]}</span></li> : null
+                drawing.checks[index] ? <li key={check.text} style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) auto', gap: 16, alignItems: 'baseline' }}><span>{check.text}</span><span className="tag">{ANSWER_TEXT[drawing.checks[index]!]}</span></li> : null
               ))}
             </ul>
           </div>

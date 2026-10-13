@@ -45,6 +45,7 @@ export function Session({ route }: { route: SessionRoute }) {
   const started = useRef(new Date().toISOString());
   const spent = useRef(0);
   const [stepsDone, setStepsDone] = useState<boolean[]>([]);
+  const [lastReference, setLastReference] = useState<ReferenceRecord | null>(null);
   useWakeLock(finished === null);
 
   const finish = useCallback(async (drawingId: number | null) => {
@@ -85,6 +86,8 @@ export function Session({ route }: { route: SessionRoute }) {
       onNext={next}
       onFinish={finish}
       stepsDone={stepsDone}
+      lastReference={lastReference}
+      onReference={setLastReference}
     />
   );
 }
@@ -99,9 +102,11 @@ interface StepViewProps {
   onNext: () => void;
   onFinish: (drawingId: number | null) => Promise<void>;
   stepsDone: boolean[];
+  lastReference: ReferenceRecord | null;
+  onReference: (reference: ReferenceRecord | null) => void;
 }
 
-function StepView({ plan, index, step, running, setRunning, onSeconds, onNext, onFinish, stepsDone }: StepViewProps) {
+function StepView({ plan, index, step, running, setRunning, onSeconds, onNext, onFinish, stepsDone, lastReference, onReference }: StepViewProps) {
   const { course, progress } = useApp();
   const module = step.moduleId ? course.module.get(step.moduleId) || null : null;
   const isLog = step.kind === 'log';
@@ -136,6 +141,10 @@ function StepView({ plan, index, step, running, setRunning, onSeconds, onNext, o
   }, [timer.elapsed, timer.pose, timer.done, references.items.length, sound, onSeconds, isLog]);
 
   const shownRef: ReferenceRecord | undefined = references.items[refIndex % Math.max(1, references.items.length)];
+  // The page logged at the end is compared with the reference the exercise was drawn from.
+  useEffect(() => {
+    if ((step.kind === 'exercise' || step.kind === 'play') && shownRef) onReference(shownRef);
+  }, [shownRef, step.kind, onReference]);
   const moveRef = useCallback((by: number) => {
     if (references.items.length) setRefIndex((value) => (value + by + references.items.length) % references.items.length);
   }, [references.items.length]);
@@ -188,7 +197,7 @@ function StepView({ plan, index, step, running, setRunning, onSeconds, onNext, o
       </div>
       {isLog ? (
         <div className="viewer" style={{ background: 'var(--page)', placeItems: 'stretch', overflowY: 'auto' }}>
-          <LogPage plan={plan} step={step} module={module} onSaved={(id) => void onFinish(id)} onSkip={() => void onFinish(null)} />
+          <LogPage plan={plan} step={step} module={module} reference={lastReference} onSaved={(id) => void onFinish(id)} onSkip={() => void onFinish(null)} />
         </div>
       ) : (
         <div className={classes}>
