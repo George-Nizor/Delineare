@@ -232,6 +232,27 @@ input[type='checkbox'] { accent-color: var(--accent); width: 18px; height: 18px;
 .step-list li.done { text-decoration: line-through; }
 .prompt-card { font-family: var(--read); font-size: 30px; line-height: 1.3; color: #F3F3F3; max-width: 22ch; text-align: center; }
 
+/* ---- 3D tools ------------------------------------------------------------------------------ */
+.tool { position: relative; width: 100%; height: 100%; display: flex; flex-direction: column; min-height: 0; }
+.tool-stage { position: relative; flex: 1; min-height: 280px; background: var(--viewer); overflow: hidden; touch-action: none; }
+.tool-stage canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.tool-overlay { pointer-events: none; }
+.tool-stage[data-values='2'] canvas:first-child { filter: url(#posterise-2); }
+.tool-stage[data-values='3'] canvas:first-child { filter: url(#posterise-3); }
+.tool-stage[data-values='4'] canvas:first-child { filter: url(#posterise-4); }
+.tool-stage[data-values='5'] canvas:first-child { filter: url(#posterise-5); }
+.tool-bar { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; padding: 12px 14px; background: #2B2B2B; color: #ECECEC; font-size: 13px; }
+.tool-bar label { display: inline-flex; align-items: center; gap: 8px; }
+.tool-bar select { background: #1E1E1E; color: #ECECEC; border-color: #555; min-height: 34px; padding: 4px 8px; }
+.tool-bar input[type='range'] { accent-color: var(--accent); width: 120px; }
+.tool-bar .mono { font-size: 11px; color: #BDBDBD; min-width: 76px; }
+.tool-bar .segmented { border-color: #8A8A8A; }
+.tool-bar .segmented button { color: #ECECEC; min-height: 32px; padding: 4px 12px; font-size: 13px; }
+.tool-bar .segmented button[aria-pressed='true'] { background: #ECECEC; color: #1E1E1E; }
+.tool-bar.compact { padding: 8px 10px; gap: 8px 14px; }
+.viewer > .tool { position: absolute; inset: 0; }
+.tool-page .tool { height: min(72vh, 760px); border-radius: 2px; overflow: hidden; }
+
 /* ---- Small screens -------------------------------------------------------------------------- */
 @media (max-width: 900px) {
   .top { flex-wrap: wrap; gap: 8px 18px; padding: 12px 16px; }
@@ -252,9 +273,13 @@ input[type='checkbox'] { accent-color: var(--accent); width: 18px; height: 18px;
   .exercises li > :last-child { grid-column: 2; justify-self: start; }
   .check-row { grid-template-columns: minmax(0, 1fr); }
   .compare { grid-template-columns: minmax(0, 1fr); }
-  .session { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(52vh, auto) auto; grid-template-areas: 'head' 'viewer' 'panel'; overflow-y: auto; }
+  .session { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 52vh auto; grid-template-areas: 'head' 'viewer' 'panel'; overflow-y: auto; }
   .session-head { display: flex; grid-area: head; justify-content: space-between; align-items: center; padding: 10px 16px; min-height: 44px; }
-  .viewer img.ref { max-width: 100vw; max-height: 56vh; }
+  .viewer img.ref { max-width: 100vw; max-height: 52vh; }
+  .session > .viewer { height: 52vh; }
+  .panel .read.muted { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .credit { font-size: 10px; }
+  .tool-bar input[type='range'] { width: 90px; }
   .panel { border-left: 0; padding: 12px 16px 18px; gap: 12px; overflow: visible; }
   .panel .hide-small { display: none; }
   .timer { font-size: 44px; }

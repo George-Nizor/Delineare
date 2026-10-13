@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { useApp } from '../app/state';
+import { href, useApp } from '../app/state';
+import { TOOLS } from '../tools/ToolView';
 import { ROMAN } from '../data/load';
 import type { LibraryEntry } from '../data/types';
 
@@ -39,14 +40,27 @@ export function Library() {
           </select>
         </label>
       </header>
+      <section className="stack gap-10" aria-labelledby="lib-tools">
+        <h2 id="lib-tools" className="section-title">Tools in Delineare</h2>
+        <ul className="footnotes" style={{ listStyle: 'none', paddingLeft: 0 }}>
+          {TOOLS.map((tool) => (
+            <li key={tool.id} className="rule-top">
+              <a href={href({ page: 'tool', name: tool.id })} style={{ fontSize: 18 }}>{tool.title}</a>
+              <span style={{ display: 'block' }}>{tool.summary}</span>
+              <span className="muted" style={{ display: 'block', fontSize: 14 }}>Generated here. Anything it renders is yours to draw from.</span>
+            </li>
+          ))}
+        </ul>
+      </section>
       {[...groups.entries()].map(([type, items]) => (
         <section key={type} className="stack gap-10" aria-labelledby={`lib-${type}`}>
           <h2 id={`lib-${type}`} className="section-title">{TYPE_TITLE[type] || type}</h2>
           <ul className="footnotes" style={{ listStyle: 'none', paddingLeft: 0 }}>
             {items.map((entry) => (
-              <li key={entry.url + entry.name} className="rule-top">
-                <a href={entry.url} target="_blank" rel="noopener noreferrer" style={{ fontSize: 18 }}>{entry.name}</a>
-                {entry.description ? <span style={{ display: 'block' }}>{String(entry.description)}</span> : null}
+              <li key={entry.url + entry.title} className="rule-top">
+                <a href={entry.url} target="_blank" rel="noopener noreferrer" style={{ fontSize: 18 }}>{entry.title}</a>
+                {entry.provider && entry.provider !== entry.title ? <span className="muted">. {entry.provider}</span> : null}
+                {entry.notes ? <span style={{ display: 'block' }}>{entry.notes}</span> : null}
                 <span className="muted" style={{ display: 'block', fontSize: 14 }}>Licence: {entry.licence}</span>
               </li>
             ))}

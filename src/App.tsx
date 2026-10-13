@@ -9,6 +9,7 @@ import { ModulePage } from './screens/ModulePage';
 import { Session } from './screens/Session';
 import { Drawings, DrawingPage } from './screens/Drawings';
 import { Library } from './screens/Library';
+import { ToolPage } from './screens/ToolPage';
 import { Sources } from './screens/Sources';
 import { Settings } from './screens/Settings';
 
@@ -41,7 +42,7 @@ const NAV: { label: string; route: Route; pages: Route['page'][] }[] = [
   { label: 'Today', route: { page: 'today' }, pages: ['today'] },
   { label: 'Contents', route: { page: 'contents' }, pages: ['contents', 'module'] },
   { label: 'Drawings', route: { page: 'drawings' }, pages: ['drawings', 'drawing'] },
-  { label: 'Library', route: { page: 'library' }, pages: ['library'] },
+  { label: 'Library', route: { page: 'library' }, pages: ['library', 'tool'] },
   { label: 'Sources', route: { page: 'sources' }, pages: ['sources'] },
   { label: 'Settings', route: { page: 'settings' }, pages: ['settings'] },
 ];
@@ -71,6 +72,7 @@ function Pages() {
         {route.page === 'drawings' && <Drawings moduleId={route.moduleId} />}
         {route.page === 'drawing' && <DrawingPage id={route.id} />}
         {route.page === 'library' && <Library />}
+        {route.page === 'tool' && <ToolPage name={route.name} />}
         {route.page === 'sources' && <Sources />}
         {route.page === 'settings' && <Settings />}
       </main>

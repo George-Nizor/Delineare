@@ -137,12 +137,16 @@ export interface Benchmark {
 }
 
 export interface LibraryEntry {
-  name: string;
+  id?: string;
+  title: string;
+  provider?: string;
   type: string;
   url: string;
   licence: string;
+  cost?: string;
+  notes?: string;
+  free_notes?: string;
   use_for_phases?: number[];
-  description?: string;
   [key: string]: unknown;
 }
 

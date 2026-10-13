@@ -10,6 +10,7 @@ import { useReferences } from '../references/useReferences';
 import { chime, clock, useTimer, useWakeLock } from '../session/useTimer';
 import { LogPage } from '../session/LogPage';
 import { Answers } from '../components/Answers';
+import { isTool, ToolView } from '../tools/ToolView';
 
 type SessionRoute = Extract<Route, { page: 'session' }>;
 
@@ -191,7 +192,9 @@ function StepView({ plan, index, step, running, setRunning, onSeconds, onNext, o
         </div>
       ) : (
         <div className={classes}>
-          {shownRef ? (
+          {step.reference.kind === 'tool' && isTool(step.reference.tool) ? (
+            <ToolView tool={step.reference.tool} compact />
+          ) : shownRef ? (
             <div className="frame">
               <img className="ref" src={shownRef.image} alt={`Reference: ${shownRef.title}`} referrerPolicy="no-referrer" />
               {grid ? <div className="grid-lines" aria-hidden="true">{Array.from({ length: 9 }, (_, at) => <span key={at} />)}</div> : null}
@@ -272,14 +275,21 @@ function StepView({ plan, index, step, running, setRunning, onSeconds, onNext, o
   );
 }
 
+// Where a timed pose session happens: a library entry or a resource named by the data, or failing
+// that whatever library entry shares the address's host, so the button always names the site.
 function siteFor(course: ReturnType<typeof useApp>['course'], step: Step): { name: string; url: string } | null {
   const reference = step.reference;
   if (reference.kind !== 'pose-site') return null;
-  if (reference.url) return { name: reference.site || new URL(reference.url).hostname, url: reference.url };
-  const entry = course.data.library.find((item) => item.name === reference.site) || course.data.library.find((item) => item.type === 'timed-reference');
-  if (entry) return { name: entry.name, url: entry.url };
+  const library = course.data.library;
+  const byTitle = library.find((item) => item.title.toLowerCase() === (reference.site || '').toLowerCase());
   const resource = reference.site ? course.resource.get(reference.site) : undefined;
-  return resource ? { name: resource.provider, url: resource.url } : null;
+  const url = reference.url || byTitle?.url || resource?.url || library.find((item) => item.type === 'timed-reference')?.url || '';
+  if (!url) return null;
+  let host = '';
+  try { host = new URL(url).hostname.replace(/^www\./, ''); } catch { return null; }
+  const sameHost = library.find((item) => { try { return new URL(item.url).hostname.replace(/^www\./, '') === host; } catch { return false; } });
+  const name = byTitle?.title || sameHost?.title || resource?.provider || host;
+  return { name, url };
 }
 
 function ViewerMessage({ step, module, loading, prompt, newPrompt, site, useFigures, done }: {

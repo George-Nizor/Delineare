@@ -70,6 +70,7 @@ export type Route =
   | { page: 'drawings'; moduleId?: string }
   | { page: 'drawing'; id: number }
   | { page: 'library' }
+  | { page: 'tool'; name: string }
   | { page: 'sources' }
   | { page: 'settings' };
 
@@ -86,6 +87,7 @@ export function parseRoute(hash: string): Route {
     case 'drawings': return { page: 'drawings', moduleId: params.get('module') || undefined };
     case 'drawing': return Number(second) > 0 ? { page: 'drawing', id: Number(second) } : { page: 'drawings' };
     case 'library': return { page: 'library' };
+    case 'tool': return second ? { page: 'tool', name: second } : { page: 'library' };
     case 'sources': return { page: 'sources' };
     case 'settings': return { page: 'settings' };
     default: return { page: 'today' };
@@ -101,6 +103,7 @@ export function href(route: Route): string {
       return route.mode === 'short' ? '#/session/short' : '#/session';
     case 'drawings': return route.moduleId ? `#/drawings?module=${encodeURIComponent(route.moduleId)}` : '#/drawings';
     case 'drawing': return `#/drawing/${route.id}`;
+    case 'tool': return `#/tool/${encodeURIComponent(route.name)}`;
     default: return `#/${route.page}`;
   }
 }
