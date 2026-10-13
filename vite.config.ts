@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [react()],
   build: { target: 'es2022', sourcemap: false, assetsInlineLimit: 0 },
   test: {
-    environment: 'jsdom',
+    environment: 'node',
     setupFiles: ['tests/setup.ts'],
   },
 });
