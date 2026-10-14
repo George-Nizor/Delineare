@@ -63,6 +63,13 @@ try {
   await page.getByRole('button', { name: 'Show the steps' }).click();
   step('steps fold and unfold');
 
+  // A lesson video loads as a credentialless frame, or Delineare's isolation leaves it blank.
+  await page.getByRole('button', { name: 'Play here' }).first().click();
+  const frame = await page.locator('.video iframe').evaluate((el) => ({ credentialless: el.hasAttribute('credentialless'), src: el.getAttribute('src') }));
+  if (!frame.credentialless || !frame.src?.startsWith('https://www.youtube-nocookie.com/embed/')) throw new Error(`the lesson video frame is not set up to play: ${JSON.stringify(frame)}`);
+  await page.getByRole('button', { name: 'Close the video' }).click();
+  step('a lesson video frame is credentialless');
+
   await page.getByRole('link', { name: 'Start the exercise' }).click();
   await page.getByRole('button', { name: 'Start', exact: true }).waitFor();
   await shot(page, '03-exercise-ready');

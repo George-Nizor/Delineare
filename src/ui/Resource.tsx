@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { Resource } from '../content/types';
 
 // One line per resource: title, teacher, what it is, length and cost. A YouTube lesson can play in
@@ -27,20 +27,26 @@ export function ResourceLine({ resource }: { resource: Resource }) {
   );
 }
 
-// Delineare's page is cross-origin isolated, so the player loads as a credentialless frame: no
-// cookies go to YouTube, and the launcher allows this one embed origin and nothing else.
+// Delineare's page is cross-origin isolated, so the player must load as a credentialless frame: no
+// cookies go to YouTube, and the launcher allows this one embed origin and nothing else. React drops
+// a bare `credentialless` attribute, so the frame gets it here, before its address, which is the
+// order the browser needs: an attribute added after the frame starts loading has no effect.
 export function VideoEmbed({ id, title }: { id: string; title: string }) {
-  const frameAttributes = { credentialless: '' } as Record<string, string>;
+  const frame = useRef<HTMLIFrameElement>(null);
+  useEffect(() => {
+    const element = frame.current;
+    if (!element) return;
+    element.setAttribute('credentialless', '');
+    element.src = `https://www.youtube-nocookie.com/embed/${id}?rel=0`;
+  }, [id]);
   return (
     <div className="video">
       <iframe
-        {...frameAttributes}
-        src={`https://www.youtube-nocookie.com/embed/${id}?rel=0`}
+        ref={frame}
         title={title}
         allow="fullscreen; picture-in-picture; encrypted-media"
         allowFullScreen
         referrerPolicy="strict-origin-when-cross-origin"
-        loading="lazy"
       />
     </div>
   );
