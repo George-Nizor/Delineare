@@ -276,7 +276,7 @@ a.card:active { transform: translateY(-1px) scale(0.995); }
 .card:hover .lesson-art img { transform: scale(1.05); }
 .lesson-art.is-drawing { background: #e7e3d8; padding: 0.8rem; }
 .lesson-art.is-drawing img { max-width: 100%; max-height: 100%; object-fit: contain; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.22); }
-.lesson-art.is-icon, .row-art { background-color: var(--paper); background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px); background-size: 16px 16px; }
+.lesson-art.is-icon { background-color: var(--paper); background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px); background-size: 16px 16px; }
 .lesson-art.is-icon img { height: 6.8rem; width: auto; }
 .badge { position: absolute; top: 0.7rem; left: 0.7rem; padding: 0.25rem 0.6rem; border-radius: 999px; background: rgba(255, 255, 255, 0.92); color: #3a3934; font-size: 0.78rem; font-weight: 600; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); }
 .badge-next { background: var(--accent); color: var(--accent-ink); }
@@ -361,7 +361,8 @@ a.card:active { transform: translateY(-1px) scale(0.995); }
 .row-body { display: flex; flex-direction: column; gap: 0.15rem; min-width: 0; flex: 1; }
 .row-body .row-title { flex: none; }
 .row-art { flex: none; width: 5.25rem; height: 3.5rem; border-radius: 6px; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; overflow: hidden; }
-.row-art img { height: 2.8rem; width: auto; transition: transform 0.4s var(--ease-out); }
+.row-art { background: #e7e3d8; }
+.row-art img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s var(--ease-out); }
 .row:hover .row-art img { transform: scale(1.08); }
 .row-side { display: flex; flex-direction: column; align-items: flex-end; gap: 0.15rem; white-space: nowrap; }
 .mins { font: 600 0.95rem/1 var(--font-mono); }
@@ -420,6 +421,10 @@ a.card:active { transform: translateY(-1px) scale(0.995); }
 .reference-note { color: #fff; margin: 0; animation: fade-in 0.6s 0.2s both; }
 .reference-art { width: 100%; max-width: 56rem; background: var(--d-paper); border-radius: 4px; padding: 0.5rem; box-shadow: 0 10px 34px rgba(0, 0, 0, 0.25); animation: float-in 0.8s var(--ease-out) 0.1s both; }
 .reference-prompt { font: 600 clamp(1.9rem, 4vw, 3.1rem)/1.2 var(--font-display); color: #fff; text-align: center; max-width: 28ch; margin: 0; animation: float-in 0.7s var(--ease-out) both; }
+.reference-picture { margin: 0; display: grid; justify-items: center; gap: 0.6rem; animation: pop-in 0.5s var(--ease-out) both; }
+.reference-picture img { max-width: 100%; max-height: 70vh; object-fit: contain; box-shadow: 0 10px 34px rgba(0, 0, 0, 0.25); }
+.reference-picture figcaption { color: #f1efe9; font-size: 0.85rem; font-style: italic; text-align: center; max-width: 40rem; }
+.picture-controls { display: flex; align-items: center; gap: 1rem; color: #fff; font-size: 0.92rem; }
 .panel { background: var(--surface); border-left: 1px solid var(--line); padding: 2rem 2rem 3rem; overflow-y: auto; animation: panel-in 0.55s var(--ease-out) both; }
 .panel h1 { font-size: 2rem; margin-bottom: 0.35rem; }
 .panel > .meta { margin-bottom: 1rem; }

@@ -8,6 +8,7 @@
   text: "Draw a horizon and two vanishing points. Draw a room corner with a floor. Make a height scale, then draw four people standing at different spots on the floor, each at the height the scale gives. Use a ruler for the scale."
   steps: [Set the horizon, Draw a height scale, Place a person, Repeat, Put heads on the horizon]
   timer: { minutes: 40 }
+  reference: { diagram: example, alt: "A room corner with two vanishing points, a height scale at the left edge and four people standing at different distances, each at the height the scale gives." }
 
 - id: street-with-figures
   title: "A street with six people"

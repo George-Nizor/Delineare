@@ -5,20 +5,21 @@
   title: "Turn an object"
   kind: imagination
   minutes: 30
-  text: "Draw a plain object as you see it, built from forms with its box around it. Then draw it turned about a quarter turn to the left, without looking at it. Last, turn the real object and compare."
-  steps: [Draw it as you see it, Choose a turn, Move the front corners, Place the back corners, Add the forms]
+  text: "Draw a plain object as you see it, built from forms with its box around it. Then draw it turned about 15 degrees, without looking at it. Last, turn the real object by the same amount and compare."
+  steps: [Draw it as you see it, Choose a turn, Keep what stays, Move the corners, Add the forms]
   timer: { minutes: 30 }
-  reference: { prompt: "A plain object on your desk, such as a stapler" }
+  reference: { diagram: example, alt: "The same object drawn twice, once at 45 degrees and once turned 15 degrees, on one eye level." }
 
 - id: turn-a-box
   title: "Turn a box"
   kind: drill
   minutes: 15
-  text: "Draw one box in two-point perspective. Next to it, draw the same box turned a little to the right, then a little more. Rotate around the vertical axis only."
-  steps: [Choose a turn, Move the front corners, Place the back corners]
+  text: "Draw one box in two-point perspective. Next to it, draw the same box turned a little to the right, then a little more. Rotate around the vertical axis only, on the same eye level."
+  steps: [Choose a turn, Keep what stays, Move the corners]
   timer: { minutes: 15 }
+  reference: { diagram: keep, alt: "Two views of a box with a smaller box on top, on one eye level, the nearest vertical edge the same in each." }
   check:
-    - Vanishing points move along the horizon between boxes.
+    - Vanishing points move along the eye level between boxes.
     - Each box is shorter on the side that turned away.
 
 - id: turn-from-memory

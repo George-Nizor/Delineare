@@ -8,6 +8,7 @@
   text: "Draw six thumbnails of a street, then draw the best one large in two-point perspective with four figures at the right scale. Build the shadows from a sun at 45 degrees and fill them with one dark tone. Use pencil or pen."
   steps: [Plan, Set the space, Scale the people, Cast the shadows, Set the values]
   timer: { minutes: 90 }
+  reference: { diagram: example, alt: "A street with two box buildings, four people at different heights and dark shadows falling to the right." }
 
 - id: scene-layout-only
   title: "A scene layout"

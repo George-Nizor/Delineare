@@ -16,9 +16,15 @@
   title: Count the heads
   kind: warm-up
   minutes: 5
-  text: Find a standing photo of one person. Measure the head with a pencil held at arm's length and count how many heads tall they are. Write the number beside a quick sketch.
-  timer: { minutes: 5 }
-  reference: { prompt: "A standing photo of one person" }
+  text: Hold a pencil up to each picture, mark the head on it with your thumb and count how many heads tall the person is. Write the number beside a quick sketch of the head, ribcage and pelvis as three shapes.
+  timer:
+    rounds:
+      - { label: "Picture 1", seconds: 75 }
+      - { label: "Picture 2", seconds: 75 }
+      - { label: "Picture 3", seconds: 75 }
+      - { label: "Picture 4", seconds: 75 }
+  reference:
+    images: [22-proportions/muybridge-standing-front.jpg, 22-proportions/muybridge-walking-front.jpg, 22-proportions/muybridge-walking-side.jpg, 22-proportions/muybridge-woman-in-dress.jpg]
   check:
     - The number you wrote comes from measuring, not guessing.
     - The sketch has the head, ribcage and pelvis as three shapes.

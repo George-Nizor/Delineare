@@ -8,6 +8,7 @@
   text: "Fill a page with sausage shapes in ink. Give each a spine and a few contour ellipses, drawn through twice. Add a small ellipse to any tip that points toward you."
   steps: [Draw a sausage, Add a spine, Draw contour ellipses, Cap a tip]
   timer: { minutes: 20 }
+  reference: { diagram: example, alt: "A page of four sausages, three with a spine and contour ellipses and one with contour curves." }
 
 - id: sausage-curves-page
   title: "Sausages with contour curves"

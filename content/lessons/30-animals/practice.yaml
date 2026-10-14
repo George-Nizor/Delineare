@@ -5,18 +5,29 @@
   title: "Three animals from the side"
   kind: master-copy
   minutes: 40
-  text: "Find side-view photos of a horse, a dog and a cat. Draw each as a barrel with chest and hip ovals, size the head against the trunk, then add the legs as cylinders. Use a pencil on printer paper."
+  text: "Draw the horse, the dog and the cat from the pictures. Draw each as a barrel with chest and hip ovals, size the head against the trunk, then add the legs as cylinders. Use a pencil on printer paper."
   steps: [Find the trunk, Mark the ends, Size the head, Add the legs, Check]
-  timer: { minutes: 40 }
-  reference: { prompt: "A side-view photo of a horse, a dog and a cat" }
+  timer:
+    rounds:
+      - { label: "Horse", minutes: 14 }
+      - { label: "Dog", minutes: 13 }
+      - { label: "Cat", minutes: 13 }
+  reference:
+    prompt: "A horse, a dog and a cat in side view, and a horse's skeleton for the ovals and legs."
+    images: [30-animals/horse-trot.jpg, 30-animals/dog-run-5.jpg, 30-animals/cat-walk-1.jpg, 30-animals/cuyer-horse-skeleton.jpg]
 
 - id: animal-gesture-masses
   title: "Quick animal masses"
   kind: timed
   minutes: 10
-  text: "Draw five animals from photos in two minutes each. Barrel, chest and hip ovals, head, and four straight lines for the legs."
+  text: "Draw five animals from the pictures in two minutes each. Barrel, chest and hip ovals, head, and four straight lines for the legs."
   steps: [Find the trunk, Mark the ends, Size the head]
-  timer: { minutes: 10 }
+  timer:
+    rounds:
+      - { label: "Five animals at two minutes", seconds: 600, pose: 120 }
+  reference:
+    prompt: "Five animals in side view."
+    images: [30-animals/horse-trot-2.jpg, 30-animals/dog-run-3.jpg, 30-animals/cat-walk-3.jpg, 30-animals/bison-run.jpg, 30-animals/elephant-walk.jpg]
   check:
     - Each trunk is one barrel with a larger chest.
     - You sized each head against its trunk.
@@ -25,8 +36,11 @@
   title: "Front leg and arm"
   kind: drill
   minutes: 15
-  text: "Draw your own arm bent at the elbow, then draw a dog's front leg from a photo beside it. Label the shoulder, elbow and wrist on each."
+  text: "Draw your own arm bent at the elbow, then draw a dog's front leg from the pictures beside it. Label the shoulder, elbow and wrist on each."
   timer: { minutes: 15 }
+  reference:
+    prompt: "A human skeleton on all fours, a dog's skeleton and a dog running."
+    images: [30-animals/cuyer-human-quadruped.jpg, 30-animals/cuyer-dog-skeleton.jpg, 30-animals/dog-run-6.jpg]
   check:
     - You marked the shoulder, elbow and wrist on both.
     - Each segment is a simple cylinder.

@@ -13,6 +13,7 @@
       - { label: "Draw it from memory", minutes: 5 }
       - { label: "Compare with the object", minutes: 2 }
       - { label: "Draw it again from memory", minutes: 5 }
+  reference: { diagram: example, alt: "A mug, a first drawing from memory with the proportions and handle wrong, and a second drawing that fixes them." }
 
 - id: quick-recall
   title: Quick recall

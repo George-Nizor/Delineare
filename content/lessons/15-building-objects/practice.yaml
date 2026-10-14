@@ -8,15 +8,16 @@
   text: "Set a mug in front of you. Build it from boxes and cylinders, drawn through, then add intersection lines and smaller forms such as the handle. Use a pen and don't erase."
   steps: [Pick an object, Name its forms, Build them, Draw the joins, Add a pass]
   timer: { minutes: 30 }
-  reference: { prompt: "A mug on your desk" }
+  reference: { diagram: example, alt: "A mug built from a cylinder and a curved handle, every form drawn through, with the joins marked." }
 
 - id: intersecting-boxes-page
   title: "A page of intersecting boxes"
   kind: drill
   minutes: 20
-  text: "Fill a page with boxes of about equal length, width and height, overlapping in one group. Draw each through, then work out where they intersect and draw those lines. Thicken lines only where boxes overlap."
+  text: "Fill a page with boxes of about equal length, width and height, overlapping in one big group. Draw each through, then work out where they intersect and draw those lines. Thicken lines only where boxes overlap."
   steps: [Build them, Draw the joins]
   timer: { minutes: 20 }
+  reference: { diagram: inter, alt: "Two boxes of equal size overlapping at a corner, the six-sided loop where their surfaces meet drawn heavily." }
   check:
     - Boxes are roughly equal in all three dimensions.
     - Each intersection line lies on the surface of both boxes.

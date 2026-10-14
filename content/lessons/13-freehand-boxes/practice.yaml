@@ -5,9 +5,10 @@
   title: "A page of freehand boxes"
   kind: drill
   minutes: 30
-  text: "Mark three vanishing points on a page. Draw five or six boxes with the Y method, freehand, and draw through each one. When the page is done, extend every edge back toward its vanishing point in ballpoint."
+  text: "Mark vanishing points on a page, three for each box, with a different symbol for each box. Draw five or six boxes with the Y method, freehand, and draw through each one. When the page is done, extend every edge back toward its vanishing point in ballpoint."
   steps: [Mark the vanishing points, Draw a Y, Draw the box, Extend the edges, Fill the page]
   timer: { minutes: 30 }
+  reference: { diagram: example, alt: "A page of five freehand boxes at different angles, each with a second pen's lines extending its edges back." }
 
 - id: y-warm-up
   title: "Y warm-up"
@@ -16,7 +17,7 @@
   text: "Draw six Ys with different arm lengths and angles. Check that every angle is greater than 90 degrees."
   steps: [Draw a Y]
   timer: { minutes: 5 }
-  reference: { prompt: "Six Ys, no two the same" }
+  reference: { diagram: y, alt: "Three lines meeting at one point, each angle between them wider than 90 degrees." }
   check:
     - Each angle between arms is greater than 90 degrees.
     - The arms differ in length from Y to Y.
@@ -25,9 +26,10 @@
   title: "Extension check"
   kind: drill
   minutes: 10
-  text: "Take last week's page of boxes, or draw four new ones. Extend each edge back from the nearest corner, then mark on the page which sets drift most."
+  text: "Take an earlier page of boxes, or draw four new ones. Extend each edge back, away from you, then mark on the page which sets drift most."
   steps: [Extend the edges]
   timer: { minutes: 10 }
+  reference: { diagram: extend, alt: "A box with lines continuing each edge back towards its vanishing point and ending a little off it." }
   check:
-    - Every extension starts at the nearest corner.
+    - Every extension runs back along its own edge.
     - You have marked the set of edges that drifts the most.

@@ -159,6 +159,7 @@ try {
   for (const item of Object.values(content.practice)) {
     await page.goto(`${server.url}/#/do/${item.id}`, { waitUntil: 'networkidle' });
     await page.getByRole('heading', { name: item.title, level: 1 }).waitFor();
+    await page.waitForTimeout(700);
     await page.screenshot({ path: path.join(out, `practice-${item.id}.png`) });
   }
   step('every written lesson and practice item renders');

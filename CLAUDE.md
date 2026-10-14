@@ -36,8 +36,11 @@ the reports the plan rests on; `docs/rebuild/sources/` holds verified source not
 - Reference images and anywhere tone is judged sit on neutral grey, in both themes.
 - No streaks, badges, levels, scores or praise. Nothing is ever shown as overdue or missed.
 - The lesson format (title, introduction, Steps, Common mistake, Checking your page) was agreed by
-  the owner on 2026-10-14, after the design review; all 34 lessons use it. Lessons 4 to 34 have no
-  diagrams yet.
+  the owner on 2026-10-14, after the design review; all 34 lessons use it, each with an example,
+  step diagrams and a wrong-and-right pair.
+- An exercise that draws from a photo or a drawing shows one: public-domain or CC0 pictures in
+  `public/reference/`, credited in `content/references/*.yaml`. Course cards use public-domain
+  museum drawings (`src/content/art.ts`).
 - Lesson writers follow `docs/rebuild/AGENT-BRIEF.md`.
 
 ## Done means

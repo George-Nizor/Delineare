@@ -12,6 +12,7 @@
       - { label: "Measure and draw the mug", minutes: 10 }
       - { label: "Measure and draw the chair", minutes: 15 }
       - { label: "Compare with a photo", minutes: 5 }
+  reference: { diagram: example, alt: "A mug and a chair with their measured ratios written beside them." }
 
 - id: measuring-warm-up
   title: Five ratios

@@ -8,15 +8,16 @@
   text: "Rule a page into three frames. In each frame, draw a horizon with a vanishing point near each end, then construct five or six two-point boxes with a ruler. Use a pen, and make the boxes different sizes."
   steps: [Set up, Draw the first vertical, Close the faces, Join the back, Repeat]
   timer: { minutes: 45 }
+  reference: { diagram: example, alt: "A frame with a horizon, a vanishing point at each end and five ruled boxes of different sizes." }
 
 - id: plotted-three-point
   title: "Three-point boxes"
   kind: drill
   minutes: 20
-  text: "Draw one frame with a horizon and two vanishing points. Add a third vanishing point well below the horizon. Rule three boxes, pointing their vertical edges to the third point as well."
-  steps: [Set up, Close the faces, Join the back]
+  text: "Draw one frame with a horizon and two vanishing points. Add a third vanishing point well below the horizon. Rule three boxes, running their vertical edges to the third point as well."
+  steps: [Set up, Close the faces, Join the back, Add a third point]
   timer: { minutes: 20 }
-  reference: { prompt: "Two vanishing points on the horizon, a third well below it" }
+  reference: { diagram: three, alt: "A box seen from above, its vertical edges running down to a point far below the horizon." }
   check:
     - Vertical edges, extended, reach the third vanishing point.
     - Other edges still reach the two on the horizon.

@@ -119,7 +119,7 @@ extending its edges.
   15 min).
 
 **15. Building objects.** You can build a real object from boxes and cylinders, drawn through, with
-cuts and joins.
+joins.
 - Needs: 10, 13, 14.
 - Watch: Drawabox, Form Intersections (https://www.youtube.com/watch?v=VuorfzSk33Y, 29 min).
 - Paid, and the one book worth buying: Scott Robertson, How to Draw.

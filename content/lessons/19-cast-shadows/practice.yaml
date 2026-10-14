@@ -8,6 +8,7 @@
   text: "Draw a box on a floor. Build its shadow for a sun at 45 degrees, fill it, then draw the same box again and build its shadow for a lamp standing close beside it. Use a ruler for the construction lines."
   steps: [Draw the box, Place the sun, Find the tips, Join and fill, Use a lamp]
   timer: { minutes: 30 }
+  reference: { diagram: example, alt: "Two drawings of the same box, one with the parallel-edged shadow of the sun and one with the widening shadow of a lamp." }
 
 - id: three-boxes-one-sun
   title: "Three boxes, one sun"
@@ -16,6 +17,7 @@
   text: "Draw three boxes of different heights on the same floor. Build all three shadows from one sun at 45 degrees."
   steps: [Draw the box, Place the sun, Find the tips, Join and fill]
   timer: { minutes: 20 }
+  reference: { diagram: three, alt: "Three boxes of different heights on one floor, each with a shadow as long as the box is tall, all pointing the same way." }
   check:
     - Each shadow is as long as its box is tall.
     - All three shadows point the same way.
@@ -24,9 +26,11 @@
   title: "Shadows in a photo"
   kind: life
   minutes: 15
-  text: "Find a photo of buildings or posts in sunlight. Draw two of the objects and their shadows. Mark which end of each shadow touches the object."
+  text: "Draw two posts or trunks from a photo and their shadows. Mark which end of each shadow touches the object."
   timer: { minutes: 15 }
-  reference: { prompt: "A photo with strong sun and long shadows" }
+  reference:
+    prompt: "Sun behind or beside the objects, shadows running the same way"
+    images: [19-cast-shadows/park-sign-shadows.jpg, 19-cast-shadows/amsterdam-canal-shadows.jpg, 19-cast-shadows/road-guardrail-shadows.jpg]
   check:
     - Each shadow starts at the base of its object.
     - The shadows run in one direction.

@@ -234,9 +234,9 @@ async function readPractice(folder, lesson, diagrams, practice) {
   for (const raw of items) {
     const at = `${where}, ${raw.id}`;
     strict(at, raw, ITEM_KEYS, 'the item');
-    strict(at, raw.timer, ['minutes', 'rounds'], 'timer');
-    for (const round of raw.timer?.rounds || []) strict(at, round, ['label', 'minutes', 'seconds'], 'a timer round');
-    strict(at, raw.reference, ['diagram', 'alt', 'prompt'], 'reference');
+    strict(at, raw.timer, ['minutes', 'rounds', 'pose'], 'timer');
+    for (const round of raw.timer?.rounds || []) strict(at, round, ['label', 'minutes', 'seconds', 'pose'], 'a timer round');
+    strict(at, raw.reference, ['diagram', 'alt', 'prompt', 'images'], 'reference');
     if (!/^[a-z0-9-]+$/.test(raw.id || '')) { fail(where, `bad practice id "${raw.id}"`); continue; }
     if (practice.has(raw.id)) fail(at, 'duplicate practice id');
     if (!KINDS.includes(raw.kind)) fail(at, `kind must be one of ${KINDS.join(', ')}`);
@@ -248,10 +248,10 @@ async function readPractice(folder, lesson, diagrams, practice) {
     const timer = raw.timer || {};
     let rounds;
     if (Array.isArray(timer.rounds)) {
-      rounds = timer.rounds.map((round) => ({ label: String(round.label || ''), seconds: Math.round((round.seconds ?? round.minutes * 60) || 0) }));
+      rounds = timer.rounds.map((round) => ({ label: String(round.label || ''), seconds: Math.round((round.seconds ?? round.minutes * 60) || 0), pose: round.pose ?? null }));
       if (rounds.some((round) => !(round.seconds > 0))) fail(at, 'every timer round needs seconds or minutes');
       for (const round of rounds) if (round.label) checkProse(`${at}, round "${round.label}"`, round.label);
-    } else if (timer.minutes > 0) rounds = [{ label: '', seconds: Math.round(timer.minutes * 60) }];
+    } else if (timer.minutes > 0) rounds = [{ label: '', seconds: Math.round(timer.minutes * 60), pose: timer.pose ?? null }];
     else fail(at, 'timer needs minutes or rounds');
     let reference = { type: 'none' };
     if (raw.reference?.diagram) {
@@ -262,7 +262,18 @@ async function readPractice(folder, lesson, diagrams, practice) {
         diagrams.set(art.id, { ...art, alt });
         reference = { type: 'diagram', diagram: art.id };
       }
+    } else if (Array.isArray(raw.reference?.images)) {
+      // Pictures to draw from, each a file in public/reference/ with a credit in content/references/.
+      const images = raw.reference.images.map((file) => {
+        const credit = pictures.get(file);
+        if (!credit) fail(at, `reference image "${file}" has no entry in content/references/*.yaml`);
+        return { src: `./reference/${file}`, credit: credit?.credit ?? '', alt: credit?.alt ?? '' };
+      });
+      if (!images.length) fail(at, 'reference images: list at least one file');
+      reference = { type: 'images', images, prompt: raw.reference.prompt ? String(raw.reference.prompt) : '' };
     } else if (raw.reference?.prompt) reference = { type: 'prompt', prompt: String(raw.reference.prompt) };
+    for (const round of rounds || []) if (round.pose !== null && !(round.pose > 0)) fail(at, 'pose is the number of seconds each picture stays up');
+    if ((rounds || []).some((round) => round.pose) && reference.type !== 'images') fail(at, 'pose needs reference images to rotate through');
     const check = (raw.check || []).map((line) => { checkProse(`${at}, check`, line, BUDGET.check); return paragraphs(line)[0] || []; });
     if (!raw.main && (check.length < 1 || check.length > 3)) fail(at, 'a practice item needs 1 to 3 checks of its own');
     for (const step of raw.steps || []) checkProse(`${at}, step`, step);
@@ -298,6 +309,27 @@ function readResources() {
   return resources;
 }
 
+// Pictures for exercises: public-domain drawings and photographs in public/reference/, each with a
+// credit a learner can follow back to the museum or archive.
+function readPictures() {
+  const pictures = new Map();
+  const dir = path.join(contentDir, 'references');
+  if (!fs.existsSync(dir)) return pictures;
+  for (const name of fs.readdirSync(dir).filter((file) => file.endsWith('.yaml')).sort()) {
+    for (const raw of readYaml(path.join(dir, name)) || []) {
+      const at = `content/references/${name}, ${raw.file}`;
+      for (const key of Object.keys(raw)) if (!['file', 'credit', 'alt', 'source', 'licence'].includes(key)) fail(at, `unexpected key "${key}"; quote values that contain a comma or colon`);
+      if (!raw.file || !fs.existsSync(path.join(root, 'public', 'reference', raw.file))) fail(at, 'file must exist in public/reference/');
+      if (!raw.credit || !raw.alt) fail(at, 'credit (artist, title, date) and alt (what the picture shows) are required');
+      if (!/^https:\/\//.test(raw.source || '')) fail(at, 'source must be the https page the picture came from');
+      if (!['public domain', 'CC0'].includes(raw.licence)) fail(at, 'licence must be "public domain" or "CC0"');
+      if (pictures.has(raw.file)) fail(at, 'listed twice');
+      pictures.set(raw.file, { credit: String(raw.credit), alt: String(raw.alt) });
+    }
+  }
+  return pictures;
+}
+
 function readPrompts() {
   const prompts = readYaml(path.join(contentDir, 'prompts.yaml')) || {};
   for (const key of ['subjects', 'twists', 'views']) {
@@ -319,6 +351,7 @@ const lessons = {};
 const diagrams = new Map();
 const practice = new Map();
 const resources = readResources();
+const pictures = readPictures();
 const slugs = new Set();
 let number = 0;
 

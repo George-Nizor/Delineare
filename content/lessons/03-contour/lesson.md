@@ -50,4 +50,4 @@ Look at each drawing for these things:
 2. The line has small bumps and turns, not a smooth outline.
 3. The shoe shows details only that shoe has, like a crease or a worn spot.
 
-Expect a blind drawing to look distorted. The aim is the looking, not the likeness.
+Expect a blind drawing to look distorted. What counts is how closely you looked.

@@ -111,3 +111,27 @@
   kind: book
   cost: free
   checked: 2026-10-14
+
+- id: clipstudio-clothing-folds
+  title: Drawing clothes and fabrics
+  teacher: jozlixart, Clip Studio Tips
+  url: https://tips.clip-studio.com/en-us/articles/6809
+  kind: written lesson
+  cost: free
+  checked: 2026-10-14
+
+- id: drawabox-plants
+  title: "Lesson 3: Applying Construction to Plants"
+  teacher: Drawabox
+  url: https://drawabox.com/lesson/3
+  kind: written lesson
+  cost: free
+  checked: 2026-10-14
+
+- id: drawabox-animals
+  title: "Lesson 5: Applying Construction to Animals"
+  teacher: Drawabox
+  url: https://drawabox.com/lesson/5
+  kind: written lesson
+  cost: free
+  checked: 2026-10-14

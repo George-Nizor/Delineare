@@ -8,6 +8,7 @@
   text: "Rule a five-box value scale. Set a mug or a shoe by a window, squint, and draw the borders between its light, medium and dark shapes. Fill each shape with one even tone. Use a soft pencil on printer paper."
   steps: [Make a scale, Squint, Draw the borders, Fill in three values, Compare]
   timer: { minutes: 30 }
+  reference: { diagram: example, alt: "A page with a five-box value scale along the top and a mug below it drawn as three flat shapes." }
 
 - id: value-scale-warm-up
   title: "Value scale warm-up"
@@ -16,6 +17,7 @@
   text: "Make a strip of five boxes from white to your darkest tone. Aim for an even step between each box."
   steps: [Make a scale]
   timer: { minutes: 5 }
+  reference: { diagram: scale, alt: "A strip of five boxes from white to near black, each a step darker than the one before." }
   check:
     - Each box is darker than the one before.
     - The steps between boxes look equal.

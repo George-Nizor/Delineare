@@ -5,7 +5,7 @@
   title: Mannequins from photos
   kind: life
   minutes: 25
-  text: "Find five photos of people in different poses. For each, draw a 30-second gesture, then build the bean, and then the limbs on top. Spend about 5 minutes on each pose. Use a pencil or pen on printer paper."
+  text: "For each of the five photographs, draw a 30-second gesture, then build the bean, and then the limbs on top. Spend about 5 minutes on each pose. Use a pencil or pen on printer paper."
   steps: [Gesture, Bean, Exaggerate, Foreshorten, Attach the limbs]
   timer:
     rounds:
@@ -14,17 +14,20 @@
       - { label: "Pose 3", minutes: 5 }
       - { label: "Pose 4", minutes: 5 }
       - { label: "Pose 5", minutes: 5 }
+  reference:
+    images: [23-mannequin/muybridge-disk-1.jpg, 23-mannequin/muybridge-log-shoulder.jpg, 23-mannequin/muybridge-kneeling-1.jpg, 23-mannequin/muybridge-bucket-1.jpg, 23-mannequin/muybridge-running-1.jpg, 23-mannequin/muybridge-hammering.jpg, 23-mannequin/muybridge-dancing.jpg, 23-mannequin/muybridge-log-lift.jpg, 23-mannequin/muybridge-kneeling-2.jpg, 23-mannequin/muybridge-disk-2.jpg, 23-mannequin/muybridge-bucket-2.jpg, 23-mannequin/muybridge-running-2.jpg]
 
 - id: bean-warm-up
   title: Bean warm-up
   kind: warm-up
   minutes: 10
-  text: "Draw only the bean, with its centerline, from ten photos of people. Spend 1 minute on each. Exaggerate the tilt, lean or twist."
-  timer: { minutes: 10 }
-  reference: { prompt: "Ten photos of people in different poses" }
+  text: "Draw only the bean, with its centerline, from each of ten pictures. Spend 1 minute on each. Exaggerate the tilt, lean or twist."
+  timer: { minutes: 10, pose: 60 }
+  reference:
+    images: [23-mannequin/muybridge-disk-2.jpg, 23-mannequin/muybridge-running-2.jpg, 23-mannequin/muybridge-bucket-2.jpg, 23-mannequin/muybridge-kneeling-2.jpg, 23-mannequin/muybridge-log-lift.jpg, 23-mannequin/muybridge-hammering.jpg, 23-mannequin/muybridge-dancing.jpg, 23-mannequin/muybridge-log-shoulder.jpg, 23-mannequin/muybridge-bucket-1.jpg, 23-mannequin/muybridge-kneeling-1.jpg, 23-mannequin/muybridge-disk-1.jpg, 23-mannequin/muybridge-running-1.jpg]
   check:
     - Every bean has a centerline through both ovals.
-    - The tilt or twist is stronger in your drawing than in the photo.
+    - The tilt or twist is stronger in your drawing than in the picture.
 
 - id: bean-turned
   title: "One bean, four ways"

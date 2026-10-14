@@ -87,3 +87,27 @@
   youtube: d07NanfYT8U
   cost: free
   checked: 2026-10-14
+
+- id: loomis-figure-drawing
+  title: Figure Drawing for All It's Worth
+  teacher: Andrew Loomis
+  url: https://bookshop.org/search?keywords=9780857680983
+  kind: book
+  cost: paid
+  checked: 2026-10-14
+
+- id: loomis-head-and-hands
+  title: Drawing the Head and Hands
+  teacher: Andrew Loomis
+  url: https://bookshop.org/p/books/drawing-the-head-and-hands-andrew-loomis/122dac6da4c7e909
+  kind: book
+  cost: paid
+  checked: 2026-10-14
+
+- id: vanderpoel-human-figure
+  title: The Human Figure
+  teacher: John H. Vanderpoel
+  url: https://archive.org/details/humanfigure00vanduoft
+  kind: book
+  cost: free
+  checked: 2026-10-14

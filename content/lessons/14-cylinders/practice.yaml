@@ -8,6 +8,7 @@
   text: "Draw cylinders on a page, each around its own ghosted axis. Turn each one at a different angle, and make some foreshortened more than others. When the page is done, check every ellipse with a ruler and a second colour."
   steps: [Draw the axis, Place the first ellipse, Place the second, Join the sides, Check]
   timer: { minutes: 30 }
+  reference: { diagram: example, alt: "A page of five cylinders at different angles, each built round a dashed axis." }
 
 - id: cylinders-in-boxes
   title: "Cylinders in boxes"
@@ -16,6 +17,7 @@
   text: "Draw a box freehand. Draw an X across two opposite faces to find their centres, and an axis line through both centres. Fit an ellipse in each of those faces, then join the sides."
   steps: [Draw the axis, Place the first ellipse, Place the second, Join the sides]
   timer: { minutes: 25 }
+  reference: { diagram: inbox, alt: "A box with an X across each of two opposite square faces, an axis through their centres and an ellipse fitted in each face." }
   check:
     - Each ellipse touches all four edges of its face.
     - The axis runs through the centre of both ellipses.
@@ -30,4 +32,4 @@
   reference: { prompt: "Four axes, each at a different angle" }
   check:
     - Each axis passes through both ellipses.
-    - The farther ellipse is slightly wider.
+    - The farther ellipse is slightly rounder.

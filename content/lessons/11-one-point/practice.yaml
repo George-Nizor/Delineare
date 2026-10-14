@@ -8,6 +8,7 @@
   text: "Rule a horizon across a page and mark one vanishing point on it. Draw six boxes in one-point perspective with a ruler: two above the horizon, two below and two across it. Make them different sizes."
   steps: [Draw the horizon, Place the vanishing point, Draw front faces, Run edges to the point, Close the back]
   timer: { minutes: 20 }
+  reference: { diagram: example, alt: "A page with a horizon, one vanishing point and six boxes above, below and across the horizon." }
 
 - id: one-point-warm-up
   title: "One-point warm-up"

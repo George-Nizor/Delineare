@@ -30,3 +30,16 @@
   check:
     - The lines are evenly spaced.
     - The crossed half is clearly darker.
+
+- id: master-hatching-copy
+  title: "Copy a master's hatching"
+  kind: master-copy
+  minutes: 15
+  text: "In ink, copy a 5 cm square of one picture: the coat in Rembrandt's etching, or the hip and leg in Dürer's drawing. Copy where the lines run, how close they sit and where one layer crosses another."
+  timer: { minutes: 15 }
+  reference:
+    prompt: "Pick one square of one picture"
+    images: [20-tone-with-line/rembrandt-old-man-with-beard.jpg, 20-tone-with-line/durer-female-nude-praying.jpg]
+  check:
+    - Your lines run in the same directions as the originals.
+    - The dark parts of your square have more layers than the light parts.

@@ -25,8 +25,8 @@ export function Credits() {
         ))}
       </ul>
       <section>
-        <h2>Drawings on the course page</h2>
-        <p>The drawings on the lesson cards are from the Art Institute of Chicago's open access collection and are in the public domain. Each card names the artist, the title and the date.</p>
+        <h2>Drawings and pictures</h2>
+        <p>The drawings on the lesson cards and the pictures in the exercises are public-domain works. They come from the open access collections of the Art Institute of Chicago, the Metropolitan Museum of Art, the Rijksmuseum and other archives, and each one names the artist, the title and the date where it appears.</p>
       </section>
       <section>
         <h2>Type and mark</h2>

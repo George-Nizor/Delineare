@@ -205,7 +205,7 @@ function VideoCard({ resource }: { resource: Resource }) {
           <span className="video-poster-meta">{details}</span>
         </button>
       )}
-      <p className="meta">{resource.teacher}{/written/.test(resource.kind) ? <> also has a <a href={resource.url} target="_blank" rel="noreferrer">written version</a> of this lesson.</> : <>. <a href={resource.url} target="_blank" rel="noreferrer">Open it on YouTube</a> instead.</>}</p>
+      <p className="meta">{resource.teacher}{/written/.test(resource.kind) ? <> also has a <a href={resource.url} target="_blank" rel="noreferrer">written version</a> of this lesson.</> : <>'s video. You can also <a href={resource.url} target="_blank" rel="noreferrer">watch it on YouTube</a>.</>}</p>
     </div>
   );
 }

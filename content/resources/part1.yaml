@@ -66,3 +66,11 @@
   youtube: XDLJAfDR4fM
   cost: free
   checked: 2026-10-14
+
+- id: speed-practice-and-science
+  title: The Practice and Science of Drawing
+  teacher: Harold Speed
+  url: https://www.gutenberg.org/ebooks/14264
+  kind: book
+  cost: free
+  checked: 2026-10-14

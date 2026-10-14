@@ -18,7 +18,7 @@ function freeItem(prompt: string): PracticeItem {
   return {
     id: 'free', lesson: '', main: false, title: 'Drawing prompt', kind: 'imagination', minutes: 10,
     text: [[{ t: 'text', v: "Draw this from imagination. Stop when the time is up, or keep going if you're enjoying it." }]],
-    steps: [], rounds: [{ label: '', seconds: 600 }], reference: { type: 'prompt', prompt }, check: [],
+    steps: [], rounds: [{ label: '', seconds: 600, pose: null }], reference: { type: 'prompt', prompt }, check: [],
   };
 }
 
@@ -53,6 +53,7 @@ function Exercise({ item }: { item: PracticeItem }) {
   }, [timer]);
 
   const prompt = item.reference.type === 'prompt' ? item.reference.prompt : round?.label || '';
+  const picture = usePicture(item, timer.phase === 'ready' ? 0 : item.rounds.slice(0, timer.round).reduce((sum, r) => sum + r.seconds, 0) + ((round?.seconds ?? 0) - timer.remaining), timer.round);
 
   const elapsed = timer.phase === 'ready' ? 0 : item.rounds.slice(0, timer.round).reduce((sum, r) => sum + r.seconds, 0) + ((round?.seconds ?? 0) - timer.remaining);
   const progress = timer.phase === 'finished' ? 1 : total ? elapsed / total : 0;
@@ -67,7 +68,21 @@ function Exercise({ item }: { item: PracticeItem }) {
       </header>
       <div className="exercise-body">
         <div className={`reference is-${item.reference.type}`}>
-          {item.reference.type === 'diagram' ? (
+          {item.reference.type === 'images' && picture ? (
+            <>
+              {item.reference.prompt ? <p className="reference-note">{item.reference.prompt}</p> : null}
+              <figure className="reference-picture" key={picture.image.src}>
+                <img src={picture.image.src} alt={picture.image.alt} />
+                <figcaption>{picture.image.credit}</figcaption>
+              </figure>
+              {picture.count > 1 ? (
+                <div className="picture-controls">
+                  <span>Picture {picture.index + 1} of {picture.count}</span>
+                  <button type="button" className="button small" onClick={picture.next}>Next picture</button>
+                </div>
+              ) : null}
+            </>
+          ) : item.reference.type === 'diagram' ? (
             <>
               <p className="reference-note">Your page should end up looking something like this.</p>
               <DiagramView diagram={content.diagrams[item.reference.diagram]} className="reference-art" />
@@ -105,6 +120,26 @@ function Exercise({ item }: { item: PracticeItem }) {
       </div>
     </div>
   );
+}
+
+// Which reference picture is up. In a timed pose round the picture changes every `pose` seconds;
+// the learner can also move on by hand. Each session starts at a different picture.
+function usePicture(item: PracticeItem, elapsed: number, roundIndex: number) {
+  const [start] = useState(() => Math.floor(Math.random() * 1000));
+  const [skipped, setSkipped] = useState(0);
+  if (item.reference.type !== 'images') return null;
+  const images = item.reference.images;
+  let poses = 0;
+  let before = 0;
+  item.rounds.forEach((round, i) => {
+    if (i < roundIndex) poses += round.pose ? Math.ceil(round.seconds / round.pose) : 0;
+    if (i < roundIndex) before += round.seconds;
+  });
+  const current = item.rounds[roundIndex];
+  if (current?.pose) poses += Math.floor(Math.max(0, elapsed - before) / current.pose);
+  else if (roundIndex > 0) poses += roundIndex;
+  const index = (start + poses + skipped) % images.length;
+  return { image: images[index]!, index, count: images.length, next: () => setSkipped((value) => value + 1) };
 }
 
 function Finish({ item, checks }: { item: PracticeItem; checks: Inline[] }) {

@@ -32,5 +32,5 @@
   text: "Draw a mannequin from the front. Cover it, then draw the same pose from the side without looking. Uncover it and compare joint heights."
   timer: { minutes: 10 }
   check:
-    - Shoulders and hips are at the same heights in both.
-    - The overall height matches within about a head.
+    - Shoulders, hips and knees are at the same heights in both.
+    - The overall height is the same number of heads.

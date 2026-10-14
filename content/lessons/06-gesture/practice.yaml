@@ -5,22 +5,29 @@
   title: A ladder of poses
   kind: timed
   minutes: 12
-  text: Use photos of standing, walking or leaning people. Draw four poses at 30 seconds, three at 1 minute, then two at 2 minutes, a new photo each time. Use a soft pencil or marker on large paper, and move from the shoulder.
+  text: Use the pictures of people in action. Draw four poses at 30 seconds, three at 1 minute, then two at 2 minutes, a new picture each time. Use a soft pencil or marker on large paper, and move from the shoulder.
   steps: [Look first, Find the line of action, Tilt the torso, Add rhythm lines, Add thickness]
   timer:
     rounds:
-      - { label: "Four poses at 30 seconds", seconds: 120 }
-      - { label: "Three poses at 1 minute", minutes: 3 }
-      - { label: "Two poses at 2 minutes", minutes: 4 }
+      - { label: "Four poses at 30 seconds", seconds: 120, pose: 30 }
+      - { label: "Three poses at 1 minute", minutes: 3, pose: 60 }
+      - { label: "Two poses at 2 minutes", minutes: 4, pose: 120 }
+  reference:
+    prompt: "Standing, walking, leaning and working figures"
+    images: [06-gesture/boucher-man-carrying-bundle.jpg, 06-gesture/callot-bearded-man-in-rags.jpg, 06-gesture/degas-dancer-adjusting-slipper.jpg, 06-gesture/fragonard-fisherman-pulling-net.jpg, 06-gesture/gavarni-sailor-standing-on-shore.jpg, 06-gesture/hollar-woman-carrying-vessel.jpg, 06-gesture/millet-reaper-bending.jpg, 06-gesture/mitelli-woodcutter.jpg, 06-gesture/muybridge-child-lifting-doll.jpg, 06-gesture/rembrandt-beggar-leaning-on-stick.jpg, 06-gesture/sargent-woman-walking.jpg, 06-gesture/schaufelein-sower-walking.jpg, 06-gesture/vincent-roman-servant-back-view.jpg, 06-gesture/callot-masked-swordsman.jpg, 06-gesture/degas-dancer-in-green.jpg, 06-gesture/millet-sower.jpg, 06-gesture/muybridge-woman-in-dark-dress-stepping.jpg, 06-gesture/callot-peg-leg.jpg, 06-gesture/degas-dancer-in-ukrainian-dress.jpg, 06-gesture/millet-wheat-reaper.jpg, 06-gesture/muybridge-woman-lifting-train.jpg, 06-gesture/callot-striding-with-cane.jpg, 06-gesture/degas-dancer-leaning-forward.jpg, 06-gesture/millet-woman-burning-weeds.jpg, 06-gesture/muybridge-woman-running-in-dark-dress.jpg, 06-gesture/callot-violin-player.jpg, 06-gesture/degas-dancer-with-a-fan.jpg, 06-gesture/millet-woman-emptying-bucket.jpg, 06-gesture/muybridge-woman-running-in-hat.jpg, 06-gesture/callot-wind-player.jpg, 06-gesture/degas-dancer-with-blue-sash.jpg, 06-gesture/millet-woman-with-rake.jpg, 06-gesture/muybridge-woman-with-parasol.jpg, 06-gesture/degas-seated-dancer.jpg, 06-gesture/millet-women-carrying-faggots.jpg]
 
 - id: gesture-warm-up
   title: Ten short poses
   kind: warm-up
   minutes: 5
-  text: Draw ten different photographed poses at 30 seconds each. Begin with the line of action every time.
+  text: Draw ten different poses at 30 seconds each. Begin with the line of action every time.
   steps: [Find the line of action, Tilt the torso, Add rhythm lines]
-  timer: { minutes: 5 }
-  reference: { prompt: "Ten photos of people in action, 30 seconds each" }
+  timer:
+    rounds:
+      - { label: "Ten poses at 30 seconds", minutes: 5, pose: 30 }
+  reference:
+    prompt: "Ten people in action, 30 seconds each"
+    images: [06-gesture/boucher-man-carrying-bundle.jpg, 06-gesture/callot-bearded-man-in-rags.jpg, 06-gesture/degas-dancer-adjusting-slipper.jpg, 06-gesture/fragonard-fisherman-pulling-net.jpg, 06-gesture/gavarni-sailor-standing-on-shore.jpg, 06-gesture/hollar-woman-carrying-vessel.jpg, 06-gesture/millet-reaper-bending.jpg, 06-gesture/mitelli-woodcutter.jpg, 06-gesture/muybridge-child-lifting-doll.jpg, 06-gesture/rembrandt-beggar-leaning-on-stick.jpg, 06-gesture/sargent-woman-walking.jpg, 06-gesture/schaufelein-sower-walking.jpg, 06-gesture/vincent-roman-servant-back-view.jpg, 06-gesture/callot-masked-swordsman.jpg, 06-gesture/degas-dancer-in-green.jpg, 06-gesture/millet-sower.jpg, 06-gesture/muybridge-woman-in-dark-dress-stepping.jpg, 06-gesture/callot-peg-leg.jpg, 06-gesture/degas-dancer-in-ukrainian-dress.jpg, 06-gesture/millet-wheat-reaper.jpg, 06-gesture/muybridge-woman-lifting-train.jpg, 06-gesture/callot-striding-with-cane.jpg, 06-gesture/degas-dancer-leaning-forward.jpg, 06-gesture/millet-woman-burning-weeds.jpg, 06-gesture/muybridge-woman-running-in-dark-dress.jpg, 06-gesture/callot-violin-player.jpg, 06-gesture/degas-dancer-with-a-fan.jpg, 06-gesture/millet-woman-emptying-bucket.jpg, 06-gesture/muybridge-woman-running-in-hat.jpg, 06-gesture/callot-wind-player.jpg, 06-gesture/degas-dancer-with-blue-sash.jpg, 06-gesture/millet-woman-with-rake.jpg, 06-gesture/muybridge-woman-with-parasol.jpg, 06-gesture/degas-seated-dancer.jpg, 06-gesture/millet-women-carrying-faggots.jpg]
   check:
     - Each pose starts with one long line.
     - No pose took longer than 30 seconds.
@@ -28,10 +35,14 @@
 - id: two-minute-poses
   title: Three 2-minute poses
   kind: drill
-  minutes: 8
+  minutes: 6
   text: Draw three poses at 2 minutes each. Study each for 10 to 15 seconds before drawing. Then draw the head, the neck, the shoulder angle, the torso curve, the legs and the arms.
-  timer: { minutes: 8 }
-  reference: { prompt: "Three photos of people in action, 2 minutes each" }
+  timer:
+    rounds:
+      - { label: "Three poses at 2 minutes", minutes: 6, pose: 120 }
+  reference:
+    prompt: "Three people in action, 2 minutes each"
+    images: [06-gesture/boucher-man-carrying-bundle.jpg, 06-gesture/callot-bearded-man-in-rags.jpg, 06-gesture/degas-dancer-adjusting-slipper.jpg, 06-gesture/fragonard-fisherman-pulling-net.jpg, 06-gesture/gavarni-sailor-standing-on-shore.jpg, 06-gesture/hollar-woman-carrying-vessel.jpg, 06-gesture/millet-reaper-bending.jpg, 06-gesture/mitelli-woodcutter.jpg, 06-gesture/muybridge-child-lifting-doll.jpg, 06-gesture/rembrandt-beggar-leaning-on-stick.jpg, 06-gesture/sargent-woman-walking.jpg, 06-gesture/schaufelein-sower-walking.jpg, 06-gesture/vincent-roman-servant-back-view.jpg, 06-gesture/callot-masked-swordsman.jpg, 06-gesture/degas-dancer-in-green.jpg, 06-gesture/millet-sower.jpg, 06-gesture/muybridge-woman-in-dark-dress-stepping.jpg, 06-gesture/callot-peg-leg.jpg, 06-gesture/degas-dancer-in-ukrainian-dress.jpg, 06-gesture/millet-wheat-reaper.jpg, 06-gesture/muybridge-woman-lifting-train.jpg, 06-gesture/callot-striding-with-cane.jpg, 06-gesture/degas-dancer-leaning-forward.jpg, 06-gesture/millet-woman-burning-weeds.jpg, 06-gesture/muybridge-woman-running-in-dark-dress.jpg, 06-gesture/callot-violin-player.jpg, 06-gesture/degas-dancer-with-a-fan.jpg, 06-gesture/millet-woman-emptying-bucket.jpg, 06-gesture/muybridge-woman-running-in-hat.jpg, 06-gesture/callot-wind-player.jpg, 06-gesture/degas-dancer-with-blue-sash.jpg, 06-gesture/millet-woman-with-rake.jpg, 06-gesture/muybridge-woman-with-parasol.jpg, 06-gesture/degas-seated-dancer.jpg, 06-gesture/millet-women-carrying-faggots.jpg]
   check:
     - You studied each pose before drawing.
     - You added thickness only after the rhythm lines.

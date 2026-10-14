@@ -18,7 +18,7 @@ Drawing well starts with confident lines. In this lesson you'll learn to draw a 
 
    ![Two dots on a page turned so the line runs comfortably for the drawing hand.](plan)
 
-2. **Ghost.** Hold your pen a few millimetres above the first dot and move it to the second with your whole arm, without touching the paper. Repeat until the movement feels natural. This is called **ghosting**.
+2. **Ghost.** Hold your pen a few millimetres above the first dot and move it to the second with your whole arm, without touching the paper. Repeat until the movement feels natural. Drawabox calls this **ghosting**.
 
    ![The path between the dots, with the pen's motion repeated above it.](ghost)
 

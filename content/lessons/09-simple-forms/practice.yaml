@@ -8,6 +8,7 @@
   text: "Fill a page with spheres, boxes and cylinders, drawn through and overlapping in one connected group. Make the nearer form of each overlap larger. Use a ballpoint pen or fineliner, and keep every form at least as wide as your palm."
   steps: [Choose three forms, Draw through, Overlap, Make the nearer form larger, Fill the page]
   timer: { minutes: 20 }
+  reference: { diagram: example, alt: "A page of spheres, boxes and cylinders drawn through, overlapping in one connected group." }
 
 - id: boxes-and-cylinders-angles
   title: "Boxes and cylinders from different angles"
@@ -26,10 +27,12 @@
   title: "An animal from basic forms"
   kind: drill
   minutes: 15
-  text: "Pick a photo of an animal. Draw it as a set of spheres, boxes and cylinders, with no detail. Proko assigns this exercise."
+  text: "Pick one of the animal pictures. Draw it as a set of spheres, boxes and cylinders, with no detail. Proko assigns this exercise and advises animals in motion rather than flat views."
   steps: [Choose three forms, Overlap, Make the nearer form larger]
   timer: { minutes: 15 }
-  reference: { prompt: "A photo of an animal you pick" }
+  reference:
+    prompt: "An animal to break into spheres, boxes and cylinders"
+    images: [09-simple-forms/allegrini-rearing-horse.jpg, 09-simple-forms/giambologna-rooster.jpg, 09-simple-forms/hollar-donkey.jpg, 09-simple-forms/muybridge-camel-galloping.jpg, 09-simple-forms/muybridge-cat-walking.jpg, 09-simple-forms/muybridge-cockatoo-flying.jpg, 09-simple-forms/muybridge-deer-galloping.jpg, 09-simple-forms/muybridge-dog-trotting.jpg, 09-simple-forms/muybridge-elephant-walking.jpg, 09-simple-forms/muybridge-goat-walking.jpg, 09-simple-forms/muybridge-horse-hauling.jpg, 09-simple-forms/muybridge-lion-walking.jpg, 09-simple-forms/muybridge-ostrich-walking.jpg, 09-simple-forms/saftleven-dog-lying.jpg, 09-simple-forms/van-de-velde-donkey-with-load.jpg, 09-simple-forms/verrocchio-measured-horse.jpg]
   check:
     - The animal is built only from spheres, boxes and cylinders.
     - Forms overlap, and the nearer ones are larger.

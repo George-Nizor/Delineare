@@ -5,9 +5,12 @@
   title: "A creature in three views"
   kind: imagination
   minutes: 60
-  text: "Collect three reference photos. Draw a part from each, then six silhouettes. Choose one, build it from forms, and draw it from the front, the side and three-quarters. Use pencil on printer paper."
+  text: "Collect three reference pictures. Draw a part from each, then six silhouettes. Choose one, build it from forms, and draw it from the front, the side and three-quarters. Use pencil on printer paper."
   steps: [Collect, Study, Try silhouettes, Build it, Turn it]
   timer: { minutes: 60 }
+  reference:
+    prompt: "Choose three of these, or use pictures of your own."
+    images: [33-designing/stag-beetle.jpg, 33-designing/heron.jpg, 33-designing/horse-trot.jpg, 33-designing/elephant-walk.jpg, 33-designing/bison-run.jpg, 33-designing/cat-walk-1.jpg, 33-designing/dog-run-5.jpg]
 
 - id: silhouette-set
   title: "Twelve silhouettes"
@@ -16,6 +19,7 @@
   text: "Draw twelve small black silhouettes of a creature, each about a minute long. Combine a body from one reference with a head and legs from others."
   steps: [Try silhouettes]
   timer: { minutes: 15 }
+  reference: { diagram: silhouettes, alt: "Six solid black creature shapes with different neck, leg, body and shell sizes." }
   check:
     - Each outline is clearly different from the others.
     - Each one has a recognisable body, head and legs.
@@ -24,10 +28,12 @@
   title: "Part studies"
   kind: drill
   minutes: 15
-  text: "Draw five parts from five photos, such as a wing, a claw, an ear, a leg and a tail. Make each about palm-sized."
+  text: "Draw five parts from five pictures, such as a leg, a head, a shell, a body or a neck. Make each about palm-sized."
   steps: [Collect, Study]
   timer: { minutes: 15 }
-  reference: { prompt: "Five photos of different animals" }
+  reference:
+    prompt: "Seven animals to take parts from."
+    images: [33-designing/heron.jpg, 33-designing/stag-beetle.jpg, 33-designing/elephant-walk.jpg, 33-designing/bison-run.jpg, 33-designing/cat-walk-1.jpg, 33-designing/dog-run-5.jpg, 33-designing/horse-trot.jpg]
   check:
     - Each part is drawn as simple forms.
     - You labelled each part with its animal.

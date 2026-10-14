@@ -6,15 +6,16 @@
   kind: life
   minutes: 30
   text: "Set an egg, ball or smooth stone on white paper with one lamp to the side. Draw it large on the page, with its cast shadow. Fill the shadow shapes first, then add halftones. Use a soft pencil."
-  steps: [Set the light, Outline, Map the shadows, Add the halftones]
+  steps: [Set the light, Draw the layout, Map the shadows, Refine the shadow, Add the halftones, Ground it]
   timer: { minutes: 30 }
+  reference: { diagram: example, alt: "A sphere under one lamp on the left: a bright lit side that darkens gradually, a dark band at the edge of the shadow, and a long shadow on the table." }
 
 - id: three-forms-one-light
   title: "Three forms, one light"
   kind: life
   minutes: 30
   text: "Under the same lamp, draw an egg, a box and a cup, each in a box about the size of your palm. Map the shadows on each one first, then add the halftones."
-  steps: [Set the light, Outline, Map the shadows, Add the halftones]
+  steps: [Set the light, Draw the layout, Map the shadows, Add the halftones]
   timer: { minutes: 30 }
   reference: { prompt: "An egg, a box and a cup under one lamp" }
   check:
@@ -26,8 +27,9 @@
   kind: warm-up
   minutes: 10
   text: "Draw a ball, a box and a mug in outline, then fill only the shadow shapes with one flat tone. Leave the lit sides blank."
-  steps: [Outline, Map the shadows]
+  steps: [Draw the layout, Map the shadows]
   timer: { minutes: 10 }
+  reference: { diagram: shadows, alt: "A sphere with its shadow side and cast shadow in one flat dark tone and the lit side bare." }
   check:
     - Each form shows a clear split between light and shadow.
     - Every shadow shape is one even tone.

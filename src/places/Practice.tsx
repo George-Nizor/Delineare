@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { practiceByLesson, useContent, writtenLessons } from '../content/load';
-import { iconFor } from '../content/art';
+import { drawingFor, iconFor } from '../content/art';
 import { KIND_LABEL, type PracticeItem, type PracticeKind } from '../content/types';
 import { daySeed, makePrompt } from '../engine/prompts';
 import { suggest } from '../engine/review';
@@ -110,7 +110,7 @@ export function Practice() {
                 return (
                   <li key={item.id}>
                     <a className="row" href={href('do', item.id)}>
-                      <span className="row-art"><img src={iconFor(lesson.number)} alt="" /></span>
+                      <span className="row-art"><img src={drawingFor(lesson.slug)?.src ?? iconFor(lesson.number)} alt="" /></span>
                       <span className="row-body">
                         <span className="row-title">{item.title}</span>
                         <span className="meta">Lesson {lesson.number}: {lesson.title}{item.main ? ', the lesson exercise' : ''} · {when ? `last done ${ago(when)}` : 'not done yet'}</span>

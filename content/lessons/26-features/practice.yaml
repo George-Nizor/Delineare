@@ -2,34 +2,39 @@
 
 - id: feature-forms-and-likeness
   main: true
-  title: A head from a photo
+  title: A head from a drawing
   kind: life
   minutes: 35
-  text: "Choose a clear photo of a face turned slightly to one side. Build a Loomis head, add the eyes, nose and mouth as forms, then measure the photo and correct the drawing. Use a pencil, and print the photo about 15 cm tall."
+  text: "Draw the head in Dürer's drawing. Build a Loomis head, add the eyes, nose and mouth as forms, then measure the picture and correct your drawing. Use a pencil."
   steps: [Build the head, Eyes, Nose, Mouth, Measure]
   timer:
     rounds:
       - { label: "Head and face lines", minutes: 10 }
       - { label: "Eyes, nose and mouth", minutes: 15 }
       - { label: "Measure and correct", minutes: 10 }
-  reference: { prompt: "A photo of one face, printed about 15 cm tall" }
+  reference:
+    images: [26-features/durer-head-of-a-young-woman.jpg]
 
 - id: eye-forms
   title: Eyes as forms
   kind: drill
   minutes: 10
-  text: "Draw six eyes from a photo. For each, draw the socket, the eyeball as a sphere and then the lids wrapping the sphere."
-  timer: { minutes: 10 }
+  text: "Draw one eye from each picture as it comes up, six in all. For each, draw the socket, the eyeball as a sphere and then the lids wrapping the sphere."
+  timer: { minutes: 10, pose: 100 }
+  reference:
+    images: [26-features/del-sarto-head-of-a-woman.jpg, 26-features/sargent-head-of-a-man.jpg, 26-features/durer-head-of-a-young-woman.jpg, 26-features/menzel-a-mans-head.jpg, 26-features/eastman-johnson-head-of-a-young-woman.jpg]
   check:
     - Each eye has a visible sphere under the lids.
-    - Two eyes in a pair are one eyeball's width apart.
+    - Each socket is a trapezoid let into the face.
 
 - id: nose-and-mouth
   title: Nose and mouth blocks
   kind: drill
   minutes: 10
-  text: "Draw a nose and a mouth five times, from the front and from three-quarters. Start each nose from a centerline and a trapezoid base."
-  timer: { minutes: 10 }
+  text: "Draw the nose and mouth in each of the five pictures as it comes up. Start each nose from a centerline and a trapezoid base."
+  timer: { minutes: 10, pose: 120 }
+  reference:
+    images: [26-features/del-sarto-head-of-a-woman.jpg, 26-features/sargent-head-of-a-man.jpg, 26-features/eastman-johnson-head-of-a-young-woman.jpg, 26-features/menzel-a-mans-head.jpg, 26-features/durer-head-of-a-young-woman.jpg]
   check:
     - Each nose starts from a centerline and a flat base.
     - The mouth curves around the jaw instead of lying flat.

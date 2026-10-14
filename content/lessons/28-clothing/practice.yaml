@@ -12,6 +12,21 @@
       - { label: "Mannequin", minutes: 8 }
       - { label: "Clothing tubes and tension points", minutes: 7 }
       - { label: "Folds and labels", minutes: 15 }
+  reference: { diagram: example, alt: "A mannequin dressed in a shirt and trousers, with a dot at each tension point and folds running out from the dots." }
+
+- id: drapery-master-copy
+  title: Verrocchio's drapery
+  kind: master-copy
+  minutes: 15
+  text: "Copy the drapery study in soft pencil. Mark where the cloth is held or pulled, then draw the long folds that fall from there. Leave out the light and dark."
+  steps: [Find the tension points, Draw the folds]
+  timer: { minutes: 15 }
+  reference:
+    prompt: "Look for the place the cloth is gathered, then follow the folds down from it."
+    images: [28-clothing/verrocchio-drapery.jpg]
+  check:
+    - You marked where the cloth is held before drawing any fold.
+    - The folds spread and soften as they fall.
 
 - id: sleeve-folds
   title: A bent sleeve

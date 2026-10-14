@@ -1,4 +1,4 @@
-# Resources for lessons 9 to 16.
+# Resources for lessons 9 to 16, and a few more for lessons 17 to 19.
 
 - id: proko-structure-basics
   title: Structure Basics, Making Things Look 3D
@@ -34,7 +34,8 @@
   title: Plotted Perspective
   teacher: Drawabox
   url: https://drawabox.com/lesson/1/plottedperspective
-  kind: written exercise
+  kind: written exercise and video
+  youtube: mrn8Z6IqRnw
   cost: free
   checked: 2026-10-14
 
@@ -91,5 +92,29 @@
   kind: video
   minutes: 10
   youtube: ja4W5P7K5PE
+  cost: free
+  checked: 2026-10-14
+
+- id: norton-freehand-perspective
+  title: Freehand Perspective and Sketching
+  teacher: Dora Miriam Norton
+  url: https://archive.org/details/freehandperspect1910nort
+  kind: book
+  cost: free
+  checked: 2026-10-14
+
+- id: proko-see-values
+  title: How to See Values Correctly
+  teacher: Proko
+  url: https://www.proko.com/course-lesson/how-to-see-values-correctly
+  kind: video lesson with notes
+  cost: free
+  checked: 2026-10-14
+
+- id: proko-light-shadow-elements
+  title: Elements of Light and Shadow
+  teacher: Proko
+  url: https://www.proko.com/course-lesson/elements-of-light-and-shadow
+  kind: video lesson with notes
   cost: free
   checked: 2026-10-14

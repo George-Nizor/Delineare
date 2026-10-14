@@ -56,12 +56,21 @@ export type PracticeKind = 'drill' | 'warm-up' | 'timed' | 'memory' | 'life' | '
 export interface Round {
   label: string;
   seconds: number;
+  // Seconds each reference picture stays up during this round, for timed pose sessions.
+  pose: number | null;
+}
+
+export interface ReferenceImage {
+  src: string;
+  credit: string;
+  alt: string;
 }
 
 export type Reference =
   | { type: 'none' }
   | { type: 'diagram'; diagram: string }
-  | { type: 'prompt'; prompt: string };
+  | { type: 'prompt'; prompt: string }
+  | { type: 'images'; images: ReferenceImage[]; prompt: string };
 
 export interface PracticeItem {
   id: string;

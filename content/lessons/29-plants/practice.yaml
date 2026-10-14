@@ -8,6 +8,7 @@
   text: "Draw a forked branch full size in light and shade. Draw one long leaf at three positions. Then draw a tree from the window as a mass: outer curve first, then trunk and main branches. Use a soft pencil or a pen."
   steps: [Draw a fork, Turn a leaf, Draw the tree]
   timer: { minutes: 45 }
+  reference: { diagram: example, alt: "A page with a forked branch, one leaf in three positions, a black leaf spray and two trees drawn as an outer curve with a trunk and branches." }
 
 - id: leaf-spray-profile
   title: "A spray in profile"

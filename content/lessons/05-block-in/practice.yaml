@@ -8,7 +8,7 @@
   text: Sit where you can see a whole chair against a plain wall. Draw its envelope in straight lines, then draw only the gaps under the seat, between the legs and between the back slats. Use a pencil and plain paper.
   steps: [See one shape, Mark the extremes, Join them with straight lines, Check the envelope, Draw the gaps, Cut the corners]
   timer: { minutes: 25 }
-  reference: { prompt: "A whole chair against a plain wall" }
+  reference: { diagram: example, alt: "A chair drawn through its gaps, inside a faint dashed envelope." }
 
 - id: envelopes-warm-up
   title: Five envelopes
