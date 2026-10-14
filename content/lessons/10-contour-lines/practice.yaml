@@ -1,0 +1,33 @@
+# Practice for lesson 10. The item marked main is the lesson's exercise.
+
+- id: sausage-ellipses-page
+  main: true
+  title: "Sausages with contour ellipses"
+  kind: drill
+  minutes: 20
+  text: "Fill a page with sausage shapes in ink. Give each a spine and a few contour ellipses, drawn through twice. Add a small ellipse to any tip that points toward you."
+  steps: [Draw a sausage, Add a spine, Draw contour ellipses, Cap a tip]
+  timer: { minutes: 20 }
+
+- id: sausage-curves-page
+  title: "Sausages with contour curves"
+  kind: drill
+  minutes: 20
+  text: "Draw a second page of sausages. This time draw only the visible part of each contour line, and overshoot each curve a little."
+  steps: [Draw a sausage, Add a spine, Try contour curves, Cap a tip]
+  timer: { minutes: 20 }
+  check:
+    - Each curve hooks round the edge of the sausage.
+    - Curves are wider toward the far end.
+
+- id: sausage-warm-up
+  title: "Sausage warm-up"
+  kind: warm-up
+  minutes: 5
+  text: "Draw four sausages with a spine and contour ellipses. Ignore detail and keep each line to one stroke."
+  steps: [Draw a sausage, Add a spine, Draw contour ellipses]
+  timer: { minutes: 5 }
+  reference: { prompt: "Four sausages, each bent a different way" }
+  check:
+    - Both ends of each sausage are round and equal in size.
+    - Every ellipse is cut in half by its spine.

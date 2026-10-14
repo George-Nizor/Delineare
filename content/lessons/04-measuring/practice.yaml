@@ -1,0 +1,36 @@
+# Practice for lesson 4. The item marked main is the lesson's exercise.
+
+- id: mug-and-chair
+  main: true
+  title: A mug and a chair, measured
+  kind: life
+  minutes: 30
+  text: Set a mug on a table beside a chair. Measure each with your pencil, using one part as the unit, and write the ratios beside the drawing. Draw the mug for 10 minutes, then the chair for 15. Take a photo and compare.
+  steps: [Hold the pencil, Take a unit, Compare, Sight an angle, Check the page]
+  timer:
+    rounds:
+      - { label: "Measure and draw the mug", minutes: 10 }
+      - { label: "Measure and draw the chair", minutes: 15 }
+      - { label: "Compare with a photo", minutes: 5 }
+
+- id: measuring-warm-up
+  title: Five ratios
+  kind: warm-up
+  minutes: 5
+  text: Pick five objects on your desk. For each, measure its width against its height with the pencil and write the ratio next to its name.
+  timer: { minutes: 5 }
+  reference: { prompt: "Five objects from your desk" }
+  check:
+    - Each object has a ratio written beside it.
+    - Your arm stayed straight for every measurement.
+
+- id: angle-sighting
+  title: Sighting angles
+  kind: drill
+  minutes: 10
+  text: Pick a chair, a window or a door frame. Sight six slanted edges with the pencil against an imagined vertical or horizontal, and draw each one as a straight line.
+  timer: { minutes: 10 }
+  reference: { prompt: "A chair, window or door frame with six slanted edges" }
+  check:
+    - Each line leans the same way as its edge.
+    - You compared every angle with a vertical or horizontal.

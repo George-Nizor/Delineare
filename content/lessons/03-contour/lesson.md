@@ -12,23 +12,17 @@ sources:
 
 # Contour
 
-After this you can draw the edges you see instead of the symbol you know.
+Most beginners draw what they think an object looks like rather than what is in front of them. In this lesson you'll learn to draw the edges you see, slowly and in one line, so your drawings of real things look like those things.
 
 ![A contour drawing of two leaves on a stem, following every tooth, bite and overlap.](example)
 
-## Words to know
+## Steps
 
-- **Contour:** a line that follows an edge of the object as you see it.
-- **Symbol:** the shape you learned as a child to stand for a thing.
-- **Blind contour:** drawing an edge slowly while looking only at the object, never the paper.
-
-## How
-
-1. **Pick a starting point.** Fix your eyes on one point of the object's edge. Put your pen on the paper and keep your eyes up.
+1. **Pick a starting point.** Fix your eyes on one point of the object's edge, and put your pen on the paper. Call a line that follows an edge as you see it a **contour**. Keep your eyes up.
 
    ![Eyes on a point of the leaf's edge, the pen resting on the paper.](start)
 
-2. **Eyes on the edge.** Move your eyes slowly along the edge, and move the pen at the same speed in one unbroken line.
+2. **Eyes on the edge.** Move your eyes slowly along the edge, and move the pen at the same speed in one unbroken line. Drawing while looking only at the object, never the paper, is **blind contour**.
 
    ![The eye travelling along the leaf's edge while the pen draws the same stretch.](eyes)
 
@@ -42,13 +36,15 @@ After this you can draw the edges you see instead of the symbol you know.
 
 Kimon Nicolaides introduced blind contour, and Betty Edwards made it famous. In a 2005 study, Dale Cohen found that looking back and forth between subject and drawing more often made drawings more accurate.
 
-## The usual mistake
+## Common mistake
 
 ![Left: the symbol for a leaf, an even almond with a line down the middle. Right: the edge of a real leaf, uneven, toothed and bitten.](mistake)
 
-The left leaf is a symbol, drawn from memory. The right one follows a real leaf, with its uneven edge, a bite and a curled tip. Ctrl+Paint's point is the same: draw the edge in front of you.
+The left leaf is a **symbol**, the shape you learned as a child to stand for a leaf, drawn from memory. The right one follows a real leaf, with its uneven edge, a bite and a curled tip. Ctrl+Paint makes the same point: draw the edge in front of you.
 
-## Check
+## Checking your page
+
+Look at each drawing for these things:
 
 1. Each drawing is one unbroken line.
 2. The line has small bumps and turns, not a smooth outline.

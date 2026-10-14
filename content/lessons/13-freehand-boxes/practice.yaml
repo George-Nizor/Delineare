@@ -1,0 +1,33 @@
+# Practice for lesson 13. The item marked main is the lesson's exercise.
+
+- id: freehand-boxes-page
+  main: true
+  title: "A page of freehand boxes"
+  kind: drill
+  minutes: 30
+  text: "Mark three vanishing points on a page. Draw five or six boxes with the Y method, freehand, and draw through each one. When the page is done, extend every edge back toward its vanishing point in ballpoint."
+  steps: [Mark the vanishing points, Draw a Y, Draw the box, Extend the edges, Fill the page]
+  timer: { minutes: 30 }
+
+- id: y-warm-up
+  title: "Y warm-up"
+  kind: warm-up
+  minutes: 5
+  text: "Draw six Ys with different arm lengths and angles. Check that every angle is greater than 90 degrees."
+  steps: [Draw a Y]
+  timer: { minutes: 5 }
+  reference: { prompt: "Six Ys, no two the same" }
+  check:
+    - Each angle between arms is greater than 90 degrees.
+    - The arms differ in length from Y to Y.
+
+- id: extension-check
+  title: "Extension check"
+  kind: drill
+  minutes: 10
+  text: "Take last week's page of boxes, or draw four new ones. Extend each edge back from the nearest corner, then mark on the page which sets drift most."
+  steps: [Extend the edges]
+  timer: { minutes: 10 }
+  check:
+    - Every extension starts at the nearest corner.
+    - You have marked the set of edges that drifts the most.

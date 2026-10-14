@@ -1,0 +1,34 @@
+# Practice for lesson 15. The item marked main is the lesson's exercise.
+
+- id: build-a-mug
+  main: true
+  title: "Build a mug from forms"
+  kind: life
+  minutes: 30
+  text: "Set a mug in front of you. Build it from boxes and cylinders, drawn through, then add intersection lines and smaller forms such as the handle. Use a pen and don't erase."
+  steps: [Pick an object, Name its forms, Build them, Draw the joins, Add a pass]
+  timer: { minutes: 30 }
+  reference: { prompt: "A mug on your desk" }
+
+- id: intersecting-boxes-page
+  title: "A page of intersecting boxes"
+  kind: drill
+  minutes: 20
+  text: "Fill a page with boxes of about equal length, width and height, overlapping in one group. Draw each through, then work out where they intersect and draw those lines. Thicken lines only where boxes overlap."
+  steps: [Build them, Draw the joins]
+  timer: { minutes: 20 }
+  check:
+    - Boxes are roughly equal in all three dimensions.
+    - Each intersection line lies on the surface of both boxes.
+
+- id: build-a-second-object
+  title: "Build a second object"
+  kind: life
+  minutes: 30
+  text: "Choose another plain object, such as a stapler or a kettle. Build it the same way, from the biggest forms to the smallest."
+  steps: [Pick an object, Name its forms, Build them, Add a pass]
+  timer: { minutes: 30 }
+  reference: { prompt: "A stapler, a kettle or another plain object" }
+  check:
+    - The biggest forms are drawn first.
+    - Every form is drawn through.

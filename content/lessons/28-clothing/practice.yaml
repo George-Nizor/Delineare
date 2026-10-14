@@ -1,0 +1,36 @@
+# Practice for lesson 28. The item marked main is the lesson's exercise.
+
+- id: dressed-mannequin
+  main: true
+  title: A dressed mannequin
+  kind: drill
+  minutes: 30
+  text: "Draw a standing mannequin with one arm raised and one knee bent. Dress it in a shirt and trousers. Mark the tension points with dots, draw the folds from each dot, and label each group with a fold name."
+  steps: [Pose, Wrap, Find the tension points, Draw the folds, Name them]
+  timer:
+    rounds:
+      - { label: "Mannequin", minutes: 8 }
+      - { label: "Clothing tubes and tension points", minutes: 7 }
+      - { label: "Folds and labels", minutes: 15 }
+
+- id: sleeve-folds
+  title: A bent sleeve
+  kind: life
+  minutes: 10
+  text: "Bend your arm in a long-sleeved shirt and draw the sleeve at the elbow three times, from three sides. Mark the tension point first."
+  timer: { minutes: 10 }
+  reference: { prompt: "Your own bent arm in a sleeve" }
+  check:
+    - The folds start from the elbow.
+    - The sleeve is wider than the arm.
+
+- id: hanging-cloth
+  title: Cloth on a hook
+  kind: life
+  minutes: 10
+  text: "Hang a towel or shirt from one hook and draw it twice. Mark the point where it hangs, then draw the folds that fall from that point."
+  timer: { minutes: 10 }
+  reference: { prompt: "A towel or shirt hanging from one hook" }
+  check:
+    - Every fold begins at the hook.
+    - The folds hang straight down.

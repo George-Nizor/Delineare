@@ -7,7 +7,7 @@ export function Credits() {
     byTeacher.set(resource.teacher, [...(byTeacher.get(resource.teacher) ?? []), resource]);
   }
   return (
-    <div className="page credits">
+    <div className="page credits narrow">
       <header className="page-head">
         <h1>Teachers and credits</h1>
         <p className="lede">Delineare links to these teachers' own lessons and never copies them. A lesson that uses a teacher's method names them.</p>
@@ -24,6 +24,10 @@ export function Credits() {
           </li>
         ))}
       </ul>
+      <section>
+        <h2>Drawings on the course page</h2>
+        <p>The drawings on the lesson cards are from the Art Institute of Chicago's open access collection and are in the public domain. Each card names the artist, the title and the date.</p>
+      </section>
       <section>
         <h2>Type and mark</h2>
         <p>Fraunces by Undercase Type, Commissioner by Kostas Bartsokas, and Spline Sans Mono by Eben Sorkin and Mirko Velimirovic, all under the SIL Open Font License. The pencil mark is part of the Instrumenta suite.</p>

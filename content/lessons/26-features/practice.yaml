@@ -1,0 +1,35 @@
+# Practice for lesson 26. The item marked main is the lesson's exercise.
+
+- id: feature-forms-and-likeness
+  main: true
+  title: A head from a photo
+  kind: life
+  minutes: 35
+  text: "Choose a clear photo of a face turned slightly to one side. Build a Loomis head, add the eyes, nose and mouth as forms, then measure the photo and correct the drawing. Use a pencil, and print the photo about 15 cm tall."
+  steps: [Build the head, Eyes, Nose, Mouth, Measure]
+  timer:
+    rounds:
+      - { label: "Head and face lines", minutes: 10 }
+      - { label: "Eyes, nose and mouth", minutes: 15 }
+      - { label: "Measure and correct", minutes: 10 }
+  reference: { prompt: "A photo of one face, printed about 15 cm tall" }
+
+- id: eye-forms
+  title: Eyes as forms
+  kind: drill
+  minutes: 10
+  text: "Draw six eyes from a photo. For each, draw the socket, the eyeball as a sphere and then the lids wrapping the sphere."
+  timer: { minutes: 10 }
+  check:
+    - Each eye has a visible sphere under the lids.
+    - Two eyes in a pair are one eyeball's width apart.
+
+- id: nose-and-mouth
+  title: Nose and mouth blocks
+  kind: drill
+  minutes: 10
+  text: "Draw a nose and a mouth five times, from the front and from three-quarters. Start each nose from a centerline and a trapezoid base."
+  timer: { minutes: 10 }
+  check:
+    - Each nose starts from a centerline and a flat base.
+    - The mouth curves around the jaw instead of lying flat.

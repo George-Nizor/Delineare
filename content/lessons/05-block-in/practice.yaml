@@ -1,0 +1,35 @@
+# Practice for lesson 5. The item marked main is the lesson's exercise.
+
+- id: chair-gaps
+  main: true
+  title: A chair drawn through its gaps
+  kind: life
+  minutes: 25
+  text: Sit where you can see a whole chair against a plain wall. Draw its envelope in straight lines, then draw only the gaps under the seat, between the legs and between the back slats. Use a pencil and plain paper.
+  steps: [See one shape, Mark the extremes, Join them with straight lines, Check the envelope, Draw the gaps, Cut the corners]
+  timer: { minutes: 25 }
+  reference: { prompt: "A whole chair against a plain wall" }
+
+- id: envelopes-warm-up
+  title: Five envelopes
+  kind: warm-up
+  minutes: 10
+  text: Pick five small objects. Draw a straight-sided envelope around each one, two minutes per object, and check its height against its width.
+  steps: [See one shape, Mark the extremes, Join them with straight lines, Check the envelope]
+  timer: { minutes: 10 }
+  reference: { prompt: "Five small objects from your desk" }
+  check:
+    - Every envelope is made of straight lines only.
+    - Each envelope's height and width match its object.
+
+- id: gaps-only
+  title: Only the gaps
+  kind: drill
+  minutes: 15
+  text: Arrange three objects close together. Draw only the shapes of the spaces between and around them, largest first, until the objects appear in the empty areas.
+  steps: [Draw the gaps]
+  timer: { minutes: 15 }
+  reference: { prompt: "Three objects close together" }
+  check:
+    - You drew gaps, never object outlines.
+    - The largest gap came first.

@@ -1,0 +1,33 @@
+# Practice for lesson 32. The item marked main is the lesson's exercise.
+
+- id: six-thumbnails
+  main: true
+  title: "Six thumbnails"
+  kind: drill
+  minutes: 25
+  text: "Rule six boxes about the size of your palm. Draw one subject in each in three values, changing the arrangement each time. Circle the one you would draw large. Use a soft pencil or a marker."
+  steps: [Rule the page, Choose a subject, Fill each box, Change something, Choose]
+  timer: { minutes: 25 }
+
+- id: thumbnails-from-photo
+  title: "Thumbnails from a photo"
+  kind: drill
+  minutes: 15
+  text: "Pick a photo with a clear subject. Draw it three times in three values, changing the crop each time."
+  steps: [Choose a subject, Fill each box, Change something]
+  timer: { minutes: 15 }
+  reference: { prompt: "A photo of one clear subject, a figure or a building" }
+  check:
+    - Each crop frames the subject differently.
+    - Each thumbnail uses three values.
+
+- id: thumbnail-warm-up
+  title: "Thumbnail warm-up"
+  kind: warm-up
+  minutes: 5
+  text: "Draw four tiny boxes. Put a dark shape in each in a different place. Draw them in one minute each."
+  steps: [Fill each box, Change something]
+  timer: { minutes: 5 }
+  check:
+    - The dark shape sits in a different place in each box.
+    - Every box has big, flat shapes.

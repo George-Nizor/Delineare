@@ -1,0 +1,32 @@
+# Practice for lesson 34. The item marked main is the lesson's exercise.
+
+- id: invented-scene
+  main: true
+  title: "An invented street scene"
+  kind: imagination
+  minutes: 90
+  text: "Draw six thumbnails of a street, then draw the best one large in two-point perspective with four figures at the right scale. Build the shadows from a sun at 45 degrees and fill them with one dark tone. Use pencil or pen."
+  steps: [Plan, Set the space, Scale the people, Cast the shadows, Set the values]
+  timer: { minutes: 90 }
+
+- id: scene-layout-only
+  title: "A scene layout"
+  kind: imagination
+  minutes: 30
+  text: "Draw the horizon, vanishing points, boxes and a height scale for an invented room. Add three figures. Stop before any shadows."
+  steps: [Set the space, Scale the people]
+  timer: { minutes: 30 }
+  check:
+    - Every edge runs to a vanishing point.
+    - The figures follow the height scale.
+
+- id: scene-shadows
+  title: "Shadows in a scene"
+  kind: drill
+  minutes: 20
+  text: "Take a scene layout from a previous page. Add a sun at 45 degrees and build every shadow, then fill them with one dark tone."
+  steps: [Cast the shadows, Set the values]
+  timer: { minutes: 20 }
+  check:
+    - Every shadow is as long as its object is tall.
+    - All the shadows fall the same way.

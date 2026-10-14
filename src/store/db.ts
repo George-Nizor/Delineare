@@ -24,9 +24,13 @@ export interface Settings {
   // Whether lesson steps start folded away, for learners who only want the goal and the check.
   foldSteps: boolean;
   sound: boolean;
+  // Set once the learner has picked a way in from the welcome page.
+  welcomed: boolean;
+  // Cuts transitions and the opening animation down to a fade, whatever the computer's setting.
+  reduceMotion: boolean;
 }
 
-export const DEFAULT_SETTINGS: Settings = { theme: 'system', foldSteps: false, sound: true };
+export const DEFAULT_SETTINGS: Settings = { theme: 'system', foldSteps: false, sound: true, welcomed: false, reduceMotion: false };
 
 class DelineareDB extends Dexie {
   pages!: Table<Page, number>;

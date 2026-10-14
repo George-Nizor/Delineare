@@ -1,0 +1,36 @@
+# Practice for lesson 27. The item marked main is the lesson's exercise.
+
+- id: imagined-hands-page
+  main: true
+  title: Hands from imagination
+  kind: imagination
+  minutes: 25
+  text: "Draw five hands without a reference: an open palm, a back of the hand, a loose fist, a hand pointing and a hand holding a cup. Spend 5 minutes on each, with a pencil first and then ink over the best."
+  steps: [Decide, Palm, Fingers, Thumb, Wrist]
+  timer:
+    rounds:
+      - { label: "Open palm", minutes: 5 }
+      - { label: "Back of the hand", minutes: 5 }
+      - { label: "Loose fist", minutes: 5 }
+      - { label: "Pointing hand", minutes: 5 }
+      - { label: "Hand holding a cup", minutes: 5 }
+
+- id: palm-box-warm-up
+  title: Palm boxes
+  kind: warm-up
+  minutes: 5
+  text: "Draw eight palm boxes in different directions, each with its front plane split into four parts for the fingers."
+  timer: { minutes: 5 }
+  check:
+    - Each box has a curved front plane.
+    - Each front plane is split into four parts.
+
+- id: your-hand-from-life
+  title: Your own hand
+  kind: life
+  minutes: 10
+  text: Hold your free hand in a pose and draw it as boxes and cylinders. Then draw the same pose from memory next to it.
+  timer: { minutes: 10 }
+  check:
+    - The finger lengths match your own hand.
+    - The thumb starts from a box at the base of the palm.

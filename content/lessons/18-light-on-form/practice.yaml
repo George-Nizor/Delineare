@@ -1,0 +1,33 @@
+# Practice for lesson 18. The item marked main is the lesson's exercise.
+
+- id: sphere-one-light
+  main: true
+  title: "A sphere under one light"
+  kind: life
+  minutes: 30
+  text: "Set an egg, ball or smooth stone on white paper with one lamp to the side. Draw it large on the page, with its cast shadow. Fill the shadow shapes first, then add halftones. Use a soft pencil."
+  steps: [Set the light, Outline, Map the shadows, Add the halftones]
+  timer: { minutes: 30 }
+
+- id: three-forms-one-light
+  title: "Three forms, one light"
+  kind: life
+  minutes: 30
+  text: "Under the same lamp, draw an egg, a box and a cup, each in a box about the size of your palm. Map the shadows on each one first, then add the halftones."
+  steps: [Set the light, Outline, Map the shadows, Add the halftones]
+  timer: { minutes: 30 }
+  reference: { prompt: "An egg, a box and a cup under one lamp" }
+  check:
+    - The lit side of every form faces the lamp.
+    - Every cast shadow falls the same way.
+
+- id: shadow-map-only
+  title: "Shadow shapes only"
+  kind: warm-up
+  minutes: 10
+  text: "Draw a ball, a box and a mug in outline, then fill only the shadow shapes with one flat tone. Leave the lit sides blank."
+  steps: [Outline, Map the shadows]
+  timer: { minutes: 10 }
+  check:
+    - Each form shows a clear split between light and shadow.
+    - Every shadow shape is one even tone.

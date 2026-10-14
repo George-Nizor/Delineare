@@ -6,51 +6,44 @@ sources:
   - Drawabox, Lesson 1, "Lines and the Ghosting Method", "Ghosted Lines" and "Superimposed Lines" (https://drawabox.com/lesson/1), read 2026-10-14
 ---
 
-# Confident lines
+# Lines
 
-After this you can draw a straight line between two points in one smooth stroke.
+Drawing well starts with confident lines. In this lesson you'll learn to draw a straight line in one smooth stroke, using a method called ghosting. You'll use the same method for every line and ellipse in the rest of the course.
 
 ![A page of lines between dots. Most hit both dots, a few overshoot, none wobble.](example)
 
-## Words to know
+## Steps
 
-- **Ghosting:** moving your pen along the line, a few millimetres above the paper, before drawing it.
-- **Drawing from the shoulder:** moving your whole arm for a long line, with the wrist held still.
-
-## How
-
-1. **Plan.** Put two dots on the page, 5 to 20 cm apart. Turn the page so the line runs in the direction that feels easiest.
+1. **Plan.** Put two dots on the page, 5 to 20 cm apart, and turn the page so the line runs in whatever direction feels easiest.
 
    ![Two dots on a page turned so the line runs comfortably for the drawing hand.](plan)
 
-2. **Ghost.** Hold the pen a few millimetres above the first dot and move it to the second with your whole arm. Repeat until the motion feels familiar.
+2. **Ghost.** Hold your pen a few millimetres above the first dot and move it to the second with your whole arm, without touching the paper. Repeat until the movement feels natural. This is called **ghosting**.
 
    ![The path between the dots, with the pen's motion repeated above it.](ghost)
 
-3. **Draw.** Put the pen down and make one stroke at the speed you ghosted. Lift the pen off as it reaches the second dot instead of slowing down.
+3. **Draw.** Put the pen down and make one stroke at the same speed you ghosted. Lift the pen off as it reaches the second dot instead of slowing down.
 
    ![One clean line, with the pen lifting away past the second dot.](draw)
 
-4. **Leave it.** If the line misses, leave it and plan the next one. Never go over a line to fix it.
+4. **Leave it.** If the line misses the dot, leave it and move on to the next one. Don't go back over it to fix it.
 
    ![A line that missed its dot, left alone, beside a fresh pair of dots.](leave)
 
-Drawabox calls this the ghosting method, and its author learned it from Scott Robertson. You will use it for every freehand line and ellipse from here on.
+Drawabox teaches this as the ghosting method, which its author learned from Scott Robertson. Move from your shoulder for long lines and keep your wrist still.
 
-## The usual mistake
+## Common mistake
 
 ![Left, slow and careful: a line that wobbles and stops short of the dot. Right, fast and sure: a straight line that overshoots it.](mistake)
 
-The line on the right is better. Drawing at speed gives you a smooth line now, and your aim improves with practice. Slowing down to hit the dot makes the line wobble, and a wobbly line is hard to use.
+The most common mistake is drawing slowly to make sure you hit the dot. Slow lines wobble, and a wobbly line is harder to fix than one that misses. Draw at the speed you ghosted and accept that some lines will miss; your aim gets better with practice.
 
-## Check
+## Checking your page
 
-Look over the page three times, one level at a time:
+Go over your page three times, looking for one thing each time:
 
 1. Every line is smooth, with no wobble, even where it misses.
 2. Each line heads in the right direction, even if it stops short or overshoots.
 3. Lines start on one dot and end on the other.
 
-Work on level 1 until most lines pass it, then aim for level 2.
-
-A wobble means you slowed down or drew from the wrist. A line that bows often comes from the wrist too, so draw from the shoulder. If it still bows, aim a slight curve the other way.
+Get the first one right before worrying about the others. If your lines wobble, you're probably drawing too slowly, or moving from the wrist instead of the shoulder.

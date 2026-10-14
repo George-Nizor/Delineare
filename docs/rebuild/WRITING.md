@@ -66,16 +66,16 @@ The owner's rules, after the first redesign got them wrong:
 
 | Part | Shape | Budget |
 | --- | --- | --- |
-| Title | The skill's name: "Lines", "Ellipses". No colon, no brackets, no sentence | 1 to 5 words |
-| Introduction | What the lesson is and why it matters, as a teacher would say it | 60 words |
-| Words to know | Up to three terms, each with a plain definition | 15 words each |
-| Steps | 3 to 6 numbered steps, each paired with a diagram | 30 words each |
-| Common mistake | One wrong-and-right pair, with the reason in one sentence | 40 words |
-| Do this | What to draw, how many, how long, with what | 50 words |
-| Check | 3 to 5 things to look for after the page is done | 15 words each |
+| Title | The skill's name: "Lines", "Ellipses". No colon, no brackets, no sentence. Shown as "Lesson 1: Lines" | 1 to 5 words |
+| Summary (`course.yaml`) | One plain sentence for the course page: what you learn to do | 15 words |
+| Introduction | What the lesson is and why it matters, as a teacher would say it: "Drawing well starts with confident lines. In this lesson you'll learn to..." | 70 words |
+| Steps | 3 to 6 numbered steps, each with a bold title. A diagram per step when one exists. Define a new word in the step that uses it ("This is called ghosting.") | 40 words each |
+| Common mistake | Optional. The most common mistake, why it happens and what to do instead | 50 words |
+| Exercise (`practice.yaml`, main) | What to draw, how many, how long, with what | 60 words |
+| Checking your page | 3 to 5 things to look for after the page is done | 15 words each |
 | Watch | One or two resources, one line each | Title, teacher, length |
 
-A lesson's own prose stays under 350 words. If a skill needs more, it is two lessons.
+A lesson's own prose stays under 450 words. If a skill needs more, it is two lessons.
 
 ## UI copy
 

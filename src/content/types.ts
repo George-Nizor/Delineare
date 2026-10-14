@@ -14,7 +14,7 @@ export interface LessonEntry {
   number: number;
   part: number;
   title: string;
-  outcome: string;
+  summary: string;
   written: boolean;
 }
 
@@ -35,13 +35,13 @@ export interface Lesson {
   number: number;
   part: number;
   title: string;
-  outcome: string;
+  summary: string;
+  intro: Inline[];
   needs: string[];
   example: string | null;
-  terms: { term: string; text: Inline }[];
   steps: Step[];
   howNotes: Inline[];
-  mistake: { diagram: string | null; text: Inline[] };
+  mistake: { diagram: string | null; text: Inline[] } | null;
   checkIntro: Inline[];
   checks: Inline[];
   checkNotes: Inline[];
@@ -114,7 +114,7 @@ export interface Content {
 export const KIND_LABEL: Record<PracticeKind, string> = {
   drill: 'Drill',
   'warm-up': 'Warm-up',
-  timed: 'Timed reference',
+  timed: 'Timed poses',
   memory: 'Memory',
   life: 'From life',
   imagination: 'Imagination',

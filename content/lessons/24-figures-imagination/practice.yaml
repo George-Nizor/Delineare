@@ -1,0 +1,36 @@
+# Practice for lesson 24. The item marked main is the lesson's exercise.
+
+- id: invented-pose-three-views
+  main: true
+  title: An invented pose in three views
+  kind: imagination
+  minutes: 30
+  text: "Invent a pose and write its action in one sentence. Draw it as a mannequin from the front, from the side and from three-quarters. Then find a photo of a similar pose and mark where your drawing differs."
+  steps: [Decide, Front view, Side view, Three-quarter view, Check]
+  timer:
+    rounds:
+      - { label: "Gesture and front view", minutes: 10 }
+      - { label: "Side view", minutes: 7 }
+      - { label: "Three-quarter view", minutes: 8 }
+      - { label: "Check against a photo", minutes: 5 }
+
+- id: five-quick-poses
+  title: Five quick invented poses
+  kind: imagination
+  minutes: 10
+  text: "Draw five different poses as mannequins from imagination, 2 minutes each. Pick the action first, such as running, sitting, throwing, bowing or climbing."
+  timer: { minutes: 10 }
+  reference: { prompt: "Pick the action, then draw it" }
+  check:
+    - Each pose starts from a gesture line.
+    - Each mannequin has a bean with a centerline.
+
+- id: same-pose-from-memory
+  title: Turn a pose
+  kind: memory
+  minutes: 10
+  text: "Draw a mannequin from the front. Cover it, then draw the same pose from the side without looking. Uncover it and compare joint heights."
+  timer: { minutes: 10 }
+  check:
+    - Shoulders and hips are at the same heights in both.
+    - The overall height matches within about a head.

@@ -1,0 +1,30 @@
+# Practice for lesson 25. The item marked main is the lesson's exercise.
+
+- id: loomis-heads-page
+  main: true
+  title: A page of Loomis heads
+  kind: drill
+  minutes: 25
+  text: "Draw six Loomis heads on one page, about 7 cm wide each. Do two facing the front, two in three-quarter view and two in profile. Draw the ball, cross lines, side plane, face lines and jaw each time. Use a pencil."
+  steps: [Ball, Side plane, Face lines, Jaw, Turn it]
+  timer: { minutes: 25 }
+
+- id: loomis-ball-warm-up
+  title: Balls and cross lines
+  kind: warm-up
+  minutes: 5
+  text: "Draw 12 small balls, each with a brow line and a vertical line. Turn the cross lines to a different direction on each."
+  timer: { minutes: 5 }
+  check:
+    - Each pair of cross lines wraps around its ball.
+    - The balls are close to round.
+
+- id: head-tilts
+  title: "One head, four tilts"
+  kind: drill
+  minutes: 10
+  text: "Draw a Loomis head looking up, then looking down, then tilted to one side, then turned away. Keep the face lines on all four."
+  timer: { minutes: 10 }
+  check:
+    - The face lines curve up or down with the tilt.
+    - The side plane changes width as the head turns.

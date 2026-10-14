@@ -2,40 +2,43 @@ import { useContent } from '../content/load';
 import { KIND_LABEL } from '../content/types';
 import type { Suggestion } from '../engine/review';
 import { href } from '../router';
+import { useAppData } from '../store/appData';
+import { ago, lastDone } from '../ui/time';
 
-const ROLE: Record<Suggestion['role'], string> = {
-  continue: 'From the lesson you are on',
-  review: 'Review',
-  'warm-up': 'Warm-up',
-  free: 'Draw for its own sake',
-};
-
+// Up to three things to draw now: the next exercise in the course, something to review, a warm-up,
+// and a drawing prompt.
 export function Suggestions({ items, seed, onAnother }: { items: Suggestion[]; seed: number; onAnother: () => void }) {
   const content = useContent();
+  const { log } = useAppData();
+  const last = lastDone(log);
   return (
-    <ul className="suggestions">
+    <ul className="cards suggestions stagger">
       {items.map((suggestion) => {
         if (suggestion.role === 'free') {
           return (
-            <li key="free" className="suggestion">
-              <a className="suggestion-link" href={href('free', seed)}>
-                <span className="eyebrow">{ROLE.free}</span>
-                <span className="suggestion-title">{suggestion.prompt}</span>
-                <span className="meta">10 min · Imagination</span>
+            <li key="free" className="card suggestion dark">
+              <a className="card-link" href={href('free', seed)}>
+                <span className="card-title">Today's drawing prompt</span>
+                <span className="card-text prompt-text">{suggestion.prompt}</span>
+                <span className="card-meta">Imagination · 10 min</span>
               </a>
-              <button type="button" className="quiet suggestion-another" onClick={onAnother}>Another prompt</button>
+              <button type="button" className="quiet another" onClick={onAnother}>Another prompt</button>
             </li>
           );
         }
         const item = content.practice[suggestion.practiceId ?? ''];
         if (!item) return null;
         const lesson = content.lessons[item.lesson];
+        const when = last.get(item.id);
+        const why = suggestion.role === 'continue'
+          ? `From lesson ${lesson?.number}, the one you're on`
+          : `Lesson ${lesson?.number}${when ? `, last done ${ago(when)}` : ''}`;
         return (
-          <li key={item.id} className="suggestion">
-            <a className="suggestion-link" href={href('do', item.id)}>
-              <span className="eyebrow">{ROLE[suggestion.role]}</span>
-              <span className="suggestion-title">{item.title}</span>
-              <span className="meta">{item.minutes} min · {KIND_LABEL[item.kind]}{lesson ? ` · Lesson ${lesson.number}` : ''}</span>
+          <li key={item.id} className="card suggestion">
+            <a className="card-link" href={href('do', item.id)}>
+              <span className="card-title">{item.title}</span>
+              <span className="card-text">{KIND_LABEL[item.kind]} · {item.minutes} min</span>
+              <span className="card-meta">{why}</span>
             </a>
           </li>
         );

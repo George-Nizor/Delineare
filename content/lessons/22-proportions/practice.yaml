@@ -1,0 +1,34 @@
+# Practice for lesson 22. The item marked main is the lesson's exercise.
+
+- id: standing-figure-grid
+  main: true
+  title: Standing figure on a grid
+  kind: drill
+  minutes: 20
+  text: "Draw a vertical line 22.5 cm tall and divide it into 7.5 heads of 3 cm. Draw one standing front-view figure on it, with the body lines, the three masses and at least eight landmark dots. Draw it again beside the first without the grid."
+  steps: [Divide the height, Mark the body lines, Block in the masses, Mark landmarks]
+  timer:
+    rounds:
+      - { label: "Figure on the grid", minutes: 10 }
+      - { label: "Figure again, without the grid", minutes: 10 }
+
+- id: head-count-warm-up
+  title: Count the heads
+  kind: warm-up
+  minutes: 5
+  text: Find a standing photo of one person. Measure the head with a pencil held at arm's length and count how many heads tall they are. Write the number beside a quick sketch.
+  timer: { minutes: 5 }
+  reference: { prompt: "A standing photo of one person" }
+  check:
+    - The number you wrote comes from measuring, not guessing.
+    - The sketch has the head, ribcage and pelvis as three shapes.
+
+- id: landmark-map
+  title: Landmark map
+  kind: life
+  minutes: 10
+  text: "Feel the bones at the surface of your own body: collarbone, shoulder tip, hip points, kneecap, ankle. Draw a rough standing figure and dot each one as you find it."
+  timer: { minutes: 10 }
+  check:
+    - Each dot sits where you felt bone.
+    - Left and right landmarks line up across the body.

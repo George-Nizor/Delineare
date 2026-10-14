@@ -1,56 +1,56 @@
 # The course: parts and lessons in order. This file is the one source of each lesson's title and
-# outcome. A lesson with a folder under content/lessons/ is written; the rest show in the course
+# one-sentence summary for the course page. A lesson with a folder under content/lessons/ is written; the rest show in the course
 # as coming later. Lesson numbers follow the order here.
 
 parts:
   - title: Lines and looking
     lessons:
-      - { slug: confident-lines, title: "Confident lines", outcome: "draw a straight line between two points in one smooth stroke." }
-      - { slug: ellipses, title: "Ellipses", outcome: "draw a smooth ellipse of a chosen width that fits a given space." }
-      - { slug: contour, title: "Contour", outcome: "draw the edges you see instead of the symbol you know." }
-      - { slug: measuring, title: "Measuring", outcome: "sight angles and proportions at arm's length to within about a tenth." }
-      - { slug: block-in, title: "Block-in and negative space", outcome: "start any observed subject with its big straight-line shape and the shapes around it." }
-      - { slug: gesture, title: "Gesture", outcome: "catch a figure's action in 30 seconds to 2 minutes with a few long lines." }
-      - { slug: checking, title: "Checking your drawing", outcome: "find your own errors with a mirror, plumb lines and a photo." }
-      - { slug: memory, title: "Drawing from memory", outcome: "study a simple subject, draw it without looking, compare, and correct it from memory." }
+      - { slug: confident-lines, title: "Lines", summary: "Drawing a straight line between two points in one smooth stroke." }
+      - { slug: ellipses, title: "Ellipses", summary: "Drawing a smooth ellipse of a chosen width that fits a given space." }
+      - { slug: contour, title: "Contour", summary: "Drawing the edges you see instead of the symbol you know." }
+      - { slug: measuring, title: "Measuring", summary: "Comparing lengths and angles with a pencil held at arm's length." }
+      - { slug: block-in, title: "Block-in and negative space", summary: "Starting a drawing with one big straight-edged shape and the gaps around it." }
+      - { slug: gesture, title: "Gesture", summary: "Catching the action of a pose in a minute or two with long lines." }
+      - { slug: checking, title: "Checking your drawing", summary: "Finding your own mistakes by flipping, stepping back, plumb lines and photo overlay." }
+      - { slug: memory, title: "Drawing from memory", summary: "Studying a simple object, drawing it from memory, then comparing and correcting." }
 
   - title: Form and space
     lessons:
-      - { slug: simple-forms, title: "Simple forms", outcome: "draw spheres, boxes, cylinders and cones that sit in depth through overlap and size." }
-      - { slug: contour-lines, title: "Contour lines on round forms", outcome: "wrap contour lines around a curved form so it reads as solid." }
-      - { slug: one-point, title: "Horizon and one-point perspective", outcome: "set an eye level and a vanishing point and place boxes around the horizon." }
-      - { slug: plotted-boxes, title: "Two- and three-point boxes", outcome: "construct boxes with a ruler in two- and three-point perspective." }
-      - { slug: freehand-boxes, title: "Freehand boxes", outcome: "draw a box freehand at any angle and check it by extending its edges." }
-      - { slug: cylinders, title: "Cylinders", outcome: "draw a cylinder at any angle with its ellipses lined up on its axis." }
-      - { slug: building-objects, title: "Building objects", outcome: "build a real object from boxes and cylinders, drawn through, with cuts and joins." }
-      - { slug: turning-objects, title: "Turning objects in your head", outcome: "draw an object you have looked at from views you have not seen." }
+      - { slug: simple-forms, title: "Simple forms", summary: "Drawing spheres, boxes, cylinders and cones so they look solid and sit in space." }
+      - { slug: contour-lines, title: "Contour lines on round forms", summary: "Wrapping lines around a curved form so it reads as solid." }
+      - { slug: one-point, title: "Horizon and one-point perspective", summary: "Setting a horizon and a vanishing point and drawing boxes around them." }
+      - { slug: plotted-boxes, title: "Two- and three-point boxes", summary: "Constructing boxes with a ruler in two-point and three-point perspective." }
+      - { slug: freehand-boxes, title: "Freehand boxes", summary: "Drawing a box freehand at any angle and checking it by extending its edges." }
+      - { slug: cylinders, title: "Cylinders", summary: "Drawing a cylinder at any angle with its ellipses lined up on one axis." }
+      - { slug: building-objects, title: "Building objects", summary: "Building a real object from boxes and cylinders, drawing through every form." }
+      - { slug: turning-objects, title: "Turning objects in your head", summary: "Drawing an object from a view you haven't seen by turning it in your head." }
 
   - title: Light and value
     lessons:
-      - { slug: seeing-value, title: "Seeing value", outcome: "make a value scale and squint a subject down to two or three value shapes." }
-      - { slug: light-on-form, title: "Light on form", outcome: "shade a simple form under one light with a clear split between light and shadow." }
-      - { slug: cast-shadows, title: "Cast shadows", outcome: "construct the shadow of a box or cylinder from a sun or a lamp." }
-      - { slug: tone-with-line, title: "Tone with line", outcome: "build value with hatching and cross-hatching." }
-      - { slug: still-life, title: "Still life", outcome: "take a drawing from life through block-in, shadow shapes and values in about an hour." }
+      - { slug: seeing-value, title: "Seeing value", summary: "Making a value scale and squinting a subject down to two or three tones." }
+      - { slug: light-on-form, title: "Light on form", summary: "Shading a simple form under one light with a clear edge between light and shadow." }
+      - { slug: cast-shadows, title: "Cast shadows", summary: "Working out the shadow of a box or cylinder from a sun or a lamp." }
+      - { slug: tone-with-line, title: "Tone with line", summary: "Building tone with hatching and cross-hatching." }
+      - { slug: still-life, title: "Still life", summary: "Drawing a small still life from life in about an hour, from block-in to tone." }
 
   - title: People
     lessons:
-      - { slug: proportions, title: "Proportions and landmarks", outcome: "lay out a standing figure about eight heads tall with its main masses and landmarks." }
-      - { slug: mannequin, title: "The mannequin", outcome: "turn a gesture into a simple 3D body that twists, tilts and points toward you." }
-      - { slug: figures-imagination, title: "Figures from imagination", outcome: "invent a pose, draw it as a mannequin from three views, then check it." }
-      - { slug: head, title: "The head", outcome: "construct a head at any angle from a ball and a plane." }
-      - { slug: features, title: "Features and likeness", outcome: "draw the features as forms and measure a likeness from a photo." }
-      - { slug: hands-feet, title: "Hands and feet", outcome: "draw a hand from imagination as a box palm with jointed fingers." }
-      - { slug: clothing, title: "Clothing folds", outcome: "dress a mannequin from where the cloth hangs and pulls." }
+      - { slug: proportions, title: "Proportions and landmarks", summary: "Laying out a standing figure seven and a half heads tall, with its landmarks." }
+      - { slug: mannequin, title: "The mannequin", summary: "Turning a gesture into a simple 3D body that twists, tilts and points toward you." }
+      - { slug: figures-imagination, title: "Figures from imagination", summary: "Inventing a pose, drawing it as a mannequin from three views, then checking it." }
+      - { slug: head, title: "The head", summary: "Constructing a head at any angle from a ball and a plane." }
+      - { slug: features, title: "Features and likeness", summary: "Drawing eyes, nose and mouth as forms and measuring a likeness from a photo." }
+      - { slug: hands-feet, title: "Hands", summary: "Drawing a hand from imagination as a box palm with jointed fingers." }
+      - { slug: clothing, title: "Clothing folds", summary: "Dressing a mannequin by showing where cloth hangs, pulls and folds." }
 
   - title: Living things and places
     lessons:
-      - { slug: plants, title: "Plants and trees", outcome: "construct leaves, branches and flowers and simplify a tree into masses." }
-      - { slug: animals, title: "Animals", outcome: "build a four-legged animal from masses and leg structure." }
-      - { slug: rooms-streets, title: "Rooms and streets", outcome: "set up a two-point space and keep people in it at the right scale." }
-      - { slug: composition, title: "Composition and thumbnails", outcome: "make six small three-value thumbnails and choose the clearest." }
+      - { slug: plants, title: "Plants and trees", summary: "Drawing branches and leaves, and simplifying a tree into a few big masses." }
+      - { slug: animals, title: "Animals", summary: "Building a four-legged animal from body masses and leg structure." }
+      - { slug: rooms-streets, title: "Rooms and streets", summary: "Setting up a room or street in two-point perspective with people at the right scale." }
+      - { slug: composition, title: "Composition and thumbnails", summary: "Making six small three-tone thumbnails and choosing the clearest one." }
 
   - title: Invention
     lessons:
-      - { slug: designing, title: "Designing from parts", outcome: "design a creature or object from studied references in three views." }
-      - { slug: scene, title: "A scene from imagination", outcome: "take an invented scene from thumbnail to perspective, figures in scale and cast shadows." }
+      - { slug: designing, title: "Designing from parts", summary: "Designing a creature or object from studied references and drawing it from three views." }
+      - { slug: scene, title: "A scene from imagination", summary: "Taking an invented scene from thumbnail to finished drawing with figures, perspective and shadows." }

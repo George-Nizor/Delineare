@@ -1,0 +1,95 @@
+# Resources for lessons 9 to 16.
+
+- id: proko-structure-basics
+  title: Structure Basics, Making Things Look 3D
+  teacher: Proko
+  url: https://www.youtube.com/watch?v=3uEtdDvK6Xo
+  kind: video
+  minutes: 11
+  youtube: 3uEtdDvK6Xo
+  cost: free
+  checked: 2026-10-14
+
+- id: drawabox-sausages-contour
+  title: Sausages with Contour Lines
+  teacher: Drawabox
+  url: https://drawabox.com/lesson/2/5
+  kind: written lesson and video
+  minutes: 12
+  youtube: y5By0Q_XFBM
+  cost: free
+  checked: 2026-10-14
+
+- id: proko-perspective-beginners
+  title: Perspective for Beginners
+  teacher: Proko
+  url: https://www.youtube.com/watch?v=BYlW8XC0MlI
+  kind: video
+  minutes: 14
+  youtube: BYlW8XC0MlI
+  cost: free
+  checked: 2026-10-14
+
+- id: drawabox-plotted-perspective
+  title: Plotted Perspective
+  teacher: Drawabox
+  url: https://drawabox.com/lesson/1/plottedperspective
+  kind: written exercise
+  cost: free
+  checked: 2026-10-14
+
+- id: drawabox-rotated-boxes
+  title: "Lesson 1, Exercise 9: Rotated Boxes"
+  teacher: Drawabox
+  url: https://drawabox.com/lesson/1/rotatedboxes
+  kind: written exercise and video
+  minutes: 18
+  youtube: Oz98L4Fyxoo
+  cost: free
+  checked: 2026-10-14
+
+- id: drawabox-250-boxes
+  title: 250 Box Challenge
+  teacher: Drawabox
+  url: https://drawabox.com/lesson/250boxes
+  kind: written exercise
+  cost: free
+  checked: 2026-10-14
+
+- id: proko-cylinders-ellipses
+  title: How to Draw Cylinders and Ellipses
+  teacher: Proko
+  url: https://www.youtube.com/watch?v=PdtDtGBu-Dc
+  kind: video
+  minutes: 15
+  youtube: PdtDtGBu-Dc
+  cost: free
+  checked: 2026-10-14
+
+- id: drawabox-250-cylinders
+  title: 250 Cylinder Challenge
+  teacher: Drawabox
+  url: https://drawabox.com/lesson/250cylinders
+  kind: written exercise
+  cost: free
+  checked: 2026-10-14
+
+- id: drawabox-form-intersections
+  title: "Lesson 2, Exercise 5: Form Intersections"
+  teacher: Drawabox
+  url: https://drawabox.com/lesson/2/formintersections
+  kind: written exercise and video
+  minutes: 29
+  youtube: VuorfzSk33Y
+  cost: free
+  checked: 2026-10-14
+
+- id: beardshaw-rotating-objects
+  title: Rotating Objects in Perspective (Part 1)
+  teacher: Dan Beardshaw
+  url: https://www.youtube.com/watch?v=ja4W5P7K5PE
+  kind: video
+  minutes: 10
+  youtube: ja4W5P7K5PE
+  cost: free
+  checked: 2026-10-14

@@ -1,0 +1,33 @@
+# Practice for lesson 11. The item marked main is the lesson's exercise.
+
+- id: one-point-boxes-page
+  main: true
+  title: "Boxes around a horizon"
+  kind: drill
+  minutes: 20
+  text: "Rule a horizon across a page and mark one vanishing point on it. Draw six boxes in one-point perspective with a ruler: two above the horizon, two below and two across it. Make them different sizes."
+  steps: [Draw the horizon, Place the vanishing point, Draw front faces, Run edges to the point, Close the back]
+  timer: { minutes: 20 }
+
+- id: one-point-warm-up
+  title: "One-point warm-up"
+  kind: warm-up
+  minutes: 10
+  text: "Rule a new horizon and vanishing point. Draw three boxes, each at a different distance from the vanishing point."
+  steps: [Draw the horizon, Place the vanishing point, Draw front faces]
+  timer: { minutes: 10 }
+  reference: { prompt: "One horizon, one vanishing point, three boxes" }
+  check:
+    - Receding edges all pass through the vanishing point.
+    - Back faces are smaller than front faces.
+
+- id: one-point-move-the-horizon
+  title: "Move the horizon"
+  kind: drill
+  minutes: 10
+  text: "Draw the same three boxes twice on one page. Put the horizon near the top of the first frame and near the bottom of the second."
+  steps: [Draw the horizon, Place the vanishing point, Run edges to the point]
+  timer: { minutes: 10 }
+  check:
+    - In the first frame, most boxes sit below the horizon and show their tops.
+    - In the second frame, most sit above it and show their undersides.

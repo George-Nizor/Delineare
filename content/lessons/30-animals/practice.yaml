@@ -1,0 +1,32 @@
+# Practice for lesson 30. The item marked main is the lesson's exercise.
+
+- id: quadruped-side-views
+  main: true
+  title: "Three animals from the side"
+  kind: master-copy
+  minutes: 40
+  text: "Find side-view photos of a horse, a dog and a cat. Draw each as a barrel with chest and hip ovals, size the head against the trunk, then add the legs as cylinders. Use a pencil on printer paper."
+  steps: [Find the trunk, Mark the ends, Size the head, Add the legs, Check]
+  timer: { minutes: 40 }
+  reference: { prompt: "A side-view photo of a horse, a dog and a cat" }
+
+- id: animal-gesture-masses
+  title: "Quick animal masses"
+  kind: timed
+  minutes: 10
+  text: "Draw five animals from photos in two minutes each. Barrel, chest and hip ovals, head, and four straight lines for the legs."
+  steps: [Find the trunk, Mark the ends, Size the head]
+  timer: { minutes: 10 }
+  check:
+    - Each trunk is one barrel with a larger chest.
+    - You sized each head against its trunk.
+
+- id: front-leg-as-arm
+  title: "Front leg and arm"
+  kind: drill
+  minutes: 15
+  text: "Draw your own arm bent at the elbow, then draw a dog's front leg from a photo beside it. Label the shoulder, elbow and wrist on each."
+  timer: { minutes: 15 }
+  check:
+    - You marked the shoulder, elbow and wrist on both.
+    - Each segment is a simple cylinder.

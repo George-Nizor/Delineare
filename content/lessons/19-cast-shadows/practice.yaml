@@ -1,0 +1,32 @@
+# Practice for lesson 19. The item marked main is the lesson's exercise.
+
+- id: box-shadows-sun-lamp
+  main: true
+  title: "A box under sun and lamp"
+  kind: drill
+  minutes: 30
+  text: "Draw a box on a floor. Build its shadow for a sun at 45 degrees, fill it, then draw the same box again and build its shadow for a lamp standing close beside it. Use a ruler for the construction lines."
+  steps: [Draw the box, Place the sun, Find the tips, Join and fill, Use a lamp]
+  timer: { minutes: 30 }
+
+- id: three-boxes-one-sun
+  title: "Three boxes, one sun"
+  kind: drill
+  minutes: 20
+  text: "Draw three boxes of different heights on the same floor. Build all three shadows from one sun at 45 degrees."
+  steps: [Draw the box, Place the sun, Find the tips, Join and fill]
+  timer: { minutes: 20 }
+  check:
+    - Each shadow is as long as its box is tall.
+    - All three shadows point the same way.
+
+- id: shadow-from-a-photo
+  title: "Shadows in a photo"
+  kind: life
+  minutes: 15
+  text: "Find a photo of buildings or posts in sunlight. Draw two of the objects and their shadows. Mark which end of each shadow touches the object."
+  timer: { minutes: 15 }
+  reference: { prompt: "A photo with strong sun and long shadows" }
+  check:
+    - Each shadow starts at the base of its object.
+    - The shadows run in one direction.

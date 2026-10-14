@@ -1,0 +1,34 @@
+# Practice for lesson 16. The item marked main is the lesson's exercise.
+
+- id: turn-an-object
+  main: true
+  title: "Turn an object"
+  kind: imagination
+  minutes: 30
+  text: "Draw a plain object as you see it, built from forms with its box around it. Then draw it turned about a quarter turn to the left, without looking at it. Last, turn the real object and compare."
+  steps: [Draw it as you see it, Choose a turn, Move the front corners, Place the back corners, Add the forms]
+  timer: { minutes: 30 }
+  reference: { prompt: "A plain object on your desk, such as a stapler" }
+
+- id: turn-a-box
+  title: "Turn a box"
+  kind: drill
+  minutes: 15
+  text: "Draw one box in two-point perspective. Next to it, draw the same box turned a little to the right, then a little more. Rotate around the vertical axis only."
+  steps: [Choose a turn, Move the front corners, Place the back corners]
+  timer: { minutes: 15 }
+  check:
+    - Vanishing points move along the horizon between boxes.
+    - Each box is shorter on the side that turned away.
+
+- id: turn-from-memory
+  title: "Turn from memory"
+  kind: memory
+  minutes: 15
+  text: "Study a plain object for a minute. Cover it and draw it from memory. Then draw it turned, and compare with the real object."
+  steps: [Draw it as you see it, Choose a turn, Add the forms]
+  timer: { minutes: 15 }
+  reference: { prompt: "A plain object on your desk" }
+  check:
+    - The turned view has its own vanishing points.
+    - The main forms keep the proportions of the original.

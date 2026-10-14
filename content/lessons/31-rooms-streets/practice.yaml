@@ -1,0 +1,32 @@
+# Practice for lesson 31. The item marked main is the lesson's exercise.
+
+- id: room-with-figures
+  main: true
+  title: "A room with four people"
+  kind: drill
+  minutes: 40
+  text: "Draw a horizon and two vanishing points. Draw a room corner with a floor. Make a height scale, then draw four people standing at different spots on the floor, each at the height the scale gives. Use a ruler for the scale."
+  steps: [Set the horizon, Draw a height scale, Place a person, Repeat, Put heads on the horizon]
+  timer: { minutes: 40 }
+
+- id: street-with-figures
+  title: "A street with six people"
+  kind: drill
+  minutes: 30
+  text: "Draw a street running away from you between two rows of boxes. Draw a height scale and place six people along it, at different distances from you."
+  steps: [Set the horizon, Draw a height scale, Place a person, Repeat]
+  timer: { minutes: 30 }
+  check:
+    - Each person gets smaller with distance.
+    - All the heads sit near the horizon.
+
+- id: scale-warm-up
+  title: "Height scale warm-up"
+  kind: warm-up
+  minutes: 8
+  text: "Draw a horizon, a height scale and eight vertical lines of equal height at eight spots on a floor."
+  steps: [Draw a height scale, Place a person, Repeat]
+  timer: { minutes: 8 }
+  check:
+    - Every vertical sits between the two scale lines.
+    - The verticals shrink toward the horizon.

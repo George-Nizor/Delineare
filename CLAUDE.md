@@ -10,8 +10,8 @@ the reports the plan rests on; `docs/rebuild/sources/` holds verified source not
 - React 19, TypeScript, Vite; Dexie (IndexedDB, database `delineare-2`) for everything stored. No
   server, no account. Hash routes in `src/router.ts`.
 - Content lives in `content/` as files a person can read: `course.yaml` (every lesson's title and
-  outcome), `lessons/NN-slug/lesson.md` plus `practice.yaml` and `diagrams/*.mjs`, `resources.yaml`
-  and `prompts.yaml`. `scripts/build-content.mjs` validates all of it and writes
+  summary), `lessons/NN-slug/lesson.md` plus `practice.yaml` and `diagrams/*.mjs`, `resources.yaml` plus
+  `resources/*.yaml`, and `prompts.yaml`. `scripts/build-content.mjs` validates all of it and writes
   `public/content.json`; it refuses anything that breaks the lesson format, a word budget or the
   copy rules.
 - Diagrams are scripts that return SVG from real geometry, using `content/diagrams/lib.mjs`. Colours
@@ -35,8 +35,10 @@ the reports the plan rests on; `docs/rebuild/sources/` holds verified source not
   drawings, credited.
 - Reference images and anywhere tone is judged sit on neutral grey, in both themes.
 - No streaks, badges, levels, scores or praise. Nothing is ever shown as overdue or missed.
-- The pilot gate: after lessons 1 to 3, no more lessons get written until the owner has used the
-  pilot and agreed the format (`docs/rebuild/PLAN.md`, build phases).
+- The lesson format (title, introduction, Steps, Common mistake, Checking your page) was agreed by
+  the owner on 2026-10-14, after the design review; all 34 lessons use it. Lessons 4 to 34 have no
+  diagrams yet.
+- Lesson writers follow `docs/rebuild/AGENT-BRIEF.md`.
 
 ## Done means
 

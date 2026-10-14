@@ -20,9 +20,9 @@ const warnings = [];
 const fail = (where, message) => errors.push(`${where}: ${message}`);
 const warn = (where, message) => warnings.push(`${where}: ${message}`);
 
-const BUDGET = { title: 5, outcome: 15, term: 15, step: 30, mistake: 40, exercise: 50, check: 15, lesson: 350 };
+const BUDGET = { title: 5, summary: 15, intro: 70, step: 40, mistake: 50, exercise: 60, check: 15, lesson: 450 };
 const KINDS = ['drill', 'warm-up', 'timed', 'memory', 'life', 'imagination', 'location', 'master-copy', 'retest'];
-const SECTIONS = ['Words to know', 'How', 'The usual mistake', 'Check'];
+const SECTIONS = ['Steps', 'Common mistake', 'Checking your page'];
 
 const readYaml = (file) => YAML.parse(fs.readFileSync(file, 'utf8'));
 
@@ -122,20 +122,27 @@ async function readLesson(folder, entry, diagrams) {
   const where = `content/lessons/${path.basename(folder)}`;
   const { meta, body } = splitFrontMatter(fs.readFileSync(path.join(folder, 'lesson.md'), 'utf8'), where);
   const tokens = marked.lexer(body).filter((token) => token.type !== 'space');
-  const lesson = { slug, number: entry.number, part: entry.part, title: entry.title, outcome: entry.outcome, needs: [], terms: [], steps: [], howNotes: [], mistake: null, checkIntro: [], checks: [], checkNotes: [], watch: [], exercise: '', practice: [], example: null };
+  const lesson = { slug, number: entry.number, part: entry.part, title: entry.title, summary: entry.summary, intro: [], needs: [], steps: [], howNotes: [], mistake: null, checkIntro: [], checks: [], checkNotes: [], watch: [], exercise: '', practice: [], example: null };
   let prose = 0;
 
-  // Title and outcome must match the course file, which is their one source.
-  const [h1, outcome, example, ...rest] = tokens;
+  // The title must match the course file, which is its one source. Then the introduction: one to
+  // three plain sentences saying what the lesson teaches, before any picture or section.
+  const [h1, ...afterTitle] = tokens;
   if (h1?.type !== 'heading' || h1.depth !== 1 || h1.text.trim() !== entry.title) fail(where, `the first line must be "# ${entry.title}" (from course.yaml)`);
-  const expected = `After this you can ${entry.outcome}`;
-  if (outcome?.type !== 'paragraph' || outcome.text.trim() !== expected) fail(where, `the outcome paragraph must read "${expected}" (from course.yaml)`);
-  const exampleImage = images(example ? [example] : [])[0];
-  if (!exampleImage) fail(where, 'the paragraph after the outcome must be the example diagram, ![description](name)');
-  else {
+  let rest = afterTitle;
+  while (rest[0]?.type === 'paragraph' && !images([rest[0]]).length) {
+    lesson.intro.push(inline(rest[0].tokens));
+    rest = rest.slice(1);
+  }
+  if (!lesson.intro.length) fail(where, 'the paragraph after the title must be the introduction');
+  prose += checkProse(`${where}, introduction`, lesson.intro.map(plain).join(' '), BUDGET.intro);
+  // An optional example picture follows the introduction.
+  if (rest[0]?.type === 'paragraph' && images([rest[0]]).length) {
+    const exampleImage = images([rest[0]])[0];
     const art = await diagram(folder, slug, exampleImage.name, exampleImage.alt, where);
     if (art) diagrams.set(art.id, art);
     lesson.example = art?.id ?? null;
+    rest = rest.slice(1);
   }
 
   // Sections.
@@ -149,23 +156,12 @@ async function readLesson(folder, entry, diagrams) {
     } else if (current) sections.get(current).push(token);
     else fail(where, `unexpected ${token.type} before the first section`);
   }
-  for (const required of ['How', 'The usual mistake', 'Check']) if (!sections.has(required)) fail(where, `missing "## ${required}"`);
+  for (const required of ['Steps', 'Checking your page']) if (!sections.has(required)) fail(where, `missing "## ${required}"`);
 
-  for (const token of sections.get('Words to know') || []) {
-    if (token.type !== 'list') { fail(where, 'Words to know holds one list of "**Term:** definition" items'); continue; }
-    if (token.items.length > 3) fail(where, 'Words to know has more than three terms');
-    for (const item of token.items) {
-      const parsed = titled(inline(itemTokens(item).flatMap((t) => t.tokens || [])));
-      if (!parsed) { fail(where, `a term must start with **Term:** ("${item.text.slice(0, 40)}")`); continue; }
-      prose += checkProse(`${where}, term "${parsed.title}"`, plain(parsed.text), BUDGET.term);
-      lesson.terms.push({ term: parsed.title, text: parsed.text });
-    }
-  }
-
-  for (const token of sections.get('How') || []) {
+  for (const token of sections.get('Steps') || []) {
     if (token.type === 'list') {
-      if (!token.ordered) fail(where, 'How must be a numbered list');
-      if (token.items.length < 3 || token.items.length > 6) fail(where, `How has ${token.items.length} steps; it needs 3 to 6`);
+      if (!token.ordered) fail(where, 'Steps must be a numbered list');
+      if (token.items.length < 3 || token.items.length > 6) fail(where, `Steps has ${token.items.length} steps; it needs 3 to 6`);
       for (const item of token.items) {
         const parts = itemTokens(item);
         const parsed = titled(inline(parts[0]?.tokens || []));
@@ -179,35 +175,38 @@ async function readLesson(folder, entry, diagrams) {
         lesson.steps.push({ title: parsed.title, text, diagram: art?.id ?? null });
       }
     } else if (token.type === 'paragraph') {
-      prose += checkProse(`${where}, note under How`, token.text);
+      prose += checkProse(`${where}, note under Steps`, token.text);
       lesson.howNotes.push(inline(token.tokens));
-    } else fail(where, `How holds the steps and short notes, not a ${token.type}`);
+    } else fail(where, `Steps holds the numbered steps and short notes, not a ${token.type}`);
   }
 
-  const mistake = sections.get('The usual mistake') || [];
-  const mistakeImage = images(mistake)[0];
-  const mistakeArt = mistakeImage ? await diagram(folder, slug, mistakeImage.name, mistakeImage.alt, where) : null;
-  if (!mistakeArt) fail(where, 'The usual mistake needs its wrong-and-right diagram');
-  else diagrams.set(mistakeArt.id, mistakeArt);
-  const mistakeText = mistake.filter((token) => token.type === 'paragraph' && !images([token]).length);
-  prose += checkProse(`${where}, the usual mistake`, mistakeText.map((token) => token.text).join(' '), BUDGET.mistake);
-  lesson.mistake = { diagram: mistakeArt?.id ?? null, text: mistakeText.map((token) => inline(token.tokens)) };
+  // Common mistake is optional; when present it has text and may have a wrong-and-right diagram.
+  if (sections.has('Common mistake')) {
+    const mistake = sections.get('Common mistake');
+    const mistakeImage = images(mistake)[0];
+    const mistakeArt = mistakeImage ? await diagram(folder, slug, mistakeImage.name, mistakeImage.alt, where) : null;
+    if (mistakeArt) diagrams.set(mistakeArt.id, mistakeArt);
+    const mistakeText = mistake.filter((token) => token.type === 'paragraph' && !images([token]).length);
+    if (!mistakeText.length) fail(where, 'Common mistake needs a paragraph saying what goes wrong');
+    prose += checkProse(`${where}, common mistake`, mistakeText.map((token) => token.text).join(' '), BUDGET.mistake);
+    lesson.mistake = { diagram: mistakeArt?.id ?? null, text: mistakeText.map((token) => inline(token.tokens)) };
+  }
 
   let seenList = false;
-  for (const token of sections.get('Check') || []) {
+  for (const token of sections.get('Checking your page') || []) {
     if (token.type === 'list') {
-      if (seenList) fail(where, 'Check holds one list');
+      if (seenList) fail(where, 'Checking your page holds one list');
       seenList = true;
-      if (token.items.length < 3 || token.items.length > 5) fail(where, `Check has ${token.items.length} items; it needs 3 to 5`);
+      if (token.items.length < 3 || token.items.length > 5) fail(where, `Checking your page has ${token.items.length} items; it needs 3 to 5`);
       for (const item of token.items) {
         const nodes = inline(itemTokens(item).flatMap((t) => t.tokens || []));
         prose += checkProse(`${where}, check "${plain(nodes).slice(0, 30)}"`, plain(nodes), BUDGET.check);
         lesson.checks.push(nodes);
       }
     } else if (token.type === 'paragraph') {
-      prose += checkProse(`${where}, note under Check`, token.text);
+      prose += checkProse(`${where}, note under Checking your page`, token.text);
       (seenList ? lesson.checkNotes : lesson.checkIntro).push(inline(token.tokens));
-    } else fail(where, `Check holds a list and short notes, not a ${token.type}`);
+    } else fail(where, `Checking your page holds a list and short notes, not a ${token.type}`);
   }
 
   // Front matter: what the lesson needs, its exercise, and what to watch.
@@ -281,9 +280,11 @@ async function readPractice(folder, lesson, diagrams, practice) {
 // ---- Resources and prompts --------------------------------------------------------------------
 
 function readResources() {
-  const where = 'content/resources.yaml';
+  const where = 'content/resources';
   const resources = new Map();
-  for (const raw of readYaml(path.join(contentDir, 'resources.yaml')) || []) {
+  const extra = path.join(contentDir, 'resources');
+  const files = [path.join(contentDir, 'resources.yaml'), ...(fs.existsSync(extra) ? fs.readdirSync(extra).filter((name) => name.endsWith('.yaml')).sort().map((name) => path.join(extra, name)) : [])];
+  for (const raw of files.flatMap((file) => readYaml(file) || [])) {
     const at = `${where}, ${raw.id}`;
     for (const key of Object.keys(raw)) if (!['id', 'title', 'teacher', 'url', 'kind', 'minutes', 'youtube', 'cost', 'checked'].includes(key)) fail(at, `unexpected key "${key}"; quote values that contain a comma or colon`);
     if (resources.has(raw.id)) fail(at, 'duplicate id');
@@ -325,22 +326,23 @@ for (const [index, part] of (course.parts || []).entries()) {
   const entries = [];
   for (const raw of part.lessons || []) {
     number += 1;
-    for (const key of Object.keys(raw)) if (!['slug', 'title', 'outcome'].includes(key)) fail(`content/course.yaml, ${raw.slug}`, `unexpected key "${key}"; quote values that contain a comma`);
-    const entry = { slug: raw.slug, number, part: index + 1, title: raw.title, outcome: raw.outcome };
+    for (const key of Object.keys(raw)) if (!['slug', 'title', 'summary'].includes(key)) fail(`content/course.yaml, ${raw.slug}`, `unexpected key "${key}"; quote values that contain a comma`);
+    const entry = { slug: raw.slug, number, part: index + 1, title: raw.title, summary: raw.summary };
     const at = `content/course.yaml, ${raw.slug}`;
     if (slugs.has(raw.slug)) fail(at, 'duplicate slug');
     slugs.add(raw.slug);
     if (words(raw.title || '') > BUDGET.title) fail(at, `title over ${BUDGET.title} words`);
     if (/[:()]/.test(raw.title || '')) fail(at, 'a title has no colon or brackets');
     checkProse(`${at}, title`, raw.title || '');
-    checkProse(`${at}, outcome`, `After this you can ${raw.outcome}`, BUDGET.outcome + 4);
+    if (!raw.summary) fail(at, 'summary is required: one plain sentence for the course page');
+    checkProse(`${at}, summary`, raw.summary || '', BUDGET.summary);
     const folder = folders.get(raw.slug);
     if (folder) {
       const expectedFolder = `${String(number).padStart(2, '0')}-${raw.slug}`;
       if (path.basename(folder) !== expectedFolder) fail(`content/lessons/${path.basename(folder)}`, `folder should be named ${expectedFolder}`);
       const { lesson, prose } = await readLesson(folder, entry, diagrams);
       const exerciseWords = await readPractice(folder, lesson, diagrams, practice);
-      const total = prose + exerciseWords + words(lesson.outcome);
+      const total = prose + exerciseWords;
       if (total > BUDGET.lesson) fail(`content/lessons/${path.basename(folder)}`, `${total} words of lesson prose, over the budget of ${BUDGET.lesson}`);
       lesson.prose = total;
       lessons[raw.slug] = lesson;

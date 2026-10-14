@@ -1,0 +1,33 @@
+# Practice for lesson 17. The item marked main is the lesson's exercise.
+
+- id: value-scale-and-shapes
+  main: true
+  title: "Value scale and three values"
+  kind: life
+  minutes: 30
+  text: "Rule a five-box value scale. Set a mug or a shoe by a window, squint, and draw the borders between its light, medium and dark shapes. Fill each shape with one even tone. Use a soft pencil on printer paper."
+  steps: [Make a scale, Squint, Draw the borders, Fill in three values, Compare]
+  timer: { minutes: 30 }
+
+- id: value-scale-warm-up
+  title: "Value scale warm-up"
+  kind: warm-up
+  minutes: 5
+  text: "Make a strip of five boxes from white to your darkest tone. Aim for an even step between each box."
+  steps: [Make a scale]
+  timer: { minutes: 5 }
+  check:
+    - Each box is darker than the one before.
+    - The steps between boxes look equal.
+
+- id: squint-a-room
+  title: "Squint at three objects"
+  kind: drill
+  minutes: 15
+  text: "Pick three objects in the room. For each one, squint and draw its light, medium and dark shapes in a box about the size of your palm. Fill each shape with one flat tone."
+  steps: [Squint, Draw the borders, Fill in three values]
+  timer: { minutes: 15 }
+  reference: { prompt: "Three objects from the room, one box each" }
+  check:
+    - Each box uses three flat values.
+    - The dark shape in each box sits where the object is darkest.

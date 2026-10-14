@@ -17,7 +17,7 @@ export function SettingsPage() {
   const themes: [Theme, string][] = [['system', 'Match the computer'], ['light', 'Light'], ['dark', 'Dark']];
 
   return (
-    <div className="page settings">
+    <div className="page settings narrow">
       <header className="page-head"><h1>Settings</h1></header>
 
       <fieldset className="setting">
@@ -34,11 +34,19 @@ export function SettingsPage() {
         <legend>Lessons</legend>
         <label className="check-box">
           <input type="checkbox" checked={local.foldSteps} onChange={(event) => change('foldSteps', event.target.checked)} />
-          <span>Fold the steps away on every lesson, for when you already draw and want the goal, the exercise and the check</span>
+          <span>Hide the steps on every lesson. Useful if you already draw and only want the video, the exercise and the checks.</span>
         </label>
         <label className="check-box">
           <input type="checkbox" checked={local.sound} onChange={(event) => change('sound', event.target.checked)} />
           <span>Play a quiet tone when a timer round ends</span>
+        </label>
+      </fieldset>
+
+      <fieldset className="setting">
+        <legend>Motion</legend>
+        <label className="check-box">
+          <input type="checkbox" checked={local.reduceMotion} onChange={(event) => change('reduceMotion', event.target.checked)} />
+          <span>Reduce animation. Pages fade in instead of moving, and the opening animation is shorter.</span>
         </label>
       </fieldset>
 

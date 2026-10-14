@@ -7,6 +7,7 @@ import { useAppData } from '../store/appData';
 import { recordExercise } from '../store/db';
 import { preparePhoto, type PreparedPhoto } from '../store/photo';
 import { DiagramView } from '../ui/Diagram';
+import { Icon } from '../ui/Icons';
 import { InlineText, Paragraphs } from '../ui/Inline';
 import { chime } from '../ui/sound';
 import { clock, useTimer } from '../ui/useTimer';
@@ -15,8 +16,8 @@ import { NotFound } from './Lesson';
 // A prompt to draw something for its own sake, built for the seed in the address.
 function freeItem(prompt: string): PracticeItem {
   return {
-    id: 'free', lesson: '', main: false, title: 'Draw for its own sake', kind: 'imagination', minutes: 10,
-    text: [[{ t: 'text', v: 'Draw this from imagination. Stop when the time is up, or keep going if you are enjoying it.' }]],
+    id: 'free', lesson: '', main: false, title: 'Drawing prompt', kind: 'imagination', minutes: 10,
+    text: [[{ t: 'text', v: "Draw this from imagination. Stop when the time is up, or keep going if you're enjoying it." }]],
     steps: [], rounds: [{ label: '', seconds: 600 }], reference: { type: 'prompt', prompt }, check: [],
   };
 }
@@ -53,42 +54,55 @@ function Exercise({ item }: { item: PracticeItem }) {
 
   const prompt = item.reference.type === 'prompt' ? item.reference.prompt : round?.label || '';
 
+  const elapsed = timer.phase === 'ready' ? 0 : item.rounds.slice(0, timer.round).reduce((sum, r) => sum + r.seconds, 0) + ((round?.seconds ?? 0) - timer.remaining);
+  const progress = timer.phase === 'finished' ? 1 : total ? elapsed / total : 0;
+  const length = `${Math.round(total / 60)}-minute ${lesson ? 'exercise' : 'drawing'}`;
+
   return (
     <div className="exercise">
-      <div className={`reference is-${item.reference.type}`}>
-        {item.reference.type === 'diagram' ? (
-          <DiagramView diagram={content.diagrams[item.reference.diagram]} className="reference-art" />
-        ) : (
-          <p className="reference-prompt">{prompt || item.title}</p>
-        )}
-      </div>
+      <header className="exercise-bar">
+        <a href={back}><Icon name="back" size={18} />{lesson ? `Lesson ${lesson.number}: ${lesson.title}` : 'Home'}</a>
+        <span>{length}</span>
+        <a href={href()}>{timer.phase === 'finished' ? 'Home' : 'Leave without saving'}</a>
+      </header>
+      <div className="exercise-body">
+        <div className={`reference is-${item.reference.type}`}>
+          {item.reference.type === 'diagram' ? (
+            <>
+              <p className="reference-note">Your page should end up looking something like this.</p>
+              <DiagramView diagram={content.diagrams[item.reference.diagram]} className="reference-art" />
+            </>
+          ) : (
+            <p className="reference-prompt" key={prompt}>{prompt || item.title}</p>
+          )}
+        </div>
 
-      <aside className="panel" aria-label="Exercise">
-        <a className="quiet back" href={back}>{lesson ? `Back to lesson ${lesson.number}` : 'Home'}</a>
-        <p className="eyebrow">{lesson ? `Lesson ${lesson.number} · ` : ''}{KIND_LABEL[item.kind]}</p>
-        <h1>{item.title}</h1>
-        <Paragraphs items={item.text} />
-        {item.steps.length ? <p className="steps-mini">{item.steps.join(' · ')}</p> : null}
+        <aside className="panel" aria-label="Exercise">
+          <h1>{item.title}</h1>
+          <p className="meta">{lesson ? `Lesson ${lesson.number} ${item.main ? 'exercise' : 'practice'} · ` : ''}{KIND_LABEL[item.kind]} · {item.minutes} minutes</p>
+          <Paragraphs items={item.text} />
+          {item.steps.length ? <ol className="step-chips">{item.steps.map((step, i) => <li key={step}><b>{i + 1}</b>{step}</li>)}</ol> : null}
 
-        {timer.phase !== 'finished' ? (
-          <div className="timer" aria-live="polite">
-            {item.rounds.length > 1 ? (
-              <p className="round">{round?.label ? `${round.label} · ` : ''}{timer.round + 1} of {item.rounds.length}</p>
-            ) : null}
-            <p className="clock">{clock(timer.phase === 'ready' ? round?.seconds ?? 0 : timer.remaining)}</p>
-            <p className="meta">{timer.phase === 'ready' ? `${Math.round(total / 60)} min in all · Space starts and pauses` : timer.phase === 'paused' ? 'Paused' : ' '}</p>
-            <div className="actions">
-              {timer.phase === 'ready' ? <button type="button" className="button primary" onClick={timer.start}>Start</button> : null}
-              {timer.phase === 'running' ? <button type="button" className="button" onClick={timer.pause}>Pause</button> : null}
-              {timer.phase === 'paused' ? <button type="button" className="button primary" onClick={timer.resume}>Resume</button> : null}
-              {timer.phase !== 'ready' && item.rounds.length > 1 ? <button type="button" className="quiet" onClick={timer.skipRound}>Next round</button> : null}
-              <button type="button" className="quiet" onClick={timer.finish}>{timer.phase === 'ready' ? 'Skip the timer' : 'Finish now'}</button>
+          {timer.phase !== 'finished' ? (
+            <div className="timer" aria-live="polite">
+              <p className="meta">{timer.phase === 'ready' ? 'Space starts and pauses the timer' : timer.phase === 'paused' ? 'Paused' : item.rounds.length > 1 ? `${round?.label ? `${round.label}, ` : ''}round ${timer.round + 1} of ${item.rounds.length}` : 'Drawing'}</p>
+              <p className={`clock ${timer.phase === 'paused' ? 'paused' : ''}`}>{clock(timer.phase === 'ready' ? round?.seconds ?? 0 : timer.remaining)}</p>
+              <div className="progress" aria-hidden="true"><span style={{ transform: `scaleX(${progress})` }} /></div>
+              <div className="actions">
+                {timer.phase === 'ready' ? <button type="button" className="button primary" onClick={timer.start}>Start the timer</button> : null}
+                {timer.phase === 'running' ? <button type="button" className="button" onClick={timer.pause}>Pause</button> : null}
+                {timer.phase === 'paused' ? <button type="button" className="button primary" onClick={timer.resume}>Resume</button> : null}
+                {timer.phase !== 'ready' && item.rounds.length > 1 ? <button type="button" className="quiet" onClick={timer.skipRound}>Next round</button> : null}
+                {timer.phase === 'ready'
+                  ? <button type="button" className="quiet" onClick={timer.finish}>Skip the timer</button>
+                  : <button type="button" className="button primary" onClick={timer.finish}>I've finished my page</button>}
+              </div>
             </div>
-          </div>
-        ) : (
-          <Finish item={item} checks={checks} />
-        )}
-      </aside>
+          ) : (
+            <Finish item={item} checks={checks} />
+          )}
+        </aside>
+      </div>
     </div>
   );
 }
@@ -135,13 +149,17 @@ function Finish({ item, checks }: { item: PracticeItem; checks: Inline[] }) {
 
   if (saved) {
     return (
-      <section className="finish" aria-live="polite">
+      <section className="finish saved" aria-live="polite">
+        <svg className="saved-mark" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24" /><path d="M15 27 L23 34 L37 19" /></svg>
         <h2>Saved</h2>
-        <p>{saved.done ? `Every check held, so lesson ${lesson?.number} is done. It will come back for review in a couple of days.` : photo ? 'Your page is in Drawings.' : 'The exercise is in your practice history.'}</p>
+        <p>{saved.done
+          ? `Every check held, so lesson ${lesson?.number} is done. Its exercises will come back in Practice in a couple of days.`
+          : item.main
+            ? 'Not every check held yet, which is normal early on. The lesson stays in progress, and you can draw another page whenever you like.'
+            : photo ? 'Your page is in your sketchbook.' : 'The exercise is in your practice history.'}</p>
         <div className="actions">
-          {lesson ? <a className="button primary" href={href('lesson', lesson.slug)}>Back to the lesson</a> : null}
-          <a className="button" href={href()}>Home</a>
-          {photo ? <a className="quiet" href={href('drawings')}>Drawings</a> : null}
+          {lesson ? <a className="button primary" href={href('lesson', lesson.slug)}>Back to the lesson</a> : <a className="button primary" href={href()}>Home</a>}
+          {photo ? <a className="button" href={href('sketchbook')}>See it in my sketchbook</a> : null}
         </div>
       </section>
     );
@@ -150,19 +168,19 @@ function Finish({ item, checks }: { item: PracticeItem; checks: Inline[] }) {
   return (
     <section className="finish">
       <h2>Add your page</h2>
-      <p>A photo of the page goes into Drawings, where you can put it beside later ones.</p>
+      <p>Take a photo of your page. It goes in your sketchbook, where you can put it next to later attempts.</p>
       <label
         className={`drop ${preview ? 'has-photo' : ''}`}
         onDragOver={(event) => event.preventDefault()}
         onDrop={(event) => { event.preventDefault(); void take(event.dataTransfer.files[0]); }}
       >
         <input type="file" accept="image/*" onChange={(event) => void take(event.target.files?.[0])} />
-        {preview ? <img src={preview} alt="Your page" /> : <span>Choose a photo, or drop one here</span>}
+        {preview ? <img src={preview} alt="Your page" /> : <span>Choose a photo of your page, or drop one here</span>}
       </label>
 
       {checks.length ? (
         <fieldset className="check-boxes">
-          <legend>Tick each check that holds on this page</legend>
+          <legend>Tick each check that holds on your page</legend>
           {checks.map((check, i) => (
             <label key={i} className="check-box">
               <input type="checkbox" checked={held[i] ?? false} onChange={(event) => setHeld((list) => list.map((value, j) => (j === i ? event.target.checked : value)))} />
@@ -175,7 +193,7 @@ function Finish({ item, checks }: { item: PracticeItem; checks: Inline[] }) {
 
       {error ? <p className="error" role="alert">{error}</p> : null}
       <div className="actions">
-        <button type="button" className="button primary" disabled={busy || !photo} onClick={() => void save(true)}>Save</button>
+        <button type="button" className="button primary" disabled={busy || !photo} onClick={() => void save(true)}>Save to my sketchbook</button>
         <button type="button" className="quiet" disabled={busy} onClick={() => void save(false)}>Save without a photo</button>
       </div>
     </section>

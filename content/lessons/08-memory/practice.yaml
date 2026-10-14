@@ -1,0 +1,40 @@
+# Practice for lesson 8. The item marked main is the lesson's exercise.
+
+- id: memory-loop
+  main: true
+  title: The memory loop
+  kind: memory
+  minutes: 18
+  text: Pick a simple object such as a mug or a shoe. Study it for 3 minutes. Hide it and draw it from memory for 5. Compare for 2 minutes, then hide it and draw it again for 5.
+  steps: [Study, Draw from memory, Compare, Draw again]
+  timer:
+    rounds:
+      - { label: "Study the object", minutes: 3 }
+      - { label: "Draw it from memory", minutes: 5 }
+      - { label: "Compare with the object", minutes: 2 }
+      - { label: "Draw it again from memory", minutes: 5 }
+
+- id: quick-recall
+  title: Quick recall
+  kind: memory
+  minutes: 5
+  text: Look at an object for 5 seconds. Hide it and draw it for 1 to 2 minutes, or until you remember nothing else. Do this with three objects.
+  timer: { minutes: 5 }
+  reference: { prompt: "Three objects, 5 seconds each" }
+  check:
+    - Each drawing has the object's main shape.
+    - You drew until you ran out of memory, not out of time.
+
+- id: delayed-recall
+  title: Delayed recall
+  kind: memory
+  minutes: 20
+  text: Study an object for 5 minutes. Draw something else for 10 minutes. Then draw the first object from memory and compare it with the object.
+  timer:
+    rounds:
+      - { label: "Study the object", minutes: 5 }
+      - { label: "Draw something else", minutes: 10 }
+      - { label: "Draw the object from memory", minutes: 5 }
+  check:
+    - The drawing came from memory, with the object out of sight.
+    - You compared it with the object afterwards.

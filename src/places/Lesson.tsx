@@ -1,159 +1,237 @@
-import { useState } from 'react';
-import { useContent, writtenLessons } from '../content/load';
-import { KIND_LABEL } from '../content/types';
+import { useEffect, useState } from 'react';
+import { TOTAL_LESSONS, useContent } from '../content/load';
+import { KIND_LABEL, type Resource } from '../content/types';
 import { href } from '../router';
 import { lessonStatus, useAppData } from '../store/appData';
 import { setKnown } from '../store/db';
 import { DiagramView } from '../ui/Diagram';
+import { Icon } from '../ui/Icons';
 import { InlineText, Paragraphs } from '../ui/Inline';
-import { ResourceLine } from '../ui/Resource';
+import { ResourceLine, VideoEmbed } from '../ui/Resource';
+import { Reveal } from '../ui/Reveal';
+
+// "A page of ghosted lines" reads as "Exercise: a page of ghosted lines".
+const asExercise = (title: string) => (/^(A|An|The) /.test(title) ? title.charAt(0).toLowerCase() + title.slice(1) : title);
 
 export function LessonPage({ slug }: { slug: string }) {
   const content = useContent();
   const { records, settings } = useAppData();
   const [folded, setFolded] = useState<boolean | null>(null);
   const lesson = content.lessons[slug];
+  const sections = lesson ? [
+    ['video', 'Video'],
+    ['steps', 'Steps'],
+    ...(lesson.mistake ? [['mistake', 'Common mistake']] : []),
+    ['exercise', 'Exercise'],
+    ['check', 'Checking your page'],
+    ['more', `More on ${lesson.title.toLowerCase()}`],
+  ] : [];
+  const visible = useSpy(sections.map(([id]) => id!));
   if (!lesson) return <NotFound />;
 
-  const record = records.get(slug);
-  const status = lessonStatus(record);
+  const status = lessonStatus(records.get(slug));
   const part = content.parts[lesson.part - 1]!;
   const exercise = content.practice[lesson.exercise]!;
   const later = lesson.practice.filter((id) => id !== lesson.exercise).map((id) => content.practice[id]!);
   const stepsFolded = folded ?? (settings.foldSteps || status === 'known');
-  const written = writtenLessons(content);
-  const index = written.findIndex((entry) => entry.slug === slug);
-  const previous = written[index - 1];
-  const next = written[index + 1];
+  const all = content.parts.flatMap((p) => p.lessons);
+  const index = all.findIndex((entry) => entry.slug === slug);
+  const previous = all.slice(0, index).reverse().find((entry) => entry.written);
+  const next = all.slice(index + 1).find((entry) => entry.written);
+  const resources = lesson.watch.map((id) => content.resources[id]).filter((r): r is Resource => Boolean(r));
+  const video = resources.find((r) => r.youtube) ?? resources[0];
+  const more = resources.filter((r) => r !== video);
 
   return (
-    <article className="page lesson">
-      <header className="lesson-head">
-        <p className="eyebrow">Lesson {lesson.number} · Part {part.number}, {part.title}</p>
-        <h1>{lesson.title}</h1>
-        <p className="outcome">After this you can {lesson.outcome}</p>
-        {lesson.needs.length ? (
-          <p className="needs">
-            Needs{' '}
-            {lesson.needs.map((need, i) => {
-              const entry = content.parts.flatMap((p) => p.lessons).find((l) => l.slug === need)!;
-              return <span key={need}>{i ? ', ' : ''}<a href={href('lesson', need)}>lesson {entry.number}, {entry.title}</a></span>;
-            })}
-            .
-          </p>
+    <div className="lesson-layout">
+      <article className="lesson">
+        <header className="lesson-head">
+          <h1>Lesson {lesson.number}: {lesson.title}</h1>
+          <Paragraphs items={lesson.intro} className="intro" />
+          {lesson.needs.length ? (
+            <p className="needs">
+              It helps to have done{' '}
+              {lesson.needs.map((need, i) => {
+                const entry = all.find((l) => l.slug === need)!;
+                return <span key={need}>{i ? (i === lesson.needs.length - 1 ? ' and ' : ', ') : ''}<a href={href('lesson', need)}>lesson {entry.number}, {entry.title}</a></span>;
+              })}{' '}first.
+            </p>
+          ) : null}
+        </header>
+
+        <DiagramView diagram={lesson.example ? content.diagrams[lesson.example] : undefined} className="lesson-example" />
+
+        {video ? (
+          <section id="video" className="lesson-section" aria-labelledby="video-title">
+            <h2 id="video-title">Video</h2>
+            <VideoCard resource={video} />
+          </section>
         ) : null}
-        <p className="status-line">
+
+        <Reveal as="section" className="lesson-section steps-section">
+          <div className="section-head" id="steps">
+            <h2>Steps</h2>
+            <button type="button" className="quiet" aria-expanded={!stepsFolded} onClick={() => setFolded(!stepsFolded)}>
+              {stepsFolded ? 'Show the steps' : 'Hide the steps'}
+            </button>
+          </div>
+          {stepsFolded ? (
+            <p className="folded">{lesson.steps.map((step) => step.title).join(' · ')}</p>
+          ) : (
+            <>
+              <ol className="steps">
+                {lesson.steps.map((step, i) => (
+                  <li key={step.title} className={`step ${step.diagram ? 'has-diagram' : ''}`}>
+                    <div className="step-text">
+                      <span className="step-number" aria-hidden="true">{i + 1}</span>
+                      <div>
+                        <h3>{step.title}</h3>
+                        <p><InlineText nodes={step.text} /></p>
+                      </div>
+                    </div>
+                    <DiagramView diagram={step.diagram ? content.diagrams[step.diagram] : undefined} className="step-diagram" />
+                  </li>
+                ))}
+              </ol>
+              <Paragraphs items={lesson.howNotes} className="note" />
+            </>
+          )}
+        </Reveal>
+
+        {lesson.mistake ? (
+          <Reveal as="section" className="lesson-section mistake">
+            <h2 id="mistake">Common mistake</h2>
+            <DiagramView diagram={lesson.mistake.diagram ? content.diagrams[lesson.mistake.diagram] : undefined} className="mistake-diagram" />
+            <Paragraphs items={lesson.mistake.text} />
+          </Reveal>
+        ) : null}
+
+        <Reveal as="section" className="lesson-section">
+          <div className="exercise-card" id="exercise">
+            <h2>Exercise: {asExercise(exercise.title)}</h2>
+            <p className="meta">{exercise.minutes} minutes.</p>
+            <Paragraphs items={exercise.text} />
+            {exercise.steps.length ? (
+              <ol className="step-chips">{exercise.steps.map((step, i) => <li key={step}><b>{i + 1}</b>{step}</li>)}</ol>
+            ) : null}
+            <div className="actions">
+              <a className="button primary" href={href('do', exercise.id)}>Start the exercise</a>
+              <span className="meta">The exercise screen shows the steps and a timer while you draw.</span>
+            </div>
+          </div>
+        </Reveal>
+
+        <Reveal as="section" className="lesson-section">
+          <h2 id="check">Checking your page</h2>
+          <Paragraphs items={lesson.checkIntro} />
+          <ol className="checks">
+            {lesson.checks.map((check, i) => <li key={i}><InlineText nodes={check} /></li>)}
+          </ol>
+          <Paragraphs items={lesson.checkNotes} className="note" />
+        </Reveal>
+
+        <Reveal as="section" className="lesson-section">
+          <h2 id="more">More on {lesson.title.toLowerCase()}</h2>
+          {more.length ? <ul className="resources">{more.map((resource) => <ResourceLine key={resource.id} resource={resource} />)}</ul> : null}
+          {later.length ? (
+            <>
+              <h3 className="sub-head">Practice exercises for this lesson</h3>
+              <ul className="rows">
+                {later.map((item) => (
+                  <li key={item.id}>
+                    <a className="row" href={href('do', item.id)}>
+                      <span className="row-title">{item.title}</span>
+                      <span className="meta">{KIND_LABEL[item.kind]} · {item.minutes} min</span>
+                      <Icon name="next" size={18} />
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+          <p className="meta">Every video and written lesson the course uses is in the <a href={href('library')}>library</a>.</p>
+        </Reveal>
+
+        <nav className="lesson-nav" aria-label="Other lessons">
+          {previous ? <a className="card" href={href('lesson', previous.slug)}><Icon name="back" size={18} /><span><span className="meta">Previous</span>Lesson {previous.number}: {previous.title}</span></a> : <span />}
+          {next ? <a className="card next" href={href('lesson', next.slug)}><span><span className="meta">Next</span>Lesson {next.number}: {next.title}</span><Icon name="next" size={18} /></a> : <a className="card next" href={href('course')}><span><span className="meta">Back to</span>The course</span><Icon name="next" size={18} /></a>}
+        </nav>
+      </article>
+
+      <aside className="lesson-aside">
+        <nav className="toc" aria-label="On this page">
+          <h2>On this page</h2>
+          {sections.map(([id, label]) => (
+            <a key={id} href={`#${id}`} className={visible === id ? 'on' : ''} onClick={(event) => { event.preventDefault(); document.getElementById(id!)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }}>{label}</a>
+          ))}
+        </nav>
+        <div className="aside-box">
+          <span className="aside-box-title">Lesson {lesson.number} of {TOTAL_LESSONS(content)}</span>
+          <span className="meta">Part {part.number}: {part.title}</span>
           {status === 'known' ? (
-            <>You marked this lesson as known. <button type="button" className="quiet" onClick={() => setKnown(slug, false)}>Undo</button></>
+            <p>You marked this lesson as known. <button type="button" className="quiet" onClick={() => setKnown(slug, false)}>Undo</button></p>
           ) : status === 'done' ? (
-            'Done: the checks held.'
+            <p className="done-line"><Icon name="check" size={16} />Done: every check held.</p>
           ) : (
             <button type="button" className="quiet" onClick={() => setKnown(slug, true)}>I already know this</button>
           )}
-        </p>
-      </header>
-
-      <DiagramView diagram={lesson.example ? content.diagrams[lesson.example] : undefined} className="lesson-example" />
-
-      {lesson.terms.length ? (
-        <section className="terms" aria-labelledby="terms-title">
-          <h2 id="terms-title">Words to know</h2>
-          <dl>
-            {lesson.terms.map((term) => (
-              <div key={term.term} className="term">
-                <dt>{term.term}</dt>
-                <dd><InlineText nodes={term.text} /></dd>
-              </div>
-            ))}
-          </dl>
-        </section>
-      ) : null}
-
-      <section className="how" aria-labelledby="how-title">
-        <div className="section-head">
-          <h2 id="how-title">How</h2>
-          <button type="button" className="quiet" aria-expanded={!stepsFolded} onClick={() => setFolded(!stepsFolded)}>
-            {stepsFolded ? 'Show the steps' : 'Fold the steps away'}
-          </button>
         </div>
-        {stepsFolded ? (
-          <p className="folded">{lesson.steps.map((step) => step.title).join(' · ')}</p>
-        ) : (
-          <>
-            <ol className="steps">
-              {lesson.steps.map((step, i) => (
-                <li key={step.title} className="step">
-                  <div className="step-text">
-                    <span className="step-number" aria-hidden="true">{i + 1}</span>
-                    <h3>{step.title}</h3>
-                    <p><InlineText nodes={step.text} /></p>
-                  </div>
-                  <DiagramView diagram={step.diagram ? content.diagrams[step.diagram] : undefined} className="step-diagram" />
-                </li>
-              ))}
-            </ol>
-            <Paragraphs items={lesson.howNotes} className="note" />
-          </>
-        )}
-      </section>
-
-      <section className="mistake" aria-labelledby="mistake-title">
-        <h2 id="mistake-title">The usual mistake</h2>
-        <DiagramView diagram={lesson.mistake.diagram ? content.diagrams[lesson.mistake.diagram] : undefined} className="mistake-diagram" />
-        <Paragraphs items={lesson.mistake.text} />
-      </section>
-
-      <section className="do-this" aria-labelledby="do-title">
-        <h2 id="do-title">Do this <span className="meta">· {exercise.minutes} minutes</span></h2>
-        <Paragraphs items={exercise.text} />
-        <a className="button primary" href={href('do', exercise.id)}>Start the exercise</a>
-      </section>
-
-      <section className="check" aria-labelledby="check-title">
-        <h2 id="check-title">Check</h2>
-        <Paragraphs items={lesson.checkIntro} />
-        <ol className="checks">
-          {lesson.checks.map((check, i) => <li key={i}><InlineText nodes={check} /></li>)}
-        </ol>
-        <Paragraphs items={lesson.checkNotes} className="note" />
-      </section>
-
-      <section className="watch" aria-labelledby="watch-title">
-        <h2 id="watch-title">Watch</h2>
-        <ul className="resources">
-          {lesson.watch.map((id) => content.resources[id]).filter(Boolean).map((resource) => <ResourceLine key={resource!.id} resource={resource!} />)}
-        </ul>
-      </section>
-
-      {later.length ? (
-        <section className="later" aria-labelledby="later-title">
-          <h2 id="later-title">Practise later</h2>
-          <ul className="practice-list">
-            {later.map((item) => (
-              <li key={item.id}>
-                <a href={href('do', item.id)}>
-                  <span className="practice-title">{item.title}</span>
-                  <span className="meta">{item.minutes} min · {KIND_LABEL[item.kind]}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ) : null}
-
-      <nav className="lesson-nav" aria-label="Other lessons">
-        {previous ? <a href={href('lesson', previous.slug)}>Lesson {previous.number}, {previous.title}</a> : <span />}
-        {next ? <a href={href('lesson', next.slug)}>Lesson {next.number}, {next.title}</a> : <a href={href('course')}>The course</a>}
-      </nav>
-    </article>
+      </aside>
+    </div>
   );
+}
+
+// The main video, as a large card that loads YouTube's player only when asked.
+function VideoCard({ resource }: { resource: Resource }) {
+  const [playing, setPlaying] = useState(false);
+  const details = [resource.teacher, resource.minutes ? `${resource.minutes} min` : '', resource.cost === 'paid' ? 'paid' : ''].filter(Boolean).join(' · ');
+  if (!resource.youtube) {
+    return (
+      <a className="card video-link" href={resource.url} target="_blank" rel="noreferrer">
+        <span className="card-title">{resource.title}</span>
+        <span className="card-meta">{details} · opens on the teacher's site</span>
+        <Icon name="open" size={18} />
+      </a>
+    );
+  }
+  return (
+    <div className="video-card">
+      {playing ? (
+        <VideoEmbed id={resource.youtube} title={`${resource.title}, ${resource.teacher}`} />
+      ) : (
+        <button type="button" className="video-poster" onClick={() => setPlaying(true)}>
+          <span className="play"><Icon name="play" size={30} /></span>
+          <span className="video-poster-title">{resource.title}</span>
+          <span className="video-poster-meta">{details}</span>
+        </button>
+      )}
+      <p className="meta">{resource.teacher}{/written/.test(resource.kind) ? <> also has a <a href={resource.url} target="_blank" rel="noreferrer">written version</a> of this lesson.</> : <>. <a href={resource.url} target="_blank" rel="noreferrer">Open it on YouTube</a> instead.</>}</p>
+    </div>
+  );
+}
+
+// Which section is in view, for the "On this page" list.
+function useSpy(ids: string[]): string {
+  const [visible, setVisible] = useState(ids[0] ?? '');
+  const key = ids.join(',');
+  useEffect(() => {
+    const elements = key.split(',').map((id) => document.getElementById(id)).filter((el): el is HTMLElement => Boolean(el));
+    if (!elements.length || !('IntersectionObserver' in window)) return;
+    const observer = new IntersectionObserver((entries) => {
+      const top = entries.filter((entry) => entry.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+      if (top) setVisible(top.target.id);
+    }, { rootMargin: '-10% 0px -70% 0px' });
+    elements.forEach((el) => observer.observe(el));
+    return () => observer.disconnect();
+  }, [key]);
+  return visible;
 }
 
 export function NotFound() {
   return (
-    <div className="page">
+    <div className="page narrow">
       <h1>Nothing here</h1>
-      <p><a href={href()}>Go home</a></p>
+      <p><a href={href()}>Go to the home page</a></p>
     </div>
   );
 }

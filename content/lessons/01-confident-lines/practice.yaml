@@ -5,7 +5,7 @@
   title: A page of ghosted lines
   kind: drill
   minutes: 15
-  text: Fill one page with dots, then join pairs of them with ghosted lines. Use a ballpoint pen or fineliner, so you cannot erase. The lines can cross and the page can get crowded.
+  text: Fill a page with dots, then join pairs of them using the ghosting method. Use a ballpoint pen or fineliner rather than a pencil so you can't rub anything out. It's fine if the lines cross and the page gets crowded.
   steps: [Plan, Ghost, Draw, Leave it]
   timer: { minutes: 15 }
   reference: { diagram: example }

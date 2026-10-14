@@ -1,0 +1,32 @@
+# Practice for lesson 20. The item marked main is the lesson's exercise.
+
+- id: hatched-strip-and-sphere
+  main: true
+  title: "A hatched strip and a ball"
+  kind: drill
+  minutes: 30
+  text: "In ink, rule a strip as long as your hand and grade it from white to black with hatching and cross-hatching. Below it, draw a circle and shade it with curved hatching, leaving the lit side as paper."
+  steps: [Hatch, Cross, Even it out, Make a gradient, Shade a ball]
+  timer: { minutes: 30 }
+
+- id: tone-squares
+  title: "Four tone squares"
+  kind: drill
+  minutes: 15
+  text: "Draw four squares about 4 cm wide. Fill the first with one layer of hatching, the second with two layers, the third with three, and the fourth with four. Use a fineliner."
+  steps: [Hatch, Cross, Even it out]
+  timer: { minutes: 15 }
+  check:
+    - Each square is darker than the one before.
+    - Each square looks like one even tone.
+
+- id: hatching-warm-up
+  title: "Hatching warm-up"
+  kind: warm-up
+  minutes: 5
+  text: "Fill a palm-sized box with parallel lines, drawn fast and evenly spaced. Add a second layer at an angle to one half."
+  steps: [Hatch, Cross]
+  timer: { minutes: 5 }
+  check:
+    - The lines are evenly spaced.
+    - The crossed half is clearly darker.

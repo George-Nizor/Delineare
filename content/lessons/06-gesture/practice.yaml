@@ -1,0 +1,37 @@
+# Practice for lesson 6. The item marked main is the lesson's exercise.
+
+- id: pose-ladder
+  main: true
+  title: A ladder of poses
+  kind: timed
+  minutes: 12
+  text: Use photos of standing, walking or leaning people. Draw four poses at 30 seconds, three at 1 minute, then two at 2 minutes, a new photo each time. Use a soft pencil or marker on large paper, and move from the shoulder.
+  steps: [Look first, Find the line of action, Tilt the torso, Add rhythm lines, Add thickness]
+  timer:
+    rounds:
+      - { label: "Four poses at 30 seconds", seconds: 120 }
+      - { label: "Three poses at 1 minute", minutes: 3 }
+      - { label: "Two poses at 2 minutes", minutes: 4 }
+
+- id: gesture-warm-up
+  title: Ten short poses
+  kind: warm-up
+  minutes: 5
+  text: Draw ten different photographed poses at 30 seconds each. Begin with the line of action every time.
+  steps: [Find the line of action, Tilt the torso, Add rhythm lines]
+  timer: { minutes: 5 }
+  reference: { prompt: "Ten photos of people in action, 30 seconds each" }
+  check:
+    - Each pose starts with one long line.
+    - No pose took longer than 30 seconds.
+
+- id: two-minute-poses
+  title: Three 2-minute poses
+  kind: drill
+  minutes: 8
+  text: Draw three poses at 2 minutes each. Study each for 10 to 15 seconds before drawing. Then draw the head, the neck, the shoulder angle, the torso curve, the legs and the arms.
+  timer: { minutes: 8 }
+  reference: { prompt: "Three photos of people in action, 2 minutes each" }
+  check:
+    - You studied each pose before drawing.
+    - You added thickness only after the rhythm lines.

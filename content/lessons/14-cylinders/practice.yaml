@@ -1,0 +1,33 @@
+# Practice for lesson 14. The item marked main is the lesson's exercise.
+
+- id: cylinders-minor-axis-page
+  main: true
+  title: "Cylinders around an axis"
+  kind: drill
+  minutes: 30
+  text: "Draw cylinders on a page, each around its own ghosted axis. Turn each one at a different angle, and make some foreshortened more than others. When the page is done, check every ellipse with a ruler and a second colour."
+  steps: [Draw the axis, Place the first ellipse, Place the second, Join the sides, Check]
+  timer: { minutes: 30 }
+
+- id: cylinders-in-boxes
+  title: "Cylinders in boxes"
+  kind: drill
+  minutes: 25
+  text: "Draw a box freehand. Draw an X across two opposite faces to find their centres, and an axis line through both centres. Fit an ellipse in each of those faces, then join the sides."
+  steps: [Draw the axis, Place the first ellipse, Place the second, Join the sides]
+  timer: { minutes: 25 }
+  check:
+    - Each ellipse touches all four edges of its face.
+    - The axis runs through the centre of both ellipses.
+
+- id: cylinders-warm-up
+  title: "Cylinder warm-up"
+  kind: warm-up
+  minutes: 5
+  text: "Draw four cylinders around axes at different angles. Draw both ellipses in full."
+  steps: [Draw the axis, Place the first ellipse, Place the second]
+  timer: { minutes: 5 }
+  reference: { prompt: "Four axes, each at a different angle" }
+  check:
+    - Each axis passes through both ellipses.
+    - The farther ellipse is slightly wider.

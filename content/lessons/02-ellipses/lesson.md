@@ -10,19 +10,13 @@ sources:
 
 # Ellipses
 
-After this you can draw a smooth ellipse of a chosen width that fits a given space.
+Circles seen at an angle become ellipses, and you'll meet them in cups, wheels, bowls and bodies. In this lesson you'll learn to draw a smooth ellipse of a width you choose, so that it fits the space you give it. You'll use the same ghosting method as for lines.
 
 ![A table of ellipses: rows of circles and of ellipses at one width and angle, each touching its neighbours and the edges of its box.](example)
 
-## Words to know
+## Steps
 
-- **Degree:** how wide an ellipse opens. A circle is 90 degrees, a flat line 0.
-- **Minor axis:** the line across the narrowest span, through the centre. It splits the ellipse in half.
-- **Drawing through:** going round an ellipse twice before lifting the pen.
-
-## How
-
-1. **Set the target.** Mark the space the ellipse has to fill. Decide its width and its angle before you draw.
+1. **Set the target.** Mark the space the ellipse has to fill. Decide its width and angle before you draw. Measure width in degrees: a circle is 90 degrees and a flat line is 0.
 
    ![A box with a faint outline of the ellipse meant to fill it.](target)
 
@@ -30,7 +24,7 @@ After this you can draw a smooth ellipse of a chosen width that fits a given spa
 
    ![The ellipse's path, with the pen's motion circling above it.](ghost)
 
-3. **Draw through it.** Put the pen down and go round two full times before lifting it. The first pass finds the shape and the second firms it up.
+3. **Draw through it.** Put the pen down and go round two full times before lifting it. Artists call this **drawing through**. The first pass finds the shape and the second firms it up.
 
    ![An ellipse drawn with two passes in one movement.](through)
 
@@ -38,15 +32,17 @@ After this you can draw a smooth ellipse of a chosen width that fits a given spa
 
    ![A row of ellipses touching each other and the top and bottom of their box.](touch)
 
-Drawabox ranks the two goals: a smooth, even ellipse comes first, and a snug fit second.
+Drawabox teaches this method. It ranks the goals: a smooth, even ellipse comes first, and a snug fit second.
 
-## The usual mistake
+## Common mistake
 
 ![Left, once, slow and careful: a lumpy ellipse. Right, drawn through at a steady speed: a smooth one that fits its box.](mistake)
 
 The left ellipse went round once, slowly, and came out lumpy and uneven. The right one went round twice at a steady speed. Speed keeps the shape smooth, and the second pass tightens the fit.
 
-## Check
+## Checking your page
+
+Go over your page looking for these things:
 
 1. Every ellipse is smooth and even, with no bumps.
 2. Each one went round twice.

@@ -1,0 +1,35 @@
+# Practice for lesson 9. The item marked main is the lesson's exercise.
+
+- id: overlapping-forms-page
+  main: true
+  title: "A page of overlapping forms"
+  kind: drill
+  minutes: 20
+  text: "Fill a page with spheres, boxes and cylinders, drawn through and overlapping in one connected group. Make the nearer form of each overlap larger. Use a ballpoint pen or fineliner, and keep every form at least as wide as your palm."
+  steps: [Choose three forms, Draw through, Overlap, Make the nearer form larger, Fill the page]
+  timer: { minutes: 20 }
+
+- id: boxes-and-cylinders-angles
+  title: "Boxes and cylinders from different angles"
+  kind: warm-up
+  minutes: 10
+  text: "Draw five boxes and five cylinders, each turned a different way. Draw through every one."
+  steps: [Draw through]
+  timer: { minutes: 10 }
+  reference: { prompt: "Five boxes and five cylinders, each turned a different way" }
+  check:
+    - No two boxes face the same way.
+    - Every box shows its back edges.
+    - Every cylinder shows both ellipses in full.
+
+- id: animal-from-forms
+  title: "An animal from basic forms"
+  kind: drill
+  minutes: 15
+  text: "Pick a photo of an animal. Draw it as a set of spheres, boxes and cylinders, with no detail. Proko assigns this exercise."
+  steps: [Choose three forms, Overlap, Make the nearer form larger]
+  timer: { minutes: 15 }
+  reference: { prompt: "A photo of an animal you pick" }
+  check:
+    - The animal is built only from spheres, boxes and cylinders.
+    - Forms overlap, and the nearer ones are larger.

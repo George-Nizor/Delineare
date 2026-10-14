@@ -1,0 +1,113 @@
+# Resources for lessons 17 to 21 and 29 to 34.
+
+- id: proko-intro-value
+  title: Intro to Value Drawing
+  teacher: Proko
+  url: https://www.youtube.com/watch?v=a0uaqmY04OI
+  kind: video
+  minutes: 9
+  youtube: a0uaqmY04OI
+  cost: free
+  checked: 2026-10-14
+
+- id: proko-shading-light-form
+  title: Shading Light and Form - Basics
+  teacher: Proko
+  url: https://www.youtube.com/watch?v=V3WmrWUEIJo
+  kind: video
+  minutes: 7
+  youtube: V3WmrWUEIJo
+  cost: free
+  checked: 2026-10-14
+
+- id: proko-shadow-mapping
+  title: Shadow Mapping Basics
+  teacher: Proko
+  url: https://www.youtube.com/watch?v=QNDJZSpyRLI
+  kind: video
+  minutes: 8
+  youtube: QNDJZSpyRLI
+  cost: free
+  checked: 2026-10-14
+
+- id: dunn-crosshatching
+  title: Pen and Ink Crosshatching, A simple introduction
+  teacher: Alphonso Dunn
+  url: https://www.youtube.com/watch?v=rIIpEuLxsiI
+  kind: video
+  minutes: 16
+  youtube: rIIpEuLxsiI
+  cost: free
+  checked: 2026-10-14
+
+- id: ctrlpaint-simple-still-life
+  title: "Drawing Shape: Simple Still Life"
+  teacher: Ctrl+Paint
+  url: https://www.ctrlpaint.com/videos/drawing-shape-simple-still-life
+  kind: video
+  minutes: 4
+  youtube: t5JikOGuiV4
+  cost: free
+  checked: 2026-10-14
+
+- id: robertson-transferring-scale
+  title: "Transferring Scale in Perspective"
+  teacher: Scott Robertson
+  url: https://www.youtube.com/watch?v=C2xn9HiHmT0
+  kind: video
+  minutes: 11
+  youtube: C2xn9HiHmT0
+  cost: free
+  checked: 2026-10-14
+
+- id: proko-composition-sketching
+  title: Composition Sketching
+  teacher: Proko
+  url: https://www.youtube.com/watch?v=VSRLe6ewKIc
+  kind: video
+  minutes: 9
+  youtube: VSRLe6ewKIc
+  cost: free
+  checked: 2026-10-14
+
+- id: beardshaw-environments
+  title: Environments From Imagination
+  teacher: Dan Beardshaw
+  url: https://www.youtube.com/watch?v=aa9hfOOVpUo
+  kind: video
+  minutes: 9
+  youtube: aa9hfOOVpUo
+  cost: free
+  checked: 2026-10-14
+
+- id: ruskin-elements-of-drawing
+  title: The Elements of Drawing, Letters 1 and 2
+  teacher: John Ruskin
+  url: https://www.gutenberg.org/ebooks/30325
+  kind: book
+  cost: free
+  checked: 2026-10-14
+
+- id: storey-perspective
+  title: The Theory and Practice of Perspective
+  teacher: G. A. Storey
+  url: https://www.gutenberg.org/ebooks/20165
+  kind: book
+  cost: free
+  checked: 2026-10-14
+
+- id: cuyer-animal-anatomy
+  title: Artistic Anatomy of Animals
+  teacher: Edouard Cuyer
+  url: https://www.gutenberg.org/ebooks/38315
+  kind: book
+  cost: free
+  checked: 2026-10-14
+
+- id: dow-composition
+  title: Composition
+  teacher: Arthur Wesley Dow
+  url: https://www.gutenberg.org/ebooks/45410
+  kind: book
+  cost: free
+  checked: 2026-10-14

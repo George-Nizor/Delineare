@@ -1,0 +1,33 @@
+# Practice for lesson 29. The item marked main is the lesson's exercise.
+
+- id: branch-leaves-tree
+  main: true
+  title: "A fork, a leaf, a tree"
+  kind: life
+  minutes: 45
+  text: "Draw a forked branch full size in light and shade. Draw one long leaf at three positions. Then draw a tree from the window as a mass: outer curve first, then trunk and main branches. Use a soft pencil or a pen."
+  steps: [Draw a fork, Turn a leaf, Draw the tree]
+  timer: { minutes: 45 }
+
+- id: leaf-spray-profile
+  title: "A spray in profile"
+  kind: life
+  minutes: 20
+  text: "Fix a spray of leaves against pale paper about eight feet away. Draw each leaf mass as a black shape, then draw it again from a yard back, showing only what you still see."
+  steps: [Draw a spray in profile, Step back]
+  timer: { minutes: 20 }
+  reference: { prompt: "A leafy twig against a pale wall" }
+  check:
+    - The close drawing shows separate leaves.
+    - The far drawing shows fewer leaves and no thin stalks.
+
+- id: tree-masses-warm-up
+  title: "Tree mass warm-up"
+  kind: warm-up
+  minutes: 8
+  text: "Draw four trees as outer curves with a trunk and three main branches each. Spend two minutes on each."
+  steps: [Draw the tree]
+  timer: { minutes: 8 }
+  check:
+    - Each tree has a rounded outer shape.
+    - The branches reach the outer curve.

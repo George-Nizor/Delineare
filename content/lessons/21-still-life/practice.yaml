@@ -1,0 +1,34 @@
+# Practice for lesson 21. The item marked main is the lesson's exercise.
+
+- id: still-life-hour
+  main: true
+  title: "A still life in an hour"
+  kind: life
+  minutes: 60
+  text: "Arrange two or three objects of different shapes with one lamp or window to the side. Draw the group in graphite or pen: block in, check, map the shadows, then set the values. Take a photo of the setup before you start."
+  steps: [Set up, Block in, Check, Map the shadows, Set the values]
+  timer: { minutes: 60 }
+
+- id: still-life-quick
+  title: "A quick still life"
+  kind: life
+  minutes: 20
+  text: "Draw two objects from life: block in, then fill the shadow shapes with one flat tone. Skip the halftones."
+  steps: [Set up, Block in, Map the shadows]
+  timer: { minutes: 20 }
+  reference: { prompt: "Two objects from your desk under one lamp" }
+  check:
+    - Both objects fit the block-in shape.
+    - You filled the shadow shapes with flat tone.
+
+- id: still-life-values
+  title: "Three-value still life"
+  kind: life
+  minutes: 30
+  text: "Squint at a group of three objects. Draw it with only three values: paper for the lights, one middle tone and one dark."
+  steps: [Set up, Block in, Map the shadows, Set the values]
+  timer: { minutes: 30 }
+  reference: { prompt: "Three objects under one light" }
+  check:
+    - The drawing uses three flat values.
+    - Squinting at the page matches squinting at the group.

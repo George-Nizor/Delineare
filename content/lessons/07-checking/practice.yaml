@@ -1,0 +1,36 @@
+# Practice for lesson 7. The item marked main is the lesson's exercise.
+
+- id: check-and-redraw
+  main: true
+  title: Check a drawing, then redraw it
+  kind: retest
+  minutes: 40
+  text: Take the chair or mug from lesson 4. Step back, flip it, drop plumb lines and overlay a photo of the subject. Write down three errors. Then redraw the subject for 20 minutes, fixing them.
+  steps: [Step back, Flip it, Drop plumb lines, Overlay a photo, Name three errors]
+  timer:
+    rounds:
+      - { label: "Check the drawing and list three errors", minutes: 15 }
+      - { label: "Redraw the subject", minutes: 20 }
+      - { label: "Check the redraw", minutes: 5 }
+
+- id: flip-check
+  title: Flip check
+  kind: warm-up
+  minutes: 5
+  text: Take any recent drawing, hold it up to a mirror and write down every error you can see. Then turn it upside down and find two more.
+  steps: [Flip it]
+  timer: { minutes: 5 }
+  check:
+    - You wrote at least three errors.
+    - Each error says where it is and which way it is off.
+
+- id: plumb-lines
+  title: Plumb lines on a drawing
+  kind: drill
+  minutes: 10
+  text: Draw three vertical lines on tracing paper or a photo of your drawing, each through a corner or edge of the subject. Note what else lies on each line in the subject and in the drawing.
+  steps: [Drop plumb lines]
+  timer: { minutes: 10 }
+  check:
+    - Each line passes through the same points in the subject and the drawing.
+    - You noted every mismatch.
