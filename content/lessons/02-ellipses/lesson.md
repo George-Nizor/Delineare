@@ -5,6 +5,7 @@ watch: [drawabox-ellipses, drawabox-tables-of-ellipses]
 sources:
   - Drawabox, Lesson 1, "Ellipses" (https://drawabox.com/lesson/1/5), read 2026-10-14
   - Drawabox, Lesson 1, "Tables of Ellipses", "Ellipses in Planes" and "Funnels" (https://drawabox.com/lesson/1/tablesofellipses), read 2026-10-14
+  - Drawabox, Lesson 1 FAQ, on drawing through "two full times" (https://drawabox.com/lesson/1), read 2026-10-14
 ---
 
 # Ellipses
@@ -17,7 +18,7 @@ After this you can draw a smooth ellipse of a chosen width that fits a given spa
 
 - **Degree:** how wide an ellipse opens. A circle is 90 degrees, a flat line 0.
 - **Minor axis:** the line across the narrowest span, through the centre. It splits the ellipse in half.
-- **Drawing through:** going round an ellipse two or three times before lifting the pen.
+- **Drawing through:** going round an ellipse twice before lifting the pen.
 
 ## How
 
@@ -48,7 +49,7 @@ The left ellipse went round once, slowly, and came out lumpy and uneven. The rig
 ## Check
 
 1. Every ellipse is smooth and even, with no bumps.
-2. Each one went round two or three times.
+2. Each one went round twice.
 3. Ellipses touch their neighbours and the edges of their box.
 4. In a box of one width and angle, the ellipses match.
 

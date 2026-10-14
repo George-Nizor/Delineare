@@ -90,7 +90,8 @@ overlap and size.
 - Needs: 1, 2.
 - Watch: Proko, Structure Basics (https://www.youtube.com/watch?v=3uEtdDvK6Xo, 11 min).
 
-**10. Contour lines on round forms.** You can wrap contour lines around a curved form so it reads as
+**10. Contour lines on round forms.** (Drawabox's term. It means lines across a surface, not the
+edge-following contour of lesson 3; the lesson has to say so.) You can wrap contour lines around a curved form so it reads as
 solid.
 - Needs: 2, 9.
 - Watch: Drawabox, Sausages with Contour Lines (https://www.youtube.com/watch?v=y5By0Q_XFBM, 12 min).
@@ -227,7 +228,8 @@ clearest.
 readable silhouette, in three views.
 - Needs: 16, 24, 30.
 - Watch: Ctrl+Paint, Designing with Reference
-  (https://www.ctrlpaint.com/videos/designing-with-reference).
+  (https://www.ctrlpaint.com/videos/designing-with-reference). This one is a digital sketching video
+  (`sources/videos.md`); find a pen-on-paper lesson before writing lesson 33.
 
 **34. A scene from imagination.** You can take an invented scene from thumbnail through perspective,
 figures in scale and cast shadows.

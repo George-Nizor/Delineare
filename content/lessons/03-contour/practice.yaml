@@ -48,3 +48,14 @@
   check:
     - Each leaf has its own uneven edge, not an almond.
     - Overlaps show which leaf is in front.
+
+- id: ten-objects
+  title: Ten objects in careful contour
+  kind: life
+  minutes: 30
+  text: Pick ten simple objects and draw each one in careful contour, looking at the paper as often as you need. Mark its size lightly first. Take your time; Ctrl+Paint sets this as a slow exercise.
+  timer: { minutes: 30 }
+  reference: { prompt: Ten simple objects in careful contour }
+  check:
+    - Each object has its own edges, not a symbol.
+    - The lines follow small changes of direction.

@@ -1,12 +1,13 @@
 ---
 needs: []
 exercise: fist-and-shoe
-watch: [ctrlpaint-contour, artprof-blind-contour]
+watch: [ctrlpaint-contour, risd-blind-contour]
 sources:
-  - Ctrl+Paint, "Drawing Shape: Contour" (https://www.ctrlpaint.com/videos/drawing-shape-contour), read 2026-10-14
+  - Ctrl+Paint, "Drawing Shape: Contour" and its video's homework (https://www.ctrlpaint.com/videos/drawing-shape-contour), read 2026-10-14
+  - RISD Museum, "Out of Line: Blind Contour Drawing" (https://risdmuseum.org/art-design/projects-publications/watch-listen/out-line-blind-contour-drawing), read 2026-10-14
   - Wikipedia, "Blind contour drawing" (https://en.wikipedia.org/wiki/Blind_contour_drawing), after Nicolaides and Edwards, read 2026-10-14
   - David DeRoche, Drawing is Seeing, exercises 3.7 and 3.8 (https://openoregon.pressbooks.pub/drawing/), CC BY-NC-SA, read 2026-10-14
-  - Cohen, D. J. (2005), "Look little, look often", Perception and Psychophysics 67(6) (https://doi.org/10.3758/BF03193626)
+  - Dale J. Cohen (2005), "Look little, look often: the influence of gaze frequency on drawing accuracy", Perception and Psychophysics 67(6) (https://doi.org/10.3758/BF03193626)
 ---
 
 # Contour
@@ -39,7 +40,7 @@ After this you can draw the edges you see instead of the symbol you know.
 
    ![A timeline: long stretches looking at the object, short glances at the page.](glance)
 
-Nicolaides introduced blind contour, and Betty Edwards made it famous. Researchers found that frequent short glances make a drawing more accurate.
+Kimon Nicolaides introduced blind contour, and Betty Edwards made it famous. In a 2005 study, Dale Cohen found that looking back and forth between subject and drawing more often made drawings more accurate.
 
 ## The usual mistake
 

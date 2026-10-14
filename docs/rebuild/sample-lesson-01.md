@@ -57,7 +57,7 @@ too, so draw from the shoulder. If it still bows, aim a slight curve the other w
 ## Watch
 
 - Ghosted Lines · Drawabox · written lesson and video, 11 min · free
-- Straight Lines · Ctrl+Paint · video · free
+- Drawing From Your Wrist and Shoulder · Drawabox · video, 10 min · free
 
 ## Practise later
 

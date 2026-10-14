@@ -11,11 +11,13 @@
   cost: free
   checked: 2026-10-14
 
-- id: ctrlpaint-straight-lines
-  title: Straight Lines
-  teacher: Ctrl+Paint
-  url: https://www.ctrlpaint.com/videos/straight-lines
+- id: drawabox-wrist-shoulder
+  title: Drawing From Your Wrist and Shoulder
+  teacher: Drawabox
+  url: https://drawabox.com/lesson/1/2
   kind: video
+  minutes: 10
+  youtube: 0_AdsK8x9Lw
   cost: free
   checked: 2026-10-14
 
@@ -47,12 +49,11 @@
   cost: free
   checked: 2026-10-14
 
-- id: artprof-blind-contour
-  title: Blind Contour Drawing
-  teacher: Art Prof
-  url: https://www.youtube.com/watch?v=d_aMCHRyELQ
+- id: risd-blind-contour
+  title: "Out of Line: Blind Contour Drawing"
+  teacher: RISD Museum
+  url: https://risdmuseum.org/art-design/projects-publications/watch-listen/out-line-blind-contour-drawing
   kind: video
-  minutes: 2
-  youtube: d_aMCHRyELQ
+  minutes: 3
   cost: free
   checked: 2026-10-14

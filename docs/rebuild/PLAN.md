@@ -349,7 +349,8 @@ Every phase ends with a working app. Every lesson goes through the six writing s
   - Home, Course, the lesson page, the exercise screen, photo and checks;
   - practice for those three lessons;
   - all their diagrams.
-- Run from the workspace checkout, with no release.
+- Released as 0.2.0, so it installs and updates through the launcher like any app. It replaces
+  0.1.0, which has nothing worth keeping, and needs Instrumenta 0.14.0.
 - **Gate:** you draw with it for a week. Nothing else gets written until you are happy with the
   format, the voice and the flow.
 
@@ -360,12 +361,12 @@ Every phase ends with a working app. Every lesson goes through the six writing s
   - the baseline;
   - the memory loop;
   - the overlay comparison.
-- Release 0.2.0, which replaces 0.1.0.
+- Release 0.3.0.
 
-**Phase 3. Parts 2 and 3.** Lessons 9 to 21, with the form and light tools reworked. Release 0.3.0.
+**Phase 3. Parts 2 and 3.** Lessons 9 to 21, with the form and light tools reworked. Release 0.4.0.
 
 **Phase 4. Part 4.** Lessons 22 to 28, the mannequin and head tools, and the figure examples.
-Release 0.4.0.
+Release 0.5.0.
 
 **Phase 5. Parts 5 and 6.** Lessons 29 to 34, the baseline comparisons and a polish pass. Release
 1.0.0.

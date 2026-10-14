@@ -1,7 +1,7 @@
 ---
 needs: []
 exercise: ghosted-lines-page
-watch: [drawabox-ghosted-lines, ctrlpaint-straight-lines]
+watch: [drawabox-ghosted-lines, drawabox-wrist-shoulder]
 sources:
   - Drawabox, Lesson 1, "Lines and the Ghosting Method", "Ghosted Lines" and "Superimposed Lines" (https://drawabox.com/lesson/1), read 2026-10-14
 ---
