@@ -2,7 +2,7 @@
   "name": "delineare",
   "version": "0.2.1",
   "private": true,
-  "description": "Learn to draw, one skill at a time: what to do, how it looks done well, the best lessons on it, and practice for whenever you want it.",
+  "description": "A drawing course with a practice library: lessons with teachers' videos and steps, exercises to draw on paper, and a sketchbook of your pages.",
   "license": "MIT",
   "type": "module",
   "scripts": {

@@ -4,10 +4,10 @@
 
 # Delineare
 
-Learn to draw one skill at a time. Each lesson shows what to do, what it looks like done well, and
-the best free lesson on it from the teacher who made it. Then you draw, with the reference and a
-timer beside you. A practice library holds exercises for every lesson, for whenever you have
-time.
+Delineare is a drawing course with a practice library. Each lesson explains one skill, plays the
+best free video on it from the teacher who made it, and gives you an exercise to draw on paper
+while the reference and a timer stay on screen. The practice library has exercises from every
+lesson, for whenever you want to draw.
 
 The course is 34 lessons in 6 parts, from a first confident line to a scene drawn from imagination.
 Lessons 1 to 3 are written; the rest follow in updates.
