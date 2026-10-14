@@ -1,0 +1,56 @@
+# The course: parts and lessons in order. This file is the one source of each lesson's title and
+# outcome. A lesson with a folder under content/lessons/ is written; the rest show in the course
+# as coming later. Lesson numbers follow the order here.
+
+parts:
+  - title: Lines and looking
+    lessons:
+      - { slug: confident-lines, title: Confident lines, outcome: draw a straight line between two points in one smooth stroke. }
+      - { slug: ellipses, title: Ellipses, outcome: draw a smooth ellipse of a chosen width that fits a given space. }
+      - { slug: contour, title: Contour, outcome: draw the edges you see instead of the symbol you know. }
+      - { slug: measuring, title: Measuring, outcome: sight angles and proportions at arm's length to within about a tenth. }
+      - { slug: block-in, title: Block-in and negative space, outcome: start any observed subject with its big straight-line shape and the shapes around it. }
+      - { slug: gesture, title: Gesture, outcome: catch a figure's action in 30 seconds to 2 minutes with a few long lines. }
+      - { slug: checking, title: Checking your drawing, outcome: find your own errors by flipping the drawing, using plumb lines and comparing with a photo. }
+      - { slug: memory, title: Drawing from memory, outcome: study a simple subject, draw it without looking, compare, and correct it from memory. }
+
+  - title: Form and space
+    lessons:
+      - { slug: simple-forms, title: Simple forms, outcome: draw spheres, boxes, cylinders and cones that sit in depth through overlap and size. }
+      - { slug: contour-lines, title: Contour lines on round forms, outcome: wrap contour lines around a curved form so it reads as solid. }
+      - { slug: one-point, title: Horizon and one-point perspective, outcome: set an eye level and a vanishing point and place boxes around the horizon. }
+      - { slug: plotted-boxes, title: Two- and three-point boxes, outcome: construct boxes with a ruler in two- and three-point perspective. }
+      - { slug: freehand-boxes, title: Freehand boxes, outcome: draw a box freehand at any angle and check it by extending its edges. }
+      - { slug: cylinders, title: Cylinders, outcome: draw a cylinder at any angle with its ellipses lined up on its axis. }
+      - { slug: building-objects, title: Building objects, outcome: build a real object from boxes and cylinders, drawn through, with cuts and joins. }
+      - { slug: turning-objects, title: Turning objects in your head, outcome: draw an object you have looked at from views you have not seen. }
+
+  - title: Light and value
+    lessons:
+      - { slug: seeing-value, title: Seeing value, outcome: make a value scale and squint a subject down to two or three value shapes. }
+      - { slug: light-on-form, title: Light on form, outcome: shade a simple form under one light with a clear split between light and shadow. }
+      - { slug: cast-shadows, title: Cast shadows, outcome: construct the shadow of a box or cylinder from a sun or a lamp. }
+      - { slug: tone-with-line, title: Tone with line, outcome: build value with hatching and cross-hatching. }
+      - { slug: still-life, title: Still life, outcome: take a drawing from life through block-in, shadow shapes and values in about an hour. }
+
+  - title: People
+    lessons:
+      - { slug: proportions, title: Proportions and landmarks, outcome: lay out a standing figure about eight heads tall with its main masses and landmarks. }
+      - { slug: mannequin, title: The mannequin, outcome: turn a gesture into a simple 3D body that twists, tilts and points toward you. }
+      - { slug: figures-imagination, title: Figures from imagination, outcome: invent a pose, draw it as a mannequin from three views and check it against reference. }
+      - { slug: head, title: The head, outcome: construct a head at any angle from a ball and a plane. }
+      - { slug: features, title: Features and likeness, outcome: draw the features as forms and measure a likeness from a photo. }
+      - { slug: hands-feet, title: Hands and feet, outcome: draw a hand from imagination as a box palm with jointed fingers. }
+      - { slug: clothing, title: Clothing folds, outcome: dress a mannequin from where the cloth hangs and pulls. }
+
+  - title: Living things and places
+    lessons:
+      - { slug: plants, title: Plants and trees, outcome: construct leaves, branches and flowers and simplify a tree into masses. }
+      - { slug: animals, title: Animals, outcome: build a four-legged animal from masses and leg structure. }
+      - { slug: rooms-streets, title: Rooms and streets, outcome: set up a two-point space and keep people in it at the right scale. }
+      - { slug: composition, title: Composition and thumbnails, outcome: make six small three-value thumbnails and choose the clearest. }
+
+  - title: Invention
+    lessons:
+      - { slug: designing, title: Designing from parts, outcome: design a creature or object from studied references in three views. }
+      - { slug: scene, title: A scene from imagination, outcome: take an invented scene from thumbnail to perspective, figures in scale and cast shadows. }

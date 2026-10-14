@@ -1,0 +1,34 @@
+# Practice for lesson 1. The item marked main is the lesson's exercise.
+
+- id: ghosted-lines-page
+  main: true
+  title: A page of ghosted lines
+  kind: drill
+  minutes: 15
+  text: Fill one page with dots, then join pairs of them with ghosted lines. Use a ballpoint pen or fineliner, so you cannot erase. The lines can cross and the page can get crowded.
+  steps: [Plan, Ghost, Draw, Leave it]
+  timer: { minutes: 15 }
+  reference: { diagram: example }
+
+- id: ghosted-lines-warm-up
+  title: Ghosted lines warm-up
+  kind: warm-up
+  minutes: 10
+  text: Half a page of dots joined by ghosted lines, in ink. Plan, ghost and draw every line.
+  steps: [Plan, Ghost, Draw, Leave it]
+  timer: { minutes: 10 }
+  reference: { diagram: example }
+  check:
+    - Every line is one smooth stroke.
+    - Most lines start on their first dot.
+
+- id: superimposed-lines
+  title: Superimposed lines
+  kind: drill
+  minutes: 5
+  text: Rule a line, then draw over it freehand 8 times without stopping. Start with a line about 5 cm long, then double it, then go to half the page and the full width.
+  timer: { minutes: 5 }
+  reference: { diagram: superimposed, alt: One ruled line with eight freehand strokes drawn over it, fraying a little at the far end. }
+  check:
+    - The strokes stay together along the line.
+    - Any fraying is at the far end only.

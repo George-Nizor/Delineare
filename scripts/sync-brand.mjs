@@ -25,24 +25,12 @@ const copy = (from, to) => {
 };
 const copied = [];
 
-// Type: the three brand faces with their licences, and Newsreader for lesson text.
+// Type: the three brand faces with their licences.
 const fonts = path.join(root, 'public', 'fonts');
 for (const name of fs.readdirSync(path.join(brand, 'fonts'))) {
   if (/\.(woff2|css|txt)$/.test(name)) copied.push(copy(path.join(brand, 'fonts', name), path.join(fonts, 'brand', name)));
 }
-const newsreader = path.join(root, 'node_modules', '@fontsource-variable', 'newsreader');
-const faces = [];
-for (const subset of ['latin', 'latin-ext']) {
-  for (const style of ['normal', 'italic']) {
-    const file = `newsreader-${subset}-opsz-${style}.woff2`;
-    copied.push(copy(path.join(newsreader, 'files', file), path.join(fonts, 'newsreader', file)));
-    const css = fs.readFileSync(path.join(newsreader, style === 'normal' ? 'opsz.css' : 'opsz-italic.css'), 'utf8');
-    const range = css.split('@font-face').find((block) => block.includes(file))?.match(/unicode-range:\s*([^;]+);/)?.[1];
-    faces.push(`@font-face {\n  font-family: 'Newsreader';\n  font-style: ${style};\n  font-weight: 200 800;\n  font-display: swap;\n  src: url(${file}) format('woff2');\n  unicode-range: ${range};\n}`);
-  }
-}
-fs.writeFileSync(path.join(fonts, 'newsreader', 'newsreader.css'), `/* Newsreader by Production Type, SIL Open Font License 1.1 (LICENSE beside this file).\n   Copied from @fontsource-variable/newsreader by scripts/sync-brand.mjs. */\n\n${faces.join('\n\n')}\n`);
-copied.push(copy(path.join(newsreader, 'LICENSE'), path.join(fonts, 'newsreader', 'LICENSE')));
+
 
 // The mark: static icons for the favicon and the Windows shortcut, plus rendered SVG strings
 // the interface inserts itself, with the library's motion CSS.

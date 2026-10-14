@@ -1,81 +1,83 @@
-import { useEffect, useState, type ReactNode } from 'react';
-import { loadCourse, ROMAN, type Course } from './data/load';
-import { AppProvider, href, useApp, useRoute, type Route } from './app/state';
-import { Mark } from './components/Mark';
-import { currentModule } from './engine/plan';
-import { Today } from './screens/Today';
-import { Contents } from './screens/Contents';
-import { ModulePage } from './screens/ModulePage';
-import { Session } from './screens/Session';
-import { Drawings, DrawingPage } from './screens/Drawings';
-import { Library } from './screens/Library';
-import { ToolPage } from './screens/ToolPage';
-import { Sources } from './screens/Sources';
-import { Settings } from './screens/Settings';
+import { useLiveQuery } from 'dexie-react-hooks';
+import { useEffect, useMemo, useState } from 'react';
+import { ContentContext, loadContent } from './content/load';
+import type { Content } from './content/types';
+import { Course } from './places/Course';
+import { Credits } from './places/Credits';
+import { DrawingDetail, Drawings } from './places/Drawings';
+import { ExercisePage } from './places/Exercise';
+import { Home } from './places/Home';
+import { LessonPage, NotFound } from './places/Lesson';
+import { Practice } from './places/Practice';
+import { SettingsPage } from './places/Settings';
+import { href, useRoute } from './router';
+import { AppDataContext, type AppData } from './store/appData';
+import { db, readSettings } from './store/db';
+import { Mark } from './ui/Mark';
+
+const PLACES = [
+  { route: '', label: 'Home' },
+  { route: 'course', label: 'Course' },
+  { route: 'practice', label: 'Practise' },
+  { route: 'drawings', label: 'Drawings' },
+] as const;
 
 export function App() {
-  const [course, setCourse] = useState<Course | null>(null);
-  const [error, setError] = useState('');
-  useEffect(() => {
-    loadCourse().then(setCourse, (reason: Error) => setError(reason.message));
-  }, []);
-  if (error) return <Fallback title="The curriculum did not load">{error}</Fallback>;
-  if (!course) return <Fallback title="Opening the book" />;
-  return (
-    <AppProvider course={course}>
-      <Pages />
-    </AppProvider>
-  );
-}
-
-function Fallback({ title, children }: { title: string; children?: ReactNode }) {
-  return (
-    <div className="shell"><main className="desk"><div className="page stack gap-14" role="status">
-      <Mark size={48} playing={!children} />
-      <h1 className="section-title">{title}</h1>
-      {children ? <p className="read">{children}</p> : null}
-    </div></main></div>
-  );
-}
-
-const NAV: { label: string; route: Route; pages: Route['page'][] }[] = [
-  { label: 'Today', route: { page: 'today' }, pages: ['today'] },
-  { label: 'Contents', route: { page: 'contents' }, pages: ['contents', 'module'] },
-  { label: 'Drawings', route: { page: 'drawings' }, pages: ['drawings', 'drawing'] },
-  { label: 'Library', route: { page: 'library' }, pages: ['library', 'tool'] },
-  { label: 'Sources', route: { page: 'sources' }, pages: ['sources'] },
-  { label: 'Settings', route: { page: 'settings' }, pages: ['settings'] },
-];
-
-function Pages() {
+  const [content, setContent] = useState<Content | null>(null);
+  const [problem, setProblem] = useState('');
   const route = useRoute();
-  const { course, progress, settings } = useApp();
-  if (route.page === 'session') return <Session route={route} />;
-  // The running head names the phase being studied, as a book's does.
-  const shown = route.page === 'module' ? course.module.get(route.id) : currentModule(course, progress, settings.focusModule);
-  const phase = shown ? course.data.phases.find((entry) => entry.number === shown.phase) : null;
+  const records = useLiveQuery(() => db.lessons.toArray(), []);
+  const log = useLiveQuery(() => db.log.toArray(), []);
+  const settings = useLiveQuery(readSettings, []);
+
+  useEffect(() => {
+    loadContent().then(setContent, (error: unknown) => setProblem(error instanceof Error ? error.message : String(error)));
+  }, []);
+
+  useEffect(() => {
+    const theme = settings?.theme ?? 'system';
+    if (theme === 'system') delete document.documentElement.dataset.theme;
+    else document.documentElement.dataset.theme = theme;
+  }, [settings?.theme]);
+
+  const data = useMemo<AppData | null>(() => (records && log && settings ? { records: new Map(records.map((r) => [r.slug, r])), log, settings } : null), [records, log, settings]);
+
+  if (problem) return <main className="page"><h1>Delineare could not start</h1><p>{problem}</p></main>;
+  if (!content || !data) return <main className="page loading" aria-busy="true" />;
+
+  const [place = '', id] = route;
+  const exercise = place === 'do' || place === 'free';
+  let page;
+  switch (place) {
+    case '': page = <Home />; break;
+    case 'course': page = <Course />; break;
+    case 'lesson': page = <LessonPage slug={id ?? ''} />; break;
+    case 'do': page = <ExercisePage practiceId={id} />; break;
+    case 'free': page = <ExercisePage seed={Number(id) || 0} />; break;
+    case 'practice': page = <Practice />; break;
+    case 'drawings': page = id ? <DrawingDetail id={Number(id)} /> : <Drawings />; break;
+    case 'settings': page = <SettingsPage />; break;
+    case 'credits': page = <Credits />; break;
+    default: page = <NotFound />;
+  }
+  const active = place === 'lesson' ? 'course' : place;
+
   return (
-    <div className="shell">
-      <header className="top">
-        <a className="brand ii-hover" href={href({ page: 'today' })}><Mark size={32} /><span className="disp">Delineare</span></a>
-        <span className="runhead sc">{phase ? `Phase ${ROMAN[phase.number]} · ${phase.title}` : ''}</span>
-        <nav className="nav" aria-label="Main">
-          {NAV.map((item) => (
-            <a key={item.label} href={href(item.route)} aria-current={item.pages.includes(route.page) ? 'page' : undefined}>{item.label}</a>
-          ))}
-        </nav>
-      </header>
-      <main className="desk" id="main">
-        {route.page === 'today' && <Today />}
-        {route.page === 'contents' && <Contents />}
-        {route.page === 'module' && <ModulePage id={route.id} />}
-        {route.page === 'drawings' && <Drawings moduleId={route.moduleId} />}
-        {route.page === 'drawing' && <DrawingPage id={route.id} />}
-        {route.page === 'library' && <Library />}
-        {route.page === 'tool' && <ToolPage name={route.name} />}
-        {route.page === 'sources' && <Sources />}
-        {route.page === 'settings' && <Settings />}
-      </main>
-    </div>
+    <ContentContext.Provider value={content}>
+      <AppDataContext.Provider value={data}>
+        <div className={`app ${exercise ? 'app-exercise' : ''}`}>
+          <header className="top">
+            <a className="brand" href={href()} aria-label="Delineare, home"><Mark size={24} /><span>Delineare</span></a>
+            <nav className="places" aria-label="Places">
+              {PLACES.map((p) => (
+                <a key={p.route} href={href(...(p.route ? [p.route] : []))} aria-current={active === p.route ? 'page' : undefined}>{p.label}</a>
+              ))}
+            </nav>
+            <a className="settings-link" href={href('settings')} aria-current={place === 'settings' || place === 'credits' ? 'page' : undefined}>Settings</a>
+          </header>
+          <main>{page}</main>
+        </div>
+      </AppDataContext.Provider>
+    </ContentContext.Provider>
   );
 }

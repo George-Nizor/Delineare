@@ -1,5 +1,6 @@
 node_modules/
 dist/
-public/curriculum.json
+public/content.json
 .release/
+test-results/
 *.tsbuildinfo

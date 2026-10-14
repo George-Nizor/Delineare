@@ -1,0 +1,20 @@
+# Every resource a lesson links to. Only add one you have opened and that teaches the lesson.
+# cost is free or paid. youtube is the video id when the lesson can play it in place.
+
+- id: drawabox-ghosted-lines
+  title: Ghosted Lines
+  teacher: Drawabox
+  url: https://drawabox.com/lesson/1/ghostedlines
+  kind: written lesson and video
+  minutes: 11
+  youtube: LkJG6pKTuRc
+  cost: free
+  checked: 2026-10-14
+
+- id: ctrlpaint-straight-lines
+  title: Straight Lines
+  teacher: Ctrl+Paint
+  url: https://www.ctrlpaint.com/videos/straight-lines
+  kind: video
+  cost: free
+  checked: 2026-10-14

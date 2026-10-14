@@ -9,10 +9,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: George-Nizor/Instrumenta
+          path: .instrumenta
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
       - run: npm ci --no-audit --no-fund
-      - run: python3 curriculum/validate.py
+      - name: Content and copy
+        run: npm run lint:copy
       - run: npm test
       - run: npm run build
+      - name: The launcher's build audit
+        run: node -e "require('./.instrumenta/electron/static-server.cjs').auditWebBuild('dist', 'delineare')"

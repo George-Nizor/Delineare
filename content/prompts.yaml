@@ -1,0 +1,75 @@
+# Drawing prompts for drawing something for its own sake. A prompt is a subject, often with a
+# twist and a view: "a teapot, made of stone, from a low angle". Keep entries ordinary and drawable.
+
+subjects:
+  - a teapot
+  - a lighthouse
+  - a snail
+  - an armchair
+  - a bicycle
+  - an owl
+  - a cactus in a pot
+  - an umbrella
+  - a tortoise
+  - a lantern
+  - a boot
+  - a crab
+  - a windmill
+  - a kettle
+  - a heron
+  - a tram
+  - a mushroom
+  - an anchor
+  - a fox
+  - a grand piano
+  - a beetle
+  - a hot-air balloon
+  - a sleeping cat
+  - a typewriter
+  - a pine cone
+  - an octopus
+  - a wheelbarrow
+  - a clock tower
+  - a camera
+  - a garden shed
+  - a jellyfish
+  - a telescope
+  - a pear
+  - a submarine
+  - a moth
+  - a stool
+  - a kite
+  - a bulldozer
+  - a chameleon
+  - a violin
+  - a tent
+  - a magpie
+  - a loaf of bread
+  - a bus shelter
+  - a seahorse
+
+twists:
+  - made of folded paper
+  - very old and patched up
+  - built from stone
+  - floating
+  - enormous
+  - tiny, carried by ants
+  - covered in moss
+  - made of glass
+  - wearing armour
+  - half underwater
+  - on stilts
+  - knitted
+  - made of driftwood
+  - mechanical
+  - in the shape of a house
+
+views:
+  - from a low angle
+  - from above
+  - in three-quarter view
+  - from three sides
+  - lit from the left
+  - in under five minutes
+  - with only ten lines

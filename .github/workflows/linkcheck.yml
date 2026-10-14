@@ -1,0 +1,28 @@
+name: links
+
+# Once a week, check every resource link. A failure opens an issue with the list.
+on:
+  schedule:
+    - cron: '17 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --no-audit --no-fund --ignore-scripts
+      - id: check
+        run: npm run links
+        continue-on-error: true
+      - if: steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Resource links failing" --body-file link-report.md

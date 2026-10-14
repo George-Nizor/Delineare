@@ -12,8 +12,7 @@ jobs:
     uses: George-Nizor/Instrumenta/.github/workflows/web-product-release.yml@main
     with:
       product: delineare
-      # Launchers before 0.13.0 have no content policy or session partition for Delineare: they
-      # could install this release but not open it.
-      minimum-instrumenta: '0.13.0'
+      # Launchers before 0.14.0 neither accept content.json nor let a lesson play its video.
+      minimum-instrumenta: '0.14.0'
     permissions:
       contents: write

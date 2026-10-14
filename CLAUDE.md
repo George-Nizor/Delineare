@@ -1,39 +1,47 @@
 # Delineare: project rules
 
-A learn-to-draw web app in the Instrumenta suite. Read `README.md`, then `docs/CURRICULUM.md`, then
-`docs/PRODUCT_AND_UX.md` (the original brief; the design direction chosen later is "Plate book",
-recorded in Instrumenta's `docs/suite/decisions.md`).
+A learn-to-draw app in the Instrumenta suite: a 34-lesson course with a practice library beside it.
+Before changing anything, read `docs/rebuild/PLAN.md` (the product), `docs/rebuild/COURSE.md` (the
+lessons) and `docs/rebuild/WRITING.md` (how every word is written). `docs/rebuild/research/` holds
+the reports the plan rests on; `docs/rebuild/sources/` holds verified source notes for lessons.
 
 ## Shape
 
-- React 19, TypeScript, Vite; Dexie (IndexedDB) for everything stored. No server, no account.
-- `src/engine/plan.ts` holds the scheduling rules as pure functions with tests in `tests/`. Keep rules
-  there, not in components.
-- `public/curriculum.json` is copied from `src/data/curriculum.json` at build. The launcher's audit
-  requires it in the build, with vendored fonts.
-- Served by the Instrumenta launcher under a strict CSP: scripts from self only, images and searches
-  only from the three museum hosts in `src/references/museums.ts`. Adding a host means changing
-  Instrumenta's `electron/static-server.cjs` too. No inline scripts in `index.html`.
-- Links to lessons use `target="_blank"`; the launcher opens them in the system browser.
+- React 19, TypeScript, Vite; Dexie (IndexedDB, database `delineare-2`) for everything stored. No
+  server, no account. Hash routes in `src/router.ts`.
+- Content lives in `content/` as files a person can read: `course.yaml` (every lesson's title and
+  outcome), `lessons/NN-slug/lesson.md` plus `practice.yaml` and `diagrams/*.mjs`, `resources.yaml`
+  and `prompts.yaml`. `scripts/build-content.mjs` validates all of it and writes
+  `public/content.json`; it refuses anything that breaks the lesson format, a word budget or the
+  copy rules.
+- Diagrams are scripts that return SVG from real geometry, using `content/diagrams/lib.mjs`. Colours
+  are CSS classes (`d-ink`, `d-guide`, `d-mark`, `d-bad`, `d-paper`), so they follow the theme.
+- Scheduling rules are pure functions in `src/engine/` with tests in `tests/`.
+- Served by the Instrumenta launcher under a strict content policy: scripts from self only, images
+  from self and three museum hosts, frames only from `www.youtube-nocookie.com` (lesson videos,
+  loaded as credentialless frames). Adding a host means changing Instrumenta's
+  `electron/static-server.cjs` too. No inline scripts in `index.html`.
+- Links use `target="_blank"`; the launcher opens them in the system browser.
 
 ## Hard rules
 
-- The curriculum is data. Change it through `curriculum/` (build, then validate), never by hand in
-  the JSON, and never invent resources, URLs, prices, hours or school facts.
-- Never state that a resource is free, verified or live unless the data says so. Keep the labels
-  (free, part free, unverified, link problem, thin coverage) visible wherever a resource appears.
-- Credit the owner on every resource and every reference image. Do not copy, mirror or scrape
-  lessons, images or videos. Reference images only from sources whose licence allows display, with
-  the credit shown.
-- Delineare's own lessons are written in our own words and say so on the page.
+- Writing follows `docs/rebuild/WRITING.md`. Run the `humanizer` skill on every lesson draft.
+  `npm run lint:copy` must pass.
+- Every method, number and check in a lesson comes from a source a learner can open, named in the
+  lesson's front matter `sources:` and credited in the lesson text. Never invent one.
+- Only link a resource someone has opened and that teaches the lesson. Show it as one line. Never
+  show research labels ("unverified", "estimate", "thin coverage") in the app.
+- No AI-generated images. Figure examples come from public-domain plates and open-access museum
+  drawings, credited.
 - Reference images and anywhere tone is judged sit on neutral grey, in both themes.
-- No streaks, badges, levels, scores or praise copy. A missed session is dropped, never stacked.
-- UI copy: plain, specific, sentence case, straight quotes, no em or en dashes, no emoji, no
-  marketing language.
+- No streaks, badges, levels, scores or praise. Nothing is ever shown as overdue or missed.
+- The pilot gate: after lessons 1 to 3, no more lessons get written until the owner has used the
+  pilot and agreed the format (`docs/rebuild/PLAN.md`, build phases).
 
 ## Done means
 
-Type-check, tests and build pass, and the build passes Instrumenta's audit
+`npm run lint:copy`, `npm test` and `npm run build` pass, and the build passes Instrumenta's audit
 (`node -e "require('../Instrumenta/electron/static-server.cjs').auditWebBuild('dist','delineare')"`).
-Click through Today, a session, a chapter and the contents at 1440 and 390 px, light and dark, once
-with the keyboard only, and say plainly what was not checked.
+`npm run e2e` passes (it serves the build through Instrumenta's static server and drives the whole
+flow), and someone has looked at its screenshots in `test-results/e2e/` at 1440 and 390 px, light
+and dark. Say plainly what was not checked.

@@ -44,8 +44,7 @@ Not counted as lessons:
 - Exercise: a table of ellipses.
 - Watch: Drawabox, Ellipses (https://www.youtube.com/watch?v=tHJ3rzk6kno, 13 min).
 
-**3. Contour.** You can follow an object's real edge with your eye and pen instead of drawing a
-symbol for it.
+**3. Contour.** You can draw the edges you see instead of the symbol you know.
 - Needs: nothing.
 - Exercise: your hand and a shoe, slow contour, three times each.
 - Watch: Ctrl+Paint, Drawing Shape: Contour (https://www.ctrlpaint.com/videos/drawing-shape-contour,
@@ -124,7 +123,7 @@ cuts and joins.
 - Watch: Drawabox, Form Intersections (https://www.youtube.com/watch?v=VuorfzSk33Y, 29 min).
 - Paid, and the one book worth buying: Scott Robertson, How to Draw.
 
-**16. Turning an object in your head.** You can draw an object you have looked at from views you
+**16. Turning objects in your head.** You can draw an object you have looked at from views you
 have not seen.
 - Needs: 15.
 - Watch: Dan Beardshaw, Rotating Objects in Perspective (https://www.youtube.com/watch?v=ja4W5P7K5PE,

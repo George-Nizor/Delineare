@@ -1,4 +1,4 @@
-Copied from Instrumenta 2403a83 by scripts/sync-brand.mjs on 2026-10-13.
+Copied from Instrumenta ff2096d by scripts/sync-brand.mjs on 2026-10-14.
 
 public/brand/delineare-16.svg
 public/brand/delineare-24.svg
@@ -18,11 +18,6 @@ public/fonts/brand/fraunces-normal-latin-ext.woff2
 public/fonts/brand/fraunces-normal-latin.woff2
 public/fonts/brand/spline-sans-mono-normal-latin-ext.woff2
 public/fonts/brand/spline-sans-mono-normal-latin.woff2
-public/fonts/newsreader/LICENSE
-public/fonts/newsreader/newsreader-latin-ext-opsz-italic.woff2
-public/fonts/newsreader/newsreader-latin-ext-opsz-normal.woff2
-public/fonts/newsreader/newsreader-latin-opsz-italic.woff2
-public/fonts/newsreader/newsreader-latin-opsz-normal.woff2
 src/brand/instrumenta-icons.css
 src/brand/mark.ts
 src/brand/tokens.json
