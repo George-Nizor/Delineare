@@ -34,20 +34,40 @@ Write as a good teacher talks at that desk: directly, to "you", about the drawin
 6. **One idea per sentence.** Aim for 8 to 20 words. Anything over 28 words gets split.
 7. **Cut anything the learner cannot use right now.** History, the theory of why a method works
    beyond one sentence, and alternatives they will not try all go.
-8. **Never write about the app or the writing.** No "this lesson will", no "in this section", no
-   "written for Delineare", no notes on how a fact was checked.
+8. **Introduce a lesson the way a teacher would.** One to three plain sentences saying what the
+   lesson is and why it matters: "Drawing well starts with confident lines. In this lesson you'll
+   learn to draw a straight line in one smooth stroke, using a method called ghosting." Never
+   write about how the text was made: no "written for Delineare", no notes on how a fact was
+   checked.
 9. **Never reassure or praise.** No "don't worry", "great job", "it's easy", "simply", "just".
    "Just" and "simply" tell a struggling learner they are failing at something trivial.
 10. **No hedging the learner has to carry.** If we are unsure a resource is free, we check it before
     it ships. A lesson never shows "unverified", "estimate", "thin coverage" or a licence note in
     running text.
 
+## Headings and labels
+
+The owner's rules, after the first redesign got them wrong:
+
+- **A heading names what is there.** "Lesson 1: Lines", "Practice", "Where to start", "Steps",
+  "Common mistake". Never a slogan or a line written to sound good: "Learn to draw, one skill at a
+  time", "Learn it, draw it, look back at it", "Got a few minutes?" and "Something to draw, for
+  whatever time you have" were all rejected.
+- **No kicker labels.** Never a small, uppercase, mono or coloured line above a heading ("WELCOME
+  TO DELINEARE" over a headline, "CONTINUE" over a lesson name, "DRILL" over a card title). The
+  real title is the heading. Anything else that matters goes in the heading ("Continue: lesson 2,
+  Ellipses") or in an ordinary line after it ("Drill · 15 min").
+- **No marketing shapes.** No hero headline with a subhead and a picture, no row of three feature
+  cards, no "how it works" triad. A screen says what it is for, then shows it.
+- **No "why this comes first".** A lesson opens with its title and a short introduction, not with
+  an argument for its place in the course.
+
 ## Shapes and word budgets for a lesson
 
 | Part | Shape | Budget |
 | --- | --- | --- |
-| Title | The skill's name. No colon, no brackets, no sentence | 1 to 5 words |
-| Outcome | "After this you can..." in one sentence | 15 words |
+| Title | The skill's name: "Lines", "Ellipses". No colon, no brackets, no sentence | 1 to 5 words |
+| Introduction | What the lesson is and why it matters, as a teacher would say it | 60 words |
 | Words to know | Up to three terms, each with a plain definition | 15 words each |
 | Steps | 3 to 6 numbered steps, each paired with a diagram | 30 words each |
 | Common mistake | One wrong-and-right pair, with the reason in one sentence | 40 words |
@@ -75,7 +95,9 @@ These are checked by `npm run lint:copy`, and a hit blocks the build.
   (meaning cope with), dive into.
 - **Filler.** simply, just, easily, obviously, of course, basically, essentially, actually, really,
   "it's important to", "note that", "remember to", "don't worry", "let's".
-- **Talking about the text.** "in this lesson", "this section", "as we'll see", "below you'll find".
+- **Talking about the text.** "this section", "as we'll see", "below you'll find". ("In this lesson
+  you'll..." is fine in an introduction.)
+- **Slogans.** "one skill at a time", "learn it, draw it", "for whatever time you have".
 - **Typography.** Curly quotes, exclamation marks, emoji.
 
 These are flagged for a human to judge, not blocked:

@@ -12,7 +12,8 @@ const ERRORS = [
   { rule: 'contrast staging', test: /\bnot (?:just|only|merely)\b|\b(?:it|this|that)'?s not\b[^.]*,\s*(?:it|this|that)'?s\b|\bisn't the (?:problem|point|question)\b/i, why: 'State the point directly.' },
   { rule: 'puffed-up word', test: word('delve|delves|crucial|robust|journey|unlock|unlocks|elevate|seamless|seamlessly|vibrant|testament|essential|dive into|deep dive|leverage|empower'), why: 'Say the plain thing.' },
   { rule: 'filler', test: word("simply|just|easily|obviously|of course|basically|essentially|actually|really|it's important to|note that|remember to|don't worry|let's"), why: 'Cut it. "Just" and "simply" tell a struggling learner the task is trivial.' },
-  { rule: 'about the text', test: word("in this lesson|this lesson will|this section|as we'll see|below you'll find|in this course we will"), why: 'Talk about drawing, not about the page.' },
+  { rule: 'about the text', test: word("this section|as we'll see|below you'll find"), why: 'Talk about drawing, not about the page.' },
+  { rule: 'slogan', test: /\bone (?:skill|step|thing|line|lesson) at a time\b|\bfor whatever time you have\b|\b(?:learn|draw|watch) it, (?:draw|do|practise|practice) it\b/i, why: 'Headings and intros name things plainly. No taglines.' },
   { rule: 'praise', test: word('great job|well done|awesome|amazing|you nailed it'), why: 'No praise copy.' },
 ];
 
