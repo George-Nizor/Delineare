@@ -28,7 +28,7 @@
   minutes: 5
   text: Rule a line, then draw over it freehand 8 times without stopping. Start with a line about 5 cm long, then double it, then go to half the page and the full width.
   timer: { minutes: 5 }
-  reference: { diagram: superimposed, alt: One ruled line with eight freehand strokes drawn over it, fraying a little at the far end. }
+  reference: { diagram: superimposed, alt: "One ruled line with eight freehand strokes drawn over it, fraying a little at the far end." }
   check:
     - The strokes stay together along the line.
     - Any fraying is at the far end only.

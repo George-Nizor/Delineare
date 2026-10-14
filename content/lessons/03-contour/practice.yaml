@@ -1,0 +1,50 @@
+# Practice for lesson 3. The item marked main is the lesson's exercise.
+
+- id: fist-and-shoe
+  main: true
+  title: Your fist, then a shoe
+  kind: life
+  minutes: 20
+  text: Draw your fist twice without looking at the paper. Then draw a shoe twice, looking at the page only in short glances. Move slowly and keep each line unbroken. Use a pen or pencil.
+  steps: [Pick a starting point, Eyes on the edge, Follow every turn, Then glance]
+  timer:
+    rounds:
+      - { label: "Your fist, without looking at the paper", minutes: 5 }
+      - { label: Your fist again, minutes: 5 }
+      - { label: "A shoe, with short glances", minutes: 5 }
+      - { label: The shoe again, minutes: 5 }
+
+- id: blind-contour-warm-up
+  title: Blind contour warm-up
+  kind: warm-up
+  minutes: 5
+  text: Draw your free hand in one slow line without looking at the paper.
+  timer: { minutes: 5 }
+  reference: { prompt: "Your free hand, without looking at the paper" }
+  check:
+    - The drawing is one unbroken line.
+    - It records small turns of the edge.
+
+- id: fist-without-lifting
+  title: Without lifting the pencil
+  kind: drill
+  minutes: 10
+  text: Draw your fist twice without lifting the pencil from the paper. Feel out its shape slowly. A scribbly result is fine.
+  timer:
+    rounds:
+      - { label: "Your fist, without lifting the pencil", minutes: 5 }
+      - { label: Your fist again, minutes: 5 }
+  check:
+    - Each fist is one line, never lifted.
+    - The knuckles and folds are there, not a rounded blob.
+
+- id: plant-contour
+  title: A plant in contour
+  kind: life
+  minutes: 15
+  text: Draw a houseplant or a few leaves in slow contour, looking at the page only in short glances. Follow each leaf's real edge, including where leaves overlap.
+  timer: { minutes: 15 }
+  reference: { prompt: "A plant or a few leaves, in slow contour" }
+  check:
+    - Each leaf has its own uneven edge, not an almond.
+    - Overlaps show which leaf is in front.

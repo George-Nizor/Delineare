@@ -108,6 +108,49 @@ export function wobblyLine(x1, y1, x2, y2, { amount = 2.2, seed = 7, stop = 1, c
   return path(d, { cls, width });
 }
 
+// An ellipse drawn the way a hand draws it: `passes` times round, each pass drifting a little in
+// size and position and overlapping where it starts. `angle` turns the ellipse in degrees.
+// `lumpy` adds the bumps of a slow, careful stroke. One pass with lumpy set is the usual mistake.
+export function handEllipse(cx, cy, rx, ry, { angle = 0, passes = 2, seed = 9, drift = 1.6, lumpy = 0, start = 0.7, cls = 'd-ink', width = 2 } = {}) {
+  const next = random(seed);
+  const turn = (angle * Math.PI) / 180;
+  const out = [];
+  for (let pass = 0; pass < passes; pass += 1) {
+    const dx = (next() - 0.5) * drift;
+    const dy = (next() - 0.5) * drift;
+    const sx = 1 + (next() - 0.5) * drift * 0.02;
+    const sy = 1 + (next() - 0.5) * drift * 0.04;
+    const steps = 72;
+    const sweep = passes > 1 ? 1.08 : 1.02;
+    const bumps = Array.from({ length: 7 }, () => (next() - 0.5) * lumpy);
+    const points = [];
+    for (let i = 0; i <= steps; i += 1) {
+      const t = start + (i / steps) * sweep * Math.PI * 2;
+      const bump = lumpy ? bumps[Math.floor(((i / steps) * 7) % 7)] * Math.sin((i / steps) * Math.PI * 14) : 0;
+      const ex = Math.cos(t) * (rx * sx + bump);
+      const ey = Math.sin(t) * (ry * sy + bump);
+      points.push([cx + dx + ex * Math.cos(turn) - ey * Math.sin(turn), cy + dy + ex * Math.sin(turn) + ey * Math.cos(turn)]);
+    }
+    out.push(smooth(points, { cls, width }));
+  }
+  return out;
+}
+
+// A smooth freehand curve through points (quadratic segments through the midpoints).
+export function smooth(points, { cls = 'd-ink', width = 2.4, closed = false, dash } = {}) {
+  if (points.length < 3) return polyline(points, { cls, width, dash });
+  const pts = closed ? [...points, points[0], points[1]] : points;
+  let d = `M ${n(pts[0][0])} ${n(pts[0][1])}`;
+  if (!closed) d += ` L ${n((pts[0][0] + pts[1][0]) / 2)} ${n((pts[0][1] + pts[1][1]) / 2)}`;
+  for (let i = 1; i < pts.length - 1; i += 1) {
+    const [x, y] = pts[i];
+    const [x2, y2] = pts[i + 1];
+    d += ` Q ${n(x)} ${n(y)} ${n((x + x2) / 2)} ${n((y + y2) / 2)}`;
+  }
+  if (!closed) d += ` L ${n(pts[pts.length - 1][0])} ${n(pts[pts.length - 1][1])}`;
+  return path(d, { cls, width, dash });
+}
+
 // A label pill used to tag the two halves of a wrong-and-right pair.
 export function tag(x, y, content, { tone = 'mark', anchor = 'middle' } = {}) {
   return text(x, y, content, { cls: tone === 'bad' ? 'd-tag d-tag-bad' : 'd-tag', anchor, size: 14 });

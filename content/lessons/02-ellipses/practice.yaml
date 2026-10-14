@@ -1,0 +1,45 @@
+# Practice for lesson 2. The item marked main is the lesson's exercise.
+
+- id: table-of-ellipses
+  main: true
+  title: A table of ellipses
+  kind: drill
+  minutes: 20
+  text: Divide a page into two columns and about six rows. Fill each box with ellipses that touch each other and the box. Try circles in one, a single width and angle in the next, and a wavy line with ellipses in its pockets. Use ink.
+  steps: [Set the target, Ghost it, Draw through it, Make it touch]
+  timer: { minutes: 20 }
+  reference: { diagram: example }
+
+- id: ellipses-in-planes
+  title: Ellipses in planes
+  kind: drill
+  minutes: 15
+  text: Draw a few lopsided four-sided shapes freehand. Fit one ellipse in each, touching all four sides. Get the ellipse smooth first, then worry about the fit.
+  timer: { minutes: 15 }
+  reference: { diagram: planes, alt: "Two lopsided four-sided shapes, each with an ellipse touching all four sides." }
+  check:
+    - Each ellipse is smooth and even.
+    - Each one touches all four sides of its shape.
+
+- id: funnels
+  title: Funnels
+  kind: drill
+  minutes: 15
+  text: Rule a long line with a short one across its middle. Draw an arc on each side to make a funnel. Fill it with ellipses that the long line splits into matching halves.
+  timer: { minutes: 15 }
+  reference: { diagram: funnel, alt: "A funnel between two arcs, filled with ellipses threaded on a ruled centre line." }
+  check:
+    - The long line splits every ellipse into matching halves.
+    - The ellipses touch each other and the sides of the funnel.
+
+- id: ellipses-warm-up
+  title: Ellipse warm-up
+  kind: warm-up
+  minutes: 10
+  text: Half a page of a table of ellipses, every one drawn through twice.
+  steps: [Set the target, Ghost it, Draw through it, Make it touch]
+  timer: { minutes: 10 }
+  reference: { diagram: example }
+  check:
+    - Every ellipse is smooth and drawn through.
+    - They touch each other and their box.

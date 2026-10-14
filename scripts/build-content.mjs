@@ -226,8 +226,18 @@ async function readPractice(folder, lesson, diagrams, practice) {
   if (!fs.existsSync(file)) { fail(where, 'missing'); return 0; }
   const items = readYaml(file) || [];
   let mainWords = 0;
+  const ITEM_KEYS = ['id', 'main', 'title', 'kind', 'minutes', 'text', 'steps', 'timer', 'reference', 'check'];
+  const strict = (at, value, allowed, what) => {
+    for (const key of Object.keys(value || {})) {
+      if (!allowed.includes(key)) fail(at, `${what} has an unexpected key "${key}". A comma in an unquoted value inside { } ends it early, so quote the value.`);
+    }
+  };
   for (const raw of items) {
     const at = `${where}, ${raw.id}`;
+    strict(at, raw, ITEM_KEYS, 'the item');
+    strict(at, raw.timer, ['minutes', 'rounds'], 'timer');
+    for (const round of raw.timer?.rounds || []) strict(at, round, ['label', 'minutes', 'seconds'], 'a timer round');
+    strict(at, raw.reference, ['diagram', 'alt', 'prompt'], 'reference');
     if (!/^[a-z0-9-]+$/.test(raw.id || '')) { fail(where, `bad practice id "${raw.id}"`); continue; }
     if (practice.has(raw.id)) fail(at, 'duplicate practice id');
     if (!KINDS.includes(raw.kind)) fail(at, `kind must be one of ${KINDS.join(', ')}`);
@@ -275,6 +285,7 @@ function readResources() {
   const resources = new Map();
   for (const raw of readYaml(path.join(contentDir, 'resources.yaml')) || []) {
     const at = `${where}, ${raw.id}`;
+    for (const key of Object.keys(raw)) if (!['id', 'title', 'teacher', 'url', 'kind', 'minutes', 'youtube', 'cost', 'checked'].includes(key)) fail(at, `unexpected key "${key}"; quote values that contain a comma or colon`);
     if (resources.has(raw.id)) fail(at, 'duplicate id');
     if (!/^https:\/\//.test(raw.url || '')) fail(at, 'url must be https');
     if (!['free', 'paid'].includes(raw.cost)) fail(at, 'cost is free or paid');
@@ -314,6 +325,7 @@ for (const [index, part] of (course.parts || []).entries()) {
   const entries = [];
   for (const raw of part.lessons || []) {
     number += 1;
+    for (const key of Object.keys(raw)) if (!['slug', 'title', 'outcome'].includes(key)) fail(`content/course.yaml, ${raw.slug}`, `unexpected key "${key}"; quote values that contain a comma`);
     const entry = { slug: raw.slug, number, part: index + 1, title: raw.title, outcome: raw.outcome };
     const at = `content/course.yaml, ${raw.slug}`;
     if (slugs.has(raw.slug)) fail(at, 'duplicate slug');

@@ -23,6 +23,7 @@
   --d-mark: #6b7000;
   --d-bad: #a2482a;
   --d-paper: #ffffff;
+  --d-sunk: #f1efe9;
   --d-edge: #d6d1c5;
   --d-label: #6a665c;
   --font-ui: 'Commissioner', system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -52,6 +53,7 @@
   --d-mark: #c8ce5a;
   --d-bad: #e08a68;
   --d-paper: #23201c;
+  --d-sunk: #2c2924;
   --d-edge: #3a352e;
   --d-label: #a39a90;
 }
@@ -76,6 +78,7 @@
     --d-mark: #c8ce5a;
     --d-bad: #e08a68;
     --d-paper: #23201c;
+  --d-sunk: #2c2924;
     --d-edge: #3a352e;
     --d-label: #a39a90;
   }
@@ -267,6 +270,11 @@ code { font-family: var(--font-mono); font-size: 0.9em; }
 .diagram-svg .d-bad { stroke: var(--d-bad); }
 .diagram-svg .d-dot { fill: var(--d-ink); }
 .diagram-svg .d-paper { fill: var(--d-paper); stroke: var(--d-edge); }
+.diagram-svg .d-frame { fill: none; stroke: var(--d-ink); }
+.diagram-svg .d-sunk { fill: var(--d-sunk); stroke: var(--d-edge); }
+.diagram-svg .d-mark-fill { fill: var(--d-mark); }
+.diagram-svg .d-block { fill: var(--d-guide); stroke: none; }
+.diagram-svg .d-block-mark { fill: var(--d-mark); stroke: none; }
 .diagram-svg .d-label { fill: var(--d-label); font-family: var(--font-ui); }
 .diagram-svg .d-tag { fill: var(--d-mark); font-family: var(--font-ui); font-weight: 600; letter-spacing: 0.02em; }
 .diagram-svg .d-tag-bad { fill: var(--d-bad); }

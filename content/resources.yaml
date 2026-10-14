@@ -18,3 +18,41 @@
   kind: video
   cost: free
   checked: 2026-10-14
+
+- id: drawabox-ellipses
+  title: Ellipses
+  teacher: Drawabox
+  url: https://drawabox.com/lesson/1/5
+  kind: written lesson and video
+  minutes: 13
+  youtube: tHJ3rzk6kno
+  cost: free
+  checked: 2026-10-14
+
+- id: drawabox-tables-of-ellipses
+  title: Tables of Ellipses
+  teacher: Drawabox
+  url: https://drawabox.com/lesson/1/tablesofellipses
+  kind: written exercise
+  cost: free
+  checked: 2026-10-14
+
+- id: ctrlpaint-contour
+  title: "Drawing Shape: Contour"
+  teacher: Ctrl+Paint
+  url: https://www.ctrlpaint.com/videos/drawing-shape-contour
+  kind: video
+  minutes: 4
+  youtube: R2lyErHiwt0
+  cost: free
+  checked: 2026-10-14
+
+- id: artprof-blind-contour
+  title: Blind Contour Drawing
+  teacher: Art Prof
+  url: https://www.youtube.com/watch?v=d_aMCHRyELQ
+  kind: video
+  minutes: 2
+  youtube: d_aMCHRyELQ
+  cost: free
+  checked: 2026-10-14

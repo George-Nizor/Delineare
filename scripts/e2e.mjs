@@ -113,6 +113,22 @@ try {
   await shot(page, '11-lesson-1-dark');
   step('dark theme applies');
 
+  // Every written lesson and every practice item renders, in light.
+  const content = JSON.parse(fs.readFileSync(path.join(root, 'dist', 'content.json'), 'utf8'));
+  await page.getByRole('link', { name: 'Settings' }).click();
+  await page.getByRole('radio', { name: 'Light' }).check();
+  for (const lesson of Object.values(content.lessons)) {
+    await page.goto(`${server.url}/#/lesson/${lesson.slug}`, { waitUntil: 'networkidle' });
+    await page.getByRole('heading', { name: lesson.title, level: 1 }).waitFor();
+    await shot(page, `lesson-${String(lesson.number).padStart(2, '0')}-${lesson.slug}`);
+  }
+  for (const item of Object.values(content.practice)) {
+    await page.goto(`${server.url}/#/do/${item.id}`, { waitUntil: 'networkidle' });
+    await page.getByRole('heading', { name: item.title, level: 1 }).waitFor();
+    await page.screenshot({ path: path.join(out, `practice-${item.id}.png`) });
+  }
+  step('every written lesson and practice item renders');
+
   await page.goto(`${server.url}/#/free/3`, { waitUntil: 'networkidle' });
   await page.locator('.reference-prompt').waitFor();
   await shot(page, '12-free-drawing');
